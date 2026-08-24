@@ -1,21 +1,31 @@
-export type Draft = {
-  game: string
-  date: string
-  playtime: string
-  rating: number
-  feeling: string
-  moment: string
-}
-
-export type Entry = Draft & {
+export type JournalNote = {
   id: string
+  date: string
   createdAt: string
-  imageIds: string[]
+  title?: string
+  feeling: string
+  moment?: string
 }
 
-export type Review = {
-  verdict: '推荐' | '暂不推荐' | '不推荐'
-  title: string
-  body: string
-  markdown: string
+export type JournalReview = {
+  title?: string
+  verdict?: '推荐' | '暂不推荐' | '不推荐'
+  content: string
+  updatedAt?: string
 }
+
+export type JournalGame = {
+  id: string
+  title: string
+  categories: string[]
+  rating: number
+  summary?: string
+  status?: string
+  playtime?: string
+  lastPlayedAt?: string
+  cover?: string
+  review?: JournalReview
+  notes: JournalNote[]
+}
+
+export type JournalData = { games: JournalGame[] }
