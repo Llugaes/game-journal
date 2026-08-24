@@ -45,7 +45,7 @@ export default function App() {
 
   useEffect(() => () => previews.forEach(URL.revokeObjectURL), [previews])
   useEffect(() => {
-    fetch('/journal-data.json')
+    fetch(`${import.meta.env.BASE_URL}journal-data.json`)
       .then(response => response.ok ? response.json() : { entries: [] })
       .then(payload => setSyncedEntries(Array.isArray(payload.entries) ? payload.entries.map((entry: Entry) => ({ ...entry, id: `repo-${entry.id}` })) : []))
       .catch(() => setSyncedEntries([]))
