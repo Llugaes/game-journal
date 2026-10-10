@@ -45,3 +45,12 @@ public/covers/<game-id>.*            Optional user-provided or licensed public c
 ```
 
 Use the user's own date for fragments. Keep notes chronological. Keep raw fragments private-by-default in the repository workflow until the user asks to publish or approves the distilled public note.
+
+## Steam import data
+
+- `data/steam-config.json`: chosen public SteamID64 accounts, screenshot limit/IDs, and own-comment scope.
+- `data/steam.json`: generated import source, separate from hand-authored entries; game IDs use `steam-<AppID>`. `rating` is optional. `reviews[]` keeps author/source, original text, posted and edited dates; `screenshots[]` keeps local asset, dimensions, caption and own comments.
+- `public/media/steam/`: optimized images served under the configured Vite base path.
+- `.local/steam-import/`: ignored cache, staged draft, diff report and previous import backup.
+
+The public index merges imported games with `data/journal.json` by game ID. Manual fields and notes take precedence; imported reviews and screenshots are appended. `recordedAt` is the latest source publication/update date, not a claim about when the player last played.

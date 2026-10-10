@@ -27,3 +27,7 @@ The conversation is the primary capture surface. The static page is a public, re
 - Use repository-local files only. Do not store Steam credentials, GitHub tokens, or copied chat content outside the selected game journal.
 - The static page cannot commit to GitHub by itself and exposes no browser-local editor. Agent-captured entries are committed only when the user has authorized the repository write/push in the current task.
 - Read `references/repository-layout.md` before changing schemas or adding a new game folder.
+
+## Import existing Steam posts
+
+Use `npm run steam:collect`, `steam:plan`, and `steam:apply` for an explicitly requested import. Read the README's Steam workflow first. Keep the source account and comment scope explicit, preserve the author's original wording and source URLs, and pin the first selected screenshot IDs for repeatable sync. Imported records belong in `data/steam.json`; do not rewrite them as conversational fragments or invent star ratings from Steam's recommendation flag. The scripts never post back to Steam.

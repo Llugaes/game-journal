@@ -1,7 +1,56 @@
 import type { JournalGame } from '../types'
-
-const stars = (rating: number) => `${'★'.repeat(rating)}${'☆'.repeat(5 - rating)}`
+import { assetUrl, ratingLabel, recordedDate, reviewsOf } from '../lib/journal'
 
 export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => void }) {
-  return <section className="game-detail"><button className="back-link" onClick={onBack}>← 返回游戏架</button><div className="detail-layout"><article><header className="detail-title"><h1>{game.title}</h1><p>{game.categories.join(' · ') || '个人游戏记录'}{game.playtime ? ` · ${game.playtime}` : ''}</p><div className="detail-rating"><b>{stars(game.rating)}</b><span>{game.rating} / 5</span></div></header><section className="review-copy"><h2>{game.review?.title || '还在靠近这款游戏。'}</h2><p>{game.review?.content || game.summary || '公开评测会在有足够的游玩片段后，由这些笔记慢慢整理出来。'}</p></section><section className="note-timeline"><h2>游玩随笔 <span>{game.notes.length}</span></h2>{game.notes.slice().sort((a, b) => a.date.localeCompare(b.date)).map(note => <article className="timeline-note" key={note.id}><time>{note.date}</time><div><h3>{note.title || '一则游玩记录'}</h3><p>{note.feeling}</p>{note.moment && <blockquote>{note.moment}</blockquote>}</div></article>)}{game.notes.length === 0 && <p className="quiet-empty">这款游戏的公开随笔还在整理。</p>}</section></article><aside className="detail-aside"><div className="detail-cover" style={game.cover ? { backgroundImage: `url(${game.cover})` } : undefined}><span>{game.cover ? '' : game.title}</span></div><dl><div><dt>分类</dt><dd>{game.categories.join('、') || '未分类'}</dd></div><div><dt>游玩状态</dt><dd>{game.status || '记录中'}</dd></div>{game.playtime && <div><dt>游玩时长</dt><dd>{game.playtime}</dd></div>}<div><dt>最后记录</dt><dd>{game.lastPlayedAt || game.notes.at(-1)?.date || '—'}</dd></div></dl></aside></div></section>
+  const reviews = reviewsOf(game)
+  const screenshots = game.screenshots || []
+  return <section className="game-detail">
+    <button className="back-link" onClick={onBack}>← 返回游戏架</button>
+    <div className="detail-layout"><article>
+      <header className="detail-title">
+        <h1>{game.title}</h1>
+        <p>{game.categories.join(' · ') || '个人游戏记录'}{game.playtime ? ` · ${game.playtime}` : ''}</p>
+        <div className="detail-rating"><b>{ratingLabel(game)}</b>{game.rating != null && <span>{game.rating} / 5</span>}</div>
+        {screenshots.length > 0 && <button className="gallery-jump" onClick={() => document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' })}>查看 {screenshots.length} 张截图 ↓</button>}
+      </header>
+      {reviews.map((review, index) => <section className="review-copy" key={review.id || index}>
+        <h2>{review.title || '游戏评测'}</h2>
+        <div className="source-meta">
+          {review.source && <a href={review.source.url} target="_blank" rel="noreferrer">{review.source.authorName} · Steam 原文 ↗</a>}
+          {review.postedAt && <span>发布于 {review.postedAt}</span>}
+          {review.updatedAt && review.updatedAt !== review.postedAt && <span>更新于 {review.updatedAt}</span>}
+          {review.playtimeAtReview && <span>评测时 {review.playtimeAtReview} 小时</span>}
+          {reviews.length > 1 && <span>{review.verdict}</span>}
+        </div>
+        <p>{review.title && review.content.startsWith(`${review.title}\n`) ? review.content.slice(review.title.length).trimStart() : review.content}</p>
+      </section>)}
+      {!reviews.length && game.summary && <section className="review-copy"><p>{game.summary}</p></section>}
+      {screenshots.length > 0 && <section className="screenshot-gallery" id="screenshots">
+        <h2>留下的画面 <span>{screenshots.length}</span></h2>
+        <p className="gallery-intro">截图和当时写下的话。点击图片可查看大图。</p>
+        {screenshots.map(shot => <figure key={shot.id}>
+          <a href={assetUrl(shot.src)} target="_blank" rel="noreferrer" aria-label={`查看 ${game.title} 的截图大图`}>
+            <img src={assetUrl(shot.src)} alt={shot.caption || shot.title || `${game.title} 的游戏截图`} width={shot.width} height={shot.height} loading="lazy" />
+          </a>
+          <figcaption>
+            <div className="source-meta"><time>{shot.date}</time>{shot.source && <a href={shot.source.url} target="_blank" rel="noreferrer">{shot.source.authorName} · Steam 原图 ↗</a>}</div>
+            {shot.title && <h3>{shot.title}</h3>}
+            {shot.caption && shot.caption !== shot.title && <p>{shot.caption}</p>}
+            {shot.comments.map(comment => <blockquote key={comment.id}><p>{comment.content}</p>{comment.createdAt && <time>{comment.createdAt.slice(0, 10)}</time>}</blockquote>)}
+          </figcaption>
+        </figure>)}
+      </section>}
+      {game.notes.length > 0 && <section className="note-timeline"><h2>游玩随笔 <span>{game.notes.length}</span></h2>
+        {game.notes.slice().sort((a, b) => b.date.localeCompare(a.date)).map(note => <article className="timeline-note" key={note.id}><time>{note.date}</time><div><h3>{note.title || '一则游玩记录'}</h3><p>{note.feeling}</p>{note.moment && <blockquote>{note.moment}</blockquote>}</div></article>)}
+      </section>}
+    </article><aside className="detail-aside">
+      <div className={`detail-cover ${game.cover ? 'has-cover' : ''}`} style={game.cover ? { backgroundImage: `url(${assetUrl(game.cover)})` } : undefined}><span>{game.cover ? '' : game.title}</span></div>
+      <dl><div><dt>分类</dt><dd>{game.categories.join('、') || '未分类'}</dd></div>
+        {game.status && <div><dt>游玩状态</dt><dd>{game.status}</dd></div>}
+        {game.playtime && <div><dt>游玩时长</dt><dd>{game.playtime}</dd></div>}
+        <div><dt>最近记录</dt><dd>{recordedDate(game) || '—'}</dd></div>
+        <div><dt>内容</dt><dd>{reviews.length} 篇评测 · {screenshots.length} 张截图</dd></div>
+      </dl>
+    </aside></div>
+  </section>
 }
