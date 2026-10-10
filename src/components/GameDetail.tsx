@@ -1,5 +1,6 @@
 import type { JournalGame } from '../types'
-import { assetUrl, ratingLabel, recordedDate, reviewsOf } from '../lib/journal'
+import { assetUrl, ratingLabel, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
+import { ScorePanel } from './ScorePanel'
 
 export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => void }) {
   const reviews = reviewsOf(game)
@@ -9,8 +10,10 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
     <div className="detail-layout"><article>
       <header className="detail-title">
         <h1>{game.title}</h1>
+        {game.originalTitle && game.originalTitle !== game.title && <p className="original-title">{game.originalTitle}</p>}
         <p>{game.categories.join(' · ') || '个人游戏记录'}{game.playtime ? ` · ${game.playtime}` : ''}</p>
-        <div className="detail-rating"><b>{ratingLabel(game)}</b>{game.rating != null && <span>{game.rating} / 5</span>}</div>
+        <div className="detail-rating"><b>{ratingLabel(game)}</b></div>
+        <ScorePanel scores={scoresOf(game)} />
         {screenshots.length > 0 && <button className="gallery-jump" onClick={() => document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' })}>查看 {screenshots.length} 张截图 ↓</button>}
       </header>
       {reviews.map((review, index) => <section className="review-copy" key={review.id || index}>

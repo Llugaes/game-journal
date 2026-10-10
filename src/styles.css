@@ -50,3 +50,29 @@ input:focus-visible { outline: 3px solid #b37c2f; outline-offset: 3px; }
 @media (max-width: 1060px) { .shelf-tools { margin-left: 0; } }
 @media (max-width: 700px) { .shelf-tools { display: block; }.content-filters { margin-top: 16px; }.game-card footer { flex-wrap: wrap; }.review-copy { padding-left: 16px; }.review-copy p { font-size: 17px; line-height: 1.9; }.detail-title h1 { font-size: 36px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; }.game-card { transition: none; }.game-card:hover { transform: none; } }
+
+/* 独立的个人评分区；只有原文明确打分时才显示。 */
+.score-panel { margin-top: 25px; padding: 22px 24px; background: #e8e9dd; border: 1px solid #ccd2be; border-radius: 6px; color: #203925; }
+.score-panel-heading { margin-bottom: 15px; font-size: 13px; font-weight: 650; letter-spacing: .06em; }
+.score-list { display: flex; flex-wrap: wrap; align-items: start; gap: 18px 26px; }
+.score-item { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.score-number { display: flex; flex-shrink: 0; align-items: baseline; gap: 6px; padding: 10px 13px; min-width: 83px; justify-content: center; border-radius: 5px; background: #254d31; color: #fffdf2; font-variant-numeric: tabular-nums; }
+.score-number strong { font: 750 38px/1.1 ui-sans-serif, system-ui, sans-serif; letter-spacing: -.05em; }
+.score-number span { display: flex; flex-direction: column; align-items: start; font-size: 13px; white-space: nowrap; }
+.score-number em { font-style: normal; font-size: 11px; }
+.score-number--wide strong { font-size: 30px; }
+.score-label { font-size: 14px; line-height: 1.5; max-width: 150px; overflow-wrap: anywhere; }
+.score-evidence { margin-top: 16px; font-size: 13px; color: #49604b; }
+.score-evidence summary { cursor: pointer; min-height: 28px; padding: 5px 0; }
+.score-evidence blockquote { margin: 10px 0 0; padding-left: 12px; border-left: 2px solid #9caa91; white-space: pre-wrap; line-height: 1.7; }
+.score-panel--compact { padding: 0; margin-top: 16px; border: 0; background: none; }
+.score-panel--compact .score-panel-heading { margin-bottom: 8px; font-size: 11px; color: #52654e; }
+.score-panel--compact .score-list { gap: 10px; }
+.score-panel--compact .score-item { gap: 7px; flex-wrap: wrap; }
+.score-panel--compact .score-number { padding: 7px 10px; min-width: 68px; gap: 4px; }
+.score-panel--compact .score-number strong { font-size: 28px; }
+.score-panel--compact .score-number--wide strong { font-size: 23px; }
+.score-panel--compact .score-number span { font-size: 11px; }
+.score-panel--compact .score-label { font-size: 12px; }
+.detail-title .original-title { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: #647063; margin: 12px 0; overflow-wrap: anywhere; }
+@media (max-width: 700px) { .score-panel:not(.score-panel--compact) { padding: 18px; }.score-list { gap: 16px; }.score-number strong { font-size: 34px; }.score-label { max-width: 145px; }.score-panel--compact .score-number { min-width: 61px; padding: 7px 8px; } }

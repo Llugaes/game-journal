@@ -4,6 +4,7 @@ import path from 'node:path'
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, writeFile, copyFile, rename } from 'node:fs/promises'
 import { collect } from './steam/collect.mjs'
+import { updateSteamTitles } from './steam-titles.mjs'
 import { validateJournal, validateAssets, mergeJournals } from './journal-data.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
@@ -57,5 +58,6 @@ if (command !== 'collect') {
       await rename(`${target}.tmp`, target)
       console.log('已应用到 data/steam.json；运行 npm run build 后按正常 Git 流程发布。')
     } else console.log('无内容变化；未改写数据。')
+    await updateSteamTitles(draft.games)
   }
 }

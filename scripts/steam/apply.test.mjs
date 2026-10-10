@@ -20,8 +20,11 @@ test('实际 CLI 重复应用无变化，来源减少和配置变化时保留已
     const configFile = path.join(root, 'data/steam-config.json')
     await writeFile(configFile, JSON.stringify(config))
     await writeFile(path.join(root, 'data/journal.json'), '{"games":[]}')
-    const draft = { games: [{ id: 'steam-42', title: '游戏', categories: ['Steam'], notes: [], reviews: [{ id: 'r1', content: '原文' }], screenshots: [] }] }
+    const draft = { games: [{ id: 'steam-42', steamAppId: '42', title: '游戏', categories: ['Steam'], notes: [], reviews: [{ id: 'r1', content: '原文' }], screenshots: [] }] }
     const hash = value => createHash('sha256').update(value).digest('hex')
+    const titleCache = path.join(root, '.local/steam-titles/cache')
+    await mkdir(titleCache, { recursive: true })
+    await writeFile(path.join(titleCache, hash('https://store.steampowered.com/api/appdetails?appids=42&l=schinese&filters=basic')), JSON.stringify({ 42: { success: true, data: { name: '官方游戏名' } } }))
     const stage = async data => {
       const text = JSON.stringify(data)
       await writeFile(path.join(staging, 'draft.json'), text)
@@ -32,11 +35,15 @@ test('实际 CLI 重复应用无变化，来源减少和配置变化时保留已
     run('plan')
     await assert.rejects(readFile(path.join(root, 'data/steam.json')), { code: 'ENOENT' })
     run('apply')
+    const titlesFile = path.join(root, 'data/steam-titles.json')
+    assert.equal(JSON.parse(await readFile(titlesFile, 'utf8'))['42'].title, '官方游戏名')
+    const titleMtime = (await stat(titlesFile)).mtimeMs
     const target = path.join(root, 'data/steam.json')
     const original = await readFile(target, 'utf8')
     const mtime = (await stat(target)).mtimeMs
     assert.match(run('apply'), /无内容变化/)
     assert.equal((await stat(target)).mtimeMs, mtime)
+    assert.equal((await stat(titlesFile)).mtimeMs, titleMtime)
     await stage({ games: [{ ...draft.games[0], reviews: [] }] })
     assert.throws(() => run('apply'), /来源内容减少/)
     assert.equal(await readFile(target, 'utf8'), original)

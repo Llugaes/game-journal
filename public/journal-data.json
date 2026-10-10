@@ -2,7 +2,9 @@
   "games": [
     {
       "id": "steam-3841510",
-      "title": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+      "title": "真・三国无双２ with 猛将传 Remastered",
+      "originalTitle": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+      "titleSource": "https://store.steampowered.com/app/3841510/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -24,7 +26,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3841510/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "5",
+              "scale": 10,
+              "evidence": "5/10 没有滤镜的玩家谨慎入手"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -47,7 +57,9 @@
     },
     {
       "id": "steam-587260",
-      "title": "Tokyo Xanadu eX+",
+      "title": "东亰幻都 eX+",
+      "originalTitle": "Tokyo Xanadu eX+",
+      "titleSource": "https://www.cloudedleopardent.com/zh-hant/news/95/",
       "categories": [
         "Steam"
       ],
@@ -75,7 +87,9 @@
     },
     {
       "id": "steam-4225980",
-      "title": "Trails in the Sky 2nd Chapter",
+      "title": "空之轨迹 the 2nd",
+      "originalTitle": "Trails in the Sky 2nd Chapter",
+      "titleSource": "https://store.steampowered.com/app/4225980/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -97,7 +111,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/4225980/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -211,7 +226,9 @@
     },
     {
       "id": "steam-3669870",
-      "title": "CONTROL Resonant",
+      "title": "控制: 共振",
+      "originalTitle": "CONTROL Resonant",
+      "titleSource": "https://store.steampowered.com/app/3669870/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -233,7 +250,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3669870/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -241,7 +259,9 @@
     },
     {
       "id": "steam-3821790",
-      "title": "Ys X: Proud Nordics",
+      "title": "伊苏X -诺曼荣光-",
+      "originalTitle": "Ys X: Proud Nordics",
+      "titleSource": "https://store.steampowered.com/app/3821790/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -262,7 +282,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3821790/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 如果直接玩10p将会是最好的伊苏..."
+            }
+          ]
         }
       ],
       "notes": [],
@@ -270,7 +298,9 @@
     },
     {
       "id": "steam-2570810",
-      "title": "Ys X: Nordics",
+      "title": "伊苏X -北境历险-",
+      "originalTitle": "Ys X: Nordics",
+      "titleSource": "https://store.steampowered.com/app/2570810/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -291,7 +321,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2570810/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 截至26年最好玩的伊苏！"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -299,7 +337,9 @@
     },
     {
       "id": "steam-870780",
-      "title": "Control Ultimate Edition",
+      "title": "控制 - 终极合辑",
+      "originalTitle": "Control Ultimate Edition",
+      "titleSource": "https://store.steampowered.com/app/870780/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -321,7 +361,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/870780/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "6(8)",
+              "scale": 10,
+              "evidence": "6(8)/10 剧情充满电波的作品"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -329,7 +377,9 @@
     },
     {
       "id": "steam-3768760",
-      "title": "007 First Light",
+      "title": "007 初露锋芒",
+      "originalTitle": "007 First Light",
+      "titleSource": "https://store.steampowered.com/app/3768760/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -350,7 +400,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3768760/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 IOI味十足的线性特工体验！"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -359,6 +417,8 @@
     {
       "id": "steam-3357650",
       "title": "PRAGMATA",
+      "originalTitle": "PRAGMATA",
+      "titleSource": "https://store.steampowered.com/app/3357650/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -379,7 +439,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3357650/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 整整4年！小萝莉你让我等好久！"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -387,7 +455,9 @@
     },
     {
       "id": "steam-1173770",
-      "title": "FINAL FANTASY",
+      "title": "最终幻想",
+      "originalTitle": "FINAL FANTASY",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -408,7 +478,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1173770/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -416,7 +487,9 @@
     },
     {
       "id": "steam-2277560",
-      "title": "WUCHANG: Fallen Feathers",
+      "title": "明末：渊虚之羽",
+      "originalTitle": "WUCHANG: Fallen Feathers",
+      "titleSource": "https://store.steampowered.com/app/2277560/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -437,7 +510,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2277560/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "7.5/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -445,7 +526,9 @@
     },
     {
       "id": "steam-2852190",
-      "title": "Monster Hunter Stories 3: Twisted Reflection",
+      "title": "Monster Hunter Stories 3: 命运双龙",
+      "originalTitle": "Monster Hunter Stories 3: Twisted Reflection",
+      "titleSource": "https://store.steampowered.com/app/2852190/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -466,7 +549,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2852190/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10 这不比荒野好看？？（手动狗头"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -474,7 +565,9 @@
     },
     {
       "id": "steam-3321460",
-      "title": "Crimson Desert Enhanced",
+      "title": "红色沙漠：增强版",
+      "originalTitle": "Crimson Desert Enhanced",
+      "titleSource": "https://store.steampowered.com/app/3321460/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -495,7 +588,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3321460/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -503,7 +597,9 @@
     },
     {
       "id": "steam-3920610",
-      "title": "FATAL FRAME II: Crimson Butterfly REMAKE",
+      "title": "零 ～红蝶～ REMAKE",
+      "originalTitle": "FATAL FRAME II: Crimson Butterfly REMAKE",
+      "titleSource": "https://store.steampowered.com/app/3920610/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -524,7 +620,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3920610/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 完美的现代化重置"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -532,7 +636,9 @@
     },
     {
       "id": "steam-418370",
-      "title": "Resident Evil 7 Biohazard",
+      "title": "生化危机7：恶灵古堡",
+      "originalTitle": "Resident Evil 7 Biohazard",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -553,7 +659,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/418370/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10 生化危机坎坷的转型之路"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -561,7 +675,9 @@
     },
     {
       "id": "steam-3764200",
-      "title": "Resident Evil Requiem",
+      "title": "生化危机 Requiem",
+      "originalTitle": "Resident Evil Requiem",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -582,7 +698,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3764200/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 饱含情怀的新旧结合之作"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -590,7 +714,9 @@
     },
     {
       "id": "steam-221040",
-      "title": "Resident Evil 6",
+      "title": "生化危机6",
+      "originalTitle": "Resident Evil 6",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -611,7 +737,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/221040/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "7.5/10 量大又管饱！"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -619,7 +753,9 @@
     },
     {
       "id": "steam-222480",
-      "title": "Resident Evil Revelations",
+      "title": "生化危机：启示录",
+      "originalTitle": "Resident Evil Revelations",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -640,7 +776,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/222480/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8.5",
+              "scale": 10,
+              "evidence": "8.5/10 很有意思的rpg尝试"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -648,7 +792,9 @@
     },
     {
       "id": "steam-304240",
-      "title": "Resident Evil",
+      "title": "生化危机",
+      "originalTitle": "Resident Evil",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -669,7 +815,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/304240/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10 不过时的经典佳作"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -677,7 +831,9 @@
     },
     {
       "id": "steam-952060",
-      "title": "Resident Evil 3",
+      "title": "生化危机3",
+      "originalTitle": "Resident Evil 3",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -698,7 +854,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/952060/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10 哪都好就是不持久"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -706,7 +870,9 @@
     },
     {
       "id": "steam-883710",
-      "title": "Resident Evil 2",
+      "title": "生化危机2",
+      "originalTitle": "Resident Evil 2",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/introduction-resident-evil/",
       "categories": [
         "Steam"
       ],
@@ -727,7 +893,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/883710/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 首个现代化重置的生化"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -735,7 +909,9 @@
     },
     {
       "id": "steam-339340",
-      "title": "Resident Evil 0",
+      "title": "生化危机0",
+      "originalTitle": "Resident Evil 0",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/introduction-resident-evil/",
       "categories": [
         "Steam"
       ],
@@ -756,7 +932,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/339340/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10 老游戏的质量尚可但慎入"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -764,7 +948,9 @@
     },
     {
       "id": "steam-3937550",
-      "title": "Yakuza Kiwami 3 & Dark Ties",
+      "title": "人中之龙 极３ / 人中之龙３外传 Dark Ties",
+      "originalTitle": "Yakuza Kiwami 3 & Dark Ties",
+      "titleSource": "https://store.steampowered.com/app/3937550/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -785,7 +971,21 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3937550/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "原版",
+              "value": "6",
+              "scale": 10,
+              "evidence": "原版6/10 极版9/10 如龙新历史的开端"
+            },
+            {
+              "label": "极版",
+              "value": "9",
+              "scale": 10,
+              "evidence": "原版6/10 极版9/10 如龙新历史的开端"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -793,7 +993,9 @@
     },
     {
       "id": "steam-1105510",
-      "title": "Yakuza 5 Remastered",
+      "title": "人中之龙５　实现梦想者",
+      "originalTitle": "Yakuza 5 Remastered",
+      "titleSource": "https://store.steampowered.com/app/1105510/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -814,7 +1016,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1105510/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -822,7 +1032,9 @@
     },
     {
       "id": "steam-3681010",
-      "title": "Nioh 3",
+      "title": "仁王３",
+      "originalTitle": "Nioh 3",
+      "titleSource": "https://store.steampowered.com/app/3681010/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -844,7 +1056,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3681010/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "10",
+              "scale": 10,
+              "evidence": "10/10 忍者组主题乐园"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -852,7 +1072,9 @@
     },
     {
       "id": "steam-3717340",
-      "title": "Yakuza Kiwami 2",
+      "title": "人中之龙 极２",
+      "originalTitle": "Yakuza Kiwami 2",
+      "titleSource": "https://store.steampowered.com/app/3717340/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -873,7 +1095,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3717340/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -881,7 +1104,9 @@
     },
     {
       "id": "steam-2384580",
-      "title": "DYNASTY WARRIORS: ORIGINS",
+      "title": "真・三国无双 起源",
+      "originalTitle": "DYNASTY WARRIORS: ORIGINS",
+      "titleSource": "https://store.steampowered.com/app/2384580/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -902,7 +1127,21 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2384580/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "游戏体验",
+              "value": "8",
+              "scale": 10,
+              "evidence": "游戏体验：8/10"
+            },
+            {
+              "label": "白金体验",
+              "value": "6.5",
+              "scale": 10,
+              "evidence": "白金体验：6.5/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -910,7 +1149,9 @@
     },
     {
       "id": "steam-4038930",
-      "title": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
+      "title": "真・三国无双 起源 梦幻四英杰",
+      "originalTitle": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
+      "titleSource": "https://store.steampowered.com/app/4038930/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -931,7 +1172,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/4038930/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10 中评"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -939,7 +1188,9 @@
     },
     {
       "id": "steam-3717330",
-      "title": "Yakuza Kiwami",
+      "title": "人中之龙 极",
+      "originalTitle": "Yakuza Kiwami",
+      "titleSource": "https://store.steampowered.com/app/3717330/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -960,7 +1211,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3717330/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -968,7 +1220,9 @@
     },
     {
       "id": "steam-2988580",
-      "title": "Yakuza 0 Director's Cut",
+      "title": "人中之龙０ 誓约的场所 导演剪辑版",
+      "originalTitle": "Yakuza 0 Director's Cut",
+      "titleSource": "https://store.steampowered.com/app/2988580/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -989,7 +1243,14 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2988580/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "10",
+              "evidence": "10分给游戏，0分给SEGA"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -997,7 +1258,9 @@
     },
     {
       "id": "steam-1858650",
-      "title": "In Sink",
+      "title": "合力逃脱",
+      "originalTitle": "In Sink",
+      "titleSource": "https://store.steampowered.com/app/1858650/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1018,7 +1281,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1858650/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10 量大管饱的双人合作解密"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1027,6 +1298,8 @@
     {
       "id": "steam-283640",
       "title": "Salt and Sanctuary",
+      "originalTitle": "Salt and Sanctuary",
+      "titleSource": "https://store.steampowered.com/app/283640/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1048,7 +1321,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/283640/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "7.5/10 小品级2d银河城魂游"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1057,6 +1338,8 @@
     {
       "id": "steam-1850510",
       "title": "TRIANGLE STRATEGY",
+      "originalTitle": "TRIANGLE STRATEGY",
+      "titleSource": "https://store.steampowered.com/app/1850510/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1077,7 +1360,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1850510/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10 故事线优秀的战旗"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1085,7 +1376,9 @@
     },
     {
       "id": "steam-2701660",
-      "title": "DRAGON QUEST III HD-2D Remake",
+      "title": "勇者斗恶龙III HD-2D Remake",
+      "originalTitle": "DRAGON QUEST III HD-2D Remake",
+      "titleSource": "https://store.steampowered.com/app/2701660/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1106,7 +1399,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2701660/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "7.5/10 打折可入的rpg佳作"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1115,6 +1416,8 @@
     {
       "id": "steam-1020470",
       "title": "Evoland Legendary Edition",
+      "originalTitle": "Evoland Legendary Edition",
+      "titleSource": "https://store.steampowered.com/app/1020470/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1135,7 +1438,27 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1020470/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "7.5/10  缺乏自我内核的致敬"
+            },
+            {
+              "label": "1代",
+              "value": "7",
+              "scale": 10,
+              "evidence": "1代：7/10"
+            },
+            {
+              "label": "2代",
+              "value": "7.5",
+              "scale": 10,
+              "evidence": "2代：7.5/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1143,7 +1466,9 @@
     },
     {
       "id": "steam-2407270",
-      "title": "AI Limit",
+      "title": "无限机兵",
+      "originalTitle": "AI Limit",
+      "titleSource": "https://store.steampowered.com/app/2407270/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1164,7 +1489,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2407270/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1172,7 +1505,9 @@
     },
     {
       "id": "steam-2622380",
-      "title": "ELDEN RING NIGHTREIGN",
+      "title": "艾尔登法环 黑夜君临",
+      "originalTitle": "ELDEN RING NIGHTREIGN",
+      "titleSource": "https://store.steampowered.com/app/2622380/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1194,7 +1529,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2622380/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1202,7 +1538,9 @@
     },
     {
       "id": "steam-678960",
-      "title": "CODE VEIN",
+      "title": "噬血代码",
+      "originalTitle": "CODE VEIN",
+      "titleSource": "https://store.steampowered.com/app/678960/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1223,7 +1561,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/678960/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1231,7 +1577,9 @@
     },
     {
       "id": "steam-613830",
-      "title": "CHRONO TRIGGER",
+      "title": "CHRONO TRIGGER®",
+      "originalTitle": "CHRONO TRIGGER",
+      "titleSource": "https://store.steampowered.com/app/613830/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1252,7 +1600,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/613830/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1260,7 +1616,9 @@
     },
     {
       "id": "steam-2947440",
-      "title": "SILENT HILL f",
+      "title": "寂静岭 f",
+      "originalTitle": "SILENT HILL f",
+      "titleSource": "https://store.steampowered.com/app/2947440/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1282,7 +1640,33 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2947440/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10——来自龙骑士07一个理想主义者的歌颂自由的反封建故事"
+            },
+            {
+              "label": "剧情",
+              "value": "9",
+              "scale": 10,
+              "evidence": "剧情 9"
+            },
+            {
+              "label": "游戏演出表现",
+              "value": "8",
+              "scale": 10,
+              "evidence": "游戏演出表现 8"
+            },
+            {
+              "label": "战斗系统",
+              "value": "7",
+              "scale": 10,
+              "evidence": "战斗系统 7"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1290,7 +1674,9 @@
     },
     {
       "id": "steam-3447040",
-      "title": "Sora no Kiseki the 1st",
+      "title": "空之轨迹 the 1st",
+      "originalTitle": "Sora no Kiseki the 1st",
+      "titleSource": "https://store.steampowered.com/app/3447040/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1312,7 +1698,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3447040/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "10",
+              "scale": 10,
+              "evidence": "10/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1320,7 +1714,9 @@
     },
     {
       "id": "steam-1285190",
-      "title": "Borderlands® 4",
+      "title": "无主之地®4",
+      "originalTitle": "Borderlands® 4",
+      "titleSource": "https://store.steampowered.com/app/1285190/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1342,7 +1738,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1285190/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1350,7 +1747,9 @@
     },
     {
       "id": "steam-1030300",
-      "title": "Hollow Knight: Silksong",
+      "title": "空洞骑士：丝之歌",
+      "originalTitle": "Hollow Knight: Silksong",
+      "titleSource": "https://store.steampowered.com/app/1030300/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1372,7 +1771,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1030300/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8.5",
+              "scale": 10,
+              "evidence": "8.5/10，好玩、折磨、我喜欢、但不无脑推荐"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1380,7 +1787,9 @@
     },
     {
       "id": "steam-962130",
-      "title": "Grounded",
+      "title": "禁闭求生",
+      "originalTitle": "Grounded",
+      "titleSource": "https://www.xbox.com/zh-cn/accessories",
       "categories": [
         "Steam"
       ],
@@ -1402,7 +1811,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/962130/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1410,7 +1827,9 @@
     },
     {
       "id": "steam-3046600",
-      "title": "Onimusha 2: Samurai's Destiny",
+      "title": "鬼武者2",
+      "originalTitle": "Onimusha 2: Samurai's Destiny",
+      "titleSource": "https://store.steampowered.com/app/3046600/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1431,7 +1850,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3046600/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1439,7 +1859,9 @@
     },
     {
       "id": "steam-1903340",
-      "title": "Clair Obscur: Expedition 33",
+      "title": "光与影：33号远征队",
+      "originalTitle": "Clair Obscur: Expedition 33",
+      "titleSource": "https://store.steampowered.com/app/1903340/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1460,7 +1882,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1903340/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "9",
+              "scale": 10,
+              "evidence": "9/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1468,7 +1898,9 @@
     },
     {
       "id": "steam-1627720",
-      "title": "Lies of P",
+      "title": "匹诺曹的谎言",
+      "originalTitle": "Lies of P",
+      "titleSource": "https://www.liesofp.com/zh-hans/base-game",
       "categories": [
         "Steam"
       ],
@@ -1489,7 +1921,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1627720/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1497,7 +1937,9 @@
     },
     {
       "id": "steam-335300",
-      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "title": "黑暗之魂II：原罪学者",
+      "originalTitle": "DARK SOULS™ II: Scholar of the First Sin",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -1518,7 +1960,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/335300/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1526,7 +1976,9 @@
     },
     {
       "id": "steam-1608070",
-      "title": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "title": "CRISIS CORE –最终幻想VII– REUNION",
+      "originalTitle": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -1547,7 +1999,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1608070/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1555,7 +2008,9 @@
     },
     {
       "id": "steam-1868140",
-      "title": "DAVE THE DIVER",
+      "title": "潜水员戴夫",
+      "originalTitle": "DAVE THE DIVER",
+      "titleSource": "https://store.steampowered.com/app/1868140/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1576,7 +2031,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1868140/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1584,7 +2047,9 @@
     },
     {
       "id": "steam-2138090",
-      "title": "Atelier Marie Remake: The Alchemist of Salburg",
+      "title": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～",
+      "originalTitle": "Atelier Marie Remake: The Alchemist of Salburg",
+      "titleSource": "https://store.steampowered.com/app/2138090/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1605,7 +2070,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2138090/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "7",
+              "scale": 10,
+              "evidence": "7/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1614,6 +2087,8 @@
     {
       "id": "steam-2680010",
       "title": "The First Berserker: Khazan",
+      "originalTitle": "The First Berserker: Khazan",
+      "titleSource": "https://store.steampowered.com/app/2680010/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1635,7 +2110,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2680010/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1643,7 +2119,9 @@
     },
     {
       "id": "steam-2001120",
-      "title": "Split Fiction",
+      "title": "双影奇境",
+      "originalTitle": "Split Fiction",
+      "titleSource": "https://store.steampowered.com/app/2001120/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1664,7 +2142,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2001120/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1672,7 +2151,9 @@
     },
     {
       "id": "steam-2246340",
-      "title": "Monster Hunter Wilds",
+      "title": "怪物猎人：荒野",
+      "originalTitle": "Monster Hunter Wilds",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
       "categories": [
         "Steam"
       ],
@@ -1694,7 +2175,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2246340/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1702,7 +2184,9 @@
     },
     {
       "id": "steam-3061810",
-      "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "title": "人中之龙８外传 Pirates in Hawaii",
+      "originalTitle": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "titleSource": "https://store.steampowered.com/app/3061810/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1723,7 +2207,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/3061810/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1731,7 +2216,9 @@
     },
     {
       "id": "steam-1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "title": "最终幻想VII REMAKE INTERGRADE",
+      "originalTitle": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -1752,7 +2239,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1462040/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1760,7 +2248,9 @@
     },
     {
       "id": "steam-2679460",
-      "title": "Metaphor: ReFantazio",
+      "title": "暗喻幻想：ReFantazio",
+      "originalTitle": "Metaphor: ReFantazio",
+      "titleSource": "https://store.steampowered.com/app/2679460/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1781,7 +2271,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2679460/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8.5",
+              "scale": 10,
+              "evidence": "8.5/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1789,7 +2287,9 @@
     },
     {
       "id": "steam-2215430",
-      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "title": "对马岛之魂 导演剪辑版",
+      "originalTitle": "Ghost of Tsushima DIRECTOR'S CUT",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/ghost-of-yotei/",
       "categories": [
         "Steam"
       ],
@@ -1811,7 +2311,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2215430/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8",
+              "scale": 10,
+              "evidence": "8/10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1819,7 +2327,9 @@
     },
     {
       "id": "steam-2358720",
-      "title": "Black Myth: Wukong",
+      "title": "黑神话：悟空",
+      "originalTitle": "Black Myth: Wukong",
+      "titleSource": "https://store.steampowered.com/app/2358720/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1841,7 +2351,19 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2358720/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "画面、配乐、剧情、体量",
+              "value": "9-10",
+              "evidence": "画面、配乐、剧情、体量我可以给9-10分，但战斗我只能给6分。"
+            },
+            {
+              "label": "战斗",
+              "value": "6",
+              "evidence": "画面、配乐、剧情、体量我可以给9-10分，但战斗我只能给6分。"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -1850,6 +2372,8 @@
     {
       "id": "steam-553420",
       "title": "TUNIC",
+      "originalTitle": "TUNIC",
+      "titleSource": "https://store.steampowered.com/app/553420/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1870,7 +2394,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/553420/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1878,7 +2403,9 @@
     },
     {
       "id": "steam-1235140",
-      "title": "Yakuza: Like a Dragon",
+      "title": "人中之龙7　光与暗的去向　国际版",
+      "originalTitle": "Yakuza: Like a Dragon",
+      "titleSource": "https://store.steampowered.com/app/1235140/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1899,7 +2426,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1235140/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1907,7 +2435,9 @@
     },
     {
       "id": "steam-1245620",
-      "title": "ELDEN RING",
+      "title": "艾尔登法环",
+      "originalTitle": "ELDEN RING",
+      "titleSource": "https://store.steampowered.com/app/1245620/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1928,7 +2458,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1245620/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1936,7 +2467,9 @@
     },
     {
       "id": "steam-1325200",
-      "title": "Nioh 2 – The Complete Edition",
+      "title": "仁王２ Complete Edition",
+      "originalTitle": "Nioh 2 – The Complete Edition",
+      "titleSource": "https://store.steampowered.com/app/1325200/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1957,7 +2490,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1325200/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1965,7 +2499,9 @@
     },
     {
       "id": "steam-570940",
-      "title": "DARK SOULS™: REMASTERED",
+      "title": "黑暗灵魂 Remastered",
+      "originalTitle": "DARK SOULS™: REMASTERED",
+      "titleSource": "https://store.steampowered.com/app/570940/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -1986,7 +2522,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/570940/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -1994,7 +2531,9 @@
     },
     {
       "id": "steam-881020",
-      "title": "Granblue Fantasy: Relink",
+      "title": "碧蓝幻想Relink",
+      "originalTitle": "Granblue Fantasy: Relink",
+      "titleSource": "https://relink-ragnarok.granbluefantasy.com/chs/",
       "categories": [
         "Steam"
       ],
@@ -2016,7 +2555,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/881020/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2024,7 +2564,9 @@
     },
     {
       "id": "steam-2072450",
-      "title": "Like a Dragon: Infinite Wealth",
+      "title": "人中之龙８",
+      "originalTitle": "Like a Dragon: Infinite Wealth",
+      "titleSource": "https://store.steampowered.com/app/2072450/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2045,7 +2587,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/2072450/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2053,7 +2596,9 @@
     },
     {
       "id": "steam-436670",
-      "title": "The Legend of Heroes: Trails in the Sky the 3rd",
+      "title": "英雄传说 空之轨迹 the 3rd",
+      "originalTitle": "The Legend of Heroes: Trails in the Sky the 3rd",
+      "titleSource": "https://www.cloudedleopardent.com/zh-hant/news/5371/",
       "categories": [
         "Steam"
       ],
@@ -2074,7 +2619,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/436670/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2083,6 +2629,8 @@
     {
       "id": "steam-1332010",
       "title": "Stray",
+      "originalTitle": "Stray",
+      "titleSource": "https://store.steampowered.com/app/1332010/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2104,7 +2652,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1332010/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2112,7 +2661,9 @@
     },
     {
       "id": "steam-1468810",
-      "title": "鬼谷八荒 Tale of Immortal",
+      "title": "鬼谷八荒",
+      "originalTitle": "鬼谷八荒 Tale of Immortal",
+      "titleSource": "https://store.steampowered.com/app/1468810/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2133,7 +2684,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1468810/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2141,7 +2693,9 @@
     },
     {
       "id": "steam-740130",
-      "title": "Tales of ARISE",
+      "title": "破晓传奇",
+      "originalTitle": "Tales of ARISE",
+      "titleSource": "https://store.steampowered.com/app/740130/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2162,7 +2716,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/740130/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2170,7 +2725,9 @@
     },
     {
       "id": "steam-1088710",
-      "title": "Yakuza 3 Remastered",
+      "title": "人中之龙３",
+      "originalTitle": "Yakuza 3 Remastered",
+      "titleSource": "https://store.steampowered.com/app/1088710/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2191,7 +2748,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1088710/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2199,7 +2757,9 @@
     },
     {
       "id": "steam-397540",
-      "title": "Borderlands 3",
+      "title": "无主之地3",
+      "originalTitle": "Borderlands 3",
+      "titleSource": "https://store.steampowered.com/app/397540/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2221,7 +2781,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/397540/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2229,7 +2790,9 @@
     },
     {
       "id": "steam-761600",
-      "title": "Onimusha: Warlords",
+      "title": "鬼武者",
+      "originalTitle": "Onimusha: Warlords",
+      "titleSource": "https://store.steampowered.com/app/761600/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2251,7 +2814,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/761600/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2259,7 +2823,9 @@
     },
     {
       "id": "steam-1113000",
-      "title": "Persona 4 Golden",
+      "title": "女神异闻录４ 黄金版",
+      "originalTitle": "Persona 4 Golden",
+      "titleSource": "https://store.steampowered.com/app/1113000/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2281,7 +2847,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1113000/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2289,7 +2856,9 @@
     },
     {
       "id": "steam-614570",
-      "title": "Dishonored®: Death of the Outsider™ ",
+      "title": "Dishonored®: Death of the Outsider™",
+      "originalTitle": "Dishonored®: Death of the Outsider™ ",
+      "titleSource": "https://store.steampowered.com/app/614570/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2310,7 +2879,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/614570/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2318,7 +2888,9 @@
     },
     {
       "id": "steam-403640",
-      "title": "Dishonored 2",
+      "title": "耻辱2",
+      "originalTitle": "Dishonored 2",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2339,7 +2911,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/403640/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2347,7 +2920,9 @@
     },
     {
       "id": "steam-105600",
-      "title": "Terraria",
+      "title": "泰拉瑞亚",
+      "originalTitle": "Terraria",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2369,7 +2944,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/105600/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2377,7 +2953,9 @@
     },
     {
       "id": "steam-261550",
-      "title": "Mount & Blade II: Bannerlord",
+      "title": "骑马与砍杀2：霸主",
+      "originalTitle": "Mount & Blade II: Bannerlord",
+      "titleSource": "https://store.steampowered.com/app/261550/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2399,7 +2977,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/261550/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2407,7 +2986,9 @@
     },
     {
       "id": "steam-485510",
-      "title": "Nioh: Complete Edition",
+      "title": "仁王 Complete Edition",
+      "originalTitle": "Nioh: Complete Edition",
+      "titleSource": "https://store.steampowered.com/app/485510/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2428,7 +3009,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/485510/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2436,7 +3018,9 @@
     },
     {
       "id": "steam-374320",
-      "title": "DARK SOULS™ III",
+      "title": "黑暗之魂III",
+      "originalTitle": "DARK SOULS™ III",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2458,7 +3042,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/374320/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2466,7 +3051,9 @@
     },
     {
       "id": "steam-205100",
-      "title": "Dishonored",
+      "title": "耻辱",
+      "originalTitle": "Dishonored",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2487,7 +3074,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/205100/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2495,7 +3083,9 @@
     },
     {
       "id": "steam-570780",
-      "title": "古剑奇谭(GuJian)",
+      "title": "古剑奇谭",
+      "originalTitle": "古剑奇谭(GuJian)",
+      "titleSource": "https://store.steampowered.com/app/570780/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2517,7 +3107,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/570780/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2525,7 +3116,9 @@
     },
     {
       "id": "steam-752590",
-      "title": "A Plague Tale: Innocence",
+      "title": "瘟疫传说：无罪",
+      "originalTitle": "A Plague Tale: Innocence",
+      "titleSource": "https://store.playstation.com/zh-hans-hk/concept/10002255",
       "categories": [
         "Steam"
       ],
@@ -2547,7 +3140,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/752590/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "剧情",
+              "value": "8",
+              "scale": 10,
+              "evidence": "剧情总的来说8/10，但是优秀的画面表现力可以弥补剧情上的小瑕疵。总的来说算是这些年里PC上电影交互游戏的前五名了。"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -2555,7 +3156,9 @@
     },
     {
       "id": "steam-814380",
-      "title": "Sekiro™: Shadows Die Twice",
+      "title": "只狼：影逝二度 GOTY Edition",
+      "originalTitle": "Sekiro™: Shadows Die Twice",
+      "titleSource": "https://store.steampowered.com/app/814380/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2577,7 +3180,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/814380/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2585,7 +3189,9 @@
     },
     {
       "id": "steam-921570",
-      "title": "OCTOPATH TRAVELER",
+      "title": "歧路旅人",
+      "originalTitle": "OCTOPATH TRAVELER",
+      "titleSource": "https://store.steampowered.com/app/921570/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2607,7 +3213,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/921570/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2615,7 +3222,9 @@
     },
     {
       "id": "steam-927380",
-      "title": "Yakuza Kiwami 2 (Legacy)",
+      "title": "人中之龙 极２ [传承版]",
+      "originalTitle": "Yakuza Kiwami 2 (Legacy)",
+      "titleSource": "https://store.steampowered.com/app/927380/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2637,7 +3246,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/927380/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2645,7 +3255,9 @@
     },
     {
       "id": "steam-601150",
-      "title": "Devil May Cry 5",
+      "title": "鬼泣5",
+      "originalTitle": "Devil May Cry 5",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/editorial/20-must-play-blockbusters-on-playstation-plus-extra/",
       "categories": [
         "Steam"
       ],
@@ -2666,7 +3278,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/601150/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2674,7 +3287,9 @@
     },
     {
       "id": "steam-638970",
-      "title": "Yakuza 0",
+      "title": "人中之龙０　誓约的场所",
+      "originalTitle": "Yakuza 0",
+      "titleSource": "https://store.steampowered.com/app/638970/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2696,7 +3311,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/638970/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2704,7 +3320,9 @@
     },
     {
       "id": "steam-834530",
-      "title": "Yakuza Kiwami (Legacy)",
+      "title": "人中之龙 极 [传承版]",
+      "originalTitle": "Yakuza Kiwami (Legacy)",
+      "titleSource": "https://store.steampowered.com/app/834530/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2726,7 +3344,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/834530/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2734,7 +3353,9 @@
     },
     {
       "id": "steam-582010",
-      "title": "Monster Hunter: World",
+      "title": "怪物猎人：世界",
+      "originalTitle": "Monster Hunter: World",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2756,7 +3377,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/582010/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2764,7 +3386,9 @@
     },
     {
       "id": "steam-582160",
-      "title": "Assassin's Creed Origins",
+      "title": "刺客信条：起源",
+      "originalTitle": "Assassin's Creed Origins",
+      "titleSource": "https://store.steampowered.com/app/582160/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2786,7 +3410,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/582160/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2794,7 +3419,9 @@
     },
     {
       "id": "steam-363970",
-      "title": "Clicker Heroes",
+      "title": "点击英雄",
+      "originalTitle": "Clicker Heroes",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2816,7 +3443,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/363970/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2825,6 +3453,8 @@
     {
       "id": "steam-582500",
       "title": "We Were Here",
+      "originalTitle": "We Were Here",
+      "titleSource": "https://store.steampowered.com/app/582500/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2845,7 +3475,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/582500/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2853,7 +3484,9 @@
     },
     {
       "id": "steam-587620",
-      "title": "Okami HD",
+      "title": "大神 HD",
+      "originalTitle": "Okami HD",
+      "titleSource": "https://store.steampowered.com/app/587620/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2875,7 +3508,21 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/587620/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "游戏本体素质",
+              "value": "9",
+              "scale": 10,
+              "evidence": "游戏本体素质：9 / 10  （零六年的游戏）"
+            },
+            {
+              "label": "冷饭价值",
+              "value": "10",
+              "scale": 10,
+              "evidence": "冷饭价值：10 / 10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -2884,6 +3531,8 @@
     {
       "id": "steam-493200",
       "title": "RiME",
+      "originalTitle": "RiME",
+      "titleSource": "https://store.steampowered.com/app/493200/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2904,7 +3553,15 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/493200/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "个人总分",
+              "value": "8.5",
+              "scale": 10,
+              "evidence": "个人总分：8.5 / 10"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -2912,7 +3569,9 @@
     },
     {
       "id": "steam-524220",
-      "title": "NieR:Automata™",
+      "title": "尼尔：机械纪元",
+      "originalTitle": "NieR:Automata™",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2934,7 +3593,21 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/524220/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": [
+            {
+              "label": "总评",
+              "value": "8.5",
+              "qualifier": "以上",
+              "evidence": "游戏本身8.5分以上"
+            },
+            {
+              "label": "剧情（可能）",
+              "value": "9",
+              "scale": 10,
+              "evidence": "游戏剧情也是可圈可点。如果说给剧情打个分，我可能会给 9/10 。"
+            }
+          ]
         }
       ],
       "notes": [],
@@ -2942,7 +3615,9 @@
     },
     {
       "id": "steam-349040",
-      "title": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "title": "火影忍者疾风传：终极风暴4",
+      "originalTitle": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2963,7 +3638,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/349040/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -2971,7 +3647,9 @@
     },
     {
       "id": "steam-377160",
-      "title": "Fallout 4",
+      "title": "辐射4",
+      "originalTitle": "Fallout 4",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
       "categories": [
         "Steam"
       ],
@@ -2993,7 +3671,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/377160/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3001,7 +3680,9 @@
     },
     {
       "id": "steam-201870",
-      "title": "Assassin's Creed Revelations",
+      "title": "刺客信条：启示录",
+      "originalTitle": "Assassin's Creed Revelations",
+      "titleSource": "https://store.steampowered.com/app/201870/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3022,7 +3703,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/201870/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3030,7 +3712,9 @@
     },
     {
       "id": "steam-33230",
-      "title": "Assassin's Creed II",
+      "title": "刺客信条2",
+      "originalTitle": "Assassin's Creed II",
+      "titleSource": "https://store.steampowered.com/app/33230/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3052,7 +3736,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/33230/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3061,6 +3746,8 @@
     {
       "id": "steam-359310",
       "title": "Evoland 2",
+      "originalTitle": "Evoland 2",
+      "titleSource": "https://store.steampowered.com/app/359310/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3081,7 +3768,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/359310/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3089,7 +3777,9 @@
     },
     {
       "id": "steam-48190",
-      "title": "Assassin's Creed Brotherhood",
+      "title": "刺客信条：兄弟会",
+      "originalTitle": "Assassin's Creed Brotherhood",
+      "titleSource": "https://store.steampowered.com/app/48190/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3110,7 +3800,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/48190/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3119,6 +3810,8 @@
     {
       "id": "steam-665180",
       "title": "Dark Elf",
+      "originalTitle": "Dark Elf",
+      "titleSource": "https://store.steampowered.com/app/665180/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3140,7 +3833,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/665180/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3149,6 +3843,8 @@
     {
       "id": "steam-711990",
       "title": "Elise the Devil",
+      "originalTitle": "Elise the Devil",
+      "titleSource": "https://store.steampowered.com/app/711990/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3170,7 +3866,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/711990/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3179,6 +3876,8 @@
     {
       "id": "steam-720280",
       "title": "Fox Hime",
+      "originalTitle": "Fox Hime",
+      "titleSource": "https://store.steampowered.com/app/720280/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3199,7 +3898,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/720280/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3208,6 +3908,8 @@
     {
       "id": "steam-323320",
       "title": "Grow Home",
+      "originalTitle": "Grow Home",
+      "titleSource": "https://store.steampowered.com/app/323320/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3228,7 +3930,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/323320/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3237,6 +3940,8 @@
     {
       "id": "steam-426790",
       "title": "Grow Up",
+      "originalTitle": "Grow Up",
+      "titleSource": "https://store.steampowered.com/app/426790/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3257,7 +3962,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/426790/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3265,7 +3971,9 @@
     },
     {
       "id": "steam-502280",
-      "title": "BERSERK and the Band of the Hawk",
+      "title": "烙印勇士无双",
+      "originalTitle": "BERSERK and the Band of the Hawk",
+      "titleSource": "https://www.gamecity.com.tw/berserk-musou/top.html",
       "categories": [
         "Steam"
       ],
@@ -3287,7 +3995,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/502280/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3316,7 +4025,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/567090/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3324,7 +4034,9 @@
     },
     {
       "id": "steam-551730",
-      "title": "Toukiden 2",
+      "title": "讨鬼传2",
+      "originalTitle": "Toukiden 2",
+      "titleSource": "https://store.steampowered.com/app/551730/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3346,7 +4058,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/551730/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3354,7 +4067,9 @@
     },
     {
       "id": "steam-384190",
-      "title": "ABZÛ",
+      "title": "ABZU",
+      "originalTitle": "ABZÛ",
+      "titleSource": "https://store.steampowered.com/app/384190/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3376,7 +4091,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/384190/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],
@@ -3384,7 +4100,9 @@
     },
     {
       "id": "steam-211420",
-      "title": "DARK SOULS™: Prepare To Die Edition",
+      "title": "黑暗灵魂 Prepare To Die Edition",
+      "originalTitle": "DARK SOULS™: Prepare To Die Edition",
+      "titleSource": "https://store.steampowered.com/app/211420/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -3406,7 +4124,8 @@
             "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/211420/",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
-          }
+          },
+          "scores": []
         }
       ],
       "notes": [],

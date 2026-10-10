@@ -7,6 +7,8 @@ export type JournalNote = {
   moment?: string
 }
 
+export type JournalScore = { label: string; value: string; scale?: number; qualifier?: string; evidence: string }
+
 export type JournalReview = {
   id?: string
   title?: string
@@ -16,6 +18,7 @@ export type JournalReview = {
   postedAt?: string
   playtimeAtReview?: string
   source?: SteamSource
+  scores?: JournalScore[]
 }
 
 export type SteamSource = { platform: 'steam'; url: string; profileId: string; authorName: string }
@@ -34,6 +37,8 @@ export type JournalScreenshot = {
 export type JournalGame = {
   id: string
   title: string
+  originalTitle?: string
+  titleSource?: string
   categories: string[]
   rating?: number
   summary?: string

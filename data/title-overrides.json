@@ -1,0 +1,315 @@
+{
+  "105600": {
+    "title": "泰拉瑞亚",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《泰拉瑞亚：PlayStation4 版》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "205100": {
+    "title": "耻辱",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《耻辱：终极版》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "211420": {
+    "title": "黑暗灵魂 Prepare To Die Edition",
+    "source": "https://store.steampowered.com/app/211420/?l=schinese",
+    "evidence": "黑暗灵魂",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "221040": {
+    "title": "生化危机6",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机 6》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "222480": {
+    "title": "生化危机：启示录",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机：启示录》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "261550": {
+    "title": "骑马与砍杀2：霸主",
+    "source": "https://store.steampowered.com/app/261550/?l=schinese",
+    "evidence": "骑马与砍杀2：霸主",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "304240": {
+    "title": "生化危机",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "335300": {
+    "title": "黑暗之魂II：原罪学者",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《黑暗之魂™ 2：原罪学者》（已发现问题*）",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "339340": {
+    "title": "生化危机0",
+    "source": "https://www.playstation.com/zh-hans-hk/introduction-resident-evil/",
+    "evidence": "生化危机0",
+    "kind": "official"
+  },
+  "349040": {
+    "title": "火影忍者疾风传：终极风暴4",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《火影忍者疾风传：终极风暴 4》（已发现问题*）",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "363970": {
+    "title": "点击英雄",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《点击英雄》",
+    "kind": "official"
+  },
+  "374320": {
+    "title": "黑暗之魂III",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《黑暗之魂™ 3》（已发现问题*）",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "377160": {
+    "title": "辐射4",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "辐射4",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "403640": {
+    "title": "耻辱2",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《耻辱 2》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "418370": {
+    "title": "生化危机7：恶灵古堡",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机 7：恶灵古堡》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "436670": {
+    "title": "英雄传说 空之轨迹 the 3rd",
+    "source": "https://www.cloudedleopardent.com/zh-hant/news/5371/",
+    "evidence": "英雄傳說 空之軌跡 the 3rd",
+    "note": "繁体转简体。",
+    "kind": "official"
+  },
+  "502280": {
+    "title": "烙印勇士无双",
+    "source": "https://www.gamecity.com.tw/berserk-musou/top.html",
+    "evidence": "烙印勇士無雙",
+    "note": "繁体转简体。",
+    "kind": "official"
+  },
+  "524220": {
+    "title": "尼尔：机械纪元",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《尼尔：机械纪元》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "551730": {
+    "title": "讨鬼传2",
+    "source": "https://store.steampowered.com/app/551730/?l=schinese",
+    "evidence": "讨鬼传",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "570780": {
+    "title": "古剑奇谭",
+    "source": "https://store.steampowered.com/app/570780/?l=schinese",
+    "evidence": "古剑奇谭(GuJian)",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "570940": {
+    "title": "黑暗灵魂 Remastered",
+    "source": "https://store.steampowered.com/app/570940/?l=schinese",
+    "evidence": "黑暗灵魂 Remastered",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "582010": {
+    "title": "怪物猎人：世界",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《怪物猎人：世界》",
+    "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "587260": {
+    "title": "东亰幻都 eX+",
+    "source": "https://www.cloudedleopardent.com/zh-hant/news/95/",
+    "evidence": "東亰幻都 eX+",
+    "note": "繁体转简体，保留官方用字亰。",
+    "kind": "official"
+  },
+  "587620": {
+    "title": "大神 HD",
+    "source": "https://store.steampowered.com/app/587620/?l=schinese",
+    "evidence": "大神",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "601150": {
+    "title": "鬼泣5",
+    "source": "https://www.playstation.com/zh-hans-hk/editorial/20-must-play-blockbusters-on-playstation-plus-extra/",
+    "evidence": "鬼泣5",
+    "kind": "official"
+  },
+  "678960": {
+    "title": "噬血代码",
+    "source": "https://store.steampowered.com/app/678960/?l=schinese",
+    "evidence": "CODE VEIN 噬血代码",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "752590": {
+    "title": "瘟疫传说：无罪",
+    "source": "https://store.playstation.com/zh-hans-hk/concept/10002255",
+    "evidence": "瘟疫传说：无罪",
+    "kind": "official"
+  },
+  "761600": {
+    "title": "鬼武者",
+    "source": "https://store.steampowered.com/app/761600/?l=schinese",
+    "evidence": "鬼武者（Onimusha: Warlords）",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "814380": {
+    "title": "只狼：影逝二度 GOTY Edition",
+    "source": "https://store.steampowered.com/app/814380/?l=schinese",
+    "evidence": "Sekiro: Shadows Die Twice (只狼：影逝二度)",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "870780": {
+    "title": "控制 - 终极合辑",
+    "source": "https://store.steampowered.com/app/870780/?l=schinese",
+    "evidence": "控制 - 终极合辑 / Control Ultimate Edition",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "881020": {
+    "title": "碧蓝幻想Relink",
+    "source": "https://relink-ragnarok.granbluefantasy.com/chs/",
+    "evidence": "碧蓝幻想Relink",
+    "kind": "official"
+  },
+  "883710": {
+    "title": "生化危机2",
+    "source": "https://www.playstation.com/zh-hans-hk/introduction-resident-evil/",
+    "evidence": "生化危机2",
+    "kind": "official"
+  },
+  "952060": {
+    "title": "生化危机3",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机》",
+    "kind": "official",
+    "note": "采用官方中文系列名，序号沿用本商品。"
+  },
+  "962130": {
+    "title": "禁闭求生",
+    "source": "https://www.xbox.com/zh-cn/accessories",
+    "evidence": "禁闭求生",
+    "kind": "official"
+  },
+  "1030300": {
+    "title": "空洞骑士：丝之歌",
+    "source": "https://store.steampowered.com/app/1030300/?l=schinese",
+    "evidence": "空洞骑士：丝之歌",
+    "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "1173770": {
+    "title": "最终幻想",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《最终幻想 7》",
+    "kind": "official",
+    "note": "采用官方中文系列名；本作无序号。"
+  },
+  "1462040": {
+    "title": "最终幻想VII REMAKE INTERGRADE",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《最终幻想 7》",
+    "kind": "official",
+    "note": "采用官方中文系列名，版本副标题沿用本商品的官方原文。"
+  },
+  "1608070": {
+    "title": "CRISIS CORE –最终幻想VII– REUNION",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《最终幻想 7》",
+    "kind": "official",
+    "note": "采用官方中文系列名，前后副标题沿用本商品的官方原文。"
+  },
+  "1627720": {
+    "title": "匹诺曹的谎言",
+    "source": "https://www.liesofp.com/zh-hans/base-game",
+    "evidence": "匹诺曹的谎言",
+    "kind": "official"
+  },
+  "1868140": {
+    "title": "潜水员戴夫",
+    "source": "https://store.steampowered.com/app/1868140/?l=schinese",
+    "evidence": "潜水员戴夫 DAVE THE DIVER",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "2215430": {
+    "title": "对马岛之魂 导演剪辑版",
+    "source": "https://www.playstation.com/zh-hans-hk/games/ghost-of-yotei/",
+    "evidence": "《对马岛之魂》的主角境井仁",
+    "note": "官方中文本名加本商品已有的导演剪辑版后缀。",
+    "kind": "official"
+  },
+  "2246340": {
+    "title": "怪物猎人：荒野",
+    "source": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
+    "evidence": "怪物猎人：荒野",
+    "kind": "official"
+  },
+  "2407270": {
+    "title": "无限机兵",
+    "source": "https://store.steampowered.com/app/2407270/?l=schinese",
+    "evidence": "AI LIMIT 无限机兵",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "2947440": {
+    "title": "寂静岭 f",
+    "source": "https://store.steampowered.com/app/2947440/?l=schinese",
+    "evidence": "寂静岭",
+    "kind": "official",
+    "note": "采用官方中文介绍中的系列名，保留本作标记 f。"
+  },
+  "3046600": {
+    "title": "鬼武者2",
+    "source": "https://store.steampowered.com/app/3046600/?l=schinese",
+    "evidence": "鬼武者2 (Onimusha 2: Samurai's Destiny)",
+    "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "3764200": {
+    "title": "生化危机 Requiem",
+    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+    "evidence": "《生化危机》",
+    "kind": "official",
+    "note": "采用官方中文系列名，副标题沿用本商品的官方原文。"
+  }
+}

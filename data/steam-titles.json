@@ -1,0 +1,552 @@
+{
+  "33230": {
+    "title": "刺客信条2",
+    "source": "https://store.steampowered.com/app/33230/?l=schinese",
+    "locale": "schinese"
+  },
+  "48190": {
+    "title": "刺客信条：兄弟会",
+    "source": "https://store.steampowered.com/app/48190/?l=schinese",
+    "locale": "schinese"
+  },
+  "105600": {
+    "title": "Terraria",
+    "source": "https://store.steampowered.com/app/105600/?l=schinese",
+    "locale": "schinese"
+  },
+  "201870": {
+    "title": "刺客信条：启示录",
+    "source": "https://store.steampowered.com/app/201870/?l=schinese",
+    "locale": "schinese"
+  },
+  "205100": {
+    "title": "Dishonored",
+    "source": "https://store.steampowered.com/app/205100/?l=schinese",
+    "locale": "schinese"
+  },
+  "211420": {
+    "title": "DARK SOULS™: Prepare To Die™ Edition",
+    "source": "https://store.steampowered.com/app/211420/?l=schinese",
+    "locale": "schinese"
+  },
+  "221040": {
+    "title": "Resident Evil 6",
+    "source": "https://store.steampowered.com/app/221040/?l=schinese",
+    "locale": "schinese"
+  },
+  "222480": {
+    "title": "Resident Evil Revelations",
+    "source": "https://store.steampowered.com/app/222480/?l=schinese",
+    "locale": "schinese"
+  },
+  "261550": {
+    "title": "Mount & Blade II: Bannerlord",
+    "source": "https://store.steampowered.com/app/261550/?l=schinese",
+    "locale": "schinese"
+  },
+  "283640": {
+    "title": "Salt and Sanctuary",
+    "source": "https://store.steampowered.com/app/283640/?l=schinese",
+    "locale": "schinese"
+  },
+  "304240": {
+    "title": "Resident Evil",
+    "source": "https://store.steampowered.com/app/304240/?l=schinese",
+    "locale": "schinese"
+  },
+  "323320": {
+    "title": "Grow Home",
+    "source": "https://store.steampowered.com/app/323320/?l=schinese",
+    "locale": "schinese"
+  },
+  "335300": {
+    "title": "DARK SOULS™ II: Scholar of the First Sin",
+    "source": "https://store.steampowered.com/app/335300/?l=schinese",
+    "locale": "schinese"
+  },
+  "339340": {
+    "title": "Resident Evil 0",
+    "source": "https://store.steampowered.com/app/339340/?l=schinese",
+    "locale": "schinese"
+  },
+  "359310": {
+    "title": "Evoland 2",
+    "source": "https://store.steampowered.com/app/359310/?l=schinese",
+    "locale": "schinese"
+  },
+  "363970": {
+    "title": "Clicker Heroes",
+    "source": "https://store.steampowered.com/app/363970/?l=schinese",
+    "locale": "schinese"
+  },
+  "374320": {
+    "title": "DARK SOULS™ III",
+    "source": "https://store.steampowered.com/app/374320/?l=schinese",
+    "locale": "schinese"
+  },
+  "377160": {
+    "title": "Fallout 4",
+    "source": "https://store.steampowered.com/app/377160/?l=schinese",
+    "locale": "schinese"
+  },
+  "384190": {
+    "title": "ABZU",
+    "source": "https://store.steampowered.com/app/384190/?l=schinese",
+    "locale": "schinese"
+  },
+  "397540": {
+    "title": "无主之地3",
+    "source": "https://store.steampowered.com/app/397540/?l=schinese",
+    "locale": "schinese"
+  },
+  "403640": {
+    "title": "Dishonored 2",
+    "source": "https://store.steampowered.com/app/403640/?l=schinese",
+    "locale": "schinese"
+  },
+  "418370": {
+    "title": "Resident Evil 7 Biohazard",
+    "source": "https://store.steampowered.com/app/418370/?l=schinese",
+    "locale": "schinese"
+  },
+  "426790": {
+    "title": "Grow Up",
+    "source": "https://store.steampowered.com/app/426790/?l=schinese",
+    "locale": "schinese"
+  },
+  "436670": {
+    "title": "The Legend of Heroes: Trails in the Sky the 3rd",
+    "source": "https://store.steampowered.com/app/436670/?l=schinese",
+    "locale": "schinese"
+  },
+  "485510": {
+    "title": "仁王 Complete Edition",
+    "source": "https://store.steampowered.com/app/485510/?l=schinese",
+    "locale": "schinese"
+  },
+  "493200": {
+    "title": "RiME",
+    "source": "https://store.steampowered.com/app/493200/?l=schinese",
+    "locale": "schinese"
+  },
+  "502280": {
+    "title": "BERSERK and the Band of the Hawk",
+    "source": "https://store.steampowered.com/app/502280/?l=schinese",
+    "locale": "schinese"
+  },
+  "524220": {
+    "title": "NieR:Automata™",
+    "source": "https://store.steampowered.com/app/524220/?l=schinese",
+    "locale": "schinese"
+  },
+  "551730": {
+    "title": "Toukiden 2",
+    "source": "https://store.steampowered.com/app/551730/?l=schinese",
+    "locale": "schinese"
+  },
+  "553420": {
+    "title": "TUNIC",
+    "source": "https://store.steampowered.com/app/553420/?l=schinese",
+    "locale": "schinese"
+  },
+  "570780": {
+    "title": "古剑奇谭(GuJian)",
+    "source": "https://store.steampowered.com/app/570780/?l=schinese",
+    "locale": "schinese"
+  },
+  "570940": {
+    "title": "DARK SOULS™: REMASTERED",
+    "source": "https://store.steampowered.com/app/570940/?l=schinese",
+    "locale": "schinese"
+  },
+  "582010": {
+    "title": "Monster Hunter: World",
+    "source": "https://store.steampowered.com/app/582010/?l=schinese",
+    "locale": "schinese"
+  },
+  "582160": {
+    "title": "刺客信条：起源",
+    "source": "https://store.steampowered.com/app/582160/?l=schinese",
+    "locale": "schinese"
+  },
+  "582500": {
+    "title": "We Were Here",
+    "source": "https://store.steampowered.com/app/582500/?l=schinese",
+    "locale": "schinese"
+  },
+  "587260": {
+    "title": "Tokyo Xanadu eX+",
+    "source": "https://store.steampowered.com/app/587260/?l=schinese",
+    "locale": "schinese"
+  },
+  "587620": {
+    "title": "Okami HD",
+    "source": "https://store.steampowered.com/app/587620/?l=schinese",
+    "locale": "schinese"
+  },
+  "601150": {
+    "title": "Devil May Cry 5",
+    "source": "https://store.steampowered.com/app/601150/?l=schinese",
+    "locale": "schinese"
+  },
+  "613830": {
+    "title": "CHRONO TRIGGER®",
+    "source": "https://store.steampowered.com/app/613830/?l=schinese",
+    "locale": "schinese"
+  },
+  "614570": {
+    "title": "Dishonored®: Death of the Outsider™",
+    "source": "https://store.steampowered.com/app/614570/?l=schinese",
+    "locale": "schinese"
+  },
+  "638970": {
+    "title": "人中之龙０　誓约的场所",
+    "source": "https://store.steampowered.com/app/638970/?l=schinese",
+    "locale": "schinese"
+  },
+  "665180": {
+    "title": "Dark Elf",
+    "source": "https://store.steampowered.com/app/665180/?l=schinese",
+    "locale": "schinese"
+  },
+  "678960": {
+    "title": "CODE VEIN",
+    "source": "https://store.steampowered.com/app/678960/?l=schinese",
+    "locale": "schinese"
+  },
+  "711990": {
+    "title": "Elise the Devil",
+    "source": "https://store.steampowered.com/app/711990/?l=schinese",
+    "locale": "schinese"
+  },
+  "720280": {
+    "title": "Fox Hime",
+    "source": "https://store.steampowered.com/app/720280/?l=schinese",
+    "locale": "schinese"
+  },
+  "740130": {
+    "title": "破晓传奇",
+    "source": "https://store.steampowered.com/app/740130/?l=schinese",
+    "locale": "schinese"
+  },
+  "752590": {
+    "title": "A Plague Tale: Innocence",
+    "source": "https://store.steampowered.com/app/752590/?l=schinese",
+    "locale": "schinese"
+  },
+  "761600": {
+    "title": "鬼武者（Onimusha: Warlords）",
+    "source": "https://store.steampowered.com/app/761600/?l=schinese",
+    "locale": "schinese"
+  },
+  "814380": {
+    "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "source": "https://store.steampowered.com/app/814380/?l=schinese",
+    "locale": "schinese"
+  },
+  "834530": {
+    "title": "人中之龙 极 [传承版]",
+    "source": "https://store.steampowered.com/app/834530/?l=schinese",
+    "locale": "schinese"
+  },
+  "870780": {
+    "title": "控制 - 终极合辑 / Control Ultimate Edition",
+    "source": "https://store.steampowered.com/app/870780/?l=schinese",
+    "locale": "schinese"
+  },
+  "881020": {
+    "title": "Granblue Fantasy: Relink",
+    "source": "https://store.steampowered.com/app/881020/?l=schinese",
+    "locale": "schinese"
+  },
+  "883710": {
+    "title": "Resident Evil 2",
+    "source": "https://store.steampowered.com/app/883710/?l=schinese",
+    "locale": "schinese"
+  },
+  "921570": {
+    "title": "歧路旅人",
+    "source": "https://store.steampowered.com/app/921570/?l=schinese",
+    "locale": "schinese"
+  },
+  "927380": {
+    "title": "人中之龙 极２ [传承版]",
+    "source": "https://store.steampowered.com/app/927380/?l=schinese",
+    "locale": "schinese"
+  },
+  "952060": {
+    "title": "Resident Evil 3",
+    "source": "https://store.steampowered.com/app/952060/?l=schinese",
+    "locale": "schinese"
+  },
+  "962130": {
+    "title": "Grounded",
+    "source": "https://store.steampowered.com/app/962130/?l=schinese",
+    "locale": "schinese"
+  },
+  "1020470": {
+    "title": "Evoland Legendary Edition",
+    "source": "https://store.steampowered.com/app/1020470/?l=schinese",
+    "locale": "schinese"
+  },
+  "1030300": {
+    "title": "Hollow Knight: Silksong",
+    "source": "https://store.steampowered.com/app/1030300/?l=schinese",
+    "locale": "schinese"
+  },
+  "1088710": {
+    "title": "人中之龙３",
+    "source": "https://store.steampowered.com/app/1088710/?l=schinese",
+    "locale": "schinese"
+  },
+  "1105510": {
+    "title": "人中之龙５　实现梦想者",
+    "source": "https://store.steampowered.com/app/1105510/?l=schinese",
+    "locale": "schinese"
+  },
+  "1113000": {
+    "title": "女神异闻录４ 黄金版",
+    "source": "https://store.steampowered.com/app/1113000/?l=schinese",
+    "locale": "schinese"
+  },
+  "1173770": {
+    "title": "FINAL FANTASY",
+    "source": "https://store.steampowered.com/app/1173770/?l=schinese",
+    "locale": "schinese"
+  },
+  "1235140": {
+    "title": "人中之龙7　光与暗的去向　国际版",
+    "source": "https://store.steampowered.com/app/1235140/?l=schinese",
+    "locale": "schinese"
+  },
+  "1245620": {
+    "title": "艾尔登法环",
+    "source": "https://store.steampowered.com/app/1245620/?l=schinese",
+    "locale": "schinese"
+  },
+  "1285190": {
+    "title": "无主之地®4",
+    "source": "https://store.steampowered.com/app/1285190/?l=schinese",
+    "locale": "schinese"
+  },
+  "1325200": {
+    "title": "仁王２ Complete Edition",
+    "source": "https://store.steampowered.com/app/1325200/?l=schinese",
+    "locale": "schinese"
+  },
+  "1332010": {
+    "title": "Stray",
+    "source": "https://store.steampowered.com/app/1332010/?l=schinese",
+    "locale": "schinese"
+  },
+  "1462040": {
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "source": "https://store.steampowered.com/app/1462040/?l=schinese",
+    "locale": "schinese"
+  },
+  "1468810": {
+    "title": "鬼谷八荒",
+    "source": "https://store.steampowered.com/app/1468810/?l=schinese",
+    "locale": "schinese"
+  },
+  "1608070": {
+    "title": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+    "source": "https://store.steampowered.com/app/1608070/?l=schinese",
+    "locale": "schinese"
+  },
+  "1627720": {
+    "title": "Lies of P",
+    "source": "https://store.steampowered.com/app/1627720/?l=schinese",
+    "locale": "schinese"
+  },
+  "1850510": {
+    "title": "TRIANGLE STRATEGY",
+    "source": "https://store.steampowered.com/app/1850510/?l=schinese",
+    "locale": "schinese"
+  },
+  "1858650": {
+    "title": "合力逃脱",
+    "source": "https://store.steampowered.com/app/1858650/?l=schinese",
+    "locale": "schinese"
+  },
+  "1868140": {
+    "title": "潜水员戴夫 DAVE THE DIVER",
+    "source": "https://store.steampowered.com/app/1868140/?l=schinese",
+    "locale": "schinese"
+  },
+  "1903340": {
+    "title": "光与影：33号远征队",
+    "source": "https://store.steampowered.com/app/1903340/?l=schinese",
+    "locale": "schinese"
+  },
+  "2001120": {
+    "title": "双影奇境",
+    "source": "https://store.steampowered.com/app/2001120/?l=schinese",
+    "locale": "schinese"
+  },
+  "2072450": {
+    "title": "人中之龙８",
+    "source": "https://store.steampowered.com/app/2072450/?l=schinese",
+    "locale": "schinese"
+  },
+  "2138090": {
+    "title": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～",
+    "source": "https://store.steampowered.com/app/2138090/?l=schinese",
+    "locale": "schinese"
+  },
+  "2215430": {
+    "title": "Ghost of Tsushima导演剪辑版",
+    "source": "https://store.steampowered.com/app/2215430/?l=schinese",
+    "locale": "schinese"
+  },
+  "2246340": {
+    "title": "Monster Hunter Wilds",
+    "source": "https://store.steampowered.com/app/2246340/?l=schinese",
+    "locale": "schinese"
+  },
+  "2277560": {
+    "title": "明末：渊虚之羽",
+    "source": "https://store.steampowered.com/app/2277560/?l=schinese",
+    "locale": "schinese"
+  },
+  "2358720": {
+    "title": "黑神话：悟空",
+    "source": "https://store.steampowered.com/app/2358720/?l=schinese",
+    "locale": "schinese"
+  },
+  "2384580": {
+    "title": "真・三国无双 起源",
+    "source": "https://store.steampowered.com/app/2384580/?l=schinese",
+    "locale": "schinese"
+  },
+  "2407270": {
+    "title": "AI LIMIT 无限机兵",
+    "source": "https://store.steampowered.com/app/2407270/?l=schinese",
+    "locale": "schinese"
+  },
+  "2570810": {
+    "title": "伊苏X -北境历险-",
+    "source": "https://store.steampowered.com/app/2570810/?l=schinese",
+    "locale": "schinese"
+  },
+  "2622380": {
+    "title": "艾尔登法环 黑夜君临",
+    "source": "https://store.steampowered.com/app/2622380/?l=schinese",
+    "locale": "schinese"
+  },
+  "2679460": {
+    "title": "暗喻幻想：ReFantazio",
+    "source": "https://store.steampowered.com/app/2679460/?l=schinese",
+    "locale": "schinese"
+  },
+  "2680010": {
+    "title": "The First Berserker: Khazan",
+    "source": "https://store.steampowered.com/app/2680010/?l=schinese",
+    "locale": "schinese"
+  },
+  "2701660": {
+    "title": "勇者斗恶龙III HD-2D Remake",
+    "source": "https://store.steampowered.com/app/2701660/?l=schinese",
+    "locale": "schinese"
+  },
+  "2852190": {
+    "title": "Monster Hunter Stories 3: 命运双龙",
+    "source": "https://store.steampowered.com/app/2852190/?l=schinese",
+    "locale": "schinese"
+  },
+  "2947440": {
+    "title": "SILENT HILL f",
+    "source": "https://store.steampowered.com/app/2947440/?l=schinese",
+    "locale": "schinese"
+  },
+  "2988580": {
+    "title": "人中之龙０ 誓约的场所 导演剪辑版",
+    "source": "https://store.steampowered.com/app/2988580/?l=schinese",
+    "locale": "schinese"
+  },
+  "3046600": {
+    "title": "鬼武者2 (Onimusha 2: Samurai's Destiny)",
+    "source": "https://store.steampowered.com/app/3046600/?l=schinese",
+    "locale": "schinese"
+  },
+  "3061810": {
+    "title": "人中之龙８外传 Pirates in Hawaii",
+    "source": "https://store.steampowered.com/app/3061810/?l=schinese",
+    "locale": "schinese"
+  },
+  "3321460": {
+    "title": "红色沙漠：增强版",
+    "source": "https://store.steampowered.com/app/3321460/?l=schinese",
+    "locale": "schinese"
+  },
+  "3357650": {
+    "title": "PRAGMATA",
+    "source": "https://store.steampowered.com/app/3357650/?l=schinese",
+    "locale": "schinese"
+  },
+  "3447040": {
+    "title": "空之轨迹 the 1st",
+    "source": "https://store.steampowered.com/app/3447040/?l=schinese",
+    "locale": "schinese"
+  },
+  "3669870": {
+    "title": "控制: 共振",
+    "source": "https://store.steampowered.com/app/3669870/?l=schinese",
+    "locale": "schinese"
+  },
+  "3681010": {
+    "title": "仁王３",
+    "source": "https://store.steampowered.com/app/3681010/?l=schinese",
+    "locale": "schinese"
+  },
+  "3717330": {
+    "title": "人中之龙 极",
+    "source": "https://store.steampowered.com/app/3717330/?l=schinese",
+    "locale": "schinese"
+  },
+  "3717340": {
+    "title": "人中之龙 极２",
+    "source": "https://store.steampowered.com/app/3717340/?l=schinese",
+    "locale": "schinese"
+  },
+  "3764200": {
+    "title": "Resident Evil Requiem",
+    "source": "https://store.steampowered.com/app/3764200/?l=schinese",
+    "locale": "schinese"
+  },
+  "3768760": {
+    "title": "007 初露锋芒",
+    "source": "https://store.steampowered.com/app/3768760/?l=schinese",
+    "locale": "schinese"
+  },
+  "3821790": {
+    "title": "伊苏X -诺曼荣光-",
+    "source": "https://store.steampowered.com/app/3821790/?l=schinese",
+    "locale": "schinese"
+  },
+  "3841510": {
+    "title": "真・三国无双２ with 猛将传 Remastered",
+    "source": "https://store.steampowered.com/app/3841510/?l=schinese",
+    "locale": "schinese"
+  },
+  "3920610": {
+    "title": "零 ～红蝶～ REMAKE",
+    "source": "https://store.steampowered.com/app/3920610/?l=schinese",
+    "locale": "schinese"
+  },
+  "3937550": {
+    "title": "人中之龙 极３ / 人中之龙３外传 Dark Ties",
+    "source": "https://store.steampowered.com/app/3937550/?l=schinese",
+    "locale": "schinese"
+  },
+  "4038930": {
+    "title": "真・三国无双 起源 梦幻四英杰",
+    "source": "https://store.steampowered.com/app/4038930/?l=schinese",
+    "locale": "schinese"
+  },
+  "4225980": {
+    "title": "空之轨迹 the 2nd",
+    "source": "https://store.steampowered.com/app/4225980/?l=schinese",
+    "locale": "schinese"
+  }
+}

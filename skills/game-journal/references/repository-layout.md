@@ -54,3 +54,10 @@ Use the user's own date for fragments. Keep notes chronological. Keep raw fragme
 - `.local/steam-import/`: ignored cache, staged draft, diff report and previous import backup.
 
 The public index merges imported games with `data/journal.json` by game ID. Manual fields and notes take precedence; imported reviews and screenshots are appended. `recordedAt` is the latest source publication/update date, not a claim about when the player last played.
+
+## Display enrichment
+
+- `data/steam-titles.json`: cached official Simplified Chinese Steam store names keyed by AppID. Apply/sync updates this cache; `npm run steam:titles -- --refresh` refreshes it independently.
+- `data/title-overrides.json`: verified official Chinese display names with source URLs, evidence and normalization notes. Keep version distinctions. Do not label an unverified fan translation as official.
+- `data/review-score-overrides.json`: optional per-review replacement scores for expressions requiring human interpretation. Each entry has `label`, string `value`, optional numeric `scale` and `qualifier`, and exact source `evidence`.
+- Build automatically extracts explicit personal ratings without changing review text. The public game may have `originalTitle`/`titleSource`; reviews may have `scores[]`. Missing scores remain empty. Conditions, ranges and dimensions stay distinct; do not invent an overall score or denominator.

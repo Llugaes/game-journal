@@ -25,7 +25,15 @@ function source(value) {
 function review(value) {
   if (!value) return undefined
   if (value.verdict && !['推荐', '暂不推荐', '不推荐'].includes(value.verdict)) throw new Error('未知评测结论')
-  return { id: optional(value.id), title: optional(value.title), verdict: value.verdict, content: required(value.content, '评测正文'), postedAt: value.postedAt ? date(value.postedAt) : undefined, updatedAt: value.updatedAt ? date(value.updatedAt) : undefined, playtimeAtReview: optional(value.playtimeAtReview), source: source(value.source) }
+  const scores = (value.scores || []).map(score => {
+    if (!/^(?:100|[1-9]?\d)(?:\.\d+)?(?:[-–~～](?:100|[1-9]?\d)(?:\.\d+)?|[（(](?:100|[1-9]?\d)(?:\.\d+)?[）)])?$/.test(score.value)) throw new Error('评分数字非法')
+    if (score.scale != null && ![5, 10, 100].includes(score.scale)) throw new Error('评分量表非法')
+    if (score.value.match(/\d+(?:\.\d+)?/g).some(n => Number(n) > (score.scale || 10))) throw new Error('评分超出量表')
+    if (score.qualifier && !['以上', '以下'].includes(score.qualifier)) throw new Error('评分限定词非法')
+    if (!score.evidence || !value.content.includes(score.evidence)) throw new Error('评分缺少原文依据')
+    return { label: required(score.label, '评分维度'), value: score.value, scale: score.scale, qualifier: optional(score.qualifier), evidence: score.evidence }
+  })
+  return { id: optional(value.id), title: optional(value.title), verdict: value.verdict, content: required(value.content, '评测正文'), postedAt: value.postedAt ? date(value.postedAt) : undefined, updatedAt: value.updatedAt ? date(value.updatedAt) : undefined, playtimeAtReview: optional(value.playtimeAtReview), source: source(value.source), scores }
 }
 function unique(items, label) {
   const ids = items.map(x => required(x.id, `${label} ID`))
@@ -44,7 +52,7 @@ export function validateJournal(parsed) {
     unique(game.reviews || [], '评测')
     unique(game.screenshots || [], '截图')
     return {
-      id: game.id, title: required(game.title, '游戏名'), categories: game.categories,
+      id: game.id, title: required(game.title, '游戏名'), originalTitle: optional(game.originalTitle), titleSource: game.titleSource ? url(game.titleSource) : undefined, categories: game.categories,
       rating: game.rating ?? undefined, summary: optional(game.summary), status: optional(game.status), playtime: optional(game.playtime),
       lastPlayedAt: game.lastPlayedAt ? date(game.lastPlayedAt) : undefined, recordedAt: game.recordedAt ? date(game.recordedAt) : undefined,
       steamAppId: optional(game.steamAppId), cover: asset(game.cover), review: review(game.review), reviews: (game.reviews || []).map(review),
