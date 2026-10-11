@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "test": "node --test scripts/steam/*.test.mjs",
     "steam:collect": "node scripts/steam-import.mjs collect",
+    "steam:discover": "node scripts/steam-discover.mjs",
     "steam:plan": "node scripts/steam-import.mjs plan",
     "steam:apply": "node scripts/steam-import.mjs apply",
     "steam:sync": "node scripts/steam-import.mjs sync --refresh",

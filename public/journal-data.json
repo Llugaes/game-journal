@@ -82,6 +82,49 @@
             "authorName": "Llugaes"
           },
           "comments": []
+        },
+        {
+          "id": "steam-3753617033",
+          "src": "media/steam/steam-3753617033.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "看这像是把游戏里的代码每个字母随机偏移了一下一样...",
+          "date": "2026-06-28",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3753617033",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3815356937",
+          "src": "media/steam/steam-3815356937.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-10-07",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815356937",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3815356271",
+          "src": "media/steam/steam-3815356271.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-10-07",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3815356271",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
         }
       ]
     },
@@ -255,7 +298,268 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3808235792",
+          "src": "media/steam/steam-3808235792.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-09-25",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3808235792",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-5010190",
+      "title": "空之轨迹 the 2nd 体验版",
+      "originalTitle": "Trails in the Sky 2nd Chapter Demo",
+      "titleSource": "https://store.steampowered.com/app/5010190/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-08-30",
+      "steamAppId": "5010190",
+      "cover": "media/steam/steam-3792718444.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3792718444",
+          "src": "media/steam/steam-3792718444.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-08-30",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3792718444",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-3974650",
+      "title": "鬼武者 Way of the Sword DEMO",
+      "originalTitle": "Onimusha: Way of the Sword DEMO",
+      "titleSource": "https://store.steampowered.com/app/3974650/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-08-26",
+      "steamAppId": "3974650",
+      "cover": "media/steam/steam-3790474029.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3790474029",
+          "src": "media/steam/steam-3790474029.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我勒个紧张刺激酣畅淋漓了",
+          "date": "2026-08-26",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3790474029",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-1623730",
+      "title": "Palworld / 幻兽帕鲁",
+      "originalTitle": "Palworld",
+      "titleSource": "https://store.steampowered.com/app/1623730/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-08-03",
+      "steamAppId": "1623730",
+      "cover": "media/steam/steam-3777074408.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3777074408",
+          "src": "media/steam/steam-3777074408.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-08-03",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3777074408",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3777074385",
+          "src": "media/steam/steam-3777074385.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-08-03",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3777074385",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-2001760",
+      "title": "轮回之兽",
+      "originalTitle": "Beast of Reincarnation",
+      "titleSource": "https://store.steampowered.com/app/2001760/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-08-03",
+      "steamAppId": "2001760",
+      "cover": "media/steam/steam-3777353824.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3777353824",
+          "src": "media/steam/steam-3777353824.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "究竟是谁教你的轻重派生是rb(轻)+x(重)...",
+          "date": "2026-08-03",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3777353824",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-4449410",
+      "title": "亰都幻都 -樱花幻舞-",
+      "originalTitle": "KYOTO XANADU -the Blooming Phantom-",
+      "titleSource": "https://store.steampowered.com/app/4449410/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-07-22",
+      "steamAppId": "4449410",
+      "cover": "media/steam/steam-3769762870.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3769762870",
+          "src": "media/steam/steam-3769762870.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "海外领土 == 罗门 是吧（",
+          "date": "2026-07-22",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3769762870",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3769762303",
+          "src": "media/steam/steam-3769762303.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "破壁的多奇！！！",
+          "date": "2026-07-22",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3769762303",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3769761995",
+          "src": "media/steam/steam-3769761995.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我今天就想用咪西！",
+          "date": "2026-07-22",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3769761995",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-881020",
+      "title": "碧蓝幻想Relink",
+      "originalTitle": "Granblue Fantasy: Relink",
+      "titleSource": "https://relink-ragnarok.granbluefantasy.com/chs/",
+      "categories": [
+        "Steam"
+      ],
+      "summary": "忍住捧一踩一的冲动，目前最棒演出的二游。",
+      "recordedAt": "2026-07-17",
+      "steamAppId": "881020",
+      "cover": "media/steam/cover-881020.webp",
+      "reviews": [
+        {
+          "id": "steam-review-76561198256716552-881020",
+          "title": "Steam 评测",
+          "verdict": "推荐",
+          "content": "忍住捧一踩一的冲动，目前最棒演出的二游。\n很少有游戏能让我时不时截图，它就是其中一个。以及，手绘背景确实很好看。\n抛开成本，CY交了很好的答卷，还有SEGA和XSEED的技术支持，这要真给白金做完很难期待是这样的水平（笑\n​每次都有种伊苏X演出加长版的感觉，法老控加油啊！\n希望能在空轨重置里也能看到这样的演出TAT",
+          "postedAt": "2024-02-16",
+          "updatedAt": "2024-02-16",
+          "playtimeAtReview": "14.8",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/881020/",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "scores": []
+        }
+      ],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3766624224",
+          "src": "media/steam/steam-3766624224.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "再见，所有的骑空士！",
+          "date": "2026-07-17",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3766624224",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-3821790",
@@ -1333,7 +1637,23 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3625403789",
+          "src": "media/steam/steam-3625403789.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我做到了！",
+          "date": "2025-12-16",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3625403789",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-1850510",
@@ -1501,7 +1821,36 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3613357604",
+          "src": "media/steam/steam-3613357604.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-11-27",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3613357604",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3612572941",
+          "src": "media/steam/steam-3612572941.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-11-25",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3612572941",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-2622380",
@@ -1713,39 +2062,6 @@
       "screenshots": []
     },
     {
-      "id": "steam-1285190",
-      "title": "无主之地®4",
-      "originalTitle": "Borderlands® 4",
-      "titleSource": "https://store.steampowered.com/app/1285190/?l=schinese",
-      "categories": [
-        "Steam"
-      ],
-      "summary": "我踏马立体机动式射爆一切！",
-      "recordedAt": "2025-09-15",
-      "steamAppId": "1285190",
-      "cover": "media/steam/cover-1285190.webp",
-      "reviews": [
-        {
-          "id": "steam-review-76561198256716552-1285190",
-          "title": "Steam 评测",
-          "verdict": "推荐",
-          "content": "我踏马立体机动式射爆一切！",
-          "postedAt": "2025-09-15",
-          "updatedAt": "2025-09-15",
-          "playtimeAtReview": "19.0",
-          "source": {
-            "platform": "steam",
-            "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1285190/",
-            "profileId": "76561198256716552",
-            "authorName": "Llugaes"
-          },
-          "scores": []
-        }
-      ],
-      "notes": [],
-      "screenshots": []
-    },
-    {
       "id": "steam-1030300",
       "title": "空洞骑士：丝之歌",
       "originalTitle": "Hollow Knight: Silksong",
@@ -1754,7 +2070,7 @@
         "Steam"
       ],
       "summary": "8.5/10，好玩、折磨、我喜欢、但不无脑推荐",
-      "recordedAt": "2025-09-11",
+      "recordedAt": "2025-09-18",
       "steamAppId": "1030300",
       "cover": "media/steam/cover-1030300.webp",
       "reviews": [
@@ -1783,7 +2099,146 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3567847603",
+          "src": "media/steam/steam-3567847603.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "钢魂存档自救后你甚至可以在钢魂里看到自己的茧（doge",
+          "date": "2025-09-13",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3567847603",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3567423111",
+          "src": "media/steam/steam-3567423111.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "对着1小时的目前世界速通记录，花了12个小时打了2小时的钢魂速通！丝之歌的旅途到这就先告一段落了！",
+          "date": "2025-09-13",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3567423111",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3567356758",
+          "src": "media/steam/steam-3567356758.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "高庭11连战，真是畜生！",
+          "date": "2025-09-13",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3567356758",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566605727",
+          "src": "media/steam/steam-3566605727.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "钢魂竟然没法回档...",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566605727",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566605239",
+          "src": "media/steam/steam-3566605239.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我操",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566605239",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3570690425",
+          "src": "media/steam/steam-3570690425.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "圆满！",
+          "date": "2025-09-18",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570690425",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "steam-1285190",
+      "title": "无主之地®4",
+      "originalTitle": "Borderlands® 4",
+      "titleSource": "https://store.steampowered.com/app/1285190/?l=schinese",
+      "categories": [
+        "Steam"
+      ],
+      "summary": "我踏马立体机动式射爆一切！",
+      "recordedAt": "2025-09-16",
+      "steamAppId": "1285190",
+      "cover": "media/steam/cover-1285190.webp",
+      "reviews": [
+        {
+          "id": "steam-review-76561198256716552-1285190",
+          "title": "Steam 评测",
+          "verdict": "推荐",
+          "content": "我踏马立体机动式射爆一切！",
+          "postedAt": "2025-09-15",
+          "updatedAt": "2025-09-15",
+          "playtimeAtReview": "19.0",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/1285190/",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "scores": []
+        }
+      ],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3569551627",
+          "src": "media/steam/steam-3569551627.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-09-16",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3569551627",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-962130",
@@ -2530,39 +2985,6 @@
       "screenshots": []
     },
     {
-      "id": "steam-881020",
-      "title": "碧蓝幻想Relink",
-      "originalTitle": "Granblue Fantasy: Relink",
-      "titleSource": "https://relink-ragnarok.granbluefantasy.com/chs/",
-      "categories": [
-        "Steam"
-      ],
-      "summary": "忍住捧一踩一的冲动，目前最棒演出的二游。",
-      "recordedAt": "2024-02-16",
-      "steamAppId": "881020",
-      "cover": "media/steam/cover-881020.webp",
-      "reviews": [
-        {
-          "id": "steam-review-76561198256716552-881020",
-          "title": "Steam 评测",
-          "verdict": "推荐",
-          "content": "忍住捧一踩一的冲动，目前最棒演出的二游。\n很少有游戏能让我时不时截图，它就是其中一个。以及，手绘背景确实很好看。\n抛开成本，CY交了很好的答卷，还有SEGA和XSEED的技术支持，这要真给白金做完很难期待是这样的水平（笑\n​每次都有种伊苏X演出加长版的感觉，法老控加油啊！\n希望能在空轨重置里也能看到这样的演出TAT",
-          "postedAt": "2024-02-16",
-          "updatedAt": "2024-02-16",
-          "playtimeAtReview": "14.8",
-          "source": {
-            "platform": "steam",
-            "url": "https://steamcommunity.com/profiles/76561198256716552/recommended/881020/",
-            "profileId": "76561198256716552",
-            "authorName": "Llugaes"
-          },
-          "scores": []
-        }
-      ],
-      "notes": [],
-      "screenshots": []
-    },
-    {
       "id": "steam-2072450",
       "title": "人中之龙８",
       "originalTitle": "Like a Dragon: Infinite Wealth",
@@ -3186,6 +3608,36 @@
       ],
       "notes": [],
       "screenshots": []
+    },
+    {
+      "id": "steam-812140",
+      "title": "刺客信条：奥德赛",
+      "originalTitle": "Assassin's Creed Odyssey",
+      "titleSource": "https://zh-cn.ubisoft.com/games/acod",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2019-08-17",
+      "steamAppId": "812140",
+      "cover": "media/steam/steam-1837139629.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-1837139629",
+          "src": "media/steam/steam-1837139629.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2019-08-17",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1837139629",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-921570",
@@ -4074,7 +4526,7 @@
         "Steam"
       ],
       "summary": "圣诞促销买了这个游戏，画面，BGM都是上乘，但是我要给这个游戏主观上扣一分。因为，流程实在是太短啦！！！还没有好好享受这款游戏就已经通关了！三个小时全成就，感受一下！认真的说的话，那些还在犹豫的人就赶紧买吧。操作方面其实熟悉了的话也还好，建议使用手柄游戏。每一关都会被绝妙的景色震",
-      "recordedAt": "2016-12-24",
+      "recordedAt": "2016-12-31",
       "steamAppId": "384190",
       "cover": "media/steam/cover-384190.webp",
       "reviews": [
@@ -4096,7 +4548,22 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-831523880",
+          "src": "media/steam/steam-831523880.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2016-12-31",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=831523880",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-211420",

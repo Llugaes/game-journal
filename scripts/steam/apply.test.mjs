@@ -53,6 +53,6 @@ test('实际 CLI 重复应用无变化，来源减少和配置变化时保留已
     assert.equal(await readFile(target, 'utf8'), original)
   } finally {
     assert.ok(path.resolve(root).startsWith(path.resolve(scratch) + path.sep + 'steam-test-'))
-    await rm(root, { recursive: true, force: true })
+    await rm(root, { recursive: true })
   }
 })

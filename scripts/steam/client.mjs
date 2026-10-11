@@ -13,21 +13,24 @@ export function assertSteamUrl(value) {
 export function createClient(cacheDir, { refresh = false } = {}) {
   let lastRequest = 0
   const isErrorPage = bytes => /<title>Steam Community :: Error<\/title>|Failed loading profile data|There was an error communicating with the network/i.test(bytes.toString('utf8'))
-  return async function get(url, binary = false) {
-    assertSteamUrl(url)
+  return async function get(url, binary = false, { refresh: refreshRequest = false } = {}) {
+    const source = assertSteamUrl(url)
     const key = createHash('sha256').update(url).digest('hex')
     const file = path.join(cacheDir, key)
-    if (!refresh || binary) {
+    if ((!refresh && !refreshRequest) || binary) {
       try { const cached = await readFile(file); if (binary || !isErrorPage(cached)) return binary ? cached : cached.toString('utf8') } catch (error) { if (error.code !== 'ENOENT') throw error }
     }
     for (let attempt = 0; attempt < 3; attempt++) {
-      await sleep(Math.max(0, 1100 - (Date.now() - lastRequest)))
+      // 社区截图详情比图片 CDN 更易限流，控制持续访问速度。
+      const interval = source.hostname.endsWith('steamcommunity.com') ? (source.pathname.startsWith('/sharedfiles/filedetails') ? 15000 : 6000) : 1100
+      await sleep(Math.max(0, interval - (Date.now() - lastRequest)))
       lastRequest = Date.now()
       const attemptUrl = new URL(url)
-      if (attempt > 0 && !binary) attemptUrl.searchParams.set('_', String(Date.now()))
+      // 本地缓存负责复用；需要联网的社区 HTML 请求避免复用远端异常空页/429 缓存。
+      if (!binary && (source.hostname === 'steamcommunity.com' || refresh || refreshRequest || attempt > 0)) attemptUrl.searchParams.set('_', String(Date.now()))
       let response
       try {
-        response = await fetch(attemptUrl, { redirect: 'error', signal: AbortSignal.timeout(30000), headers: { 'User-Agent': 'game-journal-personal-import/1.0', 'Accept-Language': 'en' } })
+        response = await fetch(attemptUrl, { redirect: 'error', signal: AbortSignal.timeout(30000) })
       } catch (error) {
         if (attempt === 2) throw error
         await sleep(2000 * (attempt + 1))
@@ -36,7 +39,7 @@ export function createClient(cacheDir, { refresh = false } = {}) {
       if ((response.status === 429 || response.status >= 500) && attempt < 2) {
         const retryAfter = Number(response.headers.get('retry-after')) * 1000
         if (retryAfter > 30000) throw new Error(`Steam 要求等待 ${retryAfter / 1000} 秒后重试，已保留缓存`)
-        const delay = retryAfter || (response.status === 429 ? 15000 : 2000) * (attempt + 1)
+        const delay = retryAfter || (response.status === 429 ? 30000 : 2000) * (attempt + 1)
         await response.body?.cancel()
         await sleep(delay)
         continue
@@ -49,7 +52,12 @@ export function createClient(cacheDir, { refresh = false } = {}) {
         continue
       }
       if (bytes.length > 25 * 1024 * 1024) throw new Error(`来源超过 25 MiB: ${url}`)
-      if (binary && !response.headers.get('content-type')?.startsWith('image/')) throw new Error(`来源不是图片: ${url}`)
+      const contentType = response.headers.get('content-type') || ''
+      // Steam 的部分旧图以 octet-stream 返回，必须同时验证真实图片签名。
+      const imageSignature = bytes.subarray(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff]))
+        || bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
+        || (bytes.subarray(0, 4).toString() === 'RIFF' && bytes.subarray(8, 12).toString() === 'WEBP')
+      if (binary && !(contentType.startsWith('image/') || (contentType === 'application/octet-stream' && imageSignature))) throw new Error(`来源不是图片: ${url}`)
       await mkdir(cacheDir, { recursive: true })
       await writeFile(file, bytes)
       return binary ? bytes : bytes.toString('utf8')

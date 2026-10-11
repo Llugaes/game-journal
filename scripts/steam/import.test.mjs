@@ -57,6 +57,22 @@ test('截图按说明优先限量，固定 ID 可重复选择且缺失时报错'
   assert.throws(() => selectScreenshots(shots, { ...config, screenshotIds: ['3'] }))
 })
 
+test('Steam 待审核提示不是作者评论，保留不可读取数量以区分分页缺失', () => {
+  const html = '<div class="creatorsBlock"><a data-miniprofile="296450824"></a></div><img id="ActualMedia" src="https://images.steamusercontent.com/ugc/test/"><div class="detailsStatLeft">Posted</div><div class="detailsStatRight">7 Oct, 2026</div><span id="comments_totalcount">1</span><div class="commentthread_comment" id="comment_1"><a data-miniprofile="296450824"></a><div class="commentthread_comment_text"><div class="needs_content_check">This comment is awaiting analysis</div></div></div>'
+  const result = parseScreenshot(html, { id: '12', appId: '42' }, profile, now)
+  assert.deepEqual(result.comments, [])
+  assert.equal(result.totalComments, 1)
+  assert.equal(result.hiddenComments, 1)
+  assert.deepEqual(result.hiddenOwnComments, ['comment_1'])
+})
+
+test('试玩版没有 apphub 标题时，从截图的游戏来源链接取得正式名称', () => {
+  const html = '<div class="creatorsBlock"><a data-miniprofile="296450824"></a></div><div class="screenshotAppName"><a href="https://steamcommunity.com/app/42/">Game Demo</a></div><img id="ActualMedia" src="https://images.steamusercontent.com/ugc/test/"><div class="detailsStatLeft">Posted</div><div class="detailsStatRight">7 Oct, 2026</div>'
+  const result = parseScreenshot(html, { id: '12' }, profile, now)
+  assert.equal(result.appId, '42')
+  assert.equal(result.gameTitle, 'Game Demo')
+})
+
 test('公开索引保留原文，去掉原始抓取字段，拒绝重复 ID、脚本 URL 和路径穿越', () => {
   const valid = validateJournal({ games: [{ ...game, reviews: [{ id: 'r1', content: '原文', rawText: 'raw', originalDateText: 'date' }] }] })
   assert.equal(valid.games[0].rating, undefined)

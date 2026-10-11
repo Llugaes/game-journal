@@ -239,6 +239,11 @@
     "source": "https://store.steampowered.com/app/761600/?l=schinese",
     "locale": "schinese"
   },
+  "812140": {
+    "title": "Assassin's Creed® Odyssey",
+    "source": "https://store.steampowered.com/app/812140/?l=schinese",
+    "locale": "schinese"
+  },
   "814380": {
     "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
     "source": "https://store.steampowered.com/app/814380/?l=schinese",
@@ -354,6 +359,11 @@
     "source": "https://store.steampowered.com/app/1608070/?l=schinese",
     "locale": "schinese"
   },
+  "1623730": {
+    "title": "Palworld / 幻兽帕鲁",
+    "source": "https://store.steampowered.com/app/1623730/?l=schinese",
+    "locale": "schinese"
+  },
   "1627720": {
     "title": "Lies of P",
     "source": "https://store.steampowered.com/app/1627720/?l=schinese",
@@ -382,6 +392,11 @@
   "2001120": {
     "title": "双影奇境",
     "source": "https://store.steampowered.com/app/2001120/?l=schinese",
+    "locale": "schinese"
+  },
+  "2001760": {
+    "title": "轮回之兽",
+    "source": "https://store.steampowered.com/app/2001760/?l=schinese",
     "locale": "schinese"
   },
   "2072450": {
@@ -539,6 +554,11 @@
     "source": "https://store.steampowered.com/app/3937550/?l=schinese",
     "locale": "schinese"
   },
+  "3974650": {
+    "title": "鬼武者 Way of the Sword DEMO",
+    "source": "https://store.steampowered.com/app/3974650/?l=schinese",
+    "locale": "schinese"
+  },
   "4038930": {
     "title": "真・三国无双 起源 梦幻四英杰",
     "source": "https://store.steampowered.com/app/4038930/?l=schinese",
@@ -547,6 +567,16 @@
   "4225980": {
     "title": "空之轨迹 the 2nd",
     "source": "https://store.steampowered.com/app/4225980/?l=schinese",
+    "locale": "schinese"
+  },
+  "4449410": {
+    "title": "亰都幻都 -樱花幻舞-",
+    "source": "https://store.steampowered.com/app/4449410/?l=schinese",
+    "locale": "schinese"
+  },
+  "5010190": {
+    "title": "空之轨迹 the 2nd 体验版",
+    "source": "https://store.steampowered.com/app/5010190/?l=schinese",
     "locale": "schinese"
   }
 }

@@ -1,14 +1,27 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { load } from 'cheerio'
 import sharp from 'sharp'
 import { createClient } from './client.mjs'
+import { discoverScreenshots, chooseDiscoveredScreenshots } from './discover.mjs'
 import { profileUrl, fileUrl, parseReviewList, parseReview, parseScreenshotList, parseScreenshot } from './parse.mjs'
 
 export async function collect(config, directory, { refresh = false } = {}) {
   const get = createClient(path.join(directory, 'cache'), { refresh })
   const now = new Date()
   const reviews = [], screenshots = [], warnings = [], counts = []
+  const discovery = []
+  if (config.discoverCaptions) {
+    let priorIds = []
+    try {
+      const previous = JSON.parse(await readFile(new URL('../../data/steam.json', import.meta.url), 'utf8'))
+      priorIds = previous.games.flatMap(g => g.screenshots || []).filter(s => config.profiles.includes(s.source?.profileId)).map(s => s.id.replace(/^steam-/, ''))
+    } catch (error) { if (error.code !== 'ENOENT') throw error }
+    for (const profile of config.profiles) discovery.push(await discoverScreenshots(profile, get, {
+      progress: ({ page, collected, total }) => console.log(`完整截图发现 第 ${page} 页 ${collected}/${total}`),
+    }))
+    config = { ...config, screenshotIds: chooseDiscoveredScreenshots(discovery.flatMap(d => d.items), [...new Set([...config.screenshotIds, ...priorIds])], config.screenshotLimit) }
+  }
   await mkdir(path.join(directory, 'assets'), { recursive: true })
   for (const profile of config.profiles) {
     const base = `${profileUrl(profile)}/recommended/?l=english`
@@ -50,7 +63,7 @@ export async function collect(config, directory, { refresh = false } = {}) {
     for (const candidate of prioritized) {
       if (inspected >= config.screenshotLimit) break
       const shot = parseScreenshot(await get(`${fileUrl(candidate.id)}&l=english`), candidate, profile, now)
-      if (shot.totalComments > shot.comments.length) {
+      if (shot.totalComments > shot.comments.length + shot.hiddenComments) {
         // 不静默忽略评论分页：选中此图时必须先解决。
         shot.incompleteComments = true
       }
@@ -61,7 +74,7 @@ export async function collect(config, directory, { refresh = false } = {}) {
   }
 
   // 已选图片按稳定 ID 直接刷新，不因新截图把它们挤出分页窗口而失效。
-  for (const id of config.screenshotIds) {
+  for (const [index, id] of config.screenshotIds.entries()) {
     const html = await get(`${fileUrl(id)}&l=english`)
     const $ = load(html)
     const account = $('.creatorsBlock [data-miniprofile]').first().attr('data-miniprofile')
@@ -69,13 +82,15 @@ export async function collect(config, directory, { refresh = false } = {}) {
     const profile = (BigInt(account) + 76561197960265728n).toString()
     if (!config.profiles.includes(profile)) throw new Error(`截图 ${id} 不属于选定账号`)
     const shot = parseScreenshot(html, { id }, profile, now)
-    shot.incompleteComments = shot.totalComments > shot.comments.length
+    shot.incompleteComments = shot.totalComments > shot.comments.length + shot.hiddenComments
     screenshots.push(shot)
+    console.log(`截图详情 ${index + 1}/${config.screenshotIds.length}: ${id}${shot.caption || shot.title ? ' 有说明' : ''}`)
   }
 
   const selected = selectScreenshots(screenshots, config)
   for (const shot of selected) {
     if (config.comments === 'own' && shot.incompleteComments) throw new Error(`截图 ${shot.id} 评论未完整加载，不能确认所有本人评论`)
+    if (config.comments === 'own' && shot.hiddenOwnComments.length) warnings.push(`截图 ${shot.id}: Steam 暂时隐藏 ${shot.hiddenOwnComments.length} 条待审核的本人评论；未把系统提示当成作者文字`)
     const bytes = await get(shot.imageUrl, true)
     const result = await sharp(bytes).rotate().resize({ width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true }).webp({ quality: 82 }).toBuffer({ resolveWithObject: true })
     shot.asset = `steam-${shot.id}.webp`
@@ -112,7 +127,7 @@ export async function collect(config, directory, { refresh = false } = {}) {
     if (!game.cover && game.screenshots.length) game.cover = game.screenshots[0].src
   }
   const result = { games: [...games.values()].sort((a, b) => b.recordedAt.localeCompare(a.recordedAt) || a.id.localeCompare(b.id)) }
-  const report = { collectedAt: now.toISOString(), profiles: counts, reviews: reviews.length, games: result.games.length, screenshots: selected.length, captions: selected.filter(s => s.title || s.caption).length, ownComments: result.games.reduce((n, g) => n + g.screenshots.reduce((m, s) => m + s.comments.length, 0), 0), screenshotWindowPages: config.screenshotPages, selectedScreenshotIds: selected.map(s => s.id), warnings }
+  const report = { collectedAt: now.toISOString(), profiles: counts, reviews: reviews.length, games: result.games.length, screenshots: selected.length, captions: selected.filter(s => s.title || s.caption).length, ownComments: result.games.reduce((n, g) => n + g.screenshots.reduce((m, s) => m + s.comments.length, 0), 0), discovery: discovery.map(({ profile, total, pages, captioned }) => ({ profile, total, pages, captioned })), commentCoverage: '仅核查所选截图已加载的公开评论；全库未逐张核查，待审核原文不可见。', screenshotWindowPages: config.screenshotPages, selectedScreenshotIds: selected.map(s => s.id), warnings }
   await writeFile(path.join(directory, 'draft.json'), `${JSON.stringify(result, null, 2)}\n`)
   await writeFile(path.join(directory, 'report.json'), `${JSON.stringify(report, null, 2)}\n`)
   await writeFile(path.join(directory, 'candidates.json'), `${JSON.stringify(screenshots.map(s => ({ id: s.id, appId: s.appId, title: s.title, caption: s.caption, ownComments: s.comments.filter(c => c.own).length, date: s.date, url: s.source.url })), null, 2)}\n`)

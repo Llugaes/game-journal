@@ -98,18 +98,22 @@ export function parseScreenshot(html, candidate, profile, now) {
   const dateText = values[labels.findIndex(label => label === 'Posted')]
   if (!dateText) throw new Error(`截图 ${candidate.id} 缺少时间`)
   const authorName = clean($('.friendBlockContent').first().clone().children().remove().end().text())
-  const comments = $('.commentthread_comment').map((_, node) => {
+  const commentEntries = $('.commentthread_comment').map((_, node) => {
     const item = $(node)
     const author = item.find('.commentthread_comment_author[data-miniprofile], .commentthread_comment_author [data-miniprofile]').first().attr('data-miniprofile')
       || item.find('[data-miniprofile]').first().attr('data-miniprofile')
     const timestamp = item.find('[data-timestamp]').first().attr('data-timestamp')
-    return { id: item.attr('id'), own: author === expected, content: plainText(item.find('.commentthread_comment_text')), createdAt: timestamp ? new Date(Number(timestamp) * 1000).toISOString() : undefined }
-  }).get().filter(comment => comment.content)
-  const totalComments = Number(clean($('[id$="_totalcount"]').first().text()).replaceAll(',', '')) || comments.length
+    const hidden = item.find('.needs_content_check').length > 0
+    return { id: item.attr('id'), own: author === expected, hidden, content: hidden ? '' : plainText(item.find('.commentthread_comment_text')), createdAt: timestamp ? new Date(Number(timestamp) * 1000).toISOString() : undefined }
+  }).get()
+  const comments = commentEntries.filter(comment => !comment.hidden && comment.content).map(({ hidden, ...comment }) => comment)
+  const hiddenComments = commentEntries.filter(c => c.hidden).length
+  const hiddenOwnComments = commentEntries.filter(c => c.hidden && c.own).map(({ id }) => id)
+  const totalComments = Number(clean($('[id$="_totalcount"]').first().text()).replaceAll(',', '')) || commentEntries.length
   return {
-    id: candidate.id, appId, gameTitle: clean($('.apphub_AppName').text()),
+    id: candidate.id, appId, gameTitle: clean($('.apphub_AppName').text()) || clean($('.screenshotAppName a').text()),
     imageUrl, title, caption, date: steamDate(dateText, now), originalDateText: dateText,
-    comments, totalComments,
+    comments, totalComments, hiddenComments, hiddenOwnComments,
     source: { platform: 'steam', url: fileUrl(candidate.id), profileId: profile, authorName },
   }
 }
