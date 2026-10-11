@@ -2,8 +2,10 @@ import type { JournalGame } from '../types'
 import { assetUrl, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
 import { ScorePanel } from './ScorePanel'
 import { RecommendationBadge } from './RecommendationBadge'
+import { ScreenshotViewer } from './ScreenshotViewer'
 
 export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => void }) {
+  const [viewerIndex, setViewerIndex] = useState<number | null>(null)
   const reviews = reviewsOf(game)
   const screenshots = game.screenshots || []
   return <section className="game-detail">
@@ -33,10 +35,10 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
       {screenshots.length > 0 && <section className="screenshot-gallery" id="screenshots">
         <h2>留下的画面 <span>{screenshots.length}</span></h2>
         <p className="gallery-intro">截图和当时写下的话。点击图片可查看大图。</p>
-        <div className="screenshot-grid">{screenshots.map(shot => <figure key={shot.id}>
-          <a href={assetUrl(shot.src)} target="_blank" rel="noreferrer" aria-label={`查看 ${game.title} 的截图大图`}>
+        <div className="screenshot-grid">{screenshots.map((shot, index) => <figure key={shot.id}>
+          <button className="screenshot-open" onClick={() => setViewerIndex(index)} aria-label={`查看 ${game.title} 的第 ${index + 1} 张截图大图`}>
             <img src={assetUrl(shot.src)} alt={shot.caption || shot.title || `${game.title} 的游戏截图`} width={shot.width} height={shot.height} loading="lazy" />
-          </a>
+          </button>
           <figcaption>
             <div className="source-meta"><time>{shot.date}</time>{shot.source && <a href={shot.source.url} target="_blank" rel="noreferrer">{shot.source.authorName} · Steam 原图 ↗</a>}</div>
             {shot.title && <h3>{shot.title}</h3>}
@@ -57,5 +59,7 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
         <div><dt>内容</dt><dd>{reviews.length} 篇评测 · {screenshots.length} 张截图</dd></div>
       </dl>
     </aside></div>
+    {viewerIndex !== null && <ScreenshotViewer shots={screenshots} initialIndex={viewerIndex} title={game.title} onClose={() => setViewerIndex(null)} />}
   </section>
 }
+import { useState } from 'react'

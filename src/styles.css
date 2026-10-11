@@ -67,7 +67,7 @@ input:focus-visible { outline: 3px solid #b37c2f; outline-offset: 3px; }
 .screenshot-grid figcaption p { font-size: 15px; line-height: 1.7; }
 .screenshot-grid .source-meta { font-size: 12px; gap: 4px 10px; }
 @media (max-width: 700px) { .screenshot-grid { grid-template-columns: 1fr; } }
-/* 圆环从十二点起顺时针增长，右半红到橙，左半橙到翠绿。 */
+/* 弧长表示分数比例，整段弧线由低分红色经橙色渐变至高分绿色。 */
 .score-panel { margin-top: 25px; padding: 22px 24px; background: #eeece2; border: 1px solid #d6d5c7; border-radius: 6px; color: #203925; }
 .score-panel-heading { margin-bottom: 15px; font-size: 13px; font-weight: 650; letter-spacing: .06em; }
 .score-list { display: flex; flex-wrap: wrap; align-items: start; gap: 18px 26px; }
@@ -96,3 +96,25 @@ input:focus-visible { outline: 3px solid #b37c2f; outline-offset: 3px; }
 .score-panel--compact .score-label { font-size: 12px; }
 .detail-title .original-title { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: #647063; margin: 12px 0; overflow-wrap: anywhere; }
 @media (max-width: 700px) { .score-panel:not(.score-panel--compact) { padding: 18px; }.score-list { gap: 16px; }.score-label { max-width: 135px; } }
+
+/* 分数决定整段圆弧的颜色；灰色轨道表示尚未填满的部分。 */
+.score-ring-arcs circle { transition: stroke .2s ease; }
+.reset-filters { border: 0; background: none; color: #3b5e43; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; padding: 8px 4px; }
+.screenshot-open { width: 100%; padding: 0; border: 0; background: #1e2821; border-radius: 4px; display: block; cursor: zoom-in; overflow: hidden; }
+.photo-viewer { border: 1px solid #697b65; border-radius: 12px; padding: 0; width: min(1100px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); background: #15221b; color: #f4f0e7; box-shadow: 0 24px 90px #0006; }
+.photo-viewer::backdrop { background: #07110bd9; }
+.viewer-toolbar { display: flex; align-items: center; gap: 18px; padding: 12px 18px; position: sticky; top: 0; background: #15221bf5; z-index: 1; }
+.viewer-toolbar > span:first-child { flex: 1; font-size: 14px; overflow-wrap: anywhere; }
+.viewer-toolbar > span:nth-child(2) { white-space: nowrap; font-variant-numeric: tabular-nums; color: #c2ccb9; }
+.viewer-toolbar button, .viewer-controls button { border: 1px solid #73816d; background: transparent; color: #f4f0e7; padding: 10px 16px; border-radius: 6px; min-height: 44px; }
+.viewer-image { background: #0d1711; display: grid; place-items: center; }
+.viewer-image img { display: block; width: 100%; max-height: 65dvh; object-fit: contain; }
+.viewer-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 14px 18px; }
+.viewer-controls a { color: #d0dbbf; font-size: 13px; padding: 10px 0; }
+.viewer-controls button:disabled { opacity: .4; cursor: default; }
+.viewer-caption { padding: 2px 22px 22px; line-height: 1.8; overflow-wrap: anywhere; }
+.viewer-caption time { font-size: 12px; color: #b1bfa9; }
+.viewer-caption p, .viewer-caption blockquote { white-space: pre-wrap; }
+.viewer-caption blockquote { margin: 16px 0 0; padding-left: 16px; border-left: 2px solid #c49348; color: #d7dfcf; }
+@media (max-width: 700px) { .photo-viewer { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); }.viewer-toolbar, .viewer-controls { padding: 10px; gap: 8px; }.viewer-toolbar button, .viewer-controls button { padding: 9px 11px; font-size: 13px; }.viewer-caption { padding: 2px 14px 14px; } }
+@media (prefers-reduced-motion: reduce) { .score-ring-arcs circle { transition: none; } }

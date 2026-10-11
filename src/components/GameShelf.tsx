@@ -14,7 +14,9 @@ export function GameShelf({ games, categories, activeCategory, onCategoryChange,
   const featured = games.find(game => reviewsOf(game).length)
   return <section id="top" className="shelf-page">
     <div className="shelf-heading"><div><h1>我玩过的世界</h1><p>把时间交给故事，把自己留在里面。</p></div><span>{games.length} 个游戏</span></div>
-    <div className="shelf-tools"><label>查找游戏<input type="search" value={query} onChange={e => onQueryChange(e.target.value)} placeholder="游戏名或评测里的话" /></label><div className="content-filters" aria-label="内容筛选">{[['all', '全部内容'], ['reviews', '有评测'], ['screenshots', '有截图']].map(([id, label]) => <button key={id} aria-pressed={filter === id} onClick={() => onFilterChange(id)}>{label}</button>)}</div></div>
+    <div className="shelf-tools"><label>查找游戏<input type="search" value={query} onChange={e => onQueryChange(e.target.value)} placeholder="游戏名或评测里的话" /></label><div className="content-filters" aria-label="内容筛选">{[['all', '全部内容'], ['reviews', '有评测'], ['screenshots', '有截图']].map(([id, label]) => <button key={id} aria-pressed={filter === id} onClick={() => onFilterChange(id)}>{label}</button>)}</div>
+      {(query || filter !== 'all' || activeCategory !== '全部') && <button className="reset-filters" onClick={() => { onQueryChange(''); onFilterChange('all'); onCategoryChange('全部') }}>清除筛选 ×</button>}
+    </div>
     <div className="shelf-layout">
       <aside className="category-rail" aria-label="游戏分类">{categories.map(category => <button key={category} className={activeCategory === category ? 'active' : ''} onClick={() => onCategoryChange(category)}>{category}</button>)}</aside>
       <div className="game-grid">{games.map((game, index) => <button className="game-card" key={game.id} onClick={() => onOpen(game)}>
