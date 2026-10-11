@@ -4,12 +4,14 @@ import { readFile, writeFile, mkdir, copyFile, rename } from 'node:fs/promises'
 import path from 'node:path'
 import sharp from 'sharp'
 import { createClient } from './steam/client.mjs'
-import { readLocalScreenshots, readLocalImage, selectLocalScreenshots, mergeSteamScreenshots } from './steam/local.mjs'
+import { readLocalScreenshots, readLocalImage, selectLocalScreenshots, mergeSteamScreenshots, hasAuthorizedLocalText } from './steam/local.mjs'
 import { validateJournal, validateAssets } from './journal-data.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const { values } = parseArgs({ options: { 'steam-root': { type: 'string' }, profile: { type: 'string' }, apply: { type: 'boolean', default: false } } })
 const config = JSON.parse(await readFile(path.join(root, 'data/steam-config.json'), 'utf8'))
+const nonPublicScreenshots = config.nonPublicScreenshots || 'exclude'
+if (!['exclude', 'own-text'].includes(nonPublicScreenshots)) throw new Error('nonPublicScreenshots 仅支持 exclude 或 own-text')
 const profile = values.profile || (config.profiles.length === 1 ? config.profiles[0] : undefined)
 if (!profile || !config.profiles.includes(profile)) throw new Error('需要在 steam-config.json 中选定的 profile')
 const steamRoot = values['steam-root'] || (process.env['ProgramFiles(x86)'] && path.join(process.env['ProgramFiles(x86)'], 'Steam'))
@@ -22,8 +24,13 @@ validateJournal(previous)
 const authors = new Set(online.games.flatMap(g => [...(g.reviews || []), ...(g.screenshots || [])]).filter(s => s.source?.profileId === profile).map(s => s.source.authorName))
 if (authors.size !== 1) throw new Error('无法从已有核实内容确定唯一账号作者名')
 const authorName = [...authors][0]
+let verifiedComments = []
+try { verifiedComments = JSON.parse(await readFile(path.join(root, 'data/steam-comments.json'), 'utf8')).comments || [] } catch (error) { if (error.code !== 'ENOENT') throw error }
+const ownCommentIds = verifiedComments.filter(c => c.profileId === profile && /^comment_\d+$/.test(c.id) && typeof c.content === 'string' && c.content.trim() && Number.isFinite(Date.parse(c.createdAt)))
+  .map(c => c.screenshotId.replace(/^steam-/, ''))
+const policy = { nonPublicScreenshots, ownCommentIds }
 const { directory, records } = await readLocalScreenshots(steamRoot, profile)
-const selected = selectLocalScreenshots(records, online, previous)
+const selected = selectLocalScreenshots(records, online, previous, policy)
 const stage = path.join(root, '.local/steam-local')
 await mkdir(path.join(stage, 'assets'), { recursive: true })
 const draft = structuredClone(previous)
@@ -32,7 +39,7 @@ const get = createClient(path.join(stage, 'cache'))
 const allPrevious = previous.games.flatMap(g => g.screenshots)
 for (const shot of allPrevious.filter(s => s.source.profileId === profile)) {
   const record = records.find(r => `steam-${r.id}` === shot.id)
-  if (record && record.permissions !== '8') throw new Error(`已补录截图 ${shot.id} 的本地权限不再为公开，请人工核查`)
+  if (record && record.permissions !== '8' && !hasAuthorizedLocalText(record, policy)) throw new Error(`已补录截图 ${shot.id} 不再符合公开或非公开本人文字规则，请人工核查`)
   if (!record) warnings.push(`${shot.id}: 本机索引中已缺失，保留已发布副本`)
 }
 for (const record of selected) {
@@ -67,11 +74,13 @@ draft.games.forEach(g => g.screenshots.sort((a, b) => b.date.localeCompare(a.dat
 const merged = validateJournal(mergeSteamScreenshots(online, draft))
 const nextShots = draft.games.flatMap(g => g.screenshots)
 const report = { profileId: profile, uploadedRecords: records.length, publicRecords: records.filter(r => r.permissions === '8').length,
+  nonPublicScreenshots, nonPublicRecords: records.filter(r => ['2', '4', '16'].includes(r.permissions)).length,
+  nonPublicWithOwnText: records.filter(r => hasAuthorizedLocalText(r, policy)).length,
   localCaptionRecords: records.filter(r => r.caption.trim()).length,
   added: nextShots.filter(s => !allPrevious.some(p => p.id === s.id)).length,
   updated: nextShots.filter(s => allPrevious.some(p => p.id === s.id && JSON.stringify(p) !== JSON.stringify(s))).length,
   supplementScreenshots: nextShots.length, totalScreenshots: merged.games.reduce((n, g) => n + g.screenshots.length, 0),
-  selectedIds: selected.map(r => r.id), coverage: '仅本机截图索引中已上传且标记公开的图片；日期是拍摄日期，评论区不在本地索引中，未声称全云端覆盖。', warnings }
+  selectedIds: selected.map(r => r.id), coverage: '仅本机截图索引中的已上传图片；非公开图仅按配置收录本人说明或另行核实的本人留言。日期是拍摄日期；本地索引不含评论区，未声称全云端覆盖。', warnings }
 await writeFile(path.join(stage, 'draft.json'), JSON.stringify(draft, null, 2) + '\n')
 await writeFile(path.join(stage, 'report.json'), JSON.stringify(report, null, 2) + '\n')
 console.log(JSON.stringify(report, null, 2))

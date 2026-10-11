@@ -42,3 +42,16 @@ test('已核实本人评论保留原文、稳定去重，并拒绝错作者或�
   assert.throws(()=>mergeSteamComments(journal,[{...comment,profileId:'76561190000000000'}]),/作者不匹配/)
   assert.throws(()=>mergeSteamComments(journal,[{...comment,screenshotId:'steam-11'}]),/不匹配/)
 })
+test('明确授权后仅引入带本人说明或已核实本人留言的非公开截图', () => {
+  const empty = { games: [] }
+  const shot = (id, permissions, caption = '') => ({ id, appId: id, permissions, caption, capturedAt:'2026-01-01' })
+  const records = [shot('1','2','私密说明'),shot('2','4','好友说明'),shot('3','16','非公开说明'),shot('4','2'),shot('5','4'),shot('6','8'),shot('7','unknown','未知权限')]
+  assert.deepEqual(selectLocalScreenshots(records,empty,empty).map(s=>s.id),['6'])
+  const selected = selectLocalScreenshots(records,empty,empty,{nonPublicScreenshots:'own-text',ownCommentIds:['4']})
+  assert.deepEqual(selected.map(s=>s.id).sort(),['1','2','3','4','6'])
+  const previous={games:[{id:'steam-5',steamAppId:'5',screenshots:[{id:'steam-5'}]}]}
+  assert.ok(!selectLocalScreenshots(records,empty,previous,{nonPublicScreenshots:'own-text'}).some(s=>s.id==='5'))
+  assert.throws(()=>selectLocalScreenshots(records,empty,empty,{nonPublicScreenshots:'all'}),/仅支持/)
+  const represented={games:[{id:'steam-8',steamAppId:'8',screenshots:[{id:'steam-80'}]}]}
+  assert.deepEqual(selectLocalScreenshots([shot('8','8')],represented,empty,{ownCommentIds:['8']}).map(s=>s.id),['8'])
+})

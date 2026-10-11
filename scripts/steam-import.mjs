@@ -18,6 +18,7 @@ if (!Array.isArray(config.profiles) || !config.profiles.length || !config.profil
 if (!['own', 'none'].includes(config.comments)) throw new Error('comments 仅支持 own 或 none')
 for (const [key, max] of [['screenshotLimit', 500], ['screenshotPages', 100]]) if (!Number.isInteger(config[key]) || config[key] < 0 || config[key] > max) throw new Error(`${key} 必须为 0-${max} 的整数`)
 if (config.discoverCaptions !== undefined && typeof config.discoverCaptions !== 'boolean') throw new Error('discoverCaptions 必须是布尔值')
+if (config.nonPublicScreenshots !== undefined && !['exclude', 'own-text'].includes(config.nonPublicScreenshots)) throw new Error('nonPublicScreenshots 仅支持 exclude 或 own-text')
 if (!Array.isArray(config.screenshotIds) || !config.screenshotIds.every(id => /^\d+$/.test(id)) || new Set(config.screenshotIds).size !== config.screenshotIds.length) throw new Error('screenshotIds 必须为不重复的截图 ID 字符串数组')
 const configHash = createHash('sha256').update(JSON.stringify(config)).digest('hex')
 if (command === 'collect' || command === 'sync') {

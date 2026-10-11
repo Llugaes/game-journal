@@ -73,15 +73,21 @@ export async function readLocalImage(directory, filename) {
   return readFile(file)
 }
 
-export function selectLocalScreenshots(records, online, previous) {
+export function hasAuthorizedLocalText(record, { nonPublicScreenshots = 'exclude', ownCommentIds = [] } = {}) {
+  if (!['exclude', 'own-text'].includes(nonPublicScreenshots)) throw new Error('nonPublicScreenshots 仅支持 exclude 或 own-text')
+  return nonPublicScreenshots === 'own-text' && ['2', '4', '16'].includes(record.permissions)
+    && (Boolean(record.caption.trim()) || ownCommentIds.includes(record.id))
+}
+
+export function selectLocalScreenshots(records, online, previous, policy = {}) {
   const onlineIds = new Set(online.games.flatMap(g => g.screenshots || []).map(s => s.id.replace(/^steam-/, '')))
   const retained = new Set(previous.games.flatMap(g => g.screenshots || []).map(s => s.id.replace(/^steam-/, '')))
   const represented = new Set([...online.games, ...previous.games].filter(g => g.screenshots?.length).map(g => g.steamAppId))
-  // 8 对应客户端“您的公开截图”；其他权限不自动进入公开网站。
-  const publicShots = records.filter(r => r.permissions === '8').sort((a, b) => b.capturedAt.localeCompare(a.capturedAt) || (BigInt(a.id) > BigInt(b.id) ? -1 : 1))
-  const selected = publicShots.filter(r => !onlineIds.has(r.id) && (r.caption.trim() || retained.has(r.id)))
+  // 非公开图只在用户明确授权且有本人说明/已核实留言时进入；普通补图仍只用公开图。
+  const eligible = records.filter(r => r.permissions === '8' || hasAuthorizedLocalText(r, policy)).sort((a, b) => b.capturedAt.localeCompare(a.capturedAt) || (BigInt(a.id) > BigInt(b.id) ? -1 : 1))
+  const selected = eligible.filter(r => !onlineIds.has(r.id) && (r.caption.trim() || retained.has(r.id) || policy.ownCommentIds?.includes(r.id) || hasAuthorizedLocalText(r, policy)))
   selected.forEach(r => represented.add(r.appId))
-  for (const shot of publicShots) if (!represented.has(shot.appId) && !onlineIds.has(shot.id)) {
+  for (const shot of eligible.filter(r => r.permissions === '8')) if (!represented.has(shot.appId) && !onlineIds.has(shot.id)) {
     selected.push(shot)
     represented.add(shot.appId)
   }
