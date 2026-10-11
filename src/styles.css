@@ -118,3 +118,11 @@ input:focus-visible { outline: 3px solid #b37c2f; outline-offset: 3px; }
 .viewer-caption blockquote { margin: 16px 0 0; padding-left: 16px; border-left: 2px solid #c49348; color: #d7dfcf; }
 @media (max-width: 700px) { .photo-viewer { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); }.viewer-toolbar, .viewer-controls { padding: 10px; gap: 8px; }.viewer-toolbar button, .viewer-controls button { padding: 9px 11px; font-size: 13px; }.viewer-caption { padding: 2px 14px 14px; } }
 @media (prefers-reduced-motion: reduce) { .score-ring-arcs circle { transition: none; } }
+
+/* 同色釉面：分档色彩传达评价，高光和细纹只表现材质。 */
+.score-ring { border-radius: 50%; background: radial-gradient(circle at 32% 18%, #ffffffc9, #f1efe466 65%, #d8ddcf33), repeating-linear-gradient(125deg, transparent 0 2px, #73836a09 2px 3px); box-shadow: inset 0 1px 0 #fff9, 0 2px 5px #213b2012; }
+.score-ring-face { fill: #ffffff45; stroke: #ffffffa6; stroke-width: .8; }
+.score-ring-track { stroke: #d8ddd4; stroke-width: 8; filter: drop-shadow(0 1px 0 #fff); }
+.score-ring-arcs { stroke-width: 8; filter: drop-shadow(0 1px .65px #14201838); }
+.score-ring-glint { fill: none; stroke-width: .9; pointer-events: none; }
+.score-ring-value strong { text-shadow: 0 1px 0 #fffc; }
