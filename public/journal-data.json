@@ -96,7 +96,13 @@
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
           },
-          "comments": []
+          "comments": [
+            {
+              "id": "comment_588439600674159522",
+              "content": "闲来无事仔细看了一下，确实较为符合常规的凯撒偏移, 大部分字母都被往后shift了一位，除了a和z似乎是shift了2位之外:\ngps v jo scohf(mfo(dimjtu)) -> for u in range(len(chlist))\ndnet.lfzucohfou -> cmds.keytangent\n诸如此类...",
+              "createdAt": "2026-10-06T12:42:39.000Z"
+            }
+          ]
         },
         {
           "id": "steam-3815356937",
@@ -373,6 +379,21 @@
             "authorName": "Llugaes"
           },
           "comments": []
+        },
+        {
+          "id": "steam-3737753618",
+          "src": "media/steam/steam-3737753618.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "一闪收官！",
+          "date": "2026-06-02",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737753618",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
         }
       ]
     },
@@ -637,7 +658,22 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3741416528",
+          "src": "media/steam/steam-3741416528.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-06-09",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3741416528",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-870780",
@@ -717,6 +753,34 @@
       ],
       "notes": [],
       "screenshots": []
+    },
+    {
+      "id": "steam-3280350",
+      "title": "死亡搁浅2",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2026-04-30",
+      "steamAppId": "3280350",
+      "cover": "media/steam/steam-3716896790.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-3716896790",
+          "src": "media/steam/steam-3716896790.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-04-30",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3716896790",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-3357650",
@@ -1332,7 +1396,22 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3664686912",
+          "src": "media/steam/steam-3664686912.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-02-12",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3664686912",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-3681010",
@@ -1558,7 +1637,22 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3626509477",
+          "src": "media/steam/steam-3626509477.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-12-19",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3626509477",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-1858650",
@@ -1972,7 +2066,7 @@
         "Steam"
       ],
       "summary": "JK卷入哑巴屯？JK误入里神社？",
-      "recordedAt": "2025-09-27",
+      "recordedAt": "2025-09-28",
       "steamAppId": "2947440",
       "cover": "media/steam/cover-2947440.webp",
       "reviews": [
@@ -2019,7 +2113,23 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3576198347",
+          "src": "media/steam/steam-3576198347.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "功夫再高，也怕菜刀！",
+          "date": "2025-09-28",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3576198347",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-3447040",
@@ -2030,7 +2140,7 @@
         "Steam"
       ],
       "summary": "10/10",
-      "recordedAt": "2025-09-21",
+      "recordedAt": "2025-09-22",
       "steamAppId": "3447040",
       "cover": "media/steam/cover-3447040.webp",
       "reviews": [
@@ -2059,7 +2169,22 @@
         }
       ],
       "notes": [],
-      "screenshots": []
+      "screenshots": [
+        {
+          "id": "steam-3572793962",
+          "src": "media/steam/steam-3572793962.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-09-22",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572793962",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-1030300",
@@ -2185,6 +2310,51 @@
           "source": {
             "platform": "steam",
             "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570690425",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322705",
+          "src": "media/steam/steam-3566322705.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我这个应该属于正常通关的平均数吧...",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322705",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322351",
+          "src": "media/steam/steam-3566322351.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "心满意足！",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322351",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322202",
+          "src": "media/steam/steam-3566322202.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "仁慈的血包时刻...",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322202",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
           },
@@ -3868,6 +4038,35 @@
       ],
       "notes": [],
       "screenshots": []
+    },
+    {
+      "id": "steam-351970",
+      "title": "Tales of Zestiria",
+      "categories": [
+        "Steam"
+      ],
+      "recordedAt": "2018-07-20",
+      "steamAppId": "351970",
+      "cover": "media/steam/steam-1446584649.webp",
+      "reviews": [],
+      "notes": [],
+      "screenshots": [
+        {
+          "id": "steam-1446584649",
+          "src": "media/steam/steam-1446584649.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "猫人之里真可爱啊哈哈哈哈",
+          "date": "2018-07-20",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446584649",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ]
     },
     {
       "id": "steam-363970",

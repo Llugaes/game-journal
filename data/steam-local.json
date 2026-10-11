@@ -1,0 +1,203 @@
+{
+  "games": [
+    {
+      "id": "steam-1105510",
+      "steamAppId": "1105510",
+      "title": "Yakuza 5 Remastered",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3664686912",
+          "src": "media/steam/steam-3664686912.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-02-12",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3664686912",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2026-02-12T06:11:40.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2026-02-12",
+      "cover": "media/steam/steam-3664686912.webp"
+    },
+    {
+      "id": "steam-2570810",
+      "steamAppId": "2570810",
+      "title": "Ys X: Nordics",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3741416528",
+          "src": "media/steam/steam-3741416528.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-06-09",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3741416528",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2026-06-09T05:29:54.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2026-06-09",
+      "cover": "media/steam/steam-3741416528.webp"
+    },
+    {
+      "id": "steam-2947440",
+      "steamAppId": "2947440",
+      "title": "SILENT HILL f",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3576198347",
+          "src": "media/steam/steam-3576198347.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "功夫再高，也怕菜刀！",
+          "date": "2025-09-28",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3576198347",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2025-09-28T05:04:28.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2025-09-28",
+      "cover": "media/steam/steam-3576198347.webp"
+    },
+    {
+      "id": "steam-2988580",
+      "steamAppId": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3626509477",
+          "src": "media/steam/steam-3626509477.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-12-19",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3626509477",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2025-12-19T05:14:22.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2025-12-19",
+      "cover": "media/steam/steam-3626509477.webp"
+    },
+    {
+      "id": "steam-3280350",
+      "steamAppId": "3280350",
+      "title": "死亡搁浅2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3716896790",
+          "src": "media/steam/steam-3716896790.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2026-04-30",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3716896790",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2026-04-30T05:17:45.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2026-04-30",
+      "cover": "media/steam/steam-3716896790.webp"
+    },
+    {
+      "id": "steam-3447040",
+      "steamAppId": "3447040",
+      "title": "Sora no Kiseki the 1st",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-3572793962",
+          "src": "media/steam/steam-3572793962.webp",
+          "width": 1600,
+          "height": 900,
+          "date": "2025-09-22",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3572793962",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": [],
+          "localSource": {
+            "kind": "steam-screenshots-vdf",
+            "capturedAt": "2025-09-22T10:58:54.000Z",
+            "permissions": "8"
+          }
+        }
+      ],
+      "recordedAt": "2025-09-22",
+      "cover": "media/steam/steam-3572793962.webp"
+    }
+  ]
+}

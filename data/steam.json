@@ -355,6 +355,21 @@
             "authorName": "Llugaes"
           },
           "comments": []
+        },
+        {
+          "id": "steam-3737753618",
+          "src": "media/steam/steam-3737753618.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "一闪收官！",
+          "date": "2026-06-02",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737753618",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
         }
       ],
       "recordedAt": "2026-08-26",
@@ -1849,6 +1864,51 @@
           "source": {
             "platform": "steam",
             "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570690425",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322705",
+          "src": "media/steam/steam-3566322705.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "我这个应该属于正常通关的平均数吧...",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322705",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322351",
+          "src": "media/steam/steam-3566322351.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "心满意足！",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322351",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        },
+        {
+          "id": "steam-3566322202",
+          "src": "media/steam/steam-3566322202.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "仁慈的血包时刻...",
+          "date": "2025-09-11",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3566322202",
             "profileId": "76561198256716552",
             "authorName": "Llugaes"
           },
@@ -3411,6 +3471,35 @@
       "summary": "刺客信条起源",
       "recordedAt": "2018-11-21",
       "cover": "media/steam/cover-582160.webp"
+    },
+    {
+      "id": "steam-351970",
+      "steamAppId": "351970",
+      "title": "Tales of Zestiria",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "reviews": [],
+      "screenshots": [
+        {
+          "id": "steam-1446584649",
+          "src": "media/steam/steam-1446584649.webp",
+          "width": 1600,
+          "height": 900,
+          "caption": "猫人之里真可爱啊哈哈哈哈",
+          "date": "2018-07-20",
+          "source": {
+            "platform": "steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446584649",
+            "profileId": "76561198256716552",
+            "authorName": "Llugaes"
+          },
+          "comments": []
+        }
+      ],
+      "recordedAt": "2018-07-20",
+      "cover": "media/steam/steam-1446584649.webp"
     },
     {
       "id": "steam-363970",

@@ -14,7 +14,8 @@
     "steam:plan": "node scripts/steam-import.mjs plan",
     "steam:apply": "node scripts/steam-import.mjs apply",
     "steam:sync": "node scripts/steam-import.mjs sync --refresh",
-    "steam:titles": "node scripts/steam-titles.mjs"
+    "steam:titles": "node scripts/steam-titles.mjs",
+    "steam:local": "node scripts/steam-local.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
