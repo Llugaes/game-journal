@@ -1,7 +1,6 @@
 import type { JournalGame, JournalScore } from '../types'
 
 export const reviewsOf = (game: JournalGame) => [...(game.review ? [game.review] : []), ...(game.reviews || [])]
-export const ratingLabel = (game: JournalGame) => reviewsOf(game)[0]?.verdict || '游玩记录'
 export const scoresOf = (game: JournalGame): JournalScore[] => {
   if (game.rating != null) return [{ label: '总评', value: String(game.rating), scale: 5, evidence: '' }]
   const reviews = reviewsOf(game)

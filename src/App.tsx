@@ -35,8 +35,8 @@ export default function App() {
   const selected = useMemo(() => journal.games.find(game => game.id === selectedId) ?? null, [journal, selectedId])
   const categories = useMemo(() => ['全部', ...new Set(journal.games.flatMap(game => game.categories))], [journal.games])
   const filtered = useMemo(() => journal.games.filter(game => {
-    const text = [game.title, game.originalTitle, game.summary, ...reviewsOf(game).map(r => r.content)].join(' ').normalize('NFKC').toLocaleLowerCase()
-    return (category === '全部' || game.categories.includes(category)) && text.includes(query.normalize('NFKC').toLocaleLowerCase().trim()) && (filter !== 'reviews' || reviewsOf(game).length > 0) && (filter !== 'screenshots' || !!game.screenshots?.length)
+    const text = [game.title, game.originalTitle, game.summary, ...reviewsOf(game).map(r => r.content)].join(' ').normalize('NFKC').replaceAll('亰', '京').toLocaleLowerCase()
+    return (category === '全部' || game.categories.includes(category)) && text.includes(query.normalize('NFKC').replaceAll('亰', '京').toLocaleLowerCase().trim()) && (filter !== 'reviews' || reviewsOf(game).length > 0) && (filter !== 'screenshots' || !!game.screenshots?.length)
   }), [category, query, filter, journal.games])
   const changeView = (next: Exclude<View, 'detail'>) => {
     history.replaceState(null, '', window.location.pathname + window.location.search)
