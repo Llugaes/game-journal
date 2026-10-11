@@ -1,4 +1,20 @@
 {
   "version": 1,
-  "games": {}
+  "games": {
+    "steam-587260": {
+      "fields": {},
+      "collections": {
+        "screenshots": {
+          "upsert": {},
+          "remove": [],
+          "order": [
+            "steam-3753617033",
+            "steam-3815356964",
+            "steam-3815356937",
+            "steam-3815356271"
+          ]
+        }
+      }
+    }
+  }
 }
