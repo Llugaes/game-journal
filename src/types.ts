@@ -19,6 +19,7 @@ export type JournalReview = {
   playtimeAtReview?: string
   source?: SteamSource
   scores?: JournalScore[]
+  edited?: boolean
 }
 
 export type SteamSource = { platform: 'steam'; url: string; profileId: string; authorName: string }
@@ -41,6 +42,7 @@ export type JournalGame = {
   titleSource?: string
   categories: string[]
   rating?: number
+  personalScores?: JournalScore[]
   summary?: string
   status?: string
   playtime?: string

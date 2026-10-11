@@ -20,6 +20,7 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
       {reviews.map((review, index) => <section className="review-copy" key={review.id || index}>
         <h2>{review.title || '游戏评测'}</h2>
         <div className="source-meta">
+          {review.edited && <span>在游记修订</span>}
           {review.source && <a href={review.source.url} target="_blank" rel="noreferrer">{review.source.authorName} · Steam 原文 ↗</a>}
           {review.postedAt && <span>发布于 {review.postedAt}</span>}
           {review.updatedAt && review.updatedAt !== review.postedAt && <span>更新于 {review.updatedAt}</span>}
