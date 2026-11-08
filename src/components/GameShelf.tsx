@@ -23,7 +23,8 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const date = recordedDate(game)
   const finish = [...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5
   const studio = studioOf(game)
-  const printedArt = (platform === 'steam' || platform === 'pc') && (finish === 1 || finish === 3) ? game.cover : undefined
+  const cover = game.cover ? assetUrl(game.cover) : undefined
+  const printedArt = (platform === 'steam' || platform === 'pc') && (finish === 1 || finish === 3)
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
     event.preventDefault()
@@ -31,16 +32,26 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   }
   return <li className="cabinet-slot">
     <a className="game-spine" href={gameHref(game.id)} data-case={platform} data-finish={finish}
-      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
+      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}
+      onPointerEnter={({ currentTarget, pointerType }) => {
+        if (pointerType === 'touch') return
+        const spaceOnRight = document.documentElement.clientWidth - currentTarget.getBoundingClientRect().right
+        currentTarget.toggleAttribute('data-pull-left', spaceOnRight < 144)
+      }}>
       <span className="spine-shell">
         <PlatformBrand platform={platform} className="spine-cap" />
         <span className="spine-face">
-          {printedArt && <img src={assetUrl(printedArt)} alt="" loading="lazy" decoding="async" />}
+          {printedArt && cover && <img src={cover} alt="" loading="lazy" decoding="async" />}
           <span className="spine-title">{game.title}</span>
         </span>
         <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
           ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
           : <span>{studio.name}</span>)}</span>
+        <span className="spine-preview" aria-hidden="true">
+          <PlatformBrand platform={platform} className="spine-preview-band" />
+          <span className="spine-preview-art">{cover && <img src={cover} alt="" loading="lazy" decoding="async" />}</span>
+          <span className="spine-preview-title">{game.title}</span>
+        </span>
       </span>
     </a>
   </li>
