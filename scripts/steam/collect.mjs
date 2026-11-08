@@ -124,7 +124,6 @@ export async function collect(config, directory, { refresh = false } = {}) {
       } catch (error) { warnings.push(`封面 ${game.steamAppId}: ${error.message}`) }
       delete game.capsule
     }
-    if (!game.cover && game.screenshots.length) game.cover = game.screenshots[0].src
   }
   const result = { games: [...games.values()].sort((a, b) => b.recordedAt.localeCompare(a.recordedAt) || a.id.localeCompare(b.id)) }
   const report = { collectedAt: now.toISOString(), profiles: counts, reviews: reviews.length, games: result.games.length, screenshots: selected.length, captions: selected.filter(s => s.title || s.caption).length, ownComments: result.games.reduce((n, g) => n + g.screenshots.reduce((m, s) => m + s.comments.length, 0), 0), discovery: discovery.map(({ profile, total, pages, captioned }) => ({ profile, total, pages, captioned })), commentCoverage: '仅核查所选截图已加载的公开评论；全库未逐张核查，待审核原文不可见。', screenshotWindowPages: config.screenshotPages, selectedScreenshotIds: selected.map(s => s.id), warnings }

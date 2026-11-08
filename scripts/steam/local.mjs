@@ -107,7 +107,6 @@ export function mergeSteamScreenshots(online, supplement) {
       if (!ids.has(shot.id)) { game.screenshots.push(structuredClone(shot)); ids.add(shot.id) }
       owners.set(shot.id, local.id)
     }
-    game.cover ||= game.screenshots[0]?.src
     game.recordedAt = [game.recordedAt, ...game.screenshots.map(s => s.date)].filter(Boolean).sort().at(-1)
     games.set(game.id, game)
   }

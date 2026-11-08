@@ -16,6 +16,23 @@ export function mergeJournals(manual, imported) {
   return { games: [...map.values()].sort((a, b) => (b.recordedAt || b.lastPlayedAt || '').localeCompare(a.recordedAt || a.lastPlayedAt || '')) }
 }
 
+export async function resolveGameCovers(journal, publicDir) {
+  for (const game of journal.games) {
+    // Earlier Steam imports reused a gallery image as the cover.
+    if (game.cover && game.screenshots.some(shot => shot.src.replace(/^\//, '') === game.cover.replace(/^\//, ''))) {
+      delete game.cover
+    }
+    if (game.cover || !/^\d+$/.test(game.steamAppId ?? '')) continue
+    const cover = `media/steam/cover-${game.steamAppId}.webp`
+    try {
+      await access(path.join(publicDir, cover))
+      game.cover = cover
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error
+    }
+  }
+}
+
 export async function validateAssets(journal, publicDir) {
   for (const game of journal.games) {
     const markdownImages = [game.review, ...(game.reviews || [])].filter(r => r?.format === 'markdown')

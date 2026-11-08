@@ -44,7 +44,7 @@
       ],
       "recordedAt": "2026-11-08",
       "steamAppId": "3259780",
-      "cover": "/media/reviews/ff-resonance/00-crystal-cover-clean.webp",
+      "cover": "media/steam/cover-3259780.webp",
       "reviews": [
         {
           "id": "dbgn-ff-resonance-review",
@@ -136,7 +136,7 @@
       ],
       "recordedAt": "2026-10-07",
       "steamAppId": "587260",
-      "cover": "media/steam/steam-3815356964.webp",
+      "cover": "media/steam/cover-587260.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -402,7 +402,7 @@
       ],
       "recordedAt": "2026-08-30",
       "steamAppId": "5010190",
-      "cover": "media/steam/steam-3792718444.webp",
+      "cover": "media/steam/cover-5010190.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -432,7 +432,7 @@
       ],
       "recordedAt": "2026-08-26",
       "steamAppId": "3974650",
-      "cover": "media/steam/steam-3790474029.webp",
+      "cover": "media/steam/cover-3974650.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -478,7 +478,7 @@
       ],
       "recordedAt": "2026-08-03",
       "steamAppId": "1623730",
-      "cover": "media/steam/steam-3777074408.webp",
+      "cover": "media/steam/cover-1623730.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -522,7 +522,7 @@
       ],
       "recordedAt": "2026-08-03",
       "steamAppId": "2001760",
-      "cover": "media/steam/steam-3777353824.webp",
+      "cover": "media/steam/cover-2001760.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -553,7 +553,7 @@
       ],
       "recordedAt": "2026-07-22",
       "steamAppId": "4449410",
-      "cover": "media/steam/steam-3769762870.webp",
+      "cover": "media/steam/cover-4449410.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -833,7 +833,7 @@
       ],
       "recordedAt": "2026-04-30",
       "steamAppId": "3280350",
-      "cover": "media/steam/steam-3716896790.webp",
+      "cover": "media/steam/cover-3280350.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -3860,7 +3860,7 @@
       ],
       "recordedAt": "2019-08-17",
       "steamAppId": "812140",
-      "cover": "media/steam/steam-1837139629.webp",
+      "cover": "media/steam/cover-812140.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [
@@ -4118,7 +4118,7 @@
       ],
       "recordedAt": "2018-07-20",
       "steamAppId": "351970",
-      "cover": "media/steam/steam-1446584649.webp",
+      "cover": "media/steam/cover-351970.webp",
       "reviews": [],
       "notes": [],
       "screenshots": [

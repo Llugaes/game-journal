@@ -1,6 +1,8 @@
 import type { MouseEvent } from 'react'
 import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, type Platform } from '../lib/journal'
+import { studioOf } from '../lib/box-branding'
+import { PlatformBrand } from './PlatformBrand'
 
 type ShelfProps = {
   games: JournalGame[]
@@ -20,6 +22,8 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const platform = platformOf(game)
   const date = recordedDate(game)
   const finish = [...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5
+  const studio = studioOf(game)
+  const printedArt = (platform === 'steam' || platform === 'pc') && (finish === 1 || finish === 3) ? game.cover : undefined
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
     event.preventDefault()
@@ -27,13 +31,16 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   }
   return <li className="cabinet-slot">
     <a className="game-spine" href={gameHref(game.id)} data-case={platform} data-finish={finish}
-      title={[game.title, platforms[platform], date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
+      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
       <span className="spine-shell">
-        <span className="spine-cap" aria-hidden="true">{platform === 'unknown' ? '—' : platforms[platform]}</span>
-        <span className="spine-title">{game.title}</span>
-        <span className="spine-art" aria-hidden="true">
-          {game.cover && <img src={assetUrl(game.cover)} alt="" loading="lazy" decoding="async" />}
+        <PlatformBrand platform={platform} className="spine-cap" />
+        <span className="spine-face">
+          {printedArt && <img src={assetUrl(printedArt)} alt="" loading="lazy" decoding="async" />}
+          <span className="spine-title">{game.title}</span>
         </span>
+        <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
+          ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
+          : <span>{studio.name}</span>)}</span>
       </span>
     </a>
   </li>

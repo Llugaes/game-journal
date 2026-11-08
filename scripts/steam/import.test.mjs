@@ -1,10 +1,11 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { fileURLToPath } from 'node:url'
 import { load } from 'cheerio'
 import { parseReviewList, parseReview, parseScreenshot, plainText, steamDate } from './parse.mjs'
 import { assertSteamUrl } from './client.mjs'
 import { selectScreenshots } from './collect.mjs'
-import { mergeJournals, validateJournal } from '../journal-data.mjs'
+import { mergeJournals, resolveGameCovers, validateJournal } from '../journal-data.mjs'
 
 const profile = '76561198256716552'
 const now = new Date('2026-10-11T00:00:00Z')
@@ -93,6 +94,19 @@ test('Steam 更新不覆盖手写评测和随笔，合并结果稳定', () => {
   assert.equal(first.games[0].reviews[0].content, 'Steam 原话')
   assert.deepEqual(first, mergeJournals(manual, imported))
   assert.equal(imported.games[0].title, '真实标题')
+})
+
+test('旧截图封面改用同一 App 的商店图，缺图时保留截图但留空封面', async () => {
+  const screenshot = { src: 'media/steam/steam-123.webp' }
+  const legacy = { ...game, cover: `/${screenshot.src}`, screenshots: [screenshot] }
+  const journal = { games: [
+    { ...legacy, steamAppId: '3841510' },
+    { ...legacy, steamAppId: '0' },
+    { ...legacy, steamAppId: '3841510', cover: 'covers/selected.webp' },
+  ] }
+  await resolveGameCovers(journal, fileURLToPath(new URL('../../public', import.meta.url)))
+  assert.deepEqual(journal.games.map(game => game.cover), ['media/steam/cover-3841510.webp', undefined, 'covers/selected.webp'])
+  assert.deepEqual(journal.games.map(game => game.screenshots), [[screenshot], [screenshot], [screenshot]])
 })
 
 test('抓取来源限制为 Steam HTTPS，拒绝凭据、相似域名与本地地址', () => {

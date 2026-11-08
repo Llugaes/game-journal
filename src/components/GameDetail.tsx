@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Markdown from 'react-markdown'
 import type { JournalGame } from '../types'
 import { assetUrl, platformOf, platforms, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
+import { studioOf } from '../lib/box-branding'
 import { caseOverallScore, ScorePanel } from './ScorePanel'
 import { GameCase } from './GameCase'
 import { RecommendationBadge } from './RecommendationBadge'
@@ -13,6 +14,7 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
   const screenshots = game.screenshots || []
   const scores = scoresOf(game)
   const scoreOnCover = caseOverallScore(scores)
+  const studio = studioOf(game)
   return <section className="game-detail">
     <button className="back-link" onClick={onBack}><span aria-hidden="true">‹</span> 返回游戏柜</button>
     <div className="case-display">
@@ -63,6 +65,7 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
       </section>}
     </article><aside className="detail-aside">
       <dl><div><dt>平台</dt><dd>{platforms[platformOf(game)]}</dd></div>
+        {studio && <div><dt>开发商</dt><dd>{studio.name}</dd></div>}
         <div><dt>分类</dt><dd>{game.categories.join('、') || '未分类'}</dd></div>
         {game.status && <div><dt>游玩状态</dt><dd>{game.status}</dd></div>}
         {game.playtime && <div><dt>游玩时长</dt><dd>{game.playtime}</dd></div>}

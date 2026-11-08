@@ -67,7 +67,6 @@ for (const record of selected) {
   if (prior) game.screenshots[game.screenshots.indexOf(prior)] = shot
   else game.screenshots.push(shot)
   game.recordedAt = game.screenshots.map(s => s.date).sort().at(-1)
-  game.cover ||= shot.src
 }
 draft.games.sort((a, b) => a.id.localeCompare(b.id))
 draft.games.forEach(g => g.screenshots.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id)))

@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
-import { mergeJournals, validateJournal, validateAssets } from './journal-data.mjs'
+import { mergeJournals, resolveGameCovers, validateJournal, validateAssets } from './journal-data.mjs'
 import { enrichJournal } from './review-scores.mjs'
 import { mergeSteamScreenshots, mergeSteamComments } from './steam/local.mjs'
 import { applyEditorial } from './editorial.mjs'
@@ -17,9 +17,11 @@ imported = mergeSteamComments(imported, (await optionalJson('steam-comments.json
 const titles = { ...await optionalJson('steam-titles.json'), ...await optionalJson('title-overrides.json') }
 const enriched = enrichJournal(imported, titles, await optionalJson('review-score-overrides.json'))
 const base = validateJournal(mergeJournals(enrichJournal(manual, {}, {}), enriched))
+const publicDir = fileURLToPath(new URL('../public', import.meta.url))
+await resolveGameCovers(base, publicDir)
 const edits = await optionalJson('editorial.json')
 const data = applyEditorial(base, edits.version ? edits : { version: 1, games: {} })
-await validateAssets(data, fileURLToPath(new URL('../public', import.meta.url)))
+await validateAssets(data, publicDir)
 await mkdir(new URL('../public/', import.meta.url), { recursive: true })
 await writeFile(new URL('../public/journal-data.json', import.meta.url), `${JSON.stringify(data, null, 2)}\n`, 'utf8')
 await writeFile(new URL('../public/journal-base.json', import.meta.url), `${JSON.stringify(base, null, 2)}\n`, 'utf8')

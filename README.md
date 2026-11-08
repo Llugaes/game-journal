@@ -6,10 +6,14 @@
 
 - 游戏柜按最近记录日期倒序摆放，可按平台、分类和内容筛选。鼠标悬停会抽出盒子，点击或用键盘打开后可查看评测、随笔与截图。
 - 盒型支持 Steam、PC、PS2、PS4、PS5、PS Vita、Switch 和 Switch 2。给主机记录添加一个对应的平台分类即可选择盒型；有 Steam App ID 的游戏默认用 Steam 盒，平台不明时用通用盒。
+- Steam 封面使用商店图。可以把补充的官方封面存为 `public/media/steam/cover-<AppID>.webp`；缺图时显示标题。
+- 盒脊顶部标记平台，底部显示 Steam 商店列出的首位开发商。有已核实的标志就用标志，缺标志时显示名称。
 - 蓝色点赞表示推荐，红色倒赞表示不推荐；同时保留文字结论
 - 明确的十分制单值总评使用 DBGN 猫头贴纸，贴在开盒后的封面角上；分项以横向进度条显示。截图画廊适配桌面双列和手机单列。
 - 公开页没有浏览器编辑器；私密原始片段与发布决定留在 Agent 工作流中
 - 不需要服务端、数据库或账号
+
+平台图标来自 [Simple Icons](https://github.com/simple-icons/simple-icons) 和[任天堂官网](https://www.nintendo.com/jp/hardware/switch2/)。开发商名称取自 Steam 商店，厂标取自开发商官网、官方 Steam 页面或 Simple Icons。
 
 ## 私人编辑工作台
 
