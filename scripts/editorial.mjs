@@ -3,7 +3,7 @@ import { extractScores } from './review-scores.mjs'
 
 const fields = {
   game: ['title', 'originalTitle', 'categories', 'summary', 'status', 'playtime', 'lastPlayedAt', 'recordedAt', 'cover', 'personalScores'],
-  reviews: ['title', 'content', 'verdict', 'postedAt', 'updatedAt'],
+  reviews: ['title', 'content', 'format', 'verdict', 'postedAt', 'updatedAt'],
   screenshots: ['src', 'width', 'height', 'title', 'caption', 'date'],
   notes: ['title', 'date', 'createdAt', 'feeling', 'moment'],
   comments: ['content', 'createdAt'],

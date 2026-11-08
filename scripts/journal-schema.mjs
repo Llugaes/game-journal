@@ -22,6 +22,7 @@ function source(value) {
 function review(value) {
   if (!value) return undefined
   if (value.verdict && !['推荐', '暂不推荐', '不推荐'].includes(value.verdict)) throw new Error('未知评测结论')
+  if (value.format && value.format !== 'markdown') throw new Error('未知评测格式')
   const scores = (value.scores || []).map(score => {
     if (!/^(?:100|[1-9]?\d)(?:\.\d+)?(?:[-–~～](?:100|[1-9]?\d)(?:\.\d+)?|[（(](?:100|[1-9]?\d)(?:\.\d+)?[）)])?$/.test(score.value)) throw new Error('评分数字非法')
     if (score.scale != null && ![5, 10, 100].includes(score.scale)) throw new Error('评分量表非法')
@@ -30,7 +31,7 @@ function review(value) {
     if (!score.evidence || !value.content.includes(score.evidence)) throw new Error('评分缺少原文依据')
     return { label: required(score.label, '评分维度'), value: score.value, scale: score.scale, qualifier: optional(score.qualifier), evidence: score.evidence }
   })
-  return { id: optional(value.id), title: optional(value.title), verdict: value.verdict, content: required(value.content, '评测正文'), postedAt: value.postedAt ? date(value.postedAt) : undefined, updatedAt: value.updatedAt ? date(value.updatedAt) : undefined, playtimeAtReview: optional(value.playtimeAtReview), source: source(value.source), scores, ...(value.edited ? { edited: true } : {}) }
+  return { id: optional(value.id), title: optional(value.title), verdict: value.verdict, content: required(value.content, '评测正文'), ...(value.format ? { format: value.format } : {}), postedAt: value.postedAt ? date(value.postedAt) : undefined, updatedAt: value.updatedAt ? date(value.updatedAt) : undefined, playtimeAtReview: optional(value.playtimeAtReview), source: source(value.source), scores, ...(value.edited ? { edited: true } : {}) }
 }
 
 function personalScore(score) {

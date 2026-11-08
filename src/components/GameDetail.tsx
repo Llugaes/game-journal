@@ -1,3 +1,4 @@
+import Markdown from 'react-markdown'
 import type { JournalGame } from '../types'
 import { assetUrl, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
 import { ScorePanel } from './ScorePanel'
@@ -29,7 +30,12 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
           {review.playtimeAtReview && <span>评测时 {review.playtimeAtReview} 小时</span>}
           {reviews.length > 1 && <RecommendationBadge verdict={review.verdict} compact />}
         </div>
-        <p>{review.title && review.content.startsWith(`${review.title}\n`) ? review.content.slice(review.title.length).trimStart() : review.content}</p>
+        {review.format === 'markdown' ? <div className="review-markdown"><Markdown skipHtml components={{
+          img: ({ src, alt }) => {
+            if (!src || (!(src.startsWith('https://')) && (!/^\/?(?:media|covers)\/[a-zA-Z0-9_./-]+$/.test(src) || src.includes('..') || src.includes('//')))) return null
+            return <img src={assetUrl(src)} alt={alt || ''} loading="lazy" />
+          },
+        }}>{review.content}</Markdown></div> : <p>{review.title && review.content.startsWith(`${review.title}\n`) ? review.content.slice(review.title.length).trimStart() : review.content}</p>}
       </section>)}
       {!reviews.length && game.summary && <section className="review-copy"><p>{game.summary}</p></section>}
       {screenshots.length > 0 && <section className="screenshot-gallery" id="screenshots">

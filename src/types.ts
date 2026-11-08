@@ -14,6 +14,7 @@ export type JournalReview = {
   title?: string
   verdict?: '推荐' | '暂不推荐' | '不推荐'
   content: string
+  format?: 'markdown'
   updatedAt?: string
   postedAt?: string
   playtimeAtReview?: string

@@ -126,3 +126,9 @@ input:focus-visible { outline: 3px solid #b37c2f; outline-offset: 3px; }
 .score-ring-arcs { stroke-width: 8; filter: drop-shadow(0 1px .65px #14201838); }
 .score-ring-glint { fill: none; stroke-width: .9; pointer-events: none; }
 .score-ring-value strong { text-shadow: 0 1px 0 #fffc; }
+
+/* 长评使用Markdown时保留段落、标题与正文配图；旧评测仍按原文本展示。 */
+.review-markdown p { margin: 0 0 1.2em; white-space: normal; }
+.review-markdown h2 { margin: 2em 0 .7em; font-size: 24px; }
+.review-markdown img { display: block; max-width: 100%; height: auto; border-radius: 6px; margin: 1.1em 0; }
+.review-markdown strong { color: #263c2b; }
