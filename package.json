@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+    "dbgn-score-badge": "https://codeload.github.com/Llugaes/dbgn-score-badge/tar.gz/d12f9531e524e6f36e6be4a1d841e0502f894636",
     "react": "latest",
     "react-dom": "latest",
     "react-markdown": "^10.1.0",
