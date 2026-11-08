@@ -44,6 +44,8 @@ public/covers/<game-id>.*            Optional user-provided or licensed public c
 }
 ```
 
+For a hand-authored long review, set `review.format` to `markdown`; its content supports headings, paragraphs and images. Omit `format` for plain text. Images may use HTTPS or existing files under `public/media/` and `public/covers/`, referenced as `/media/...` or `/covers/...`; local files are checked at build time. Public content must be approved.
+
 Use the user's own date for fragments. Keep notes chronological. Keep raw fragments private-by-default in the repository workflow until the user asks to publish or approves the distilled public note.
 
 ## Steam import data

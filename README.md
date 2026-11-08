@@ -19,6 +19,8 @@
 
 构建同时生成未经编辑层覆盖的 `public/journal-base.json` 与最终展示数据 `public/journal-data.json`。两者都只包含已纳入公开站点的内容。编辑后台、登录凭据、未发布的上传和失败输入不在这个公开仓库中。
 
+手写评测可以设置 `review.format` 为 `markdown`，在正文中使用标题、段落和图片；省略时按纯文本显示。图片可使用 HTTPS 地址，或存入 `public/media/`、`public/covers/` 并在正文中引用对应的 `/media/`、`/covers/` 路径。本地图片会在构建时检查是否存在。
+
 ## 开发
 
 ```bash
