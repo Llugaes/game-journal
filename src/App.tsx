@@ -1,8 +1,8 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { JournalHeader } from './components/JournalHeader'
 import { GameDetail } from './components/GameDetail'
 import { GameShelf } from './components/GameShelf'
-import { reviewsOf } from './lib/journal'
+import { gameHref, platformOf, reviewsOf, type Platform } from './lib/journal'
 import type { JournalData, JournalGame } from './types'
 
 type View = 'shelf' | 'notes' | 'about' | 'detail'
@@ -16,7 +16,9 @@ export default function App() {
   const [category, setCategory] = useState('全部')
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState('all')
+  const [platform, setPlatform] = useState<Platform | 'all'>('all')
   const [state, setState] = useState<'loading' | 'ready' | 'error'>('loading')
+  const shelfReturn = useRef<{ id: string; y: number } | null>(null)
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}journal-data.json`)
@@ -36,19 +38,37 @@ export default function App() {
   const categories = useMemo(() => ['全部', ...new Set(journal.games.flatMap(game => game.categories))], [journal.games])
   const filtered = useMemo(() => journal.games.filter(game => {
     const text = [game.title, game.originalTitle, game.summary, ...reviewsOf(game).map(r => r.content)].join(' ').normalize('NFKC').replaceAll('亰', '京').toLocaleLowerCase()
-    return (category === '全部' || game.categories.includes(category)) && text.includes(query.normalize('NFKC').replaceAll('亰', '京').toLocaleLowerCase().trim()) && (filter !== 'reviews' || reviewsOf(game).length > 0) && (filter !== 'screenshots' || !!game.screenshots?.length)
-  }), [category, query, filter, journal.games])
+    return (platform === 'all' || platformOf(game) === platform) && (category === '全部' || game.categories.includes(category)) && text.includes(query.normalize('NFKC').replaceAll('亰', '京').toLocaleLowerCase().trim()) && (filter !== 'reviews' || reviewsOf(game).length > 0) && (filter !== 'screenshots' || !!game.screenshots?.length)
+  }), [category, query, filter, platform, journal.games])
+
+  useLayoutEffect(() => {
+    if (state !== 'ready') return
+    if (view === 'detail') {
+      window.scrollTo({ top: 0, behavior: 'instant' })
+      document.getElementById('game-detail-title')?.focus({ preventScroll: true })
+    } else if (view === 'shelf' && shelfReturn.current) {
+      const { id, y } = shelfReturn.current
+      document.querySelector<HTMLAnchorElement>(`.game-spine[href="${gameHref(id)}"]`)?.focus({ preventScroll: true })
+      window.scrollTo({ top: y, behavior: 'instant' })
+    }
+  }, [view, selectedId, state])
+
   const changeView = (next: Exclude<View, 'detail'>) => {
+    shelfReturn.current = null
     history.replaceState(null, '', window.location.pathname + window.location.search)
     setView(next)
     setSelectedId(null)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }
   const openGame = (game: JournalGame) => {
-    window.location.hash = `game=${encodeURIComponent(game.id)}`
+    shelfReturn.current = view === 'shelf' ? { id: game.id, y: window.scrollY } : null
+    history.pushState({ journalShelf: view === 'shelf' }, '', gameHref(game.id))
     setSelectedId(game.id)
     setView('detail')
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+  const closeGame = () => {
+    if (shelfReturn.current && history.state?.journalShelf) history.back()
+    else changeView('shelf')
   }
   const notes = journal.games.flatMap(game => [
     ...game.notes.map(note => ({ game, id: note.id, date: note.date, title: note.title || note.feeling, kind: '随笔' })),
@@ -58,12 +78,12 @@ export default function App() {
   return <div className="site-shell">
     <JournalHeader view={view} onChange={changeView} />
     <main>
-      {state === 'loading' && <p className="load-message" role="status">正在打开游戏架…</p>}
-      {state === 'error' && <p className="load-message" role="alert">游戏架暂时加载失败，请刷新页面重试。</p>}
+      {state === 'loading' && <p className="load-message" role="status">正在打开游戏柜…</p>}
+      {state === 'error' && <p className="load-message" role="alert">游戏柜暂时加载失败，请刷新页面重试。</p>}
       {state === 'ready' && <>
-        {view === 'detail' && selected ? <GameDetail game={selected} onBack={() => changeView('shelf')} /> : null}
-        {view === 'detail' && !selected && <p className="load-message">没有找到这款游戏。<button onClick={() => changeView('shelf')}>返回游戏架</button></p>}
-        {view === 'shelf' ? <GameShelf games={filtered} categories={categories} activeCategory={category} onCategoryChange={setCategory} onOpen={openGame} query={query} onQueryChange={setQuery} filter={filter} onFilterChange={setFilter} /> : null}
+        {view === 'detail' && selected ? <GameDetail key={selected.id} game={selected} onBack={closeGame} /> : null}
+        {view === 'detail' && !selected && <div className="load-message"><p>没有找到这款游戏。</p><button onClick={closeGame}>返回游戏柜</button></div>}
+        {view === 'shelf' ? <GameShelf games={filtered} categories={categories} activeCategory={category} onCategoryChange={setCategory} onOpen={openGame} query={query} onQueryChange={setQuery} filter={filter} onFilterChange={setFilter} platform={platform} onPlatformChange={setPlatform} /> : null}
         {view === 'notes' ? <section className="reading-page note-index"><div className="page-intro"><p className="eyeless-label">随笔与截图</p><h1>一些还在生长的感受</h1><p>游玩时留下的画面，和当时写下的话。</p></div><div className="all-notes">{notes.map(note => <button className="note-row" key={`${note.game.id}-${note.id}`} onClick={() => openGame(note.game)}><time>{note.date}</time><div><span>{note.game.title} · {note.kind}</span><strong>{note.title}</strong></div><i>阅读</i></button>)}{notes.length === 0 && <p className="quiet-empty">第一篇公开随笔，会从一次真实的游玩开始。</p>}</div></section> : null}
         {view === 'about' ? <section className="reading-page about-page"><div className="page-intro"><p className="eyeless-label">关于这个地方</p><h1>记录游戏，也记录自己。</h1><p>这是一个由玩家本人慢慢补完的游戏博客。游戏架保存结论，随笔和截图留下过程。</p></div><div className="about-copy"><p>这里收录我在 Steam 发表的评测、截图和自己写下的说明，也会继续添加新的游玩随笔。</p><p>搬来的文字保留原话，每篇评测和每张截图都能回到 Steam 来源。推荐与否沿用当时的结论，没有打过的分数就留空。</p></div></section> : null}
       </>}

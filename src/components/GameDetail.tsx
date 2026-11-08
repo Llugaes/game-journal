@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import Markdown from 'react-markdown'
 import type { JournalGame } from '../types'
-import { assetUrl, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
-import { ScorePanel } from './ScorePanel'
+import { assetUrl, platformOf, platforms, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
+import { caseOverallScore, ScorePanel } from './ScorePanel'
+import { GameCase } from './GameCase'
 import { RecommendationBadge } from './RecommendationBadge'
 import { ScreenshotViewer } from './ScreenshotViewer'
 
@@ -9,17 +11,21 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
   const [viewerIndex, setViewerIndex] = useState<number | null>(null)
   const reviews = reviewsOf(game)
   const screenshots = game.screenshots || []
+  const scores = scoresOf(game)
+  const scoreOnCover = caseOverallScore(scores)
   return <section className="game-detail">
-    <button className="back-link" onClick={onBack}>← 返回游戏架</button>
-    <div className="detail-layout"><article>
+    <button className="back-link" onClick={onBack}><span aria-hidden="true">‹</span> 返回游戏柜</button>
+    <div className="case-display">
+      <GameCase game={game} score={scoreOnCover} />
       <header className="detail-title">
-        <h1>{game.title}</h1>
+        <h1 id="game-detail-title" tabIndex={-1}>{game.title}</h1>
         {game.originalTitle && game.originalTitle !== game.title && <p className="original-title">{game.originalTitle}</p>}
-        <p>{game.categories.join(' · ') || '个人游戏记录'}{game.playtime ? ` · ${game.playtime}` : ''}</p>
-        <div className="detail-rating"><RecommendationBadge verdict={reviews[0]?.verdict} /></div>
-        <ScorePanel scores={scoresOf(game)} />
-        {screenshots.length > 0 && <button className="gallery-jump" onClick={() => document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' })}>查看 {screenshots.length} 张截图 ↓</button>}
+        {game.summary && <p className="detail-summary">{game.summary}</p>}
+        <div className="detail-rating"><RecommendationBadge verdict={reviews[0]?.verdict} compact />{screenshots.length > 0 && <button className="gallery-jump" onClick={() => document.getElementById('screenshots')?.scrollIntoView()}>查看 {screenshots.length} 张截图</button>}</div>
       </header>
+    </div>
+    <div className="detail-layout"><article>
+      <ScorePanel scores={scores} onCover={scoreOnCover} />
       {reviews.map((review, index) => <section className="review-copy" key={review.id || index}>
         <h2>{review.title || '游戏评测'}</h2>
         <div className="source-meta">
@@ -37,7 +43,6 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
           },
         }}>{review.content}</Markdown></div> : <p>{review.title && review.content.startsWith(`${review.title}\n`) ? review.content.slice(review.title.length).trimStart() : review.content}</p>}
       </section>)}
-      {!reviews.length && game.summary && <section className="review-copy"><p>{game.summary}</p></section>}
       {screenshots.length > 0 && <section className="screenshot-gallery" id="screenshots">
         <h2>留下的画面 <span>{screenshots.length}</span></h2>
         <p className="gallery-intro">截图和当时写下的话。点击图片可查看大图。</p>
@@ -57,8 +62,8 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
         {game.notes.slice().sort((a, b) => b.date.localeCompare(a.date)).map(note => <article className="timeline-note" key={note.id}><time>{note.date}</time><div><h3>{note.title || '一则游玩记录'}</h3><p>{note.feeling}</p>{note.moment && <blockquote>{note.moment}</blockquote>}</div></article>)}
       </section>}
     </article><aside className="detail-aside">
-      <div className={`detail-cover ${game.cover ? 'has-cover' : ''}`} style={game.cover ? { backgroundImage: `url(${assetUrl(game.cover)})` } : undefined}><span>{game.cover ? '' : game.title}</span></div>
-      <dl><div><dt>分类</dt><dd>{game.categories.join('、') || '未分类'}</dd></div>
+      <dl><div><dt>平台</dt><dd>{platforms[platformOf(game)]}</dd></div>
+        <div><dt>分类</dt><dd>{game.categories.join('、') || '未分类'}</dd></div>
         {game.status && <div><dt>游玩状态</dt><dd>{game.status}</dd></div>}
         {game.playtime && <div><dt>游玩时长</dt><dd>{game.playtime}</dd></div>}
         <div><dt>最近记录</dt><dd>{recordedDate(game) || '—'}</dd></div>
@@ -68,4 +73,3 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
     {viewerIndex !== null && <ScreenshotViewer shots={screenshots} initialIndex={viewerIndex} title={game.title} onClose={() => setViewerIndex(null)} />}
   </section>
 }
-import { useState } from 'react'

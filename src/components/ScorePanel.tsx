@@ -22,19 +22,25 @@ function ScoreBar({ score }: { score: JournalScore }) {
   </div>
 }
 
-export function ScorePanel({ scores, compact = false }: { scores: JournalScore[]; compact?: boolean }) {
+export function caseOverallScore(scores: JournalScore[]) {
+  return scores.find(score => isOverall(score) && badgeValue(score) !== null) ?? scores.find(isOverall)
+}
+
+export function CaseScoreSticker({ score }: { score: JournalScore }) {
+  const image = badgeSvg(score)
+  return <div className="case-sticker" aria-label={description(score)} role="img">
+    {image ? <><img src={image} alt="" />{score.qualifier && <span>{score.qualifier}</span>}</> :
+      <span>{score.value}{score.scale ? ` / ${score.scale}` : ' 分'}{score.qualifier || ''}</span>}
+  </div>
+}
+
+export function ScorePanel({ scores, onCover }: { scores: JournalScore[]; onCover?: JournalScore }) {
   if (!scores.length) return null
-  const overall = scores.filter(isOverall)
-  const shown = compact && overall.length ? overall : scores
-  const main = shown.find(score => isOverall(score) && badgeSvg(score))
-  const rest = main ? shown.filter(score => score !== main) : shown
-  const image = main ? badgeSvg(main) : null
-  return <div className={`score-panel${compact ? ' score-panel--compact' : ''}`} aria-label="我的评分">
-    <div className="score-panel-heading">我的评分</div>
-    <div className="score-layout">
-      {main && image && <div className="score-overall"><img src={image} alt={description(main)} /><span>{main.label}{main.qualifier && ` · ${main.qualifier}`}</span></div>}
-      {rest.length > 0 && <div className="score-bars">{rest.map((score, index) => <ScoreBar score={score} key={`${score.label}-${index}`} />)}</div>}
-    </div>
-    {!compact && shown.some(score => score.evidence) && <details className="score-evidence"><summary>评分原话</summary>{[...new Set(shown.map(score => score.evidence).filter(Boolean))].map(text => <blockquote key={text}>{text}</blockquote>)}</details>}
+  const rest = onCover && badgeValue(onCover) !== null ? scores.filter(score => score !== onCover) : scores
+  const evidence = [...new Set(scores.map(score => score.evidence).filter(Boolean))]
+  if (!rest.length && !evidence.length) return null
+  return <div className="score-panel" aria-label="我的评分">
+    {rest.length > 0 && <><div className="score-panel-heading">我的评分</div><div className="score-bars">{rest.map((score, index) => <ScoreBar score={score} key={`${score.label}-${index}`} />)}</div></>}
+    {evidence.length > 0 && <details className="score-evidence"><summary>评分原话</summary>{evidence.map(text => <blockquote key={text}>{text}</blockquote>)}</details>}
   </div>
 }

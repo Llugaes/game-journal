@@ -1,31 +1,83 @@
+import type { MouseEvent } from 'react'
 import type { JournalGame } from '../types'
-import { assetUrl, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
-import { ScorePanel } from './ScorePanel'
-import { RecommendationBadge } from './RecommendationBadge'
+import { assetUrl, gameHref, platformOf, platforms, recordedDate, type Platform } from '../lib/journal'
 
-const coverTone = ['cover-moss', 'cover-ink', 'cover-umber', 'cover-blue', 'cover-plum', 'cover-ash']
-function Cover({ game, index }: { game: JournalGame; index: number }) {
-  return <div aria-hidden="true" className={`game-cover ${coverTone[index % coverTone.length]} ${game.cover ? 'has-cover' : ''}`}>
-    {game.cover ? <img src={assetUrl(game.cover)} alt="" loading="lazy" /> : <span>{game.title}</span>}
-  </div>
+type ShelfProps = {
+  games: JournalGame[]
+  categories: string[]
+  activeCategory: string
+  onCategoryChange: (category: string) => void
+  onOpen: (game: JournalGame) => void
+  query: string
+  onQueryChange: (query: string) => void
+  filter: string
+  onFilterChange: (filter: string) => void
+  platform: Platform | 'all'
+  onPlatformChange: (platform: Platform | 'all') => void
 }
 
-export function GameShelf({ games, categories, activeCategory, onCategoryChange, onOpen, query, onQueryChange, filter, onFilterChange }: { games: JournalGame[]; categories: string[]; activeCategory: string; onCategoryChange: (category: string) => void; onOpen: (game: JournalGame) => void; query: string; onQueryChange: (query: string) => void; filter: string; onFilterChange: (filter: string) => void }) {
-  const featured = games.find(game => reviewsOf(game).length)
+function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: JournalGame }) {
+  const platform = platformOf(game)
+  const date = recordedDate(game)
+  const finish = [...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5
+  function open(event: MouseEvent<HTMLAnchorElement>) {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
+    event.preventDefault()
+    onOpen(game)
+  }
+  return <li className="cabinet-slot">
+    <a className="game-spine" href={gameHref(game.id)} data-case={platform} data-finish={finish}
+      title={[game.title, platforms[platform], date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
+      <span className="spine-shell">
+        <span className="spine-cap" aria-hidden="true">{platform === 'unknown' ? '—' : platforms[platform]}</span>
+        <span className="spine-title">{game.title}</span>
+        <span className="spine-art" aria-hidden="true">
+          {game.cover && <img src={assetUrl(game.cover)} alt="" loading="lazy" decoding="async" />}
+        </span>
+      </span>
+    </a>
+  </li>
+}
+
+export function GameShelf({ games, categories, activeCategory, onCategoryChange, onOpen, query, onQueryChange, filter, onFilterChange, platform, onPlatformChange }: ShelfProps) {
+  const years = new Map<string, JournalGame[]>()
+  for (const game of games.slice().sort((a, b) => recordedDate(b).localeCompare(recordedDate(a)))) {
+    const year = recordedDate(game).slice(0, 4)
+    const shelf = years.get(year)
+    if (shelf) shelf.push(game)
+    else years.set(year, [game])
+  }
+  const isFiltered = !!query || filter !== 'all' || activeCategory !== '全部' || platform !== 'all'
+
   return <section id="top" className="shelf-page">
-    <div className="shelf-heading"><div><h1>我玩过的世界</h1><p>把时间交给故事，把自己留在里面。</p></div><span>{games.length} 个游戏</span></div>
-    <div className="shelf-tools"><label>查找游戏<input type="search" value={query} onChange={e => onQueryChange(e.target.value)} placeholder="游戏名或评测里的话" /></label><div className="content-filters" aria-label="内容筛选">{[['all', '全部内容'], ['reviews', '有评测'], ['screenshots', '有截图']].map(([id, label]) => <button key={id} aria-pressed={filter === id} onClick={() => onFilterChange(id)}>{label}</button>)}</div>
-      {(query || filter !== 'all' || activeCategory !== '全部') && <button className="reset-filters" onClick={() => { onQueryChange(''); onFilterChange('all'); onCategoryChange('全部') }}>清除筛选 ×</button>}
+    <header className="shelf-heading">
+      <div><h1>我的游戏柜</h1><p>把时间交给故事，把自己留在里面。</p></div>
+      <div className="shelf-inventory"><strong>{games.length}</strong><span>个游戏<br />按最近记录排列</span></div>
+    </header>
+    <div className="shelf-tools">
+      <label className="shelf-search">查找游戏
+        <span className="search-field"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75"><circle cx="10.5" cy="10.5" r="5.5" /><path d="m15 15 4 4" /></svg>
+          <input type="search" value={query} onChange={e => onQueryChange(e.target.value)} placeholder="游戏名或评测里的话" />
+        </span>
+      </label>
+      <label>平台<select value={platform} onChange={e => onPlatformChange(e.target.value as ShelfProps['platform'])}>
+        <option value="all">全部平台</option>{Object.entries(platforms).map(([id, label]) => <option value={id} key={id}>{label}</option>)}
+      </select></label>
+      <label>分类<select value={activeCategory} onChange={e => onCategoryChange(e.target.value)}>
+        {categories.map(category => <option value={category} key={category}>{category}</option>)}
+      </select></label>
+      <div className="content-filters" role="group" aria-label="内容筛选">{[['all', '全部内容'], ['reviews', '有评测'], ['screenshots', '有截图']].map(([id, label]) => <button key={id} aria-pressed={filter === id} onClick={() => onFilterChange(id)}>{label}</button>)}</div>
     </div>
-    <div className="shelf-layout">
-      <aside className="category-rail" aria-label="游戏分类">{categories.map(category => <button key={category} className={activeCategory === category ? 'active' : ''} onClick={() => onCategoryChange(category)}>{category}</button>)}</aside>
-      <div className="game-grid">{games.map((game, index) => <button className="game-card" key={game.id} onClick={() => onOpen(game)}>
-        <Cover game={game} index={index} /><span className="game-title">{game.title}</span><small>{game.summary || game.notes.at(-1)?.feeling || game.screenshots?.[0]?.caption || '留下的游戏画面'}</small>
-        <ScorePanel scores={scoresOf(game)} compact />
-        <span className="card-counts">{[reviewsOf(game).length ? `${reviewsOf(game).length} 篇评测` : '', game.screenshots?.length ? `${game.screenshots.length} 张截图` : ''].filter(Boolean).join(' · ')}</span>
-        <footer><time>{recordedDate(game)}</time><RecommendationBadge verdict={reviewsOf(game)[0]?.verdict} compact /></footer>
-      </button>)}{games.length === 0 && <div className="shelf-empty"><strong>{query || filter !== 'all' ? '没有找到相关记录' : '游戏架正在整理'}</strong><p>{query || filter !== 'all' ? '换个关键词或内容筛选试试。' : '下一次愿意公开的游玩心得，会从这里长成一张游戏卡。'}</p></div>}</div>
-      {featured ? <aside className="featured-review"><p>最近评测</p><Cover game={featured} index={0} /><h2>{featured.title}</h2><ScorePanel scores={scoresOf(featured)} compact /><div className="rating-line"><RecommendationBadge verdict={reviewsOf(featured)[0]?.verdict} compact /></div><blockquote>{reviewsOf(featured)[0]?.content.slice(0, 220)}{(reviewsOf(featured)[0]?.content.length || 0) > 220 ? '…' : ''}</blockquote><button onClick={() => onOpen(featured)}>阅读全文 →</button></aside> : null}
+    <div className="cabinet-guide">
+      <span className="guide-pointer">选一盒，打开游玩记录</span>
+      {isFiltered && <button className="reset-filters" onClick={() => { onQueryChange(''); onFilterChange('all'); onCategoryChange('全部'); onPlatformChange('all') }}>清除筛选 ×</button>}
+    </div>
+    <div className="game-cabinet">
+      {[...years].map(([year, shelf]) => <section className="cabinet-year" key={year} aria-labelledby={`shelf-year-${year || 'undated'}`}>
+        <header className="shelf-plaque"><h2 id={`shelf-year-${year || 'undated'}`}>{year || '未标日期'}</h2><span>{shelf.length} 盒</span></header>
+        <ul className="cabinet-row">{shelf.map(game => <GameSpine key={game.id} game={game} onOpen={onOpen} />)}</ul>
+      </section>)}
+      {!games.length && <div className="shelf-empty" role="status"><strong>{isFiltered ? '没有符合筛选的游戏' : '游戏柜还是空的'}</strong><p>{isFiltered ? '换个关键词或清除筛选试试。' : '有新的游玩记录时，会摆到这里。'}</p></div>}
     </div>
   </section>
 }
