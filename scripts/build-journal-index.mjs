@@ -19,10 +19,12 @@ const enriched = enrichJournal(imported, {}, await optionalJson('review-score-ov
 const library = await optionalJson('play-library.json')
 const games = mergePlayLibrary(mergeJournals(enrichJournal(manual, {}, {}), enriched), { games: library.games ?? [] })
 const caseCovers = await optionalJson('case-covers.json')
+const boxCovers = await optionalJson('box-covers.json')
 const base = validateJournal({
   games: games.games.map(game => ({
     ...localizeGameTitle(game, titles),
     ...(Object.hasOwn(caseCovers, game.id) ? { caseCover: caseCovers[game.id] } : {}),
+    ...(Object.hasOwn(boxCovers, game.id) ? { boxCover: boxCovers[game.id].image } : {}),
   })),
 })
 const publicDir = fileURLToPath(new URL('../public', import.meta.url))

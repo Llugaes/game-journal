@@ -12,14 +12,14 @@ export const recordedDate = (game: JournalGame) =>
 export const assetUrl = (value: string) => value.startsWith('https://') ? value : `${import.meta.env.BASE_URL}${value.replace(/^\//, '')}`
 
 export const platforms = {
-  steam: 'Steam', pc: 'PC', ps2: 'PS2', ps4: 'PS4', ps5: 'PS5', vita: 'PS Vita',
+  steam: 'Steam', pc: 'PC', ps2: 'PS2', ps3: 'PS3', ps4: 'PS4', ps5: 'PS5', vita: 'PS Vita',
   switch: 'Switch', switch2: 'Switch 2', unknown: '未标注',
 } as const
 export type Platform = keyof typeof platforms
 
 const platformTags = new Map<string, Platform>([
   ['steam', 'steam'], ['pc', 'pc'],
-  ['ps2', 'ps2'], ['playstation2', 'ps2'], ['ps4', 'ps4'], ['playstation4', 'ps4'],
+  ['ps2', 'ps2'], ['playstation2', 'ps2'], ['ps3', 'ps3'], ['playstation3', 'ps3'], ['ps4', 'ps4'], ['playstation4', 'ps4'],
   ['ps5', 'ps5'], ['playstation5', 'ps5'], ['psv', 'vita'], ['psvita', 'vita'], ['playstationvita', 'vita'],
   ['ns', 'switch'], ['switch', 'switch'], ['nintendoswitch', 'switch'],
   ['ns2', 'switch2'], ['switch2', 'switch2'], ['nintendoswitch2', 'switch2'],

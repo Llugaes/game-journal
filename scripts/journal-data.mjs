@@ -55,7 +55,7 @@ export async function validateAssets(journal, publicDir) {
   for (const game of journal.games) {
     const markdownImages = [game.review, ...(game.reviews || [])].filter(r => r?.format === 'markdown')
       .flatMap(r => [...r.content.matchAll(/!\[[^\]]*\]\(([^\s)]+)\)/g)].map(m => m[1]))
-    for (const value of [game.cover, game.caseCover, ...(game.screenshots || []).map(s => s.src), ...markdownImages].filter(Boolean)) {
+    for (const value of [game.cover, game.caseCover, game.boxCover, ...(game.screenshots || []).map(s => s.src), ...markdownImages].filter(Boolean)) {
       if (value.startsWith('https://')) {
         const url = new URL(value)
         if (url.username || url.password) throw new Error(`图片地址非法: ${value}`)

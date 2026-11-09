@@ -1,0 +1,44 @@
+{
+  "switch-01006b601380e000": {
+    "image": "media/box-art/switch-01006b601380e000.webp",
+    "source": "https://gamesdb.launchbox-app.com/games/images/165520-kirbys-return-to-dream-land-deluxe",
+    "original": "https://images.launchbox-app.com/d71052a7-80dc-4dc7-bc49-da626ba67f37.jpg",
+    "edition": "北美版"
+  },
+  "switch-0100770008dd8000": {
+    "image": "media/box-art/switch-0100770008dd8000.webp",
+    "source": "https://nintendoeverything.com/monster-hunter-generations-ultimate-boxart/",
+    "original": "https://nintendoeverything.com/wp-content/uploads/monster-hunter-generations-boxart-1.jpg",
+    "edition": "Capcom 提供的北美盒图"
+  },
+  "switch-01007ef00011e000": {
+    "image": "media/box-art/switch-01007ef00011e000.webp",
+    "source": "https://www.nintendo.com/jp/zelda/botw/products.html",
+    "original": "https://www.nintendo.com/jp/zelda/botw/assets/img/products/soft_switch_pkg.png",
+    "edition": "Switch 日版标准版"
+  },
+  "switch-0100d9f01d474000": {
+    "image": "media/box-art/switch-0100d9f01d474000.webp",
+    "source": "https://www.nintendo.com/us/store/products/rhythm-heaven-groove-125679/",
+    "original": "https://assets.nintendo.com/image/upload/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%202/Software/Rhythm%20Heaven%20Groove/125679-nintendo-rhythm-heaven-groove-box-art-2000x2000.png",
+    "edition": "北美版"
+  },
+  "switch-0100f43008c44000": {
+    "image": "media/box-art/switch-0100f43008c44000.webp",
+    "source": "https://www.pokemon.co.jp/ex/legends_z-a/tc/lineup/250722_01/",
+    "original": "https://www.pokemon.co.jp/ex/legends_z-a/assets/img/lineup/250722_01/tc/img_01.webp",
+    "edition": "港台 Switch 2 Edition"
+  },
+  "switch-0100ff500e34a000": {
+    "image": "media/box-art/switch-0100ff500e34a000.webp",
+    "source": "https://www.nintendo.com/jp/games/switch2/aubqb/guide/index.html",
+    "original": "https://www.nintendo.com/jp/games/switch2/aubqb/guide/assets/img/img_software_package_edition.webp",
+    "edition": "日版 Switch 2 Edition"
+  },
+  "switch-040074a01bf12000": {
+    "image": "media/box-art/switch-040074a01bf12000.webp",
+    "source": "https://www.nintendo.com/us/store/products/nintendo-switch-2-donkey-kong-bananza-121485/",
+    "original": "https://assets.nintendo.com/image/upload/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%202/Software/Donkey%20Kong%20Bananza/121485-nintendo-switch-2-donkey-kong-bananza-2000x2000.png",
+    "edition": "北美版"
+  }
+}

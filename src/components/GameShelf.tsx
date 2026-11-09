@@ -39,15 +39,15 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
       title={[game.title, platforms[platform], studio?.name, date, scoreLabel].filter(Boolean).join(' / ')}
       aria-label={scoreLabel ? `${game.title}，${scoreLabel}` : game.title} onClick={open}>
       <span className="spine-shell">
-        <PlatformBrand platform={platform} className="spine-cap" />
+        <PlatformBrand platform={platform} className="spine-cap" spine />
         <span className="spine-face">
-          {cover && <img key={cover} src={cover} alt="" loading="lazy" decoding="async" onError={onError} />}
+          {cover && platform !== 'switch' && <img key={cover} src={cover} alt="" loading="lazy" decoding="async" onError={onError} />}
           <span className="spine-title">{game.title}</span>
         </span>
-        {scores.length > 0 && <ShelfScore score={score} />}
         <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
           ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
           : <span>{studio.name}</span>)}</span>
+        {scores.length > 0 && <ShelfScore score={score} />}
       </span>
     </a>
   </li>

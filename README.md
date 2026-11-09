@@ -114,7 +114,9 @@ npm run build -- --base /game-journal/
 
 评测导入会补充 Steam 简体中文商店名称，保存在 `data/steam-titles.json`。`npm run steam:titles -- --refresh` 可刷新这一批商店资料。构建时在合并游玩记录、评测和截图后统一应用名称表。`data/title-overrides.json` 以 Steam App ID 或完整游戏 ID 为键，优先记录官方中文名称，亦可采用有来源的通用中文名。试玩版等版本区别随标题保留，原名仍可搜索。
 
-盒脊底部留给厂商标志，评分徽章单独放在上一行。盒脊和详情共用封面来源，开盒后按原比例显示完整封面。主机开发商在 `data/console-developers.json` 按游戏 ID 维护，Steam 开发商在 `data/steam-developers.json` 按 App ID 维护。
+盒子统一显示高度，塑料边、盒脊厚度和平台标识参考对应实体盒。厂商标志与评分分别占一行，评分在最底部。主机开发商在 `data/console-developers.json` 按游戏 ID 维护，Steam 开发商在 `data/steam-developers.json` 按 App ID 维护。
+
+`data/box-covers.json` 按游戏 ID 记录经核对的实体盒封及原图来源。开盒后优先显示整张盒封，保留原比例与印刷内容。Switch 游玩记录附带的方形图标只用于卡带标签；没有对应盒封时，盒面使用游戏名称和平台标识。
 
 构建会从评测中的明确评分行提取个人分数，开盒后在盒面下方展示总评、分项和评分原话。支持小数、五分/十分/百分制、条件值（如 `6(8)/10`）、版本或体验维度、范围及“以上”。没有明确分母的“8.5分”不补成十分制，不从推荐结论或游玩时长推算评分。
 

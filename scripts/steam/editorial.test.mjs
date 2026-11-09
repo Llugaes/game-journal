@@ -19,6 +19,17 @@ test('修改评测后重新识别评分，不保留失效证据', () => {
   const base = sample(), edited = structuredClone(base.games[0]); edited.reviews[0].content = '6.5/10\n新的看法';
   assert.equal(updateEditorial(base, empty(), [edited]).data.games[0].reviews[0].scores[0].value, '6.5');
 });
+test('编辑游戏封面时，手选封面优先于实体盒封和平台图标', () => {
+  const base = sample();
+  base.games[0].boxCover = 'media/box-art/official.webp';
+  base.games[0].caseCover = 'https://example.com/icon.png';
+  assert.equal(applyEditorial(base, empty()).games[0].boxCover, 'media/box-art/official.webp');
+  const edited = { ...base.games[0], cover: 'media/box-art/selected.webp' };
+  const saved = updateEditorial(base, empty(), [edited]).data.games[0];
+  assert.equal(saved.cover, edited.cover);
+  assert.equal(saved.boxCover, undefined);
+  assert.equal(saved.caseCover, undefined);
+});
 test('明确的独立十分制分数不需要伪造评测原话', () => {
   const base = sample(), edited = structuredClone(base.games[0]); edited.personalScores = [{ label: '总评', value: '9.2', scale: 10 }];
   const saved = updateEditorial(base, empty(), [edited]);

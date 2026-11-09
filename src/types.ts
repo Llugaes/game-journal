@@ -52,6 +52,7 @@ export type JournalGame = {
   steamAppId?: string
   cover?: string
   caseCover?: string
+  boxCover?: string
   review?: JournalReview
   reviews?: JournalReview[]
   screenshots?: JournalScreenshot[]
