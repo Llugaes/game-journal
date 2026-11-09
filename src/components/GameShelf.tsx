@@ -1,4 +1,4 @@
-import type { MouseEvent } from 'react'
+import { useLayoutEffect, useRef, type MouseEvent } from 'react'
 import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
@@ -29,6 +29,26 @@ const studioShortNames = new Map([
   ['Sucker Punch Productions', 'Sucker Punch'], ['Blizzard Entertainment, Inc.', 'Blizzard'],
 ])
 
+function fitSpineTitles(shelf: HTMLElement) {
+  let remaining = Array.from(shelf.querySelectorAll<HTMLElement>('.spine-title'))
+  const range = document.createRange()
+  for (const title of remaining) title.removeAttribute('data-wrap')
+
+  for (let size = 16; size >= 7 && remaining.length; size--) {
+    // Batch writes before reading layout. Keep a single column while it is still readable.
+    for (const title of remaining) {
+      if (size === 12) title.dataset.wrap = ''
+      title.style.fontSize = `${size}px`
+    }
+    remaining = remaining.filter(title => {
+      range.selectNodeContents(title)
+      const text = range.getBoundingClientRect()
+      const face = title.parentElement!.getBoundingClientRect()
+      return text.left < face.left || text.right > face.right || text.bottom > face.bottom - 2
+    })
+  }
+}
+
 function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: JournalGame }) {
   const platform = platformOf(game)
   const date = recordedDate(game)
@@ -38,10 +58,9 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const scores = scoresOf(game)
   const score = caseOverallScore(scores)
   const scoreLabel = score ? `${score.label} ${score.value}${score.scale ? `/${score.scale}` : ' 分'}${score.qualifier || ''}` : scores.length ? '有分项评分' : ''
-  const { name, version, qualifier, edition } = spineTitle(game.title)
+  const { name, version, qualifier, edition } = spineTitle(game.title, platform)
   const ordinal = /\s+the (?:1st|2nd|3rd)$/i.exec(name)
-  const titleLength = [...name].reduce((length, char) => length + (char.charCodeAt(0) < 128 ? .6 : 1), 0)
-  const titleFit = titleLength > 10 ? 'columns' : titleLength > 8 ? 'condensed' : undefined
+  const titleParts = (ordinal ? name.slice(0, ordinal.index) : name).split(/([:：])/)
   const artwork = useCaseArtwork(game, 'spine')
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
@@ -57,8 +76,9 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
         <span className="spine-label">
           <span className="spine-face">
             {artwork.src && <img className="spine-artwork" key={artwork.src} src={artwork.src} alt="" loading="lazy" decoding="async" onError={artwork.onError} />}
-            <span className="spine-title" data-fit={titleFit}>
-              {ordinal ? <>{name.slice(0, ordinal.index)} <small>{ordinal[0].trimStart()}</small></> : name}
+            <span className="spine-title">
+              {titleParts.map((part, index) => index % 2 ? <span className="spine-colon" key={index}>:</span> : part)}
+              {ordinal && <> <small>{ordinal[0].trimStart()}</small></>}
             </span>
           </span>
           <span className="spine-edition" aria-hidden="true">
@@ -79,6 +99,18 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
 }
 
 export function GameShelf({ games, categories, activeCategory, onCategoryChange, onOpen, query, onQueryChange, filter, onFilterChange, platform, onPlatformChange }: ShelfProps) {
+  const cabinet = useRef<HTMLDivElement>(null)
+  useLayoutEffect(() => {
+    const shelf = cabinet.current
+    if (!shelf) return
+    fitSpineTitles(shelf)
+    if (document.fonts.status === 'loading') {
+      let active = true
+      void document.fonts.ready.then(() => { if (active) fitSpineTitles(shelf) })
+      return () => { active = false }
+    }
+  }, [games])
+
   const years = new Map<string, JournalGame[]>()
   for (const game of games.slice().sort((a, b) => recordedDate(b).localeCompare(recordedDate(a)))) {
     const year = recordedDate(game).slice(0, 4)
@@ -111,7 +143,7 @@ export function GameShelf({ games, categories, activeCategory, onCategoryChange,
       <span className="guide-pointer">选一盒，打开游玩记录</span>
       {isFiltered && <button className="reset-filters" onClick={() => { onQueryChange(''); onFilterChange('all'); onCategoryChange('全部'); onPlatformChange('all') }}>清除筛选 ×</button>}
     </div>
-    <div className="game-cabinet">
+    <div className="game-cabinet" ref={cabinet}>
       {[...years].map(([year, shelf]) => <section className="cabinet-year" key={year} aria-labelledby={`shelf-year-${year || 'undated'}`}>
         <header className="shelf-plaque"><h2 id={`shelf-year-${year || 'undated'}`}>{year || '未标日期'}</h2><span>{shelf.length} 盒</span></header>
         <ul className="cabinet-row">{shelf.map(game => <GameSpine key={game.id} game={game} onOpen={onOpen} />)}</ul>

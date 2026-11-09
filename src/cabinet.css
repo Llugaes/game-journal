@@ -277,7 +277,7 @@ main:has(> .shelf-page) { width: 100%; }
 }
 .spine-label { display: grid; grid-template-rows: minmax(0, 1fr) 21px 22px 37px; min-width: 0; border-radius: 0 0 2px 2px; background: var(--spine-background); }
 .spine-face, .spine-edition, .spine-studio, .spine-rating { min-width: 0; }
-.spine-face { position: relative; display: grid; justify-items: center; min-height: 0; overflow: hidden; }
+.spine-face { position: relative; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); justify-items: center; min-height: 0; overflow: hidden; }
 .spine-artwork {
   position: absolute;
   inset: 0;
@@ -300,20 +300,14 @@ main:has(> .shelf-page) { width: 100%; }
   writing-mode: vertical-rl;
   text-orientation: mixed;
   white-space: nowrap;
-  text-overflow: ellipsis;
   font: 800 16px/1.05 var(--spine-display);
 }
-.spine-title small { font: inherit; font-size: 13px; }
-.spine-title[data-fit="condensed"] { font-size: 14px; }
-.spine-title[data-fit="columns"] {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+.spine-colon { text-combine-upright: all; }
+.spine-title small { font: inherit; font-size: .82em; }
+.spine-title[data-wrap] {
   overflow-wrap: anywhere;
   white-space: normal;
-  font-size: 12px;
 }
-.game-spine:is([data-case="switch"], [data-case="switch2"]) .spine-title[data-fit="columns"] { font-size: 10.5px; }
 .spine-edition { display: grid; grid-template-rows: minmax(0, 1fr); place-items: end center; padding-bottom: 1px; }
 .spine-edition-tag { display: grid; justify-items: center; gap: 1px; border: 1px solid currentColor; border-radius: 2px; padding: 1px 0; font: 700 7px/1 var(--cabinet-sans); white-space: nowrap; }
 .spine-edition-tag small { font-size: 5.5px; }

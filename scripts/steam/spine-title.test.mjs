@@ -24,3 +24,12 @@ test('版本限定语和版本标记分别排版', () => {
   assert.deepEqual(spineTitle('纳克园: 最后的乐园 Playtest'), { name: '纳克园: 最后的乐园', version: '测试版' });
   assert.deepEqual(spineTitle('体验版'), { name: '体验版' });
 });
+
+test('盒脊省去书名号和与盒型重复的平台后缀', () => {
+  assert.deepEqual(spineTitle('宝可梦传说 Z-A（Switch 2 版）', 'switch2'), { name: '宝可梦传说 Z-A' });
+  assert.deepEqual(spineTitle('宝可梦传说 Z-A（Switch 2 版）', 'switch'), { name: '宝可梦传说 Z-A（Switch 2 版）' });
+  assert.deepEqual(spineTitle('游戏（PS5 版）', 'ps5'), { name: '游戏' });
+  assert.deepEqual(spineTitle('《恶意不息》', 'steam'), { name: '恶意不息' });
+  assert.deepEqual(spineTitle('《剑星》体验版', 'steam'), { name: '剑星', version: '体验版', qualifier: undefined });
+  assert.deepEqual(spineTitle('《新生也疯狂》第1季', 'steam'), { name: '新生也疯狂第1季' });
+});
