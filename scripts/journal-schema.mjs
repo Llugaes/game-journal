@@ -62,7 +62,7 @@ export function validateJournal(parsed) {
       rating: game.rating ?? undefined, summary: optional(game.summary), status: optional(game.status), playtime: optional(game.playtime),
       ...(game.personalScores !== undefined ? { personalScores: game.personalScores.map(personalScore) } : {}),
       lastPlayedAt: game.lastPlayedAt ? date(game.lastPlayedAt) : undefined, recordedAt: game.recordedAt ? date(game.recordedAt) : undefined,
-      steamAppId: optional(game.steamAppId), cover: asset(game.cover), review: review(game.review), reviews: (game.reviews || []).map(review),
+      steamAppId: optional(game.steamAppId), cover: asset(game.cover), ...(game.caseCover ? { caseCover: asset(game.caseCover) } : {}), review: review(game.review), reviews: (game.reviews || []).map(review),
       notes: game.notes.map(note => ({ id: note.id, date: date(note.date), createdAt: required(note.createdAt, '随笔时间'), title: optional(note.title), feeling: required(note.feeling, '随笔正文'), moment: optional(note.moment) })),
       screenshots: (game.screenshots || []).map(shot => {
         if (!Number.isInteger(shot.width) || !Number.isInteger(shot.height) || shot.width < 1 || shot.height < 1) throw new Error('截图尺寸不合法')

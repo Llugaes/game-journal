@@ -16,6 +16,24 @@ export function mergeJournals(manual, imported) {
   return { games: [...map.values()].sort((a, b) => (b.recordedAt || b.lastPlayedAt || '').localeCompare(a.recordedAt || a.lastPlayedAt || '')) }
 }
 
+export function mergePlayLibrary(journal, library) {
+  const games = new Map(journal.games.map(game => [game.id, game]))
+  for (const played of validateJournal(library).games) {
+    const existing = games.get(played.id)
+    if (!existing) {
+      games.set(played.id, played)
+      continue
+    }
+    const lastPlayedAt = [existing.lastPlayedAt, played.lastPlayedAt].filter(Boolean).sort().at(-1)
+    games.set(played.id, {
+      ...existing,
+      lastPlayedAt,
+      playtime: existing.playtime ?? played.playtime,
+    })
+  }
+  return { games: [...games.values()] }
+}
+
 export async function resolveGameCovers(journal, publicDir) {
   for (const game of journal.games) {
     // Earlier Steam imports reused a gallery image as the cover.
@@ -37,7 +55,7 @@ export async function validateAssets(journal, publicDir) {
   for (const game of journal.games) {
     const markdownImages = [game.review, ...(game.reviews || [])].filter(r => r?.format === 'markdown')
       .flatMap(r => [...r.content.matchAll(/!\[[^\]]*\]\(([^\s)]+)\)/g)].map(m => m[1]))
-    for (const value of [game.cover, ...(game.screenshots || []).map(s => s.src), ...markdownImages].filter(Boolean)) {
+    for (const value of [game.cover, game.caseCover, ...(game.screenshots || []).map(s => s.src), ...markdownImages].filter(Boolean)) {
       if (value.startsWith('https://')) {
         const url = new URL(value)
         if (url.username || url.password) throw new Error(`图片地址非法: ${value}`)

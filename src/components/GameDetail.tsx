@@ -3,7 +3,7 @@ import Markdown from 'react-markdown'
 import type { JournalGame } from '../types'
 import { assetUrl, platformOf, platforms, recordedDate, reviewsOf, scoresOf } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
-import { caseOverallScore, ScorePanel } from './ScorePanel'
+import { ScorePanel } from './ScorePanel'
 import { GameCase } from './GameCase'
 import { RecommendationBadge } from './RecommendationBadge'
 import { ScreenshotViewer } from './ScreenshotViewer'
@@ -13,12 +13,11 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
   const reviews = reviewsOf(game)
   const screenshots = game.screenshots || []
   const scores = scoresOf(game)
-  const scoreOnCover = caseOverallScore(scores)
   const studio = studioOf(game)
   return <section className="game-detail">
     <button className="back-link" onClick={onBack}><span aria-hidden="true">‹</span> 返回游戏柜</button>
     <div className="case-display">
-      <GameCase game={game} score={scoreOnCover} />
+      <GameCase key={game.id} game={game} />
       <header className="detail-title">
         <h1 id="game-detail-title" tabIndex={-1}>{game.title}</h1>
         {game.originalTitle && game.originalTitle !== game.title && <p className="original-title">{game.originalTitle}</p>}
@@ -27,7 +26,7 @@ export function GameDetail({ game, onBack }: { game: JournalGame; onBack: () => 
       </header>
     </div>
     <div className="detail-layout"><article>
-      <ScorePanel scores={scores} onCover={scoreOnCover} />
+      <ScorePanel scores={scores} />
       {reviews.map((review, index) => <section className="review-copy" key={review.id || index}>
         <h2>{review.title || '游戏评测'}</h2>
         <div className="source-meta">

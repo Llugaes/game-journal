@@ -1,8 +1,9 @@
 import type { MouseEvent } from 'react'
 import type { JournalGame } from '../types'
-import { assetUrl, gameHref, platformOf, platforms, recordedDate, type Platform } from '../lib/journal'
+import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
 import { PlatformBrand } from './PlatformBrand'
+import { caseOverallScore, ShelfScore } from './ScorePanel'
 
 type ShelfProps = {
   games: JournalGame[]
@@ -23,6 +24,9 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const date = recordedDate(game)
   const finish = [...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5
   const studio = studioOf(game)
+  const scores = scoresOf(game)
+  const score = caseOverallScore(scores)
+  const scoreLabel = score ? `${score.label} ${score.value}${score.scale ? `/${score.scale}` : ' 分'}${score.qualifier || ''}` : scores.length ? '有分项评分' : ''
   const cover = game.cover ? assetUrl(game.cover) : undefined
   const printedArt = (platform === 'steam' || platform === 'pc') && (finish === 1 || finish === 3)
   function open(event: MouseEvent<HTMLAnchorElement>) {
@@ -32,16 +36,20 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   }
   return <li className="cabinet-slot">
     <a className="game-spine" href={gameHref(game.id)} data-case={platform} data-finish={finish}
-      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
+      title={[game.title, platforms[platform], studio?.name, date, scoreLabel].filter(Boolean).join(' / ')}
+      aria-label={scoreLabel ? `${game.title}，${scoreLabel}` : game.title} onClick={open}>
       <span className="spine-shell">
         <PlatformBrand platform={platform} className="spine-cap" />
         <span className="spine-face">
           {printedArt && cover && <img src={cover} alt="" loading="lazy" decoding="async" />}
           <span className="spine-title">{game.title}</span>
         </span>
-        <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
-          ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
-          : <span>{studio.name}</span>)}</span>
+        <span className="spine-footer">
+          <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
+            ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
+            : <span>{studio.name}</span>)}</span>
+          {scores.length > 0 && <ShelfScore score={score} />}
+        </span>
       </span>
     </a>
   </li>

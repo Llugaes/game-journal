@@ -1,0 +1,13 @@
+{
+  "223870": { "type": "game", "title": "Ys II" },
+  "228980": { "type": "tool", "title": "Steamworks Common Redistributables" },
+  "236600": { "type": "config", "title": "NVIDIA.SteamLauncher" },
+  "1292790": { "type": "game", "title": "梦中女孩", "cover": "library_600x900_2x.jpg" },
+  "1347430": { "type": "game", "title": "Cute Honey", "cover": "library_600x900_2x.jpg" },
+  "1638720": { "type": "beta", "title": "Battlefield™ 2042 Open Beta", "cover": "library_600x900.jpg" },
+  "1641480": { "type": "demo", "title": "MONSTER HUNTER RISE DEMO", "cover": "library_600x900_2x.jpg" },
+  "2394010": { "type": "tool", "title": "Palworld Dedicated Server" },
+  "3351700": { "type": "demo", "title": "The First Berserker: Khazan Demo", "cover": "4ad5dfcdc288d2a19368a6472f3f1743b7b99d3f/library_600x900_2x.jpg" },
+  "3449820": { "type": "demo", "title": "Ratatan Demo", "cover": "ed328b87bc6fd4ed4876dfc4ee98e2f0ad490590/library_600x900_2x.jpg" },
+  "4818230": { "type": "demo", "title": "Wo Long 2: Wings of Ember（卧龙2：凤火连天） α体验版", "cover": "c29d2dde901146df7657a4e862cd1532cf988ab5/library_capsule_2x.jpg" }
+}

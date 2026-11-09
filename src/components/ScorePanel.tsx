@@ -26,21 +26,28 @@ export function caseOverallScore(scores: JournalScore[]) {
   return scores.find(score => isOverall(score) && badgeValue(score) !== null) ?? scores.find(isOverall)
 }
 
-export function CaseScoreSticker({ score }: { score: JournalScore }) {
-  const image = badgeSvg(score)
-  return <div className="case-sticker" aria-label={description(score)} role="img">
-    {image ? <><img src={image} alt="" />{score.qualifier && <span>{score.qualifier}</span>}</> :
-      <span>{score.value}{score.scale ? ` / ${score.scale}` : ' 分'}{score.qualifier || ''}</span>}
-  </div>
+export function ShelfScore({ score }: { score?: JournalScore }) {
+  const image = score && badgeSvg(score)
+  return <span className="spine-score" aria-hidden="true">
+    {image ? <img src={image} alt="" /> : <span>{score ? score.value + (score.scale ? `/${score.scale}` : '') : '评'}</span>}
+  </span>
 }
 
-export function ScorePanel({ scores, onCover }: { scores: JournalScore[]; onCover?: JournalScore }) {
+export function ScorePanel({ scores }: { scores: JournalScore[] }) {
   if (!scores.length) return null
-  const rest = onCover && badgeValue(onCover) !== null ? scores.filter(score => score !== onCover) : scores
+  const overall = caseOverallScore(scores)
+  const image = overall && badgeSvg(overall)
+  const rest = image ? scores.filter(score => score !== overall) : scores
   const evidence = [...new Set(scores.map(score => score.evidence).filter(Boolean))]
-  if (!rest.length && !evidence.length) return null
   return <div className="score-panel" aria-label="我的评分">
-    {rest.length > 0 && <><div className="score-panel-heading">我的评分</div><div className="score-bars">{rest.map((score, index) => <ScoreBar score={score} key={`${score.label}-${index}`} />)}</div></>}
+    <div className="score-panel-heading">我的评分</div>
+    <div className="score-breakdown">
+      {overall && image && <div className="score-overall">
+        <img src={image} alt={description(overall)} />
+        <span aria-hidden="true">{overall.label}{overall.qualifier || ''}</span>
+      </div>}
+      {rest.length > 0 && <div className="score-bars">{rest.map((score, index) => <ScoreBar score={score} key={`${score.label}-${index}`} />)}</div>}
+    </div>
     {evidence.length > 0 && <details className="score-evidence"><summary>评分原话</summary>{evidence.map(text => <blockquote key={text}>{text}</blockquote>)}</details>}
   </div>
 }

@@ -1,0 +1,5140 @@
+{
+  "sources": {
+    "steam": "2026-11-09T02:04:00.207Z",
+    "psn": "2026-11-09T01:45:28.687Z",
+    "switch": "2026-11-08T22:30:27.262Z"
+  },
+  "games": [
+    {
+      "id": "psn-cusa01363-00",
+      "title": "Bloodborne™",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "34 分钟",
+      "lastPlayedAt": "2025-06-14"
+    },
+    {
+      "id": "psn-cusa03023-00",
+      "title": "Bloodborne™",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "26 小时 56 分钟",
+      "lastPlayedAt": "2026-08-09"
+    },
+    {
+      "id": "psn-cusa10209-00",
+      "title": "Dragon's Crown Pro",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "1 小时 27 分钟",
+      "lastPlayedAt": "2023-01-02"
+    },
+    {
+      "id": "psn-cusa13910-00",
+      "title": "Sekiro™: Shadows Die Twice",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "10 小时 29 分钟",
+      "lastPlayedAt": "2026-07-11"
+    },
+    {
+      "id": "psn-cusa27055-00",
+      "title": "Tales of Arise",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "49 分钟",
+      "lastPlayedAt": "2021-09-05"
+    },
+    {
+      "id": "psn-cusa31066-00",
+      "title": "ELDEN RING",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "9 小时 23 分钟",
+      "lastPlayedAt": "2021-11-14"
+    },
+    {
+      "id": "psn-cusa31285-00",
+      "title": "DRAGON BALL Z: KAKAROT",
+      "categories": [
+        "PS4"
+      ],
+      "notes": [],
+      "playtime": "2 小时 54 分钟",
+      "lastPlayedAt": "2023-01-15"
+    },
+    {
+      "id": "psn-ppsa01340-00",
+      "title": "Demon's Souls",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "47 小时 51 分钟",
+      "lastPlayedAt": "2023-01-21"
+    },
+    {
+      "id": "psn-ppsa02463-00",
+      "title": "Nioh 2",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "48 小时 54 分钟",
+      "lastPlayedAt": "2024-03-22"
+    },
+    {
+      "id": "psn-ppsa04558-00",
+      "title": "Rise of the Ronin™",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "81 小时 14 分钟",
+      "lastPlayedAt": "2024-04-06"
+    },
+    {
+      "id": "psn-ppsa05702-00",
+      "title": "Forspoken",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "4 小时 21 分钟",
+      "lastPlayedAt": "2023-01-02"
+    },
+    {
+      "id": "psn-ppsa08340-00",
+      "title": "Marvel's Spider-Man 2",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "15 分钟",
+      "lastPlayedAt": "2026-08-09"
+    },
+    {
+      "id": "psn-ppsa09894-00",
+      "title": "Unicorn Overlord",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "38 小时 20 分钟",
+      "lastPlayedAt": "2024-12-14"
+    },
+    {
+      "id": "psn-ppsa10666-00",
+      "title": "FINAL FANTASY XVI",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "2 小时 17 分钟",
+      "lastPlayedAt": "2023-07-30"
+    },
+    {
+      "id": "psn-ppsa13198-00",
+      "title": "Stellar Blade™",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "49 小时 5 分钟",
+      "lastPlayedAt": "2024-05-05"
+    },
+    {
+      "id": "psn-ppsa13414-00",
+      "title": "Ys X: Nordics",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "53 小时 47 分钟",
+      "lastPlayedAt": "2023-10-08"
+    },
+    {
+      "id": "psn-ppsa13804-00",
+      "title": "FINAL FANTASY XVI",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "3 小时 52 分钟",
+      "lastPlayedAt": "2023-06-13"
+    },
+    {
+      "id": "psn-ppsa15890-00",
+      "title": "Lies of P",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "1 小时 28 分钟",
+      "lastPlayedAt": "2023-07-30"
+    },
+    {
+      "id": "psn-ppsa18489-00",
+      "title": "Stellar Blade™",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "1 小时 52 分钟",
+      "lastPlayedAt": "2024-04-09"
+    },
+    {
+      "id": "psn-ppsa19248-00",
+      "title": "Rise of the Ronin™",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "3 分钟",
+      "lastPlayedAt": "2024-04-07"
+    },
+    {
+      "id": "psn-ppsa20180-00",
+      "title": "Ghost of Tsushima",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "87 小时 32 分钟",
+      "lastPlayedAt": "2024-11-24"
+    },
+    {
+      "id": "psn-ppsa20599-00",
+      "title": "Zenless Zone Zero",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "3 分钟",
+      "lastPlayedAt": "2024-09-08"
+    },
+    {
+      "id": "psn-ppsa23226-00",
+      "title": "Black Myth: Wukong",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "7 小时 51 分钟",
+      "lastPlayedAt": "2024-10-26"
+    },
+    {
+      "id": "psn-ppsa23643-00",
+      "title": "The Legend of Heroes: KAI NO KISEKI -Farewell, O Zemuria-",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "102 小时 44 分钟",
+      "lastPlayedAt": "2024-10-12"
+    },
+    {
+      "id": "psn-ppsa24190-00",
+      "title": "Monster Hunter Wilds",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "2 小时 52 分钟",
+      "lastPlayedAt": "2024-10-30"
+    },
+    {
+      "id": "psn-ppsa25968-00",
+      "title": "ELDEN RING NIGHTREIGN",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "6 小时 7 分钟",
+      "lastPlayedAt": "2025-02-16"
+    },
+    {
+      "id": "psn-ppsa26344-00",
+      "title": "Ghost of Yōtei",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "55 小时 23 分钟",
+      "lastPlayedAt": "2026-08-09"
+    },
+    {
+      "id": "psn-ppsa27836-00",
+      "title": "Onimusha: Way of the Sword",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "23 小时 39 分钟",
+      "lastPlayedAt": "2026-09-12"
+    },
+    {
+      "id": "psn-ppsa29602-00",
+      "title": "Nioh 3",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "4 小时 49 分钟",
+      "lastPlayedAt": "2025-09-30"
+    },
+    {
+      "id": "psn-ppsa30556-00",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "categories": [
+        "PS5"
+      ],
+      "notes": [],
+      "playtime": "58 小时 22 分钟",
+      "lastPlayedAt": "2026-05-24"
+    },
+    {
+      "id": "steam-10150",
+      "steamAppId": "10150",
+      "title": "Prototype™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 分钟",
+      "lastPlayedAt": "2017-06-12"
+    },
+    {
+      "id": "steam-1020470",
+      "steamAppId": "1020470",
+      "title": "Evoland Legendary Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "24 小时 33 分钟",
+      "lastPlayedAt": "2025-12-05"
+    },
+    {
+      "id": "steam-1020790",
+      "steamAppId": "1020790",
+      "title": "NARUTO X BORUTO 火影忍者 终极风暴羁绊",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "47 分钟",
+      "lastPlayedAt": "2023-11-18"
+    },
+    {
+      "id": "steam-1030300",
+      "steamAppId": "1030300",
+      "title": "Hollow Knight: Silksong",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "88 小时 35 分钟",
+      "lastPlayedAt": "2025-09-19"
+    },
+    {
+      "id": "steam-105600",
+      "steamAppId": "105600",
+      "title": "Terraria",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "87 小时 22 分钟",
+      "lastPlayedAt": "2026-01-26"
+    },
+    {
+      "id": "steam-107100",
+      "steamAppId": "107100",
+      "title": "Bastion",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "59 分钟",
+      "lastPlayedAt": "2017-04-02"
+    },
+    {
+      "id": "steam-1085660",
+      "steamAppId": "1085660",
+      "title": "命运2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 36 分钟",
+      "lastPlayedAt": "2019-10-06"
+    },
+    {
+      "id": "steam-1086940",
+      "steamAppId": "1086940",
+      "title": "博德之门3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "121 小时 10 分钟",
+      "lastPlayedAt": "2025-04-20"
+    },
+    {
+      "id": "steam-1088710",
+      "steamAppId": "1088710",
+      "title": "人中之龙３",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "91 小时 24 分钟",
+      "lastPlayedAt": "2021-02-17"
+    },
+    {
+      "id": "steam-1091500",
+      "steamAppId": "1091500",
+      "title": "赛博朋克 2077",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "112 小时 12 分钟",
+      "lastPlayedAt": "2021-01-11"
+    },
+    {
+      "id": "steam-1105500",
+      "steamAppId": "1105500",
+      "title": "人中之龙４　继承传说者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "57 小时 42 分钟",
+      "lastPlayedAt": "2021-08-13"
+    },
+    {
+      "id": "steam-1105510",
+      "steamAppId": "1105510",
+      "title": "人中之龙５　实现梦想者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "134 小时 10 分钟",
+      "lastPlayedAt": "2026-02-12"
+    },
+    {
+      "id": "steam-1113000",
+      "steamAppId": "1113000",
+      "title": "女神异闻录４ 黄金版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 13 分钟",
+      "lastPlayedAt": "2020-07-09"
+    },
+    {
+      "id": "steam-1113560",
+      "steamAppId": "1113560",
+      "title": "NieR Replicant™ ver.1.22474487139...",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 10 分钟",
+      "lastPlayedAt": "2021-05-23"
+    },
+    {
+      "id": "steam-1129540",
+      "steamAppId": "1129540",
+      "title": "欧克按摩店",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 4 分钟",
+      "lastPlayedAt": "2024-04-21"
+    },
+    {
+      "id": "steam-1145360",
+      "steamAppId": "1145360",
+      "title": "Hades",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 27 分钟",
+      "lastPlayedAt": "2021-06-20"
+    },
+    {
+      "id": "steam-115320",
+      "steamAppId": "115320",
+      "title": "Prototype 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 18 分钟",
+      "lastPlayedAt": "2017-06-13"
+    },
+    {
+      "id": "steam-1161770",
+      "steamAppId": "1161770",
+      "title": "Breeders of the Nephelym",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "26 分钟",
+      "lastPlayedAt": "2019-10-27"
+    },
+    {
+      "id": "steam-1172620",
+      "steamAppId": "1172620",
+      "title": "Sea of Thieves: 2026 Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 41 分钟",
+      "lastPlayedAt": "2020-06-13"
+    },
+    {
+      "id": "steam-1172710",
+      "steamAppId": "1172710",
+      "title": "Dune: Awakening 沙丘：觉醒",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "57 小时 42 分钟",
+      "lastPlayedAt": "2025-07-14"
+    },
+    {
+      "id": "steam-1173770",
+      "steamAppId": "1173770",
+      "title": "FINAL FANTASY",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 5 分钟",
+      "lastPlayedAt": "2026-04-15"
+    },
+    {
+      "id": "steam-1174180",
+      "steamAppId": "1174180",
+      "title": "Red Dead Redemption 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 43 分钟",
+      "lastPlayedAt": "2019-12-06"
+    },
+    {
+      "id": "steam-1189630",
+      "steamAppId": "1189630",
+      "title": "侠之道(PathOfWuxia)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 16 分钟",
+      "lastPlayedAt": "2020-05-15"
+    },
+    {
+      "id": "steam-1195290",
+      "steamAppId": "1195290",
+      "title": "笼中窥梦 Moncage",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 14 分钟",
+      "lastPlayedAt": "2021-11-21"
+    },
+    {
+      "id": "steam-1203620",
+      "steamAppId": "1203620",
+      "title": "雾锁王国 (Enshrouded)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "59 小时 1 分钟",
+      "lastPlayedAt": "2024-03-10"
+    },
+    {
+      "id": "steam-1217060",
+      "steamAppId": "1217060",
+      "title": "枪火重生",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "39 小时 3 分钟",
+      "lastPlayedAt": "2026-04-26"
+    },
+    {
+      "id": "steam-1222700",
+      "steamAppId": "1222700",
+      "title": "A Way Out",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 51 分钟",
+      "lastPlayedAt": "2021-03-12"
+    },
+    {
+      "id": "steam-1235140",
+      "steamAppId": "1235140",
+      "title": "人中之龙7　光与暗的去向　国际版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "96 小时 48 分钟",
+      "lastPlayedAt": "2023-11-19"
+    },
+    {
+      "id": "steam-1237320",
+      "steamAppId": "1237320",
+      "title": "索尼克 未知边境",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "43 分钟",
+      "lastPlayedAt": "2022-11-09"
+    },
+    {
+      "id": "steam-1239020",
+      "steamAppId": "1239020",
+      "title": "TOGETHER BnB",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 5 分钟",
+      "lastPlayedAt": "2022-04-09"
+    },
+    {
+      "id": "steam-1245620",
+      "steamAppId": "1245620",
+      "title": "艾尔登法环",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "311 小时 31 分钟",
+      "lastPlayedAt": "2024-06-30"
+    },
+    {
+      "id": "steam-1248130",
+      "steamAppId": "1248130",
+      "title": "Farming Simulator 22",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 11 分钟",
+      "lastPlayedAt": "2024-01-09"
+    },
+    {
+      "id": "steam-1277400",
+      "steamAppId": "1277400",
+      "title": "Monster Hunter Stories 2: Wings of Ruin",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "70 小时 10 分钟",
+      "lastPlayedAt": "2021-07-25"
+    },
+    {
+      "id": "steam-1281160",
+      "steamAppId": "1281160",
+      "title": "Castle in The Clouds DX",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 7 分钟",
+      "lastPlayedAt": "2022-08-27"
+    },
+    {
+      "id": "steam-1282100",
+      "steamAppId": "1282100",
+      "title": "遗迹2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "60 小时 45 分钟",
+      "lastPlayedAt": "2023-09-01"
+    },
+    {
+      "id": "steam-1285190",
+      "steamAppId": "1285190",
+      "title": "无主之地®4",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "33 小时 42 分钟",
+      "lastPlayedAt": "2025-09-30"
+    },
+    {
+      "id": "steam-1292790",
+      "steamAppId": "1292790",
+      "title": "梦中女孩",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 34 分钟",
+      "lastPlayedAt": "2020-06-27"
+    },
+    {
+      "id": "steam-1307550",
+      "steamAppId": "1307550",
+      "title": "Craftopia / 创世理想乡",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 小时 5 分钟",
+      "lastPlayedAt": "2020-09-13"
+    },
+    {
+      "id": "steam-1313140",
+      "steamAppId": "1313140",
+      "title": "咩咩启示录",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2022-08-13"
+    },
+    {
+      "id": "steam-1325200",
+      "steamAppId": "1325200",
+      "title": "仁王２ Complete Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "246 小时 16 分钟",
+      "lastPlayedAt": "2024-04-13"
+    },
+    {
+      "id": "steam-1326470",
+      "steamAppId": "1326470",
+      "title": "Sons Of The Forest",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "25 小时 16 分钟",
+      "lastPlayedAt": "2023-08-30"
+    },
+    {
+      "id": "steam-1329410",
+      "steamAppId": "1329410",
+      "title": "雀魂麻将(MahjongSoul)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 分钟",
+      "lastPlayedAt": "2026-07-25"
+    },
+    {
+      "id": "steam-1332010",
+      "steamAppId": "1332010",
+      "title": "Stray",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 小时 24 分钟",
+      "lastPlayedAt": "2024-07-21"
+    },
+    {
+      "id": "steam-1335830",
+      "steamAppId": "1335830",
+      "title": "莱恩岛生存指南",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "52 分钟",
+      "lastPlayedAt": "2025-06-21"
+    },
+    {
+      "id": "steam-1337520",
+      "steamAppId": "1337520",
+      "title": "雨中冒险: 回归",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 25 分钟",
+      "lastPlayedAt": "2023-12-03"
+    },
+    {
+      "id": "steam-1343240",
+      "steamAppId": "1343240",
+      "title": "记忆边境",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 26 分钟",
+      "lastPlayedAt": "2023-05-14"
+    },
+    {
+      "id": "steam-1347430",
+      "steamAppId": "1347430",
+      "title": "Cute Honey",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 分钟",
+      "lastPlayedAt": "2020-07-24"
+    },
+    {
+      "id": "steam-1350650",
+      "steamAppId": "1350650",
+      "title": "《新生也疯狂》第1季",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 1 分钟",
+      "lastPlayedAt": "2024-01-25"
+    },
+    {
+      "id": "steam-1351630",
+      "steamAppId": "1351630",
+      "title": "Ys IX: Monstrum Nox",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "41 小时 50 分钟",
+      "lastPlayedAt": "2022-06-25"
+    },
+    {
+      "id": "steam-1356670",
+      "steamAppId": "1356670",
+      "title": "天穗之咲稻姬",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 59 分钟",
+      "lastPlayedAt": "2021-12-12"
+    },
+    {
+      "id": "steam-1357610",
+      "steamAppId": "1357610",
+      "title": "Desktop Farm",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 7 分钟",
+      "lastPlayedAt": "2020-08-04"
+    },
+    {
+      "id": "steam-1358700",
+      "steamAppId": "1358700",
+      "title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "28 小时 36 分钟",
+      "lastPlayedAt": "2023-08-20"
+    },
+    {
+      "id": "steam-1360980",
+      "steamAppId": "1360980",
+      "title": "Fetish Locator Week One",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 26 分钟",
+      "lastPlayedAt": "2021-10-30"
+    },
+    {
+      "id": "steam-1361210",
+      "steamAppId": "1361210",
+      "title": "战锤40K：暗潮",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 小时 4 分钟",
+      "lastPlayedAt": "2026-05-24"
+    },
+    {
+      "id": "steam-1371980",
+      "steamAppId": "1371980",
+      "title": "《恶意不息》",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "9 小时 41 分钟",
+      "lastPlayedAt": "2024-04-21"
+    },
+    {
+      "id": "steam-1388590",
+      "steamAppId": "1388590",
+      "title": "人中之龙６　生命诗篇。",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "52 小时 50 分钟",
+      "lastPlayedAt": "2022-01-31"
+    },
+    {
+      "id": "steam-1405490",
+      "steamAppId": "1405490",
+      "title": "轩辕剑柒-免费试玩版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 分钟",
+      "lastPlayedAt": "2020-10-19"
+    },
+    {
+      "id": "steam-1426210",
+      "steamAppId": "1426210",
+      "title": "双人成行",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "30 小时 21 分钟",
+      "lastPlayedAt": "2025-11-09"
+    },
+    {
+      "id": "steam-1444480",
+      "steamAppId": "1444480",
+      "title": "Turing Complete",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "33 分钟",
+      "lastPlayedAt": "2025-07-19"
+    },
+    {
+      "id": "steam-1446780",
+      "steamAppId": "1446780",
+      "title": "MONSTER HUNTER RISE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "386 小时 36 分钟",
+      "lastPlayedAt": "2024-11-17"
+    },
+    {
+      "id": "steam-1448440",
+      "steamAppId": "1448440",
+      "title": "Wo Long: Fallen Dynasty （卧龙：苍天陨落）",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "190 小时",
+      "lastPlayedAt": "2023-12-31"
+    },
+    {
+      "id": "steam-1450080",
+      "steamAppId": "1450080",
+      "title": "英雄传说：闪之轨迹III",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "83 小时 23 分钟",
+      "lastPlayedAt": "2023-02-06"
+    },
+    {
+      "id": "steam-1450090",
+      "steamAppId": "1450090",
+      "title": "英雄传说：闪之轨迹II：改 –The Erebonian Civil War-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "79 小时 6 分钟",
+      "lastPlayedAt": "2023-02-04"
+    },
+    {
+      "id": "steam-1450120",
+      "steamAppId": "1450120",
+      "title": "英雄传说：闪之轨迹I：改 –Thors Military Academy 1204–",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "73 小时 14 分钟",
+      "lastPlayedAt": "2023-01-07"
+    },
+    {
+      "id": "steam-1457510",
+      "steamAppId": "1457510",
+      "title": "英雄传说 闪之轨迹IV -THE END OF SAGA-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "91 小时 53 分钟",
+      "lastPlayedAt": "2023-04-02"
+    },
+    {
+      "id": "steam-1457520",
+      "steamAppId": "1457520",
+      "title": "英雄传说 零之轨迹：改",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "71 小时 38 分钟",
+      "lastPlayedAt": "2022-12-04"
+    },
+    {
+      "id": "steam-1461920",
+      "steamAppId": "1461920",
+      "title": "英雄传说 碧之轨迹：改",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "87 小时 37 分钟",
+      "lastPlayedAt": "2022-12-18"
+    },
+    {
+      "id": "steam-1462040",
+      "steamAppId": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "77 小时 34 分钟",
+      "lastPlayedAt": "2025-02-18"
+    },
+    {
+      "id": "steam-1468810",
+      "steamAppId": "1468810",
+      "title": "鬼谷八荒",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "26 小时 44 分钟",
+      "lastPlayedAt": "2021-11-14"
+    },
+    {
+      "id": "steam-1475810",
+      "steamAppId": "1475810",
+      "title": "Ghostwire: Tokyo",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 小时 50 分钟",
+      "lastPlayedAt": "2022-05-02"
+    },
+    {
+      "id": "steam-1483870",
+      "steamAppId": "1483870",
+      "title": "Draw & Guess - 你画我猜",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 40 分钟",
+      "lastPlayedAt": "2021-08-04"
+    },
+    {
+      "id": "steam-1490890",
+      "steamAppId": "1490890",
+      "title": "鬼灭之刃 火之神血风谭",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 58 分钟",
+      "lastPlayedAt": "2021-11-27"
+    },
+    {
+      "id": "steam-1501750",
+      "steamAppId": "1501750",
+      "title": "Lords of the Fallen 堕落之主",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "57 分钟",
+      "lastPlayedAt": "2025-06-14"
+    },
+    {
+      "id": "steam-1509960",
+      "steamAppId": "1509960",
+      "title": "PICO PARK",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 47 分钟",
+      "lastPlayedAt": "2026-05-04"
+    },
+    {
+      "id": "steam-15100",
+      "steamAppId": "15100",
+      "title": "Assassin's Creed™: Director's Cut Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 分钟",
+      "lastPlayedAt": "2022-08-23"
+    },
+    {
+      "id": "steam-1562940",
+      "steamAppId": "1562940",
+      "title": "英雄传说 创之轨迹",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "82 小时 23 分钟",
+      "lastPlayedAt": "2023-04-12"
+    },
+    {
+      "id": "steam-1580780",
+      "steamAppId": "1580780",
+      "title": "NINJA GAIDEN Σ [NINJA GAIDEN: Master Collection]",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 小时 41 分钟",
+      "lastPlayedAt": "2021-07-01"
+    },
+    {
+      "id": "steam-1604030",
+      "steamAppId": "1604030",
+      "title": "夜族崛起",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "103 小时 18 分钟",
+      "lastPlayedAt": "2022-05-29"
+    },
+    {
+      "id": "steam-1608070",
+      "steamAppId": "1608070",
+      "title": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "52 小时 32 分钟",
+      "lastPlayedAt": "2025-04-26"
+    },
+    {
+      "id": "steam-1608700",
+      "steamAppId": "1608700",
+      "title": "Soundfall",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 1 分钟",
+      "lastPlayedAt": "2022-11-17"
+    },
+    {
+      "id": "steam-1623730",
+      "steamAppId": "1623730",
+      "title": "Palworld / 幻兽帕鲁",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "144 小时 56 分钟",
+      "lastPlayedAt": "2026-08-04"
+    },
+    {
+      "id": "steam-1627720",
+      "steamAppId": "1627720",
+      "title": "Lies of P",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "35 小时 39 分钟",
+      "lastPlayedAt": "2025-05-09"
+    },
+    {
+      "id": "steam-1638720",
+      "steamAppId": "1638720",
+      "title": "Battlefield™ 2042 Open Beta",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 分钟",
+      "lastPlayedAt": "2021-10-06"
+    },
+    {
+      "id": "steam-1641480",
+      "steamAppId": "1641480",
+      "title": "MONSTER HUNTER RISE DEMO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "38 分钟",
+      "lastPlayedAt": "2021-10-15"
+    },
+    {
+      "id": "steam-1649240",
+      "steamAppId": "1649240",
+      "title": "Returnal™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "12 分钟",
+      "lastPlayedAt": "2023-11-25"
+    },
+    {
+      "id": "steam-1659040",
+      "steamAppId": "1659040",
+      "title": "HITMAN World of Assassination",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 小时 4 分钟",
+      "lastPlayedAt": "2022-09-09"
+    },
+    {
+      "id": "steam-1676840",
+      "steamAppId": "1676840",
+      "title": "为了吾王II / For The King II",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 分钟",
+      "lastPlayedAt": "2025-05-06"
+    },
+    {
+      "id": "steam-1680880",
+      "steamAppId": "1680880",
+      "title": "Forspoken",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "46 分钟",
+      "lastPlayedAt": "2023-01-27"
+    },
+    {
+      "id": "steam-1713810",
+      "steamAppId": "1713810",
+      "title": "深岩破裂者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 5 分钟",
+      "lastPlayedAt": "2022-04-16"
+    },
+    {
+      "id": "steam-1716740",
+      "steamAppId": "1716740",
+      "title": "Starfield",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "73 小时",
+      "lastPlayedAt": "2023-09-10"
+    },
+    {
+      "id": "steam-1718570",
+      "steamAppId": "1718570",
+      "title": "神之天平（ASTLIBRA Revision）",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "77 小时 10 分钟",
+      "lastPlayedAt": "2025-05-31"
+    },
+    {
+      "id": "steam-17300",
+      "steamAppId": "17300",
+      "title": "Crysis",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 4 分钟",
+      "lastPlayedAt": "2017-03-09"
+    },
+    {
+      "id": "steam-1732190",
+      "steamAppId": "1732190",
+      "title": "零 ～濡鸦之巫女～",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "25 小时 51 分钟",
+      "lastPlayedAt": "2021-11-06"
+    },
+    {
+      "id": "steam-17390",
+      "steamAppId": "17390",
+      "title": "SPORE™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 35 分钟",
+      "lastPlayedAt": "2018-01-30"
+    },
+    {
+      "id": "steam-17470",
+      "steamAppId": "17470",
+      "title": "Dead Space (2008)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 17 分钟",
+      "lastPlayedAt": "2017-06-25"
+    },
+    {
+      "id": "steam-1763250",
+      "steamAppId": "1763250",
+      "title": "圣杯誓约",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "9 小时 59 分钟",
+      "lastPlayedAt": "2025-05-04"
+    },
+    {
+      "id": "steam-1792820",
+      "steamAppId": "1792820",
+      "title": "刀剑封魔录",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "35 分钟",
+      "lastPlayedAt": "2022-03-21"
+    },
+    {
+      "id": "steam-1794680",
+      "steamAppId": "1794680",
+      "title": "Vampire Survivors - 吸血鬼幸存者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 53 分钟",
+      "lastPlayedAt": "2022-02-23"
+    },
+    {
+      "id": "steam-1799220",
+      "steamAppId": "1799220",
+      "title": "逃脱：怨念",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 56 分钟",
+      "lastPlayedAt": "2022-11-05"
+    },
+    {
+      "id": "steam-1805480",
+      "steamAppId": "1805480",
+      "title": "人中之龙 维新！极",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "81 小时 28 分钟",
+      "lastPlayedAt": "2023-03-25"
+    },
+    {
+      "id": "steam-1811950",
+      "steamAppId": "1811950",
+      "title": "英雄传说 黎之轨迹",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "102 小时 34 分钟",
+      "lastPlayedAt": "2023-09-24"
+    },
+    {
+      "id": "steam-1812450",
+      "steamAppId": "1812450",
+      "title": "颂钟长鸣",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 21 分钟",
+      "lastPlayedAt": "2025-05-03"
+    },
+    {
+      "id": "steam-1832640",
+      "steamAppId": "1832640",
+      "title": "Mirror 2: Project X",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 8 分钟",
+      "lastPlayedAt": "2022-01-22"
+    },
+    {
+      "id": "steam-1836450",
+      "steamAppId": "1836450",
+      "title": "MONSTER HUNTER RISE: SUNBREAK DEMO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "29 小时 54 分钟",
+      "lastPlayedAt": "2022-06-18"
+    },
+    {
+      "id": "steam-1850510",
+      "steamAppId": "1850510",
+      "title": "TRIANGLE STRATEGY",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "75 小时 33 分钟",
+      "lastPlayedAt": "2025-12-17"
+    },
+    {
+      "id": "steam-1850570",
+      "steamAppId": "1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "151 小时 18 分钟",
+      "lastPlayedAt": "2025-09-02"
+    },
+    {
+      "id": "steam-1858650",
+      "steamAppId": "1858650",
+      "title": "合力逃脱",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 小时 6 分钟",
+      "lastPlayedAt": "2026-01-03"
+    },
+    {
+      "id": "steam-1868140",
+      "steamAppId": "1868140",
+      "title": "潜水员戴夫 DAVE THE DIVER",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "60 小时 41 分钟",
+      "lastPlayedAt": "2025-04-08"
+    },
+    {
+      "id": "steam-1879330",
+      "steamAppId": "1879330",
+      "title": "无双大蛇２ 终极版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "43 分钟",
+      "lastPlayedAt": "2022-10-08"
+    },
+    {
+      "id": "steam-1888160",
+      "steamAppId": "1888160",
+      "title": "机战佣兵™VI 境界天火™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 11 分钟",
+      "lastPlayedAt": "2023-08-26"
+    },
+    {
+      "id": "steam-1903340",
+      "steamAppId": "1903340",
+      "title": "光与影：33号远征队",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "61 小时 45 分钟",
+      "lastPlayedAt": "2025-05-25"
+    },
+    {
+      "id": "steam-1912000",
+      "steamAppId": "1912000",
+      "title": "刀剑乱舞无双 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 分钟",
+      "lastPlayedAt": "2022-09-14"
+    },
+    {
+      "id": "steam-1928420",
+      "steamAppId": "1928420",
+      "title": "远光84",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 10 分钟",
+      "lastPlayedAt": "2025-08-10"
+    },
+    {
+      "id": "steam-1938010",
+      "steamAppId": "1938010",
+      "title": "《WILD HEARTS™》",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "27 小时 5 分钟",
+      "lastPlayedAt": "2023-03-03"
+    },
+    {
+      "id": "steam-1942280",
+      "steamAppId": "1942280",
+      "title": "土豆兄弟(Brotato)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 59 分钟",
+      "lastPlayedAt": "2026-07-24"
+    },
+    {
+      "id": "steam-1948980",
+      "steamAppId": "1948980",
+      "title": "大侠立志传：碧血丹心",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 55 分钟",
+      "lastPlayedAt": "2023-04-19"
+    },
+    {
+      "id": "steam-1966720",
+      "steamAppId": "1966720",
+      "title": "Lethal Company",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 50 分钟",
+      "lastPlayedAt": "2024-01-12"
+    },
+    {
+      "id": "steam-1974050",
+      "steamAppId": "1974050",
+      "title": "火炬之光：无限",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 分钟",
+      "lastPlayedAt": "2022-11-19"
+    },
+    {
+      "id": "steam-19900",
+      "steamAppId": "19900",
+      "title": "Far Cry® 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 分钟",
+      "lastPlayedAt": "2018-05-12"
+    },
+    {
+      "id": "steam-2001120",
+      "steamAppId": "2001120",
+      "title": "双影奇境",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 47 分钟",
+      "lastPlayedAt": "2025-03-13"
+    },
+    {
+      "id": "steam-2001760",
+      "steamAppId": "2001760",
+      "title": "轮回之兽",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "40 小时 12 分钟",
+      "lastPlayedAt": "2026-08-15"
+    },
+    {
+      "id": "steam-201870",
+      "steamAppId": "201870",
+      "title": "刺客信条：启示录",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "28 小时 35 分钟",
+      "lastPlayedAt": "2017-01-26"
+    },
+    {
+      "id": "steam-203140",
+      "steamAppId": "203140",
+      "title": "Hitman: Absolution™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "72 小时 21 分钟",
+      "lastPlayedAt": "2018-02-01"
+    },
+    {
+      "id": "steam-205100",
+      "steamAppId": "205100",
+      "title": "Dishonored",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "59 小时 57 分钟",
+      "lastPlayedAt": "2020-03-03"
+    },
+    {
+      "id": "steam-2058180",
+      "steamAppId": "2058180",
+      "title": "审判之眼：死神的遗言 Remastered",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 小时 48 分钟",
+      "lastPlayedAt": "2022-09-29"
+    },
+    {
+      "id": "steam-2058190",
+      "steamAppId": "2058190",
+      "title": "审判之逝：湮灭的记忆",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "21 小时 9 分钟",
+      "lastPlayedAt": "2022-10-07"
+    },
+    {
+      "id": "steam-2060160",
+      "steamAppId": "2060160",
+      "title": "编程农场",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 40 分钟",
+      "lastPlayedAt": "2025-11-08"
+    },
+    {
+      "id": "steam-2069640",
+      "steamAppId": "2069640",
+      "title": "Hero's Journey",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 17 分钟",
+      "lastPlayedAt": "2025-02-22"
+    },
+    {
+      "id": "steam-2072450",
+      "steamAppId": "2072450",
+      "title": "人中之龙８",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "154 小时 54 分钟",
+      "lastPlayedAt": "2024-02-12"
+    },
+    {
+      "id": "steam-207320",
+      "steamAppId": "207320",
+      "title": "Ys: The Oath in Felghana",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 20 分钟",
+      "lastPlayedAt": "2021-12-31"
+    },
+    {
+      "id": "steam-207350",
+      "steamAppId": "207350",
+      "title": "Ys Origin",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "42 小时 56 分钟",
+      "lastPlayedAt": "2021-12-05"
+    },
+    {
+      "id": "steam-20900",
+      "steamAppId": "20900",
+      "title": "The Witcher: Enhanced Edition Director's Cut",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 小时 52 分钟",
+      "lastPlayedAt": "2021-09-27"
+    },
+    {
+      "id": "steam-20920",
+      "steamAppId": "20920",
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 12 分钟",
+      "lastPlayedAt": "2021-09-30"
+    },
+    {
+      "id": "steam-2113920",
+      "steamAppId": "2113920",
+      "title": "英雄传说 黎之轨迹Ⅱ -绯红原罪-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "77 小时 46 分钟",
+      "lastPlayedAt": "2023-10-21"
+    },
+    {
+      "id": "steam-211420",
+      "steamAppId": "211420",
+      "title": "DARK SOULS™: Prepare To Die™ Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "25 小时 19 分钟",
+      "lastPlayedAt": "2020-05-24"
+    },
+    {
+      "id": "steam-2130460",
+      "steamAppId": "2130460",
+      "title": "零 ～月蚀的假面～",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 9 分钟",
+      "lastPlayedAt": "2023-03-25"
+    },
+    {
+      "id": "steam-2138090",
+      "steamAppId": "2138090",
+      "title": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 小时 37 分钟",
+      "lastPlayedAt": "2025-04-13"
+    },
+    {
+      "id": "steam-2138710",
+      "steamAppId": "2138710",
+      "title": "Sifu",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 27 分钟",
+      "lastPlayedAt": "2025-06-27"
+    },
+    {
+      "id": "steam-21690",
+      "steamAppId": "21690",
+      "title": "Resident Evil 5",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2026-02-26"
+    },
+    {
+      "id": "steam-220240",
+      "steamAppId": "220240",
+      "title": "Far Cry 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 38 分钟",
+      "lastPlayedAt": "2020-08-03"
+    },
+    {
+      "id": "steam-220440",
+      "steamAppId": "220440",
+      "title": "DmC: Devil May Cry",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "36 小时 1 分钟",
+      "lastPlayedAt": "2018-06-23"
+    },
+    {
+      "id": "steam-220820",
+      "steamAppId": "220820",
+      "title": "Zombie Driver HD",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 分钟",
+      "lastPlayedAt": "2018-04-26"
+    },
+    {
+      "id": "steam-2208920",
+      "steamAppId": "2208920",
+      "title": "刺客信条：英灵殿",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 12 分钟",
+      "lastPlayedAt": "2023-06-10"
+    },
+    {
+      "id": "steam-221040",
+      "steamAppId": "221040",
+      "title": "Resident Evil 6",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "27 小时 38 分钟",
+      "lastPlayedAt": "2026-03-03"
+    },
+    {
+      "id": "steam-2215430",
+      "steamAppId": "2215430",
+      "title": "Ghost of Tsushima导演剪辑版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "111 小时 54 分钟",
+      "lastPlayedAt": "2024-11-24"
+    },
+    {
+      "id": "steam-2221490",
+      "steamAppId": "2221490",
+      "title": "全境封锁2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "38 分钟",
+      "lastPlayedAt": "2023-06-10"
+    },
+    {
+      "id": "steam-222480",
+      "steamAppId": "222480",
+      "title": "Resident Evil Revelations",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "36 小时",
+      "lastPlayedAt": "2026-03-02"
+    },
+    {
+      "id": "steam-223810",
+      "steamAppId": "223810",
+      "title": "Ys I & II Chronicles+",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 11 分钟",
+      "lastPlayedAt": "2021-12-11"
+    },
+    {
+      "id": "steam-223870",
+      "steamAppId": "223870",
+      "title": "Ys II",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "16 小时 13 分钟",
+      "lastPlayedAt": "2021-12-12"
+    },
+    {
+      "id": "steam-2246340",
+      "steamAppId": "2246340",
+      "title": "Monster Hunter Wilds",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "147 小时 45 分钟",
+      "lastPlayedAt": "2026-01-10"
+    },
+    {
+      "id": "steam-225080",
+      "steamAppId": "225080",
+      "title": "Brothers - A Tale of Two Sons",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 24 分钟",
+      "lastPlayedAt": "2018-02-20"
+    },
+    {
+      "id": "steam-225160",
+      "steamAppId": "225160",
+      "title": "Shadow Warrior Classic Redux",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 分钟",
+      "lastPlayedAt": "2019-05-26"
+    },
+    {
+      "id": "steam-225540",
+      "steamAppId": "225540",
+      "title": "Just Cause™ 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "32 小时 50 分钟",
+      "lastPlayedAt": "2019-01-04"
+    },
+    {
+      "id": "steam-2277560",
+      "steamAppId": "2277560",
+      "title": "明末：渊虚之羽",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "45 小时 1 分钟",
+      "lastPlayedAt": "2025-07-29"
+    },
+    {
+      "id": "steam-2277820",
+      "steamAppId": "2277820",
+      "title": "《人中之龙 维新！ 极》战斗体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 分钟",
+      "lastPlayedAt": "2023-02-17"
+    },
+    {
+      "id": "steam-2285240",
+      "steamAppId": "2285240",
+      "title": "Wo Long: Fallen Dynasty Complete Edition Demo",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 16 分钟",
+      "lastPlayedAt": "2023-02-26"
+    },
+    {
+      "id": "steam-233130",
+      "steamAppId": "233130",
+      "title": "影子武士",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 32 分钟",
+      "lastPlayedAt": "2018-11-25"
+    },
+    {
+      "id": "steam-233860",
+      "steamAppId": "233860",
+      "title": "Kenshi",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "28 小时 21 分钟",
+      "lastPlayedAt": "2022-05-23"
+    },
+    {
+      "id": "steam-2344520",
+      "steamAppId": "2344520",
+      "title": "《暗黑破坏神® IV》",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "9 小时 5 分钟",
+      "lastPlayedAt": "2026-07-05"
+    },
+    {
+      "id": "steam-2351560",
+      "steamAppId": "2351560",
+      "title": "清零计划2：天启派对",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 17 分钟",
+      "lastPlayedAt": "2024-04-21"
+    },
+    {
+      "id": "steam-2358720",
+      "steamAppId": "2358720",
+      "title": "黑神话：悟空",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "70 小时 57 分钟",
+      "lastPlayedAt": "2024-08-26"
+    },
+    {
+      "id": "steam-236870",
+      "steamAppId": "236870",
+      "title": "HITMAN™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 小时 17 分钟",
+      "lastPlayedAt": "2022-08-28"
+    },
+    {
+      "id": "steam-2375550",
+      "steamAppId": "2375550",
+      "title": "人中之龙7外传 无名之龙",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "45 小时 31 分钟",
+      "lastPlayedAt": "2023-11-18"
+    },
+    {
+      "id": "steam-238090",
+      "steamAppId": "238090",
+      "title": "Sniper Elite 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 分钟",
+      "lastPlayedAt": "2023-01-23"
+    },
+    {
+      "id": "steam-2384580",
+      "steamAppId": "2384580",
+      "title": "真・三国无双 起源",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "122 小时 46 分钟",
+      "lastPlayedAt": "2026-01-25"
+    },
+    {
+      "id": "steam-239140",
+      "steamAppId": "239140",
+      "title": "Dying Light",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "40 小时 41 分钟",
+      "lastPlayedAt": "2025-12-11"
+    },
+    {
+      "id": "steam-2407270",
+      "steamAppId": "2407270",
+      "title": "AI LIMIT 无限机兵",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 31 分钟",
+      "lastPlayedAt": "2025-11-28"
+    },
+    {
+      "id": "steam-241930",
+      "steamAppId": "241930",
+      "title": "Middle-earth™: Shadow of Mordor™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 17 分钟",
+      "lastPlayedAt": "2018-04-27"
+    },
+    {
+      "id": "steam-242050",
+      "steamAppId": "242050",
+      "title": "刺客信条4：黑旗",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 7 分钟",
+      "lastPlayedAt": "2020-06-25"
+    },
+    {
+      "id": "steam-242760",
+      "steamAppId": "242760",
+      "title": "The Forest",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "31 小时 51 分钟",
+      "lastPlayedAt": "2020-05-24"
+    },
+    {
+      "id": "steam-250400",
+      "steamAppId": "250400",
+      "title": "How to Survive",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "53 分钟",
+      "lastPlayedAt": "2017-04-23"
+    },
+    {
+      "id": "steam-250820",
+      "steamAppId": "250820",
+      "title": "SteamVR",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "70 小时 33 分钟",
+      "lastPlayedAt": "2023-06-21"
+    },
+    {
+      "id": "steam-250900",
+      "steamAppId": "250900",
+      "title": "The Binding of Isaac: Rebirth",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 分钟",
+      "lastPlayedAt": "2020-11-14"
+    },
+    {
+      "id": "steam-251150",
+      "steamAppId": "251150",
+      "title": "The Legend of Heroes: Trails in the Sky",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "24 小时 7 分钟",
+      "lastPlayedAt": "2022-10-20"
+    },
+    {
+      "id": "steam-251290",
+      "steamAppId": "251290",
+      "title": "The Legend of Heroes: Trails in the Sky SC",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 26 分钟",
+      "lastPlayedAt": "2022-10-29"
+    },
+    {
+      "id": "steam-252130",
+      "steamAppId": "252130",
+      "title": "Divide By Sheep",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "27 分钟",
+      "lastPlayedAt": "2020-06-14"
+    },
+    {
+      "id": "steam-254700",
+      "steamAppId": "254700",
+      "title": "Resident Evil 4 (2005)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 1 分钟",
+      "lastPlayedAt": "2026-02-25"
+    },
+    {
+      "id": "steam-2569760",
+      "steamAppId": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "32 分钟",
+      "lastPlayedAt": "2026-07-26"
+    },
+    {
+      "id": "steam-2570810",
+      "steamAppId": "2570810",
+      "title": "伊苏X -北境历险-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "47 小时 48 分钟",
+      "lastPlayedAt": "2026-06-16"
+    },
+    {
+      "id": "steam-2585120",
+      "steamAppId": "2585120",
+      "title": "纳克园: 最后的乐园 Playtest",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "55 分钟",
+      "lastPlayedAt": "2026-03-13"
+    },
+    {
+      "id": "steam-261110",
+      "steamAppId": "261110",
+      "title": "Killer is Dead - Nightmare Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 分钟",
+      "lastPlayedAt": "2017-12-12"
+    },
+    {
+      "id": "steam-261550",
+      "steamAppId": "261550",
+      "title": "Mount & Blade II: Bannerlord",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "28 小时 56 分钟",
+      "lastPlayedAt": "2020-05-10"
+    },
+    {
+      "id": "steam-262060",
+      "steamAppId": "262060",
+      "title": "暗黑地牢 Darkest Dungeon",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 6 分钟",
+      "lastPlayedAt": "2020-03-09"
+    },
+    {
+      "id": "steam-2622380",
+      "steamAppId": "2622380",
+      "title": "艾尔登法环 黑夜君临",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "123 小时 27 分钟",
+      "lastPlayedAt": "2025-12-11"
+    },
+    {
+      "id": "steam-2638890",
+      "steamAppId": "2638890",
+      "title": "鬼武者 Way of the Sword",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "44 小时 8 分钟",
+      "lastPlayedAt": "2026-09-11"
+    },
+    {
+      "id": "steam-2646460",
+      "steamAppId": "2646460",
+      "title": "灵魂面甲(Soulmask)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "67 小时 4 分钟",
+      "lastPlayedAt": "2026-05-04"
+    },
+    {
+      "id": "steam-265300",
+      "steamAppId": "265300",
+      "title": "Lords Of The Fallen™ 2014",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 43 分钟",
+      "lastPlayedAt": "2017-03-23"
+    },
+    {
+      "id": "steam-2661300",
+      "steamAppId": "2661300",
+      "title": "禁闭求生2 Grounded 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "46 分钟",
+      "lastPlayedAt": "2026-05-04"
+    },
+    {
+      "id": "steam-2679460",
+      "steamAppId": "2679460",
+      "title": "暗喻幻想：ReFantazio",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "104 小时 50 分钟",
+      "lastPlayedAt": "2024-11-02"
+    },
+    {
+      "id": "steam-2680010",
+      "steamAppId": "2680010",
+      "title": "The First Berserker: Khazan",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "36 小时 57 分钟",
+      "lastPlayedAt": "2025-04-04"
+    },
+    {
+      "id": "steam-268050",
+      "steamAppId": "268050",
+      "title": "The Evil Within",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 25 分钟",
+      "lastPlayedAt": "2017-11-21"
+    },
+    {
+      "id": "steam-268500",
+      "steamAppId": "268500",
+      "title": "XCOM® 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 小时 29 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-268910",
+      "steamAppId": "268910",
+      "title": "Cuphead",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 53 分钟",
+      "lastPlayedAt": "2020-08-30"
+    },
+    {
+      "id": "steam-2701660",
+      "steamAppId": "2701660",
+      "title": "勇者斗恶龙III HD-2D Remake",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "48 小时 14 分钟",
+      "lastPlayedAt": "2025-12-07"
+    },
+    {
+      "id": "steam-271590",
+      "steamAppId": "271590",
+      "title": "Grand Theft Auto V 传承版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 54 分钟",
+      "lastPlayedAt": "2019-02-26"
+    },
+    {
+      "id": "steam-275390",
+      "steamAppId": "275390",
+      "title": "墨西哥英雄大混战:超级漩涡冠军版 Guacamelee! Super Turbo Championship Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2020-05-24"
+    },
+    {
+      "id": "steam-275850",
+      "steamAppId": "275850",
+      "title": "No Man's Sky 无人深空",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 19 分钟",
+      "lastPlayedAt": "2021-01-02"
+    },
+    {
+      "id": "steam-280160",
+      "steamAppId": "280160",
+      "title": "Aragami",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 36 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-282070",
+      "steamAppId": "282070",
+      "title": "This War of Mine",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "21 分钟",
+      "lastPlayedAt": "2018-04-26"
+    },
+    {
+      "id": "steam-283640",
+      "steamAppId": "283640",
+      "title": "Salt and Sanctuary",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 小时 54 分钟",
+      "lastPlayedAt": "2025-12-18"
+    },
+    {
+      "id": "steam-2852190",
+      "steamAppId": "2852190",
+      "title": "Monster Hunter Stories 3: 命运双龙",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "75 小时 27 分钟",
+      "lastPlayedAt": "2026-04-06"
+    },
+    {
+      "id": "steam-2868840",
+      "steamAppId": "2868840",
+      "title": "Slay the Spire 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "95 小时 51 分钟",
+      "lastPlayedAt": "2026-07-11"
+    },
+    {
+      "id": "steam-287290",
+      "steamAppId": "287290",
+      "title": "Resident Evil Revelations 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 24 分钟",
+      "lastPlayedAt": "2026-03-03"
+    },
+    {
+      "id": "steam-289070",
+      "steamAppId": "289070",
+      "title": "Sid Meier’s Civilization® VI",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 小时 19 分钟",
+      "lastPlayedAt": "2021-09-07"
+    },
+    {
+      "id": "steam-289650",
+      "steamAppId": "289650",
+      "title": "刺客信条：大革命",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 小时",
+      "lastPlayedAt": "2017-09-07"
+    },
+    {
+      "id": "steam-2909400",
+      "steamAppId": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 小时 14 分钟",
+      "lastPlayedAt": "2026-10-19"
+    },
+    {
+      "id": "steam-292030",
+      "steamAppId": "292030",
+      "title": "巫师3：狂猎 — 重制版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "67 小时 54 分钟",
+      "lastPlayedAt": "2017-08-17"
+    },
+    {
+      "id": "steam-292990",
+      "steamAppId": "292990",
+      "title": "NOBUNAGA'S AMBITION: Souzou",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 15 分钟",
+      "lastPlayedAt": "2021-08-31"
+    },
+    {
+      "id": "steam-2947440",
+      "steamAppId": "2947440",
+      "title": "SILENT HILL f",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "44 小时 37 分钟",
+      "lastPlayedAt": "2025-09-30"
+    },
+    {
+      "id": "steam-2988580",
+      "steamAppId": "2988580",
+      "title": "人中之龙０ 誓约的场所 导演剪辑版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "116 小时 19 分钟",
+      "lastPlayedAt": "2026-01-03"
+    },
+    {
+      "id": "steam-3041230",
+      "steamAppId": "3041230",
+      "title": "Windrose: 风启之旅",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 4 分钟",
+      "lastPlayedAt": "2026-04-23"
+    },
+    {
+      "id": "steam-304240",
+      "steamAppId": "304240",
+      "title": "Resident Evil",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 50 分钟",
+      "lastPlayedAt": "2026-02-21"
+    },
+    {
+      "id": "steam-304390",
+      "steamAppId": "304390",
+      "title": "《荣耀战魂》",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "12 小时 32 分钟",
+      "lastPlayedAt": "2017-07-24"
+    },
+    {
+      "id": "steam-3046600",
+      "steamAppId": "3046600",
+      "title": "鬼武者2 (Onimusha 2: Samurai's Destiny)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "31 小时 44 分钟",
+      "lastPlayedAt": "2025-05-31"
+    },
+    {
+      "id": "steam-3061810",
+      "steamAppId": "3061810",
+      "title": "人中之龙８外传 Pirates in Hawaii",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "48 小时 6 分钟",
+      "lastPlayedAt": "2025-02-25"
+    },
+    {
+      "id": "steam-3065170",
+      "steamAppId": "3065170",
+      "title": "Monster Hunter Wilds Beta test",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 37 分钟",
+      "lastPlayedAt": "2025-02-09"
+    },
+    {
+      "id": "steam-307690",
+      "steamAppId": "307690",
+      "title": "Sleeping Dogs: Definitive Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2020-05-24"
+    },
+    {
+      "id": "steam-311340",
+      "steamAppId": "311340",
+      "title": "METAL GEAR SOLID V: GROUND ZEROES",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "18 分钟",
+      "lastPlayedAt": "2020-04-10"
+    },
+    {
+      "id": "steam-311560",
+      "steamAppId": "311560",
+      "title": "Assassin’s Creed® Rogue",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2022-09-09"
+    },
+    {
+      "id": "steam-312540",
+      "steamAppId": "312540",
+      "title": "Ys VI: The Ark of Napishtim",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 30 分钟",
+      "lastPlayedAt": "2021-12-26"
+    },
+    {
+      "id": "steam-312560",
+      "steamAppId": "312560",
+      "title": "Xanadu Next",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 38 分钟",
+      "lastPlayedAt": "2023-11-20"
+    },
+    {
+      "id": "steam-3130330",
+      "steamAppId": "3130330",
+      "title": "暗喻幻想：ReFantazio～序章试玩版～",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时",
+      "lastPlayedAt": "2024-10-12"
+    },
+    {
+      "id": "steam-319630",
+      "steamAppId": "319630",
+      "title": "Life is Strange - Episode 1",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时",
+      "lastPlayedAt": "2016-12-25"
+    },
+    {
+      "id": "steam-322330",
+      "steamAppId": "322330",
+      "title": "饥荒联机版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 小时 29 分钟",
+      "lastPlayedAt": "2019-10-20"
+    },
+    {
+      "id": "steam-323190",
+      "steamAppId": "323190",
+      "title": "冰汽时代",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 20 分钟",
+      "lastPlayedAt": "2019-11-27"
+    },
+    {
+      "id": "steam-323320",
+      "steamAppId": "323320",
+      "title": "Grow Home",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "9 小时 18 分钟",
+      "lastPlayedAt": "2017-08-07"
+    },
+    {
+      "id": "steam-3241660",
+      "steamAppId": "3241660",
+      "title": "R.E.P.O.",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "24 小时 7 分钟",
+      "lastPlayedAt": "2025-11-09"
+    },
+    {
+      "id": "steam-324800",
+      "steamAppId": "324800",
+      "title": "影子武士2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "29 小时 59 分钟",
+      "lastPlayedAt": "2017-06-11"
+    },
+    {
+      "id": "steam-3259780",
+      "steamAppId": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "49 小时 43 分钟",
+      "lastPlayedAt": "2026-11-08"
+    },
+    {
+      "id": "steam-3265700",
+      "steamAppId": "3265700",
+      "title": "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 分钟",
+      "lastPlayedAt": "2026-04-23"
+    },
+    {
+      "id": "steam-3273240",
+      "steamAppId": "3273240",
+      "title": "真・三国无双 起源 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 43 分钟",
+      "lastPlayedAt": "2024-11-24"
+    },
+    {
+      "id": "steam-3280350",
+      "steamAppId": "3280350",
+      "title": "死亡搁浅2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "118 小时 35 分钟",
+      "lastPlayedAt": "2026-05-24"
+    },
+    {
+      "id": "steam-329430",
+      "steamAppId": "329430",
+      "title": "State of Decay: YOSE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 分钟",
+      "lastPlayedAt": "2018-04-26"
+    },
+    {
+      "id": "steam-331600",
+      "steamAppId": "331600",
+      "title": "One Piece Pirate Warriors 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 18 分钟",
+      "lastPlayedAt": "2020-09-05"
+    },
+    {
+      "id": "steam-3321460",
+      "steamAppId": "3321460",
+      "title": "红色沙漠：增强版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 40 分钟",
+      "lastPlayedAt": "2026-03-20"
+    },
+    {
+      "id": "steam-33230",
+      "steamAppId": "33230",
+      "title": "刺客信条2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 小时 34 分钟",
+      "lastPlayedAt": "2022-09-13"
+    },
+    {
+      "id": "steam-333980",
+      "steamAppId": "333980",
+      "title": "AKIBA'S TRIP: Undead ＆ Undressed",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 47 分钟",
+      "lastPlayedAt": "2019-11-09"
+    },
+    {
+      "id": "steam-3351700",
+      "steamAppId": "3351700",
+      "title": "The First Berserker: Khazan Demo",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 15 分钟",
+      "lastPlayedAt": "2025-03-26"
+    },
+    {
+      "id": "steam-335300",
+      "steamAppId": "335300",
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "96 小时 14 分钟",
+      "lastPlayedAt": "2025-05-06"
+    },
+    {
+      "id": "steam-3357650",
+      "steamAppId": "3357650",
+      "title": "PRAGMATA",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "29 小时 25 分钟",
+      "lastPlayedAt": "2026-04-20"
+    },
+    {
+      "id": "steam-339340",
+      "steamAppId": "339340",
+      "title": "Resident Evil 0",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "25 小时 5 分钟",
+      "lastPlayedAt": "2026-02-19"
+    },
+    {
+      "id": "steam-339400",
+      "steamAppId": "339400",
+      "title": "Runestone Keeper",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "9 小时",
+      "lastPlayedAt": "2020-06-14"
+    },
+    {
+      "id": "steam-3447040",
+      "steamAppId": "3447040",
+      "title": "空之轨迹 the 1st",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "41 小时 17 分钟",
+      "lastPlayedAt": "2026-10-10"
+    },
+    {
+      "id": "steam-3449820",
+      "steamAppId": "3449820",
+      "title": "Ratatan Demo",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 分钟",
+      "lastPlayedAt": "2025-06-16"
+    },
+    {
+      "id": "steam-349040",
+      "steamAppId": "349040",
+      "title": "火影忍者 疾风传 终极风暴4",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "39 小时 26 分钟",
+      "lastPlayedAt": "2017-12-01"
+    },
+    {
+      "id": "steam-35000",
+      "steamAppId": "35000",
+      "title": "Mini Ninjas",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 分钟",
+      "lastPlayedAt": "2022-11-01"
+    },
+    {
+      "id": "steam-351970",
+      "steamAppId": "351970",
+      "title": "Tales of Zestiria",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "136 小时 39 分钟",
+      "lastPlayedAt": "2019-09-05"
+    },
+    {
+      "id": "steam-3527290",
+      "steamAppId": "3527290",
+      "title": "PEAK",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "24 分钟",
+      "lastPlayedAt": "2025-07-03"
+    },
+    {
+      "id": "steam-3564860",
+      "steamAppId": "3564860",
+      "title": "《剑星》体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 42 分钟",
+      "lastPlayedAt": "2025-06-03"
+    },
+    {
+      "id": "steam-35700",
+      "steamAppId": "35700",
+      "title": "Trine Enchanted Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 4 分钟",
+      "lastPlayedAt": "2020-08-09"
+    },
+    {
+      "id": "steam-359310",
+      "steamAppId": "359310",
+      "title": "Evoland 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "41 小时 35 分钟",
+      "lastPlayedAt": "2017-02-02"
+    },
+    {
+      "id": "steam-359550",
+      "steamAppId": "359550",
+      "title": "彩虹六号：围攻",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "46 小时 9 分钟",
+      "lastPlayedAt": "2019-05-29"
+    },
+    {
+      "id": "steam-361420",
+      "steamAppId": "361420",
+      "title": "ASTRONEER",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 36 分钟",
+      "lastPlayedAt": "2017-12-28"
+    },
+    {
+      "id": "steam-363970",
+      "steamAppId": "363970",
+      "title": "Clicker Heroes",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "161 小时 9 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-365590",
+      "steamAppId": "365590",
+      "title": "Tom Clancy’s The Division™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "119 小时 44 分钟",
+      "lastPlayedAt": "2018-07-19"
+    },
+    {
+      "id": "steam-3669870",
+      "steamAppId": "3669870",
+      "title": "控制: 共振",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 52 分钟",
+      "lastPlayedAt": "2026-09-26"
+    },
+    {
+      "id": "steam-367500",
+      "steamAppId": "367500",
+      "title": "Dragon's Dogma: Dark Arisen",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 12 分钟",
+      "lastPlayedAt": "2024-04-21"
+    },
+    {
+      "id": "steam-367520",
+      "steamAppId": "367520",
+      "title": "Hollow Knight",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "42 小时 32 分钟",
+      "lastPlayedAt": "2026-10-11"
+    },
+    {
+      "id": "steam-3681010",
+      "steamAppId": "3681010",
+      "title": "仁王３",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "95 小时 37 分钟",
+      "lastPlayedAt": "2026-08-25"
+    },
+    {
+      "id": "steam-368500",
+      "steamAppId": "368500",
+      "title": "刺客信条：枭雄",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 50 分钟",
+      "lastPlayedAt": "2022-11-06"
+    },
+    {
+      "id": "steam-3700",
+      "steamAppId": "3700",
+      "title": "Sniper Elite",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 分钟",
+      "lastPlayedAt": "2017-11-16"
+    },
+    {
+      "id": "steam-3717330",
+      "steamAppId": "3717330",
+      "title": "人中之龙 极",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "64 小时 1 分钟",
+      "lastPlayedAt": "2026-01-20"
+    },
+    {
+      "id": "steam-3717340",
+      "steamAppId": "3717340",
+      "title": "人中之龙 极２",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "58 小时 53 分钟",
+      "lastPlayedAt": "2026-02-02"
+    },
+    {
+      "id": "steam-374320",
+      "steamAppId": "374320",
+      "title": "DARK SOULS™ III",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "146 小时 16 分钟",
+      "lastPlayedAt": "2024-01-08"
+    },
+    {
+      "id": "steam-375480",
+      "steamAppId": "375480",
+      "title": "Chronicon - 英雄旧忆",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "35 分钟",
+      "lastPlayedAt": "2021-09-03"
+    },
+    {
+      "id": "steam-3764200",
+      "steamAppId": "3764200",
+      "title": "Resident Evil Requiem",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 57 分钟",
+      "lastPlayedAt": "2026-03-01"
+    },
+    {
+      "id": "steam-3768760",
+      "steamAppId": "3768760",
+      "title": "007 初露锋芒",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "36 小时 11 分钟",
+      "lastPlayedAt": "2026-06-02"
+    },
+    {
+      "id": "steam-377160",
+      "steamAppId": "377160",
+      "title": "Fallout 4",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 48 分钟",
+      "lastPlayedAt": "2018-12-23"
+    },
+    {
+      "id": "steam-378540",
+      "steamAppId": "378540",
+      "title": "The Surge",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 27 分钟",
+      "lastPlayedAt": "2019-11-08"
+    },
+    {
+      "id": "steam-379720",
+      "steamAppId": "379720",
+      "title": "DOOM",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 55 分钟",
+      "lastPlayedAt": "2026-09-13"
+    },
+    {
+      "id": "steam-3821790",
+      "steamAppId": "3821790",
+      "title": "伊苏X -诺曼荣光-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "31 小时 33 分钟",
+      "lastPlayedAt": "2026-06-20"
+    },
+    {
+      "id": "steam-383150",
+      "steamAppId": "383150",
+      "title": "Dead Island Definitive Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "46 分钟",
+      "lastPlayedAt": "2018-04-27"
+    },
+    {
+      "id": "steam-383270",
+      "steamAppId": "383270",
+      "title": "Hue",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2018-05-25"
+    },
+    {
+      "id": "steam-3841510",
+      "steamAppId": "3841510",
+      "title": "真・三国无双２ with 猛将传 Remastered",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 55 分钟",
+      "lastPlayedAt": "2026-10-08"
+    },
+    {
+      "id": "steam-384190",
+      "steamAppId": "384190",
+      "title": "ABZU",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 22 分钟",
+      "lastPlayedAt": "2017-07-08"
+    },
+    {
+      "id": "steam-3892270",
+      "steamAppId": "3892270",
+      "title": "朋友，梭哈吧",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "55 分钟",
+      "lastPlayedAt": "2026-05-16"
+    },
+    {
+      "id": "steam-39140",
+      "steamAppId": "39140",
+      "title": "FINAL FANTASY VII",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 分钟",
+      "lastPlayedAt": "2020-05-01"
+    },
+    {
+      "id": "steam-3920610",
+      "steamAppId": "3920610",
+      "title": "零 ～红蝶～ REMAKE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 小时 5 分钟",
+      "lastPlayedAt": "2026-03-16"
+    },
+    {
+      "id": "steam-3920660",
+      "steamAppId": "3920660",
+      "title": "空之轨迹 the 1st 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "14 小时 19 分钟",
+      "lastPlayedAt": "2025-08-24"
+    },
+    {
+      "id": "steam-3937550",
+      "steamAppId": "3937550",
+      "title": "人中之龙 极３ / 人中之龙３外传 Dark Ties",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "47 小时 50 分钟",
+      "lastPlayedAt": "2026-02-15"
+    },
+    {
+      "id": "steam-3948220",
+      "steamAppId": "3948220",
+      "title": "人中之龙 极３ / 人中之龙３外传 Dark Ties 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "19 分钟",
+      "lastPlayedAt": "2026-01-22"
+    },
+    {
+      "id": "steam-3974650",
+      "steamAppId": "3974650",
+      "title": "鬼武者 Way of the Sword DEMO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 57 分钟",
+      "lastPlayedAt": "2026-09-04"
+    },
+    {
+      "id": "steam-397540",
+      "steamAppId": "397540",
+      "title": "无主之地3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 50 分钟",
+      "lastPlayedAt": "2021-04-05"
+    },
+    {
+      "id": "steam-398850",
+      "steamAppId": "398850",
+      "title": "Epistory - Typing Chronicles",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 分钟",
+      "lastPlayedAt": "2019-05-26"
+    },
+    {
+      "id": "steam-400",
+      "steamAppId": "400",
+      "title": "Portal",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 16 分钟",
+      "lastPlayedAt": "2020-06-16"
+    },
+    {
+      "id": "steam-4003800",
+      "steamAppId": "4003800",
+      "title": "PRAGMATA SKETCHBOOK - DEMO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "32 分钟",
+      "lastPlayedAt": "2026-04-08"
+    },
+    {
+      "id": "steam-403640",
+      "steamAppId": "403640",
+      "title": "Dishonored 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "56 小时 56 分钟",
+      "lastPlayedAt": "2020-06-15"
+    },
+    {
+      "id": "steam-4115450",
+      "steamAppId": "4115450",
+      "title": "影之刃零",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "59 小时 39 分钟",
+      "lastPlayedAt": "2026-11-01"
+    },
+    {
+      "id": "steam-413150",
+      "steamAppId": "413150",
+      "title": "Stardew Valley",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 56 分钟",
+      "lastPlayedAt": "2020-07-04"
+    },
+    {
+      "id": "steam-414700",
+      "steamAppId": "414700",
+      "title": "Outlast 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 35 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-4148250",
+      "steamAppId": "4148250",
+      "title": "艾恩葛朗特 回荡新声 DEMO Version",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 12 分钟",
+      "lastPlayedAt": "2026-06-16"
+    },
+    {
+      "id": "steam-41500",
+      "steamAppId": "41500",
+      "title": "Torchlight",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 28 分钟",
+      "lastPlayedAt": "2019-11-16"
+    },
+    {
+      "id": "steam-418370",
+      "steamAppId": "418370",
+      "title": "Resident Evil 7 Biohazard",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "26 小时 38 分钟",
+      "lastPlayedAt": "2026-03-07"
+    },
+    {
+      "id": "steam-4198760",
+      "steamAppId": "4198760",
+      "title": "Nioh 3 Demo",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 20 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-4225980",
+      "steamAppId": "4225980",
+      "title": "空之轨迹 the 2nd",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "113 小时 7 分钟",
+      "lastPlayedAt": "2026-11-05"
+    },
+    {
+      "id": "steam-4226020",
+      "steamAppId": "4226020",
+      "title": "零 ～红蝶～ REMAKE 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "46 分钟",
+      "lastPlayedAt": "2026-03-10"
+    },
+    {
+      "id": "steam-426790",
+      "steamAppId": "426790",
+      "title": "Grow Up",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 27 分钟",
+      "lastPlayedAt": "2017-08-08"
+    },
+    {
+      "id": "steam-427410",
+      "steamAppId": "427410",
+      "title": "非生物因素",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "61 小时 51 分钟",
+      "lastPlayedAt": "2025-05-21"
+    },
+    {
+      "id": "steam-427510",
+      "steamAppId": "427510",
+      "title": "Way of the Samurai 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 29 分钟",
+      "lastPlayedAt": "2021-08-16"
+    },
+    {
+      "id": "steam-427520",
+      "steamAppId": "427520",
+      "title": "Factorio",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "87 小时 9 分钟",
+      "lastPlayedAt": "2026-10-22"
+    },
+    {
+      "id": "steam-429660",
+      "steamAppId": "429660",
+      "title": "Tales of Berseria™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 47 分钟",
+      "lastPlayedAt": "2018-11-26"
+    },
+    {
+      "id": "steam-434650",
+      "steamAppId": "434650",
+      "title": "Lost Castle / 失落城堡",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 20 分钟",
+      "lastPlayedAt": "2020-09-13"
+    },
+    {
+      "id": "steam-435150",
+      "steamAppId": "435150",
+      "title": "神界：原罪2 - 终极版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 41 分钟",
+      "lastPlayedAt": "2019-02-08"
+    },
+    {
+      "id": "steam-436670",
+      "steamAppId": "436670",
+      "title": "The Legend of Heroes: Trails in the Sky the 3rd",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "58 小时 5 分钟",
+      "lastPlayedAt": "2022-11-25"
+    },
+    {
+      "id": "steam-438100",
+      "steamAppId": "438100",
+      "title": "VRChat",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 6 分钟",
+      "lastPlayedAt": "2022-06-21"
+    },
+    {
+      "id": "steam-440900",
+      "steamAppId": "440900",
+      "title": "Conan Exiles Enhanced",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "36 小时 47 分钟",
+      "lastPlayedAt": "2022-11-20"
+    },
+    {
+      "id": "steam-4449410",
+      "steamAppId": "4449410",
+      "title": "亰都幻都 -樱花幻舞-",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "50 小时 45 分钟",
+      "lastPlayedAt": "2026-07-24"
+    },
+    {
+      "id": "steam-447040",
+      "steamAppId": "447040",
+      "title": "Watch_Dogs® 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "74 小时 10 分钟",
+      "lastPlayedAt": "2017-12-29"
+    },
+    {
+      "id": "steam-4474710",
+      "steamAppId": "4474710",
+      "title": "《FINAL FANTASY RESONANCE》第一章抢先体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 55 分钟",
+      "lastPlayedAt": "2026-09-14"
+    },
+    {
+      "id": "steam-448510",
+      "steamAppId": "448510",
+      "title": "Overcooked",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 53 分钟",
+      "lastPlayedAt": "2020-02-15"
+    },
+    {
+      "id": "steam-449800",
+      "steamAppId": "449800",
+      "title": "Attack on Titan / A.O.T. Wings of Freedom",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "41 小时 43 分钟",
+      "lastPlayedAt": "2022-05-11"
+    },
+    {
+      "id": "steam-460790",
+      "steamAppId": "460790",
+      "title": "Bayonetta",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "53 分钟",
+      "lastPlayedAt": "2020-08-11"
+    },
+    {
+      "id": "steam-460870",
+      "steamAppId": "460870",
+      "title": "GOD EATER RESURRECTION",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "29 分钟",
+      "lastPlayedAt": "2017-08-18"
+    },
+    {
+      "id": "steam-460930",
+      "steamAppId": "460930",
+      "title": "幽灵行动：荒野",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时",
+      "lastPlayedAt": "2017-12-28"
+    },
+    {
+      "id": "steam-474750",
+      "steamAppId": "474750",
+      "title": "王权",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 23 分钟",
+      "lastPlayedAt": "2024-10-15"
+    },
+    {
+      "id": "steam-474960",
+      "steamAppId": "474960",
+      "title": "Quantum Break",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 39 分钟",
+      "lastPlayedAt": "2018-07-10"
+    },
+    {
+      "id": "steam-475150",
+      "steamAppId": "475150",
+      "title": "Titan Quest Anniversary Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "38 小时 32 分钟",
+      "lastPlayedAt": "2019-11-16"
+    },
+    {
+      "id": "steam-477160",
+      "steamAppId": "477160",
+      "title": "人类一败涂地 / Human Fall Flat",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 小时",
+      "lastPlayedAt": "2020-06-20"
+    },
+    {
+      "id": "steam-480490",
+      "steamAppId": "480490",
+      "title": "Prey",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 40 分钟",
+      "lastPlayedAt": "2017-12-23"
+    },
+    {
+      "id": "steam-4818230",
+      "steamAppId": "4818230",
+      "title": "Wo Long 2: Wings of Ember（卧龙2：凤火连天） α体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 小时 17 分钟",
+      "lastPlayedAt": "2026-09-18"
+    },
+    {
+      "id": "steam-481870",
+      "steamAppId": "481870",
+      "title": "Mini Thief",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "30 分钟",
+      "lastPlayedAt": "2017-01-14"
+    },
+    {
+      "id": "steam-48190",
+      "steamAppId": "48190",
+      "title": "刺客信条：兄弟会",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "45 小时 5 分钟",
+      "lastPlayedAt": "2017-01-17"
+    },
+    {
+      "id": "steam-485510",
+      "steamAppId": "485510",
+      "title": "仁王 Complete Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "119 小时 41 分钟",
+      "lastPlayedAt": "2020-04-08"
+    },
+    {
+      "id": "steam-48700",
+      "steamAppId": "48700",
+      "title": "Mount & Blade: Warband",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2018-05-25"
+    },
+    {
+      "id": "steam-493200",
+      "steamAppId": "493200",
+      "title": "RiME",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 小时 5 分钟",
+      "lastPlayedAt": "2018-02-06"
+    },
+    {
+      "id": "steam-493520",
+      "steamAppId": "493520",
+      "title": "GTFO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 28 分钟",
+      "lastPlayedAt": "2020-07-18"
+    },
+    {
+      "id": "steam-49520",
+      "steamAppId": "49520",
+      "title": "Borderlands 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 26 分钟",
+      "lastPlayedAt": "2019-08-29"
+    },
+    {
+      "id": "steam-5010190",
+      "steamAppId": "5010190",
+      "title": "空之轨迹 the 2nd 体验版",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 小时 1 分钟",
+      "lastPlayedAt": "2026-08-31"
+    },
+    {
+      "id": "steam-502280",
+      "steamAppId": "502280",
+      "title": "BERSERK and the Band of the Hawk",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 小时 20 分钟",
+      "lastPlayedAt": "2026-02-03"
+    },
+    {
+      "id": "steam-50300",
+      "steamAppId": "50300",
+      "title": "Spec Ops: The Line",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "26 分钟",
+      "lastPlayedAt": "2017-06-10"
+    },
+    {
+      "id": "steam-503300",
+      "steamAppId": "503300",
+      "title": "Super Star",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2018-05-25"
+    },
+    {
+      "id": "steam-512300",
+      "steamAppId": "512300",
+      "title": "Unbox: Newbie's Adventure",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 分钟",
+      "lastPlayedAt": "2018-04-17"
+    },
+    {
+      "id": "steam-512900",
+      "steamAppId": "512900",
+      "title": "Streets of Rogue",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 5 分钟",
+      "lastPlayedAt": "2020-08-09"
+    },
+    {
+      "id": "steam-517710",
+      "steamAppId": "517710",
+      "title": "Redout: Enhanced Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "35 分钟",
+      "lastPlayedAt": "2017-08-02"
+    },
+    {
+      "id": "steam-524220",
+      "steamAppId": "524220",
+      "title": "NieR:Automata™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "71 小时 8 分钟",
+      "lastPlayedAt": "2021-10-31"
+    },
+    {
+      "id": "steam-526870",
+      "steamAppId": "526870",
+      "title": "幸福工厂",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "164 小时 15 分钟",
+      "lastPlayedAt": "2025-01-13"
+    },
+    {
+      "id": "steam-527230",
+      "steamAppId": "527230",
+      "title": "为了吾王 / For The King",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "28 小时 1 分钟",
+      "lastPlayedAt": "2023-11-25"
+    },
+    {
+      "id": "steam-530620",
+      "steamAppId": "530620",
+      "title": "Resident Evil 7 Teaser: Beginning Hour",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 25 分钟",
+      "lastPlayedAt": "2017-01-26"
+    },
+    {
+      "id": "steam-540840",
+      "steamAppId": "540840",
+      "title": "Lara Croft GO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 25 分钟",
+      "lastPlayedAt": "2021-05-18"
+    },
+    {
+      "id": "steam-546560",
+      "steamAppId": "546560",
+      "title": "Half-Life: Alyx",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 35 分钟",
+      "lastPlayedAt": "2023-03-25"
+    },
+    {
+      "id": "steam-548430",
+      "steamAppId": "548430",
+      "title": "深岩银河",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 24 分钟",
+      "lastPlayedAt": "2026-01-01"
+    },
+    {
+      "id": "steam-550",
+      "steamAppId": "550",
+      "title": "Left 4 Dead 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 41 分钟",
+      "lastPlayedAt": "2017-08-07"
+    },
+    {
+      "id": "steam-551730",
+      "steamAppId": "551730",
+      "title": "Toukiden 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "68 小时 36 分钟",
+      "lastPlayedAt": "2019-05-25"
+    },
+    {
+      "id": "steam-552500",
+      "steamAppId": "552500",
+      "title": "Warhammer: Vermintide 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 小时 51 分钟",
+      "lastPlayedAt": "2026-04-27"
+    },
+    {
+      "id": "steam-553420",
+      "steamAppId": "553420",
+      "title": "TUNIC",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "16 小时 44 分钟",
+      "lastPlayedAt": "2024-08-18"
+    },
+    {
+      "id": "steam-553850",
+      "steamAppId": "553850",
+      "title": "HELLDIVERS™ 绝地潜兵2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "37 小时 31 分钟",
+      "lastPlayedAt": "2024-08-18"
+    },
+    {
+      "id": "steam-567090",
+      "steamAppId": "567090",
+      "title": "8-Bit Bayonetta",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "40 分钟",
+      "lastPlayedAt": "2017-07-08"
+    },
+    {
+      "id": "steam-570",
+      "steamAppId": "570",
+      "title": "Dota 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 42 分钟",
+      "lastPlayedAt": "2019-06-30"
+    },
+    {
+      "id": "steam-570780",
+      "steamAppId": "570780",
+      "title": "古剑奇谭(GuJian)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "92 小时 54 分钟",
+      "lastPlayedAt": "2020-02-29"
+    },
+    {
+      "id": "steam-570940",
+      "steamAppId": "570940",
+      "title": "DARK SOULS™: REMASTERED",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "50 小时 25 分钟",
+      "lastPlayedAt": "2024-08-04"
+    },
+    {
+      "id": "steam-579180",
+      "steamAppId": "579180",
+      "title": "Ys VIII: Lacrimosa of DANA",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "54 小时 42 分钟",
+      "lastPlayedAt": "2022-05-17"
+    },
+    {
+      "id": "steam-582010",
+      "steamAppId": "582010",
+      "title": "Monster Hunter: World",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "519 小时 27 分钟",
+      "lastPlayedAt": "2024-05-31"
+    },
+    {
+      "id": "steam-582160",
+      "steamAppId": "582160",
+      "title": "刺客信条：起源",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "101 小时 39 分钟",
+      "lastPlayedAt": "2018-11-22"
+    },
+    {
+      "id": "steam-582500",
+      "steamAppId": "582500",
+      "title": "We Were Here",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 41 分钟",
+      "lastPlayedAt": "2018-02-21"
+    },
+    {
+      "id": "steam-587100",
+      "steamAppId": "587100",
+      "title": "Ys SEVEN",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 小时 10 分钟",
+      "lastPlayedAt": "2022-01-03"
+    },
+    {
+      "id": "steam-587110",
+      "steamAppId": "587110",
+      "title": "Ys: Memories of Celceta",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 13 分钟",
+      "lastPlayedAt": "2022-05-18"
+    },
+    {
+      "id": "steam-587260",
+      "steamAppId": "587260",
+      "title": "Tokyo Xanadu eX+",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "102 小时 11 分钟",
+      "lastPlayedAt": "2026-10-13"
+    },
+    {
+      "id": "steam-587620",
+      "steamAppId": "587620",
+      "title": "Okami HD",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "65 小时 17 分钟",
+      "lastPlayedAt": "2021-11-15"
+    },
+    {
+      "id": "steam-588650",
+      "steamAppId": "588650",
+      "title": "Dead Cells",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "17 小时 38 分钟",
+      "lastPlayedAt": "2020-09-10"
+    },
+    {
+      "id": "steam-589360",
+      "steamAppId": "589360",
+      "title": "Ni no Kuni™ II: Revenant Kingdom",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 13 分钟",
+      "lastPlayedAt": "2020-08-09"
+    },
+    {
+      "id": "steam-601050",
+      "steamAppId": "601050",
+      "title": "Attack on Titan 2 - A.O.T.2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "66 小时 50 分钟",
+      "lastPlayedAt": "2026-01-11"
+    },
+    {
+      "id": "steam-601150",
+      "steamAppId": "601150",
+      "title": "Devil May Cry 5",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 51 分钟",
+      "lastPlayedAt": "2019-03-08"
+    },
+    {
+      "id": "steam-611670",
+      "steamAppId": "611670",
+      "title": "The Elder Scrolls V: Skyrim VR",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 18 分钟",
+      "lastPlayedAt": "2023-06-20"
+    },
+    {
+      "id": "steam-613830",
+      "steamAppId": "613830",
+      "title": "CHRONO TRIGGER®",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "48 小时 7 分钟",
+      "lastPlayedAt": "2025-10-07"
+    },
+    {
+      "id": "steam-614570",
+      "steamAppId": "614570",
+      "title": "Dishonored®: Death of the Outsider™",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 小时 22 分钟",
+      "lastPlayedAt": "2020-06-20"
+    },
+    {
+      "id": "steam-617290",
+      "steamAppId": "617290",
+      "title": "遗迹：灰烬重生",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "69 小时",
+      "lastPlayedAt": "2026-02-01"
+    },
+    {
+      "id": "steam-619150",
+      "steamAppId": "619150",
+      "title": "while True: learn()",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 分钟",
+      "lastPlayedAt": "2023-09-10"
+    },
+    {
+      "id": "steam-620",
+      "steamAppId": "620",
+      "title": "Portal 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 47 分钟",
+      "lastPlayedAt": "2020-10-18"
+    },
+    {
+      "id": "steam-620980",
+      "steamAppId": "620980",
+      "title": "Beat Saber",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 18 分钟",
+      "lastPlayedAt": "2023-01-02"
+    },
+    {
+      "id": "steam-626690",
+      "steamAppId": "626690",
+      "title": "Sword Art Online: Fatal Bullet",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "34 分钟",
+      "lastPlayedAt": "2020-08-09"
+    },
+    {
+      "id": "steam-627690",
+      "steamAppId": "627690",
+      "title": "Idle Champions of the Forgotten Realms",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "30 分钟",
+      "lastPlayedAt": "2022-09-10"
+    },
+    {
+      "id": "steam-631510",
+      "steamAppId": "631510",
+      "title": "Devil May Cry HD Collection",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 44 分钟",
+      "lastPlayedAt": "2023-10-22"
+    },
+    {
+      "id": "steam-632360",
+      "steamAppId": "632360",
+      "title": "雨中冒险 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "41 小时 58 分钟",
+      "lastPlayedAt": "2020-08-23"
+    },
+    {
+      "id": "steam-63380",
+      "steamAppId": "63380",
+      "title": "Sniper Elite V2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "21 小时 52 分钟",
+      "lastPlayedAt": "2020-04-19"
+    },
+    {
+      "id": "steam-635730",
+      "steamAppId": "635730",
+      "title": "Dragonia",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 17 分钟",
+      "lastPlayedAt": "2020-05-24"
+    },
+    {
+      "id": "steam-637650",
+      "steamAppId": "637650",
+      "title": "FINAL FANTASY XV WINDOWS EDITION",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "15 小时 44 分钟",
+      "lastPlayedAt": "2018-04-09"
+    },
+    {
+      "id": "steam-638650",
+      "steamAppId": "638650",
+      "title": "Sword Art Online Re: Hollow Fragment",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 5 分钟",
+      "lastPlayedAt": "2022-08-30"
+    },
+    {
+      "id": "steam-638970",
+      "steamAppId": "638970",
+      "title": "人中之龙０　誓约的场所",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "155 小时 39 分钟",
+      "lastPlayedAt": "2021-12-27"
+    },
+    {
+      "id": "steam-641990",
+      "steamAppId": "641990",
+      "title": "The Escapists 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 5 分钟",
+      "lastPlayedAt": "2019-11-29"
+    },
+    {
+      "id": "steam-644560",
+      "steamAppId": "644560",
+      "title": "Mirror",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 5 分钟",
+      "lastPlayedAt": "2022-01-22"
+    },
+    {
+      "id": "steam-644570",
+      "steamAppId": "644570",
+      "title": "Material Girl",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 25 分钟",
+      "lastPlayedAt": "2019-10-27"
+    },
+    {
+      "id": "steam-646570",
+      "steamAppId": "646570",
+      "title": "Slay the Spire",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 56 分钟",
+      "lastPlayedAt": "2026-04-12"
+    },
+    {
+      "id": "steam-648800",
+      "steamAppId": "648800",
+      "title": "Raft",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "30 小时 44 分钟",
+      "lastPlayedAt": "2022-08-21"
+    },
+    {
+      "id": "steam-665180",
+      "steamAppId": "665180",
+      "title": "Dark Elf",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时",
+      "lastPlayedAt": "2019-11-07"
+    },
+    {
+      "id": "steam-671210",
+      "steamAppId": "671210",
+      "title": "FINAL FANTASY XV WINDOWS EDITION PLAYABLE DEMO",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 15 分钟",
+      "lastPlayedAt": "2018-02-28"
+    },
+    {
+      "id": "steam-678960",
+      "steamAppId": "678960",
+      "title": "CODE VEIN",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "53 小时 2 分钟",
+      "lastPlayedAt": "2025-11-02"
+    },
+    {
+      "id": "steam-680320",
+      "steamAppId": "680320",
+      "title": "The Heiress",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 41 分钟",
+      "lastPlayedAt": "2019-06-04"
+    },
+    {
+      "id": "steam-6850",
+      "steamAppId": "6850",
+      "title": "Hitman 2: Silent Assassin",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 分钟",
+      "lastPlayedAt": "2017-01-30"
+    },
+    {
+      "id": "steam-686180",
+      "steamAppId": "686180",
+      "title": "Cat Girl",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "20 分钟",
+      "lastPlayedAt": "2017-11-18"
+    },
+    {
+      "id": "steam-70",
+      "steamAppId": "70",
+      "title": "Half-Life",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2018-05-26"
+    },
+    {
+      "id": "steam-711990",
+      "steamAppId": "711990",
+      "title": "Elise the Devil",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "4 小时 32 分钟",
+      "lastPlayedAt": "2020-09-23"
+    },
+    {
+      "id": "steam-720280",
+      "steamAppId": "720280",
+      "title": "Fox Hime",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 2 分钟",
+      "lastPlayedAt": "2017-11-08"
+    },
+    {
+      "id": "steam-726990",
+      "steamAppId": "726990",
+      "title": "Succubus Rem",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "38 分钟",
+      "lastPlayedAt": "2018-11-24"
+    },
+    {
+      "id": "steam-72850",
+      "steamAppId": "72850",
+      "title": "The Elder Scrolls V: Skyrim",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "27 小时 20 分钟",
+      "lastPlayedAt": "2022-01-30"
+    },
+    {
+      "id": "steam-728880",
+      "steamAppId": "728880",
+      "title": "Overcooked! 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 5 分钟",
+      "lastPlayedAt": "2023-01-14"
+    },
+    {
+      "id": "steam-730",
+      "steamAppId": "730",
+      "title": "Counter-Strike 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "27 小时 29 分钟",
+      "lastPlayedAt": "2019-07-18"
+    },
+    {
+      "id": "steam-736190",
+      "steamAppId": "736190",
+      "title": "中国式家长",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 分钟",
+      "lastPlayedAt": "2018-09-30"
+    },
+    {
+      "id": "steam-738540",
+      "steamAppId": "738540",
+      "title": "Tales of Vesperia: Definitive Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 3 分钟",
+      "lastPlayedAt": "2021-12-07"
+    },
+    {
+      "id": "steam-740130",
+      "steamAppId": "740130",
+      "title": "破晓传奇",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "67 小时 26 分钟",
+      "lastPlayedAt": "2021-09-25"
+    },
+    {
+      "id": "steam-748360",
+      "steamAppId": "748360",
+      "title": "MY HERO ONE'S JUSTICE",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 小时 34 分钟",
+      "lastPlayedAt": "2019-05-11"
+    },
+    {
+      "id": "steam-752590",
+      "steamAppId": "752590",
+      "title": "A Plague Tale: Innocence",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "16 小时 26 分钟",
+      "lastPlayedAt": "2019-12-01"
+    },
+    {
+      "id": "steam-755500",
+      "steamAppId": "755500",
+      "title": "ONE PIECE World Seeker",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "3 小时 22 分钟",
+      "lastPlayedAt": "2019-03-16"
+    },
+    {
+      "id": "steam-758330",
+      "steamAppId": "758330",
+      "title": "Shenmue I & II",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "51 分钟",
+      "lastPlayedAt": "2019-11-21"
+    },
+    {
+      "id": "steam-761600",
+      "steamAppId": "761600",
+      "title": "鬼武者（Onimusha: Warlords）",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "11 小时 6 分钟",
+      "lastPlayedAt": "2022-04-11"
+    },
+    {
+      "id": "steam-780310",
+      "steamAppId": "780310",
+      "title": "The Riftbreaker 银河破裂者",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "32 分钟",
+      "lastPlayedAt": "2026-01-01"
+    },
+    {
+      "id": "steam-7940",
+      "steamAppId": "7940",
+      "title": "Call of Duty® 4: Modern Warfare® (2007)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "12 分钟",
+      "lastPlayedAt": "2022-09-05"
+    },
+    {
+      "id": "steam-812140",
+      "steamAppId": "812140",
+      "title": "Assassin's Creed® Odyssey",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "155 小时 29 分钟",
+      "lastPlayedAt": "2019-08-25"
+    },
+    {
+      "id": "steam-814380",
+      "steamAppId": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "69 小时 35 分钟",
+      "lastPlayedAt": "2026-07-05"
+    },
+    {
+      "id": "steam-815370",
+      "steamAppId": "815370",
+      "title": "绿色地狱",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "7 小时 44 分钟",
+      "lastPlayedAt": "2022-04-23"
+    },
+    {
+      "id": "steam-8190",
+      "steamAppId": "8190",
+      "title": "Just Cause 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2019-05-26"
+    },
+    {
+      "id": "steam-825630",
+      "steamAppId": "825630",
+      "title": "STEINS;GATE 0",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "55 分钟",
+      "lastPlayedAt": "2018-05-25"
+    },
+    {
+      "id": "steam-828070",
+      "steamAppId": "828070",
+      "title": "宝藏猎人克莱儿",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 小时 38 分钟",
+      "lastPlayedAt": "2019-06-24"
+    },
+    {
+      "id": "steam-834530",
+      "steamAppId": "834530",
+      "title": "人中之龙 极 [传承版]",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "105 小时 21 分钟",
+      "lastPlayedAt": "2021-12-29"
+    },
+    {
+      "id": "steam-838350",
+      "steamAppId": "838350",
+      "title": "太吾绘卷：天幕心帷",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "22 分钟",
+      "lastPlayedAt": "2018-09-27"
+    },
+    {
+      "id": "steam-863550",
+      "steamAppId": "863550",
+      "title": "HITMAN™ 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 分钟",
+      "lastPlayedAt": "2022-08-28"
+    },
+    {
+      "id": "steam-870780",
+      "steamAppId": "870780",
+      "title": "控制 - 终极合辑 / Control Ultimate Edition",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "29 小时 32 分钟",
+      "lastPlayedAt": "2026-06-06"
+    },
+    {
+      "id": "steam-881020",
+      "steamAppId": "881020",
+      "title": "Granblue Fantasy: Relink",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "221 小时 17 分钟",
+      "lastPlayedAt": "2026-07-18"
+    },
+    {
+      "id": "steam-882790",
+      "steamAppId": "882790",
+      "title": "天命奇御",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "6 小时 42 分钟",
+      "lastPlayedAt": "2018-09-23"
+    },
+    {
+      "id": "steam-883710",
+      "steamAppId": "883710",
+      "title": "Resident Evil 2",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "23 小时 54 分钟",
+      "lastPlayedAt": "2026-02-22"
+    },
+    {
+      "id": "steam-892970",
+      "steamAppId": "892970",
+      "title": "Valheim: 英灵神殿",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "18 小时 19 分钟",
+      "lastPlayedAt": "2024-01-10"
+    },
+    {
+      "id": "steam-8980",
+      "steamAppId": "8980",
+      "title": "Borderlands Game of the Year",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "2 小时 47 分钟",
+      "lastPlayedAt": "2018-04-30"
+    },
+    {
+      "id": "steam-899770",
+      "steamAppId": "899770",
+      "title": "最后纪元",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "26 小时 25 分钟",
+      "lastPlayedAt": "2024-03-11"
+    },
+    {
+      "id": "steam-913740",
+      "steamAppId": "913740",
+      "title": "恐怖的世界",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "13 分钟",
+      "lastPlayedAt": "2023-10-22"
+    },
+    {
+      "id": "steam-921570",
+      "steamAppId": "921570",
+      "title": "歧路旅人",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "81 小时 24 分钟",
+      "lastPlayedAt": "2021-09-26"
+    },
+    {
+      "id": "steam-927380",
+      "steamAppId": "927380",
+      "title": "人中之龙 极２ [传承版]",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "84 小时 39 分钟",
+      "lastPlayedAt": "2022-01-15"
+    },
+    {
+      "id": "steam-932850",
+      "steamAppId": "932850",
+      "title": "Simmiland",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "18 分钟",
+      "lastPlayedAt": "2023-10-18"
+    },
+    {
+      "id": "steam-952060",
+      "steamAppId": "952060",
+      "title": "Resident Evil 3",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "8 小时 55 分钟",
+      "lastPlayedAt": "2026-02-23"
+    },
+    {
+      "id": "steam-962130",
+      "steamAppId": "962130",
+      "title": "Grounded",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "167 小时 46 分钟",
+      "lastPlayedAt": "2026-05-10"
+    },
+    {
+      "id": "steam-970500",
+      "steamAppId": "970500",
+      "title": "秦殇 (Prince of Qin)",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "1 分钟",
+      "lastPlayedAt": "2022-03-18"
+    },
+    {
+      "id": "steam-979690",
+      "steamAppId": "979690",
+      "title": "上行战场 / The Ascent",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "5 小时 41 分钟",
+      "lastPlayedAt": "2021-09-10"
+    },
+    {
+      "id": "steam-990080",
+      "steamAppId": "990080",
+      "title": "霍格沃茨之遗",
+      "categories": [
+        "Steam"
+      ],
+      "notes": [],
+      "playtime": "10 小时 48 分钟",
+      "lastPlayedAt": "2023-02-12"
+    },
+    {
+      "id": "switch-01006b601380e000",
+      "title": "星のカービィ Wii デラックス",
+      "categories": [
+        "Switch"
+      ],
+      "notes": [],
+      "playtime": "3 小时 46 分钟",
+      "lastPlayedAt": "2024-06-10"
+    },
+    {
+      "id": "switch-0100770008dd8000",
+      "title": "MONSTER HUNTER GENERATIONS ULTIMATE",
+      "categories": [
+        "Switch"
+      ],
+      "notes": [],
+      "playtime": "12 小时 51 分钟",
+      "lastPlayedAt": "2024-06-10"
+    },
+    {
+      "id": "switch-01007ef00011e000",
+      "title": "ゼルダの伝説　ブレス オブ ザ ワイルド",
+      "categories": [
+        "Switch"
+      ],
+      "notes": [],
+      "playtime": "3 小时 39 分钟",
+      "lastPlayedAt": "2023-05-14"
+    },
+    {
+      "id": "switch-0100d9f01d474000",
+      "title": "リズム天国 ミラクルスターズ",
+      "categories": [
+        "Switch"
+      ],
+      "notes": [],
+      "playtime": "23 分钟",
+      "lastPlayedAt": "2026-08-09"
+    },
+    {
+      "id": "switch-0100eca01db0c000",
+      "title": "ユニコーンオーバーロード体験版",
+      "categories": [
+        "Switch"
+      ],
+      "notes": [],
+      "playtime": "1 小时 7 分钟",
+      "lastPlayedAt": "2024-02-29"
+    },
+    {
+      "id": "switch-0100f43008c44000",
+      "title": "Pokémon LEGENDS Z-A Nintendo Switch 2 Edition",
+      "categories": [
+        "Switch 2"
+      ],
+      "notes": [],
+      "playtime": "14 小时 17 分钟",
+      "lastPlayedAt": "2025-11-02"
+    },
+    {
+      "id": "switch-0100ff500e34a000",
+      "title": "Xenoblade Definitive Edition Nintendo Switch 2 Edition",
+      "categories": [
+        "Switch 2"
+      ],
+      "notes": [],
+      "playtime": "53 小时 35 分钟",
+      "lastPlayedAt": "2026-10-12"
+    },
+    {
+      "id": "switch-040074a01bf12000",
+      "title": "ドンキーコング バナンザ",
+      "categories": [
+        "Switch 2"
+      ],
+      "notes": [],
+      "playtime": "1 小时 10 分钟",
+      "lastPlayedAt": "2026-07-04"
+    },
+    {
+      "id": "switch-0400be80238d4000",
+      "title": "The Duskbloods Network Test Ver.",
+      "categories": [
+        "Switch 2"
+      ],
+      "notes": [],
+      "playtime": "2 小时 6 分钟",
+      "lastPlayedAt": "2026-08-22"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
-import { mergeJournals, resolveGameCovers, validateJournal, validateAssets } from './journal-data.mjs'
+import { mergeJournals, mergePlayLibrary, resolveGameCovers, validateJournal, validateAssets } from './journal-data.mjs'
 import { enrichJournal } from './review-scores.mjs'
 import { mergeSteamScreenshots, mergeSteamComments } from './steam/local.mjs'
 import { applyEditorial } from './editorial.mjs'
@@ -16,7 +16,12 @@ if (localScreenshots.games) imported = mergeSteamScreenshots(imported, localScre
 imported = mergeSteamComments(imported, (await optionalJson('steam-comments.json')).comments || [])
 const titles = { ...await optionalJson('steam-titles.json'), ...await optionalJson('title-overrides.json') }
 const enriched = enrichJournal(imported, titles, await optionalJson('review-score-overrides.json'))
-const base = validateJournal(mergeJournals(enrichJournal(manual, {}, {}), enriched))
+const library = await optionalJson('play-library.json')
+const games = mergePlayLibrary(mergeJournals(enrichJournal(manual, {}, {}), enriched), { games: library.games ?? [] })
+const caseCovers = await optionalJson('case-covers.json')
+const base = validateJournal({
+  games: games.games.map(game => Object.hasOwn(caseCovers, game.id) ? { ...game, caseCover: caseCovers[game.id] } : game),
+})
 const publicDir = fileURLToPath(new URL('../public', import.meta.url))
 await resolveGameCovers(base, publicDir)
 const edits = await optionalJson('editorial.json')

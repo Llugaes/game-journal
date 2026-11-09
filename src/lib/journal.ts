@@ -7,7 +7,8 @@ export const scoresOf = (game: JournalGame): JournalScore[] => {
   const reviews = reviewsOf(game)
   return reviews.flatMap(review => (review.scores || []).map(score => ({ ...score, label: reviews.length > 1 ? `${review.source?.authorName || '评测'} · ${score.label}` : score.label })))
 }
-export const recordedDate = (game: JournalGame) => game.recordedAt || game.lastPlayedAt || game.notes.at(-1)?.date || ''
+export const recordedDate = (game: JournalGame) =>
+  [game.recordedAt, game.lastPlayedAt, game.notes.at(-1)?.date].filter(Boolean).sort().at(-1) || ''
 export const assetUrl = (value: string) => value.startsWith('https://') ? value : `${import.meta.env.BASE_URL}${value.replace(/^\//, '')}`
 
 export const platforms = {

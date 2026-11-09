@@ -52,6 +52,7 @@ function applyRecord(base, patch, kind) {
     if (value === null) delete next[key]
     else next[key] = structuredClone(value)
   }
+  if (kind === 'game' && has(patch.fields || {}, 'cover')) delete next.caseCover
   for (const [name, collection] of Object.entries(patch.collections || {})) {
     if (!(children[kind] || []).includes(name)) throw new Error(`不可编辑集合: ${name}`)
     const map = new Map((next[name] || []).map(item => [item.id, item]))

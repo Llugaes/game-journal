@@ -5,7 +5,7 @@ import { load } from 'cheerio'
 import { parseReviewList, parseReview, parseScreenshot, plainText, steamDate } from './parse.mjs'
 import { assertSteamUrl } from './client.mjs'
 import { selectScreenshots } from './collect.mjs'
-import { mergeJournals, resolveGameCovers, validateJournal } from '../journal-data.mjs'
+import { mergeJournals, mergePlayLibrary, resolveGameCovers, validateJournal } from '../journal-data.mjs'
 
 const profile = '76561198256716552'
 const now = new Date('2026-10-11T00:00:00Z')
@@ -94,6 +94,17 @@ test('Steam 更新不覆盖手写评测和随笔，合并结果稳定', () => {
   assert.equal(first.games[0].reviews[0].content, 'Steam 原话')
   assert.deepEqual(first, mergeJournals(manual, imported))
   assert.equal(imported.games[0].title, '真实标题')
+})
+
+test('游玩清单按游戏 ID 增补记录，保留已有标题、评测与手动时长', () => {
+  const saved = { ...game, title: '自订名称', lastPlayedAt: '2026-10-20', playtime: '自订时长', reviews: [{ content: '已有评测' }] }
+  const played = { ...game, title: '商店名称', lastPlayedAt: '2026-11-09', playtime: '2 小时' }
+  const consoleGame = { id: 'psn-ppsa00001-00', title: '主机游戏', categories: ['PS5'], notes: [] }
+  const journal = mergePlayLibrary({ games: [saved] }, { games: [played, consoleGame] })
+  assert.equal(journal.games.length, 2)
+  assert.deepEqual(journal.games[0], { ...saved, lastPlayedAt: '2026-11-09' })
+  assert.equal(journal.games[1].title, '主机游戏')
+  assert.deepEqual(journal.games[1].reviews, [])
 })
 
 test('旧截图封面改用同一 App 的商店图，缺图时保留截图但留空封面', async () => {
