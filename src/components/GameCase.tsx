@@ -15,6 +15,7 @@ export function GameCase({ game }: { game: JournalGame }) {
   // Nintendo activity supplies a square menu icon. Keep it on the cartridge label.
   const face = box ?? (nintendo ? (!faceFailed && game.cover ? assetUrl(game.cover) : undefined) : stock.src)
   const studio = studioOf(game)
+  const mediaArtwork = stock.src && <img className="case-media-art" key={stock.src} src={stock.src} alt="" onError={stock.onError} />
 
   return <div className="game-case" data-case={platform}>
     <div className="case-lid">
@@ -32,7 +33,12 @@ export function GameCase({ game }: { game: JournalGame }) {
       <div className="case-recess">
         <div className={`case-media case-media--${media}`}>
           {media === 'card' && <PlatformBrand platform={platform} className="case-card-mark" />}
-          {stock.src && <img className="case-media-art" key={stock.src} src={stock.src} alt="" onError={stock.onError} />}
+          {platform === 'ps5' ? <div className="case-disc-print">
+            {mediaArtwork}
+            <span className="case-disc-title">{game.originalTitle || game.title}</span>
+            {studio && <span className="case-disc-studio">{studio.name}</span>}
+            <PlatformBrand platform={platform} className="case-disc-brand" />
+          </div> : mediaArtwork}
         </div>
         {media === 'disc' && <span className="case-hub" />}
       </div>

@@ -38,11 +38,21 @@
   --cabinet-switch2-rim: #771817;
   --cabinet-clear-plastic: #c5c6bf;
   --cabinet-clear-edge: #747b79;
+  --switch-clear-mold: #dce7e834;
+  --switch-clear-rim: #788b8a86;
+  --switch-clear-bevel: #fffef1bb;
+  --switch-clear-shadow: #546a6937;
   --cabinet-plastic-glint: #f9ffff99;
   --cabinet-plastic-sheen: #f9ffff35;
   --cabinet-cartridge: #1b2225;
   --cabinet-disc: #b0b8b0;
   --cabinet-disc-ring: #79877e;
+  --ps5-disc-stock: #b8bbc7;
+  --ps5-disc-polycarbonate: #b3d2ec52;
+  --ps5-disc-ink: #131722;
+  --ps5-disc-ink-edge: #252c3a;
+  --ps5-disc-ink-light: #e8e6e0;
+  --ps5-disc-white: #e9ebec;
   --cabinet-foil: #b8915a;
   --cabinet-serif: Georgia, "Noto Serif SC", "Songti SC", SimSun, serif;
   --cabinet-sans: Inter, ui-sans-serif, system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -441,6 +451,20 @@ main:has(> .shelf-page) { width: 100%; }
   background: linear-gradient(180deg, var(--tray-light) 0 9%, transparent 9% 91%, var(--tray-light) 91%);
   border-radius: 3px 0 0 3px;
 }
+.game-case[data-case="switch"] :is(.case-lid, .case-tray) {
+  --case-shell: var(--switch-clear-mold);
+  --case-edge: var(--switch-clear-rim);
+}
+.game-case[data-case="switch"] .case-tray {
+  --tray-light: var(--switch-clear-bevel);
+  --tray-depth: var(--switch-clear-shadow);
+  background:
+    linear-gradient(90deg, var(--tray-depth), var(--tray-light) 1.5%, var(--case-shell) 3%, transparent 4%),
+    linear-gradient(145deg, var(--case-shell), transparent 44%, var(--case-shell));
+}
+.game-case[data-case="switch"] .case-recess { box-shadow: 0 0 0 1px var(--switch-clear-rim), inset 0 2px 5px var(--tray-depth); }
+.game-case[data-case="switch"] .case-recess::before,
+.game-case[data-case="switch"] .case-recess::after { box-shadow: inset 0 2px 4px var(--tray-depth), 0 1px 0 var(--tray-light); }
 .case-recess {
   position: absolute;
   left: 50%;
@@ -491,6 +515,64 @@ main:has(> .shelf-page) { width: 100%; }
     repeating-conic-gradient(var(--tray-depth) 0 35deg, var(--tray-light) 35deg 60deg);
   box-shadow: 0 0 0 2px var(--cabinet-plastic-sheen), inset 0 1px 3px var(--cabinet-shadow);
 }
+.game-case[data-case="ps5"] .case-media--disc {
+  container-type: inline-size;
+  background: radial-gradient(circle closest-side,
+    transparent 12%, var(--ps5-disc-polycarbonate) 12.5% 17.5%,
+    var(--cabinet-plastic-sheen) 18% 18.5%, var(--ps5-disc-polycarbonate) 19% 20.5%,
+    var(--ps5-disc-stock) 21% 98%, var(--ps5-disc-white) 100%);
+}
+.case-disc-print {
+  position: absolute;
+  inset: 1.15%;
+  overflow: hidden;
+  border-radius: 50%;
+  background: linear-gradient(150deg, var(--ps5-disc-ink-edge), var(--ps5-disc-ink) 44%, var(--ps5-disc-ink-edge));
+  color: var(--ps5-disc-ink-light);
+  mask-image: radial-gradient(circle closest-side, transparent 21%, var(--cabinet-white) 21.5%);
+}
+.case-disc-print .case-media-art {
+  inset: 31% 0 auto;
+  width: 100%;
+  height: 52%;
+  object-position: 50% 77%;
+  border-radius: 0;
+  opacity: .43;
+  filter: saturate(.62);
+  mask-image: linear-gradient(transparent, var(--cabinet-white) 30% 62%, transparent);
+}
+.case-disc-title, .case-disc-studio {
+  position: absolute;
+  inset-inline: 14%;
+  text-align: center;
+}
+.case-disc-title {
+  top: 17%;
+  font: 600 clamp(5px, 5.5cqi, 14px)/1.1 var(--cabinet-serif);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+.case-disc-studio {
+  bottom: 25%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 650 clamp(4px, 2.8cqi, 8px)/1 var(--cabinet-sans);
+}
+.case-disc-brand {
+  position: absolute;
+  inset: auto 0 0;
+  display: flex;
+  height: 21%;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2cqi;
+  padding-top: 3.6cqi;
+  background: var(--ps5-disc-white);
+}
+.case-disc-brand .platform-mark { width: 9cqi; height: 7cqi; }
+.case-disc-brand .platform-wordmark { width: 19cqi; height: 7cqi; }
+.game-case[data-case="ps5"] .case-hub { width: 11%; border-color: var(--ps5-disc-polycarbonate); }
 .case-tray--card .case-recess {
   top: 83%;
   width: 32%;
