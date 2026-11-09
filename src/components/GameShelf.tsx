@@ -3,6 +3,7 @@ import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
 import { spineTitle } from '../lib/spine-title'
+import { useCaseArtwork } from '../lib/useCaseArtwork'
 import spineFinishes from '../../data/spine-finishes.json'
 import { PlatformBrand } from './PlatformBrand'
 import { caseOverallScore, ShelfScore } from './ScorePanel'
@@ -41,6 +42,7 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const ordinal = /\s+the (?:1st|2nd|3rd)$/i.exec(name)
   const titleLength = [...name].reduce((length, char) => length + (char.charCodeAt(0) < 128 ? .6 : 1), 0)
   const titleFit = titleLength > 10 ? 'columns' : titleLength > 8 ? 'condensed' : undefined
+  const artwork = useCaseArtwork(game, 'spine')
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
     event.preventDefault()
@@ -54,6 +56,7 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
         <PlatformBrand platform={platform} className="spine-cap" spine />
         <span className="spine-label">
           <span className="spine-face">
+            {artwork.src && <img className="spine-artwork" key={artwork.src} src={artwork.src} alt="" loading="lazy" decoding="async" onError={artwork.onError} />}
             <span className="spine-title" data-fit={titleFit}>
               {ordinal ? <>{name.slice(0, ordinal.index)} <small>{ordinal[0].trimStart()}</small></> : name}
             </span>

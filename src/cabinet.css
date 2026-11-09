@@ -210,6 +210,7 @@ main:has(> .shelf-page) { width: 100%; }
   --spine-width: 34px;
   --spine-foreground: var(--spine-title-light);
   --spine-background: var(--spine-slate);
+  --spine-art-opacity: .43;
   --spine-mono-logo: brightness(0) invert(.95);
   position: relative;
   width: var(--spine-width);
@@ -233,8 +234,8 @@ main:has(> .shelf-page) { width: 100%; }
 .game-spine[data-finish="brick"] { --spine-background: var(--spine-brick); }
 .game-spine[data-finish="bone"] { --spine-background: var(--spine-bone); }
 .game-spine[data-finish="moss"] { --spine-background: var(--spine-moss); }
-.game-spine:is([data-finish="ochre"], [data-finish="bone"]) { --spine-foreground: var(--spine-title-dark); --spine-mono-logo: none; }
-.game-spine[data-case="switch"] { --spine-background: var(--cabinet-switch); --spine-foreground: var(--spine-title-light); --spine-mono-logo: brightness(0) invert(.95); }
+.game-spine:is([data-finish="ochre"], [data-finish="bone"]) { --spine-foreground: var(--spine-title-dark); --spine-mono-logo: none; --spine-art-opacity: .25; }
+.game-spine[data-case="switch"] { --spine-background: var(--cabinet-switch); --spine-foreground: var(--spine-title-light); --spine-mono-logo: brightness(0) invert(.95); --spine-art-opacity: .43; }
 .spine-shell {
   position: relative;
   display: grid;
@@ -276,8 +277,21 @@ main:has(> .shelf-page) { width: 100%; }
 }
 .spine-label { display: grid; grid-template-rows: minmax(0, 1fr) 21px 22px 37px; min-width: 0; border-radius: 0 0 2px 2px; background: var(--spine-background); }
 .spine-face, .spine-edition, .spine-studio, .spine-rating { min-width: 0; }
-.spine-face { display: grid; justify-items: center; min-height: 0; overflow: hidden; }
+.spine-face { position: relative; display: grid; justify-items: center; min-height: 0; overflow: hidden; }
+.spine-artwork {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 45%;
+  opacity: var(--spine-art-opacity);
+  mask-image: linear-gradient(var(--cabinet-case-rim) 64%, transparent);
+  pointer-events: none;
+}
+.spine-artwork + .spine-title { text-shadow: 0 0 2px var(--spine-background), 0 1px 2px var(--spine-background); }
 .spine-title {
+  position: relative;
   display: block;
   max-width: 100%;
   height: 100%;
@@ -309,8 +323,8 @@ main:has(> .shelf-page) { width: 100%; }
 .spine-studio img:is([src$="/squareenix.webp"], [src$="/fromsoftware.webp"], [src$="/game-freak.webp"], [src$="/monolith-soft.webp"], [src$="/remedyentertainment.webp"], [src$="/pocketpair.webp"]) { filter: var(--spine-mono-logo); }
 .spine-studio > span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .spine-studio > [data-compact] { font-size: 6px; }
-.spine-rating { display: grid; place-items: end center; padding-bottom: 3px; border-radius: 0 0 2px 2px; }
-.spine-score { display: grid; place-items: center; width: var(--spine-width); text-align: center; font: 800 9px/1 var(--cabinet-sans); }
+.spine-rating { display: grid; grid-template-columns: minmax(0, 1fr); place-items: center; padding-bottom: 3px; border-radius: 0 0 2px 2px; }
+.spine-score { display: grid; place-items: center; width: 100%; min-width: 0; text-align: center; font: 800 9px/1 var(--cabinet-sans); }
 .spine-score img { display: block; width: 100%; height: auto; }
 .spine-score > span { max-width: 100%; overflow-wrap: anywhere; }
 .game-spine:focus-visible { z-index: 2; outline: 2px solid var(--cabinet-gold); outline-offset: 1px; }
