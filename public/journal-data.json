@@ -442,9 +442,9 @@
     },
     {
       "id": "steam-3974650",
-      "title": "鬼武者 Way of the Sword DEMO",
+      "title": "鬼武者：剑之道（试玩版）",
       "originalTitle": "Onimusha: Way of the Sword DEMO",
-      "titleSource": "https://store.steampowered.com/app/3974650/?l=schinese",
+      "titleSource": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
       "categories": [
         "Steam"
       ],
@@ -491,7 +491,7 @@
     },
     {
       "id": "steam-1623730",
-      "title": "Palworld / 幻兽帕鲁",
+      "title": "幻兽帕鲁",
       "originalTitle": "Palworld",
       "titleSource": "https://store.steampowered.com/app/1623730/?l=schinese",
       "categories": [
@@ -903,9 +903,9 @@
     },
     {
       "id": "steam-3357650",
-      "title": "PRAGMATA",
+      "title": "识质存在",
       "originalTitle": "PRAGMATA",
-      "titleSource": "https://store.steampowered.com/app/3357650/?l=schinese",
+      "titleSource": "https://captown.capcom.com/sc/theaters/pragmata/50",
       "categories": [
         "Steam"
       ],
@@ -1022,7 +1022,7 @@
     },
     {
       "id": "steam-2852190",
-      "title": "Monster Hunter Stories 3: 命运双龙",
+      "title": "怪物猎人物语3：命运双龙",
       "originalTitle": "Monster Hunter Stories 3: Twisted Reflection",
       "titleSource": "https://store.steampowered.com/app/2852190/?l=schinese",
       "categories": [
@@ -1881,9 +1881,9 @@
     },
     {
       "id": "steam-283640",
-      "title": "Salt and Sanctuary",
+      "title": "盐和避难所",
       "originalTitle": "Salt and Sanctuary",
-      "titleSource": "https://store.steampowered.com/app/283640/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/122695",
       "categories": [
         "Steam"
       ],
@@ -1940,9 +1940,9 @@
     },
     {
       "id": "steam-1850510",
-      "title": "TRIANGLE STRATEGY",
+      "title": "三角战略",
       "originalTitle": "TRIANGLE STRATEGY",
-      "titleSource": "https://store.steampowered.com/app/1850510/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/328539",
       "categories": [
         "Steam"
       ],
@@ -2024,9 +2024,9 @@
     },
     {
       "id": "steam-1020470",
-      "title": "Evoland Legendary Edition",
+      "title": "进化之地：传奇版",
       "originalTitle": "Evoland Legendary Edition",
-      "titleSource": "https://store.steampowered.com/app/1020470/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/62583",
       "categories": [
         "Steam"
       ],
@@ -2227,9 +2227,9 @@
     },
     {
       "id": "steam-613830",
-      "title": "CHRONO TRIGGER®",
+      "title": "时空之钥",
       "originalTitle": "CHRONO TRIGGER",
-      "titleSource": "https://store.steampowered.com/app/613830/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/20188",
       "categories": [
         "Steam"
       ],
@@ -2838,9 +2838,9 @@
     },
     {
       "id": "steam-1608070",
-      "title": "CRISIS CORE –最终幻想VII– REUNION",
+      "title": "核心危机：最终幻想7 重聚",
       "originalTitle": "CRISIS CORE –FINAL FANTASY VII– REUNION",
-      "titleSource": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
+      "titleSource": "https://store.steampowered.com/app/1608070/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -2957,9 +2957,9 @@
     },
     {
       "id": "steam-2680010",
-      "title": "The First Berserker: Khazan",
+      "title": "第一狂战士：卡赞",
       "originalTitle": "The First Berserker: Khazan",
-      "titleSource": "https://store.steampowered.com/app/2680010/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/301795",
       "categories": [
         "Steam"
       ],
@@ -3266,9 +3266,9 @@
     },
     {
       "id": "steam-553420",
-      "title": "TUNIC",
+      "title": "丘尼卡传说",
       "originalTitle": "TUNIC",
-      "titleSource": "https://store.steampowered.com/app/553420/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/216992",
       "categories": [
         "Steam"
       ],
@@ -3511,9 +3511,9 @@
     },
     {
       "id": "steam-1332010",
-      "title": "Stray",
+      "title": "迷失",
       "originalTitle": "Stray",
-      "titleSource": "https://store.steampowered.com/app/1332010/?l=schinese",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E8%BF%B7%E5%A4%B1_(%E6%B8%B8%E6%88%8F)",
       "categories": [
         "Steam"
       ],
@@ -3760,9 +3760,9 @@
     },
     {
       "id": "steam-614570",
-      "title": "Dishonored®: Death of the Outsider™",
+      "title": "羞辱：界外魔之死",
       "originalTitle": "Dishonored®: Death of the Outsider™ ",
-      "titleSource": "https://store.steampowered.com/app/614570/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/216937",
       "categories": [
         "Steam"
       ],
@@ -4407,7 +4407,9 @@
     },
     {
       "id": "steam-351970",
-      "title": "Tales of Zestiria",
+      "title": "情热传说",
+      "originalTitle": "Tales of Zestiria",
+      "titleSource": "https://bgm.tv/subject/90372",
       "categories": [
         "Steam"
       ],
@@ -4475,9 +4477,9 @@
     },
     {
       "id": "steam-582500",
-      "title": "We Were Here",
+      "title": "我们曾到此",
       "originalTitle": "We Were Here",
-      "titleSource": "https://store.steampowered.com/app/582500/?l=schinese",
+      "titleSource": "https://www.3dmgame.com/news/202610/3957438.html",
       "categories": [
         "Steam"
       ],
@@ -4559,9 +4561,9 @@
     },
     {
       "id": "steam-493200",
-      "title": "RiME",
+      "title": "霜雪",
       "originalTitle": "RiME",
-      "titleSource": "https://store.steampowered.com/app/493200/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/205061",
       "categories": [
         "Steam"
       ],
@@ -4792,9 +4794,9 @@
     },
     {
       "id": "steam-359310",
-      "title": "Evoland 2",
+      "title": "进化之地2",
       "originalTitle": "Evoland 2",
-      "titleSource": "https://store.steampowered.com/app/359310/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/145329",
       "categories": [
         "Steam"
       ],
@@ -4898,9 +4900,9 @@
     },
     {
       "id": "steam-711990",
-      "title": "Elise the Devil",
+      "title": "魔王伊丽丝的逆袭",
       "originalTitle": "Elise the Devil",
-      "titleSource": "https://store.steampowered.com/app/711990/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/183739",
       "categories": [
         "Steam"
       ],
@@ -4934,9 +4936,9 @@
     },
     {
       "id": "steam-720280",
-      "title": "Fox Hime",
+      "title": "狐姬",
       "originalTitle": "Fox Hime",
-      "titleSource": "https://store.steampowered.com/app/720280/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/229737",
       "categories": [
         "Steam"
       ],
@@ -4969,9 +4971,9 @@
     },
     {
       "id": "steam-323320",
-      "title": "Grow Home",
+      "title": "成长家园",
       "originalTitle": "Grow Home",
-      "titleSource": "https://store.steampowered.com/app/323320/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/124770",
       "categories": [
         "Steam"
       ],
@@ -5004,9 +5006,9 @@
     },
     {
       "id": "steam-426790",
-      "title": "Grow Up",
+      "title": "成长家园2",
       "originalTitle": "Grow Up",
-      "titleSource": "https://store.steampowered.com/app/426790/?l=schinese",
+      "titleSource": "https://www-ali.gamehub.homes/zt/growup/",
       "categories": [
         "Steam"
       ],
@@ -5075,7 +5077,9 @@
     },
     {
       "id": "steam-567090",
-      "title": "8-Bit Bayonetta",
+      "title": "8 位猎天使魔女",
+      "originalTitle": "8-Bit Bayonetta",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E9%AD%94%E5%85%B5%E9%A9%9A%E5%A4%A9%E9%8C%84",
       "categories": [
         "Steam"
       ],
@@ -5144,9 +5148,9 @@
     },
     {
       "id": "steam-384190",
-      "title": "ABZU",
+      "title": "智慧之海",
       "originalTitle": "ABZÛ",
-      "titleSource": "https://store.steampowered.com/app/384190/?l=schinese",
+      "titleSource": "https://bgm.tv/subject/188850",
       "categories": [
         "Steam"
       ],
@@ -5231,7 +5235,9 @@
     },
     {
       "id": "psn-cusa01363-00",
-      "title": "Bloodborne™",
+      "title": "血源诅咒",
+      "originalTitle": "Bloodborne™",
+      "titleSource": "https://bgm.tv/subject/105699",
       "categories": [
         "PS4"
       ],
@@ -5244,7 +5250,9 @@
     },
     {
       "id": "psn-cusa03023-00",
-      "title": "Bloodborne™",
+      "title": "血源诅咒",
+      "originalTitle": "Bloodborne™",
+      "titleSource": "https://bgm.tv/subject/105699",
       "categories": [
         "PS4"
       ],
@@ -5257,7 +5265,9 @@
     },
     {
       "id": "psn-cusa10209-00",
-      "title": "Dragon's Crown Pro",
+      "title": "龙之皇冠 Pro",
+      "originalTitle": "Dragon's Crown Pro",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E9%BE%99%E4%B9%8B%E7%9A%87%E5%86%A0",
       "categories": [
         "PS4"
       ],
@@ -5270,7 +5280,9 @@
     },
     {
       "id": "psn-cusa13910-00",
-      "title": "Sekiro™: Shadows Die Twice",
+      "title": "只狼：影逝二度",
+      "originalTitle": "Sekiro™: Shadows Die Twice",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/sekiro-shadows-die-twice/",
       "categories": [
         "PS4"
       ],
@@ -5283,7 +5295,9 @@
     },
     {
       "id": "psn-cusa27055-00",
-      "title": "Tales of Arise",
+      "title": "破晓传说",
+      "originalTitle": "Tales of Arise",
+      "titleSource": "https://www.bandainamcoent.asia/zh-cn/games/tales-of-arise",
       "categories": [
         "PS4"
       ],
@@ -5296,7 +5310,9 @@
     },
     {
       "id": "psn-cusa31066-00",
-      "title": "ELDEN RING",
+      "title": "艾尔登法环",
+      "originalTitle": "ELDEN RING",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/elden-ring/",
       "categories": [
         "PS4"
       ],
@@ -5309,7 +5325,9 @@
     },
     {
       "id": "psn-cusa31285-00",
-      "title": "DRAGON BALL Z: KAKAROT",
+      "title": "龙珠Z：卡卡罗特",
+      "originalTitle": "DRAGON BALL Z: KAKAROT",
+      "titleSource": "https://www.bandainamcoent.asia/zh-cn/games/dragon-ball-z-kakarot",
       "categories": [
         "PS4"
       ],
@@ -5322,7 +5340,9 @@
     },
     {
       "id": "psn-ppsa01340-00",
-      "title": "Demon's Souls",
+      "title": "恶魔之魂",
+      "originalTitle": "Demon's Souls",
+      "titleSource": "https://bgm.tv/subject/2247",
       "categories": [
         "PS5"
       ],
@@ -5335,7 +5355,9 @@
     },
     {
       "id": "psn-ppsa02463-00",
-      "title": "Nioh 2",
+      "title": "仁王2",
+      "originalTitle": "Nioh 2",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/nioh-2/",
       "categories": [
         "PS5"
       ],
@@ -5348,7 +5370,9 @@
     },
     {
       "id": "psn-ppsa04558-00",
-      "title": "Rise of the Ronin™",
+      "title": "浪人崛起",
+      "originalTitle": "Rise of the Ronin™",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/rise-of-the-ronin/",
       "categories": [
         "PS5"
       ],
@@ -5361,7 +5385,9 @@
     },
     {
       "id": "psn-ppsa05702-00",
-      "title": "Forspoken",
+      "title": "魔咒之地",
+      "originalTitle": "Forspoken",
+      "titleSource": "https://bgm.tv/subject/308543",
       "categories": [
         "PS5"
       ],
@@ -5374,7 +5400,9 @@
     },
     {
       "id": "psn-ppsa08340-00",
-      "title": "Marvel's Spider-Man 2",
+      "title": "漫威蜘蛛侠2",
+      "originalTitle": "Marvel's Spider-Man 2",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/marvels-spider-man-2/",
       "categories": [
         "PS5"
       ],
@@ -5387,7 +5415,9 @@
     },
     {
       "id": "psn-ppsa09894-00",
-      "title": "Unicorn Overlord",
+      "title": "圣兽之王",
+      "originalTitle": "Unicorn Overlord",
+      "titleSource": "https://asia.sega.com/unicorn-overlord/cn/",
       "categories": [
         "PS5"
       ],
@@ -5400,7 +5430,9 @@
     },
     {
       "id": "psn-ppsa10666-00",
-      "title": "FINAL FANTASY XVI",
+      "title": "最终幻想16",
+      "originalTitle": "FINAL FANTASY XVI",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/final-fantasy-xvi/",
       "categories": [
         "PS5"
       ],
@@ -5413,7 +5445,9 @@
     },
     {
       "id": "psn-ppsa13198-00",
-      "title": "Stellar Blade™",
+      "title": "剑星",
+      "originalTitle": "Stellar Blade™",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/stellar-blade/",
       "categories": [
         "PS5"
       ],
@@ -5426,7 +5460,9 @@
     },
     {
       "id": "psn-ppsa13414-00",
-      "title": "Ys X: Nordics",
+      "title": "伊苏10：北境历险",
+      "originalTitle": "Ys X: Nordics",
+      "titleSource": "https://www.cloudedleopardent.com/game/ysx/",
       "categories": [
         "PS5"
       ],
@@ -5439,7 +5475,9 @@
     },
     {
       "id": "psn-ppsa13804-00",
-      "title": "FINAL FANTASY XVI",
+      "title": "最终幻想16",
+      "originalTitle": "FINAL FANTASY XVI",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/final-fantasy-xvi/",
       "categories": [
         "PS5"
       ],
@@ -5452,7 +5490,9 @@
     },
     {
       "id": "psn-ppsa15890-00",
-      "title": "Lies of P",
+      "title": "匹诺曹的谎言",
+      "originalTitle": "Lies of P",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/lies-of-p/",
       "categories": [
         "PS5"
       ],
@@ -5465,7 +5505,9 @@
     },
     {
       "id": "psn-ppsa18489-00",
-      "title": "Stellar Blade™",
+      "title": "剑星",
+      "originalTitle": "Stellar Blade™",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/stellar-blade/",
       "categories": [
         "PS5"
       ],
@@ -5478,7 +5520,9 @@
     },
     {
       "id": "psn-ppsa19248-00",
-      "title": "Rise of the Ronin™",
+      "title": "浪人崛起",
+      "originalTitle": "Rise of the Ronin™",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/rise-of-the-ronin/",
       "categories": [
         "PS5"
       ],
@@ -5491,7 +5535,9 @@
     },
     {
       "id": "psn-ppsa20180-00",
-      "title": "Ghost of Tsushima",
+      "title": "对马岛之魂",
+      "originalTitle": "Ghost of Tsushima",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/ghost-of-tsushima/",
       "categories": [
         "PS5"
       ],
@@ -5504,7 +5550,9 @@
     },
     {
       "id": "psn-ppsa20599-00",
-      "title": "Zenless Zone Zero",
+      "title": "绝区零",
+      "originalTitle": "Zenless Zone Zero",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/zenless-zone-zero/",
       "categories": [
         "PS5"
       ],
@@ -5517,7 +5565,9 @@
     },
     {
       "id": "psn-ppsa23226-00",
-      "title": "Black Myth: Wukong",
+      "title": "黑神话：悟空",
+      "originalTitle": "Black Myth: Wukong",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/black-myth-wukong/",
       "categories": [
         "PS5"
       ],
@@ -5530,7 +5580,9 @@
     },
     {
       "id": "psn-ppsa23643-00",
-      "title": "The Legend of Heroes: KAI NO KISEKI -Farewell, O Zemuria-",
+      "title": "英雄传说：界之轨迹",
+      "originalTitle": "The Legend of Heroes: KAI NO KISEKI -Farewell, O Zemuria-",
+      "titleSource": "https://www.cloudedleopardent.com/game/kai/",
       "categories": [
         "PS5"
       ],
@@ -5543,7 +5595,9 @@
     },
     {
       "id": "psn-ppsa24190-00",
-      "title": "Monster Hunter Wilds",
+      "title": "怪物猎人：荒野",
+      "originalTitle": "Monster Hunter Wilds",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
       "categories": [
         "PS5"
       ],
@@ -5556,7 +5610,9 @@
     },
     {
       "id": "psn-ppsa25968-00",
-      "title": "ELDEN RING NIGHTREIGN",
+      "title": "艾尔登法环：黑夜君临",
+      "originalTitle": "ELDEN RING NIGHTREIGN",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/elden-ring-nightreign/",
       "categories": [
         "PS5"
       ],
@@ -5569,7 +5625,9 @@
     },
     {
       "id": "psn-ppsa26344-00",
-      "title": "Ghost of Yōtei",
+      "title": "羊蹄山之魂",
+      "originalTitle": "Ghost of Yōtei",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/ghost-of-yotei/",
       "categories": [
         "PS5"
       ],
@@ -5582,7 +5640,9 @@
     },
     {
       "id": "psn-ppsa27836-00",
-      "title": "Onimusha: Way of the Sword",
+      "title": "鬼武者：剑之道",
+      "originalTitle": "Onimusha: Way of the Sword",
+      "titleSource": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
       "categories": [
         "PS5"
       ],
@@ -5595,7 +5655,9 @@
     },
     {
       "id": "psn-ppsa29602-00",
-      "title": "Nioh 3",
+      "title": "仁王3",
+      "originalTitle": "Nioh 3",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/nioh-3/",
       "categories": [
         "PS5"
       ],
@@ -5608,7 +5670,9 @@
     },
     {
       "id": "psn-ppsa30556-00",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "title": "死亡搁浅2：冥滩",
+      "originalTitle": "DEATH STRANDING 2: ON THE BEACH",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/death-stranding-2-on-the-beach/",
       "categories": [
         "PS5"
       ],
@@ -5621,7 +5685,9 @@
     },
     {
       "id": "steam-10150",
-      "title": "Prototype™",
+      "title": "虐杀原形",
+      "originalTitle": "Prototype™",
+      "titleSource": "https://bgm.tv/subject/1693",
       "categories": [
         "Steam"
       ],
@@ -5635,7 +5701,9 @@
     },
     {
       "id": "steam-1020790",
-      "title": "NARUTO X BORUTO 火影忍者 终极风暴羁绊",
+      "title": "火影忍者：终极风暴羁绊",
+      "originalTitle": "NARUTO X BORUTO 火影忍者 终极风暴羁绊",
+      "titleSource": "https://store.steampowered.com/app/1020790/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -5649,7 +5717,9 @@
     },
     {
       "id": "steam-107100",
-      "title": "Bastion",
+      "title": "堡垒",
+      "originalTitle": "Bastion",
+      "titleSource": "https://bgm.tv/subject/21694",
       "categories": [
         "Steam"
       ],
@@ -5719,7 +5789,9 @@
     },
     {
       "id": "steam-1113560",
-      "title": "NieR Replicant™ ver.1.22474487139...",
+      "title": "尼尔：人工生命 ver.1.22474487139…",
+      "originalTitle": "NieR Replicant™ ver.1.22474487139...",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/games/nier-replicant/",
       "categories": [
         "Steam"
       ],
@@ -5747,7 +5819,9 @@
     },
     {
       "id": "steam-1145360",
-      "title": "Hades",
+      "title": "哈迪斯",
+      "originalTitle": "Hades",
+      "titleSource": "https://bgm.tv/subject/268588",
       "categories": [
         "Steam"
       ],
@@ -5761,7 +5835,9 @@
     },
     {
       "id": "steam-115320",
-      "title": "Prototype 2",
+      "title": "虐杀原形2",
+      "originalTitle": "Prototype 2",
+      "titleSource": "https://bgm.tv/subject/40014",
       "categories": [
         "Steam"
       ],
@@ -5789,7 +5865,9 @@
     },
     {
       "id": "steam-1172620",
-      "title": "Sea of Thieves: 2026 Edition",
+      "title": "盗贼之海：2026 版",
+      "originalTitle": "Sea of Thieves: 2026 Edition",
+      "titleSource": "https://www.xbox.com/zh-CN/games/sea-of-thieves",
       "categories": [
         "Steam"
       ],
@@ -5803,7 +5881,9 @@
     },
     {
       "id": "steam-1172710",
-      "title": "Dune: Awakening 沙丘：觉醒",
+      "title": "沙丘：觉醒",
+      "originalTitle": "Dune: Awakening 沙丘：觉醒",
+      "titleSource": "https://store.steampowered.com/app/1172710/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -5817,7 +5897,9 @@
     },
     {
       "id": "steam-1174180",
-      "title": "Red Dead Redemption 2",
+      "title": "荒野大镖客：救赎2",
+      "originalTitle": "Red Dead Redemption 2",
+      "titleSource": "https://bgm.tv/subject/195573",
       "categories": [
         "Steam"
       ],
@@ -5859,7 +5941,9 @@
     },
     {
       "id": "steam-1203620",
-      "title": "雾锁王国 (Enshrouded)",
+      "title": "雾锁王国",
+      "originalTitle": "雾锁王国 (Enshrouded)",
+      "titleSource": "https://store.steampowered.com/app/1203620/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -5887,7 +5971,9 @@
     },
     {
       "id": "steam-1222700",
-      "title": "A Way Out",
+      "title": "逃出生天",
+      "originalTitle": "A Way Out",
+      "titleSource": "https://bgm.tv/subject/216844",
       "categories": [
         "Steam"
       ],
@@ -5929,7 +6015,9 @@
     },
     {
       "id": "steam-1248130",
-      "title": "Farming Simulator 22",
+      "title": "模拟农场22",
+      "originalTitle": "Farming Simulator 22",
+      "titleSource": "https://bgm.tv/subject/385188",
       "categories": [
         "Steam"
       ],
@@ -5943,7 +6031,9 @@
     },
     {
       "id": "steam-1277400",
-      "title": "Monster Hunter Stories 2: Wings of Ruin",
+      "title": "怪物猎人物语2：破灭之翼",
+      "originalTitle": "Monster Hunter Stories 2: Wings of Ruin",
+      "titleSource": "https://store.steampowered.com/app/1277400/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -5957,7 +6047,9 @@
     },
     {
       "id": "steam-1281160",
-      "title": "Castle in The Clouds DX",
+      "title": "云上堡垒 DX",
+      "originalTitle": "Castle in The Clouds DX",
+      "titleSource": "https://bgm.tv/subject/504994",
       "categories": [
         "Steam"
       ],
@@ -5999,7 +6091,9 @@
     },
     {
       "id": "steam-1307550",
-      "title": "Craftopia / 创世理想乡",
+      "title": "创世理想乡",
+      "originalTitle": "Craftopia / 创世理想乡",
+      "titleSource": "https://store.steampowered.com/app/1307550/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6027,7 +6121,9 @@
     },
     {
       "id": "steam-1326470",
-      "title": "Sons Of The Forest",
+      "title": "森林之子",
+      "originalTitle": "Sons Of The Forest",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E9%99%B0%E6%A3%AE%E4%B9%8B%E5%AD%90",
       "categories": [
         "Steam"
       ],
@@ -6097,7 +6193,9 @@
     },
     {
       "id": "steam-1347430",
-      "title": "Cute Honey",
+      "title": "可爱的宝贝",
+      "originalTitle": "Cute Honey",
+      "titleSource": "https://www.ali213.net/zt/cutehoney/news/",
       "categories": [
         "Steam"
       ],
@@ -6125,7 +6223,9 @@
     },
     {
       "id": "steam-1351630",
-      "title": "Ys IX: Monstrum Nox",
+      "title": "伊苏9：怪人之夜",
+      "originalTitle": "Ys IX: Monstrum Nox",
+      "titleSource": "https://bgm.tv/subject/269617",
       "categories": [
         "Steam"
       ],
@@ -6153,7 +6253,9 @@
     },
     {
       "id": "steam-1357610",
-      "title": "Desktop Farm",
+      "title": "桌面农场",
+      "originalTitle": "Desktop Farm",
+      "titleSource": "https://down.ali213.net/pcgame/deskto.html",
       "categories": [
         "Steam"
       ],
@@ -6167,7 +6269,9 @@
     },
     {
       "id": "steam-1358700",
-      "title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+      "title": "乐园的异乡人：最终幻想起源",
+      "originalTitle": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+      "titleSource": "https://bgm.tv/subject/338917",
       "categories": [
         "Steam"
       ],
@@ -6181,7 +6285,9 @@
     },
     {
       "id": "steam-1360980",
-      "title": "Fetish Locator Week One",
+      "title": "性癖探测器：第一周",
+      "originalTitle": "Fetish Locator Week One",
+      "titleSource": "https://store.steampowered.com/app/1360980/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6265,7 +6371,9 @@
     },
     {
       "id": "steam-1444480",
-      "title": "Turing Complete",
+      "title": "图灵完备",
+      "originalTitle": "Turing Complete",
+      "titleSource": "https://bgm.tv/subject/434205",
       "categories": [
         "Steam"
       ],
@@ -6279,7 +6387,9 @@
     },
     {
       "id": "steam-1446780",
-      "title": "MONSTER HUNTER RISE",
+      "title": "怪物猎人：崛起",
+      "originalTitle": "MONSTER HUNTER RISE",
+      "titleSource": "https://bgm.tv/subject/315164",
       "categories": [
         "Steam"
       ],
@@ -6293,7 +6403,9 @@
     },
     {
       "id": "steam-1448440",
-      "title": "Wo Long: Fallen Dynasty （卧龙：苍天陨落）",
+      "title": "卧龙：苍天陨落",
+      "originalTitle": "Wo Long: Fallen Dynasty （卧龙：苍天陨落）",
+      "titleSource": "https://store.steampowered.com/app/1448440/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6391,7 +6503,9 @@
     },
     {
       "id": "steam-1475810",
-      "title": "Ghostwire: Tokyo",
+      "title": "幽灵线：东京",
+      "originalTitle": "Ghostwire: Tokyo",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E9%AC%BC%E7%B7%9A%EF%BC%9A%E6%9D%B1%E4%BA%AC",
       "categories": [
         "Steam"
       ],
@@ -6405,7 +6519,9 @@
     },
     {
       "id": "steam-1483870",
-      "title": "Draw & Guess - 你画我猜",
+      "title": "你画我猜",
+      "originalTitle": "Draw & Guess - 你画我猜",
+      "titleSource": "https://store.steampowered.com/app/1483870/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6433,7 +6549,9 @@
     },
     {
       "id": "steam-1501750",
-      "title": "Lords of the Fallen 堕落之主",
+      "title": "堕落之主",
+      "originalTitle": "Lords of the Fallen 堕落之主",
+      "titleSource": "https://store.steampowered.com/app/1501750/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6447,7 +6565,9 @@
     },
     {
       "id": "steam-1509960",
-      "title": "PICO PARK",
+      "title": "萌猫公园",
+      "originalTitle": "PICO PARK",
+      "titleSource": "https://www.baiwandanji.com/2341.html",
       "categories": [
         "Steam"
       ],
@@ -6461,7 +6581,9 @@
     },
     {
       "id": "steam-15100",
-      "title": "Assassin's Creed™: Director's Cut Edition",
+      "title": "刺客信条：导演剪辑版",
+      "originalTitle": "Assassin's Creed™: Director's Cut Edition",
+      "titleSource": "https://bgm.tv/subject/630",
       "categories": [
         "Steam"
       ],
@@ -6489,7 +6611,9 @@
     },
     {
       "id": "steam-1580780",
-      "title": "NINJA GAIDEN Σ [NINJA GAIDEN: Master Collection]",
+      "title": "忍者龙剑传Σ（大师合集）",
+      "originalTitle": "NINJA GAIDEN Σ [NINJA GAIDEN: Master Collection]",
+      "titleSource": "https://bgm.tv/subject/56992",
       "categories": [
         "Steam"
       ],
@@ -6517,7 +6641,9 @@
     },
     {
       "id": "steam-1608700",
-      "title": "Soundfall",
+      "title": "落音",
+      "originalTitle": "Soundfall",
+      "titleSource": "https://bgm.tv/subject/409718",
       "categories": [
         "Steam"
       ],
@@ -6531,7 +6657,9 @@
     },
     {
       "id": "steam-1638720",
-      "title": "Battlefield™ 2042 Open Beta",
+      "title": "战地2042（公开测试版）",
+      "originalTitle": "Battlefield™ 2042 Open Beta",
+      "titleSource": "https://www.ea.com/zh-cn/games/battlefield/battlefield-2042",
       "categories": [
         "Steam"
       ],
@@ -6545,7 +6673,9 @@
     },
     {
       "id": "steam-1641480",
-      "title": "MONSTER HUNTER RISE DEMO",
+      "title": "怪物猎人：崛起（试玩版）",
+      "originalTitle": "MONSTER HUNTER RISE DEMO",
+      "titleSource": "https://store.steampowered.com/app/1446780/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6559,7 +6689,9 @@
     },
     {
       "id": "steam-1649240",
-      "title": "Returnal™",
+      "title": "死亡回归",
+      "originalTitle": "Returnal™",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E6%AD%BB%E4%BA%A1%E5%9B%9E%E6%AD%B8",
       "categories": [
         "Steam"
       ],
@@ -6573,7 +6705,9 @@
     },
     {
       "id": "steam-1659040",
-      "title": "HITMAN World of Assassination",
+      "title": "杀手：暗杀世界",
+      "originalTitle": "HITMAN World of Assassination",
+      "titleSource": "https://store.steampowered.com/app/1659040/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6601,7 +6735,9 @@
     },
     {
       "id": "steam-1680880",
-      "title": "Forspoken",
+      "title": "魔咒之地",
+      "originalTitle": "Forspoken",
+      "titleSource": "https://bgm.tv/subject/308543",
       "categories": [
         "Steam"
       ],
@@ -6629,7 +6765,9 @@
     },
     {
       "id": "steam-1716740",
-      "title": "Starfield",
+      "title": "星空",
+      "originalTitle": "Starfield",
+      "titleSource": "https://bgm.tv/subject/249311",
       "categories": [
         "Steam"
       ],
@@ -6657,7 +6795,9 @@
     },
     {
       "id": "steam-17300",
-      "title": "Crysis",
+      "title": "孤岛危机",
+      "originalTitle": "Crysis",
+      "titleSource": "https://bgm.tv/subject/339",
       "categories": [
         "Steam"
       ],
@@ -6685,7 +6825,9 @@
     },
     {
       "id": "steam-17390",
-      "title": "SPORE™",
+      "title": "孢子",
+      "originalTitle": "SPORE™",
+      "titleSource": "https://bgm.tv/subject/2770",
       "categories": [
         "Steam"
       ],
@@ -6699,7 +6841,9 @@
     },
     {
       "id": "steam-17470",
-      "title": "Dead Space (2008)",
+      "title": "死亡空间（2008）",
+      "originalTitle": "Dead Space (2008)",
+      "titleSource": "https://bgm.tv/subject/20141",
       "categories": [
         "Steam"
       ],
@@ -6741,7 +6885,9 @@
     },
     {
       "id": "steam-1794680",
-      "title": "Vampire Survivors - 吸血鬼幸存者",
+      "title": "吸血鬼幸存者",
+      "originalTitle": "Vampire Survivors - 吸血鬼幸存者",
+      "titleSource": "https://store.steampowered.com/app/1794680/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6811,7 +6957,9 @@
     },
     {
       "id": "steam-1832640",
-      "title": "Mirror 2: Project X",
+      "title": "魔镜2：Project X",
+      "originalTitle": "Mirror 2: Project X",
+      "titleSource": "https://bgm.tv/subject/360620",
       "categories": [
         "Steam"
       ],
@@ -6825,7 +6973,9 @@
     },
     {
       "id": "steam-1836450",
-      "title": "MONSTER HUNTER RISE: SUNBREAK DEMO",
+      "title": "怪物猎人：崛起 曙光（试玩版）",
+      "originalTitle": "MONSTER HUNTER RISE: SUNBREAK DEMO",
+      "titleSource": "https://www.monsterhunter.com/rise-sunbreak/zh-hans/",
       "categories": [
         "Steam"
       ],
@@ -6839,7 +6989,9 @@
     },
     {
       "id": "steam-1850570",
-      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "title": "死亡搁浅：导演剪辑版",
+      "originalTitle": "DEATH STRANDING DIRECTOR'S CUT",
+      "titleSource": "https://store.steampowered.com/app/1850570/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -6909,7 +7061,9 @@
     },
     {
       "id": "steam-1938010",
-      "title": "《WILD HEARTS™》",
+      "title": "狂野之心",
+      "originalTitle": "《WILD HEARTS™》",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E7%8B%82%E9%87%8E%E4%B9%8B%E5%BF%83",
       "categories": [
         "Steam"
       ],
@@ -6951,7 +7105,9 @@
     },
     {
       "id": "steam-1966720",
-      "title": "Lethal Company",
+      "title": "致命公司",
+      "originalTitle": "Lethal Company",
+      "titleSource": "https://bgm.tv/subject/461188",
       "categories": [
         "Steam"
       ],
@@ -6979,7 +7135,9 @@
     },
     {
       "id": "steam-19900",
-      "title": "Far Cry® 2",
+      "title": "孤岛惊魂2",
+      "originalTitle": "Far Cry® 2",
+      "titleSource": "https://bgm.tv/subject/664",
       "categories": [
         "Steam"
       ],
@@ -6993,7 +7151,9 @@
     },
     {
       "id": "steam-203140",
-      "title": "Hitman: Absolution™",
+      "title": "杀手5：赦免",
+      "originalTitle": "Hitman: Absolution™",
+      "titleSource": "https://bgm.tv/subject/38220",
       "categories": [
         "Steam"
       ],
@@ -7063,7 +7223,9 @@
     },
     {
       "id": "steam-207320",
-      "title": "Ys: The Oath in Felghana",
+      "title": "伊苏：菲尔迦纳的誓约",
+      "originalTitle": "Ys: The Oath in Felghana",
+      "titleSource": "https://bgm.tv/subject/1913",
       "categories": [
         "Steam"
       ],
@@ -7077,7 +7239,9 @@
     },
     {
       "id": "steam-207350",
-      "title": "Ys Origin",
+      "title": "伊苏：起源",
+      "originalTitle": "Ys Origin",
+      "titleSource": "https://bgm.tv/subject/1058",
       "categories": [
         "Steam"
       ],
@@ -7091,7 +7255,9 @@
     },
     {
       "id": "steam-20900",
-      "title": "The Witcher: Enhanced Edition Director's Cut",
+      "title": "巫师：增强版（导演剪辑版）",
+      "originalTitle": "The Witcher: Enhanced Edition Director's Cut",
+      "titleSource": "https://store.steampowered.com/app/20900/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7105,7 +7271,9 @@
     },
     {
       "id": "steam-20920",
-      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "title": "巫师2：国王刺客（增强版）",
+      "originalTitle": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "titleSource": "https://store.steampowered.com/app/20920/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7147,7 +7315,9 @@
     },
     {
       "id": "steam-2138710",
-      "title": "Sifu",
+      "title": "师父",
+      "originalTitle": "Sifu",
+      "titleSource": "https://bgm.tv/subject/338781",
       "categories": [
         "Steam"
       ],
@@ -7161,7 +7331,9 @@
     },
     {
       "id": "steam-21690",
-      "title": "Resident Evil 5",
+      "title": "生化危机5",
+      "originalTitle": "Resident Evil 5",
+      "titleSource": "https://bgm.tv/subject/912",
       "categories": [
         "Steam"
       ],
@@ -7175,7 +7347,9 @@
     },
     {
       "id": "steam-220240",
-      "title": "Far Cry 3",
+      "title": "孤岛惊魂3",
+      "originalTitle": "Far Cry 3",
+      "titleSource": "https://bgm.tv/subject/52059",
       "categories": [
         "Steam"
       ],
@@ -7189,7 +7363,9 @@
     },
     {
       "id": "steam-220440",
-      "title": "DmC: Devil May Cry",
+      "title": "DmC：鬼泣",
+      "originalTitle": "DmC: Devil May Cry",
+      "titleSource": "https://bgm.tv/subject/56683",
       "categories": [
         "Steam"
       ],
@@ -7203,7 +7379,9 @@
     },
     {
       "id": "steam-220820",
-      "title": "Zombie Driver HD",
+      "title": "僵尸司机HD",
+      "originalTitle": "Zombie Driver HD",
+      "titleSource": "https://bgm.tv/subject/84416",
       "categories": [
         "Steam"
       ],
@@ -7245,7 +7423,9 @@
     },
     {
       "id": "steam-223810",
-      "title": "Ys I & II Chronicles+",
+      "title": "伊苏1&2 编年史+",
+      "originalTitle": "Ys I & II Chronicles+",
+      "titleSource": "https://bgm.tv/subject/205911",
       "categories": [
         "Steam"
       ],
@@ -7259,7 +7439,9 @@
     },
     {
       "id": "steam-223870",
-      "title": "Ys II",
+      "title": "伊苏2",
+      "originalTitle": "Ys II",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E4%BC%8A%E8%8B%8FII_%E5%A4%B1%E8%90%BD%E7%9A%84%E4%BC%8A%E8%8B%8F%E5%8F%A4%E5%9B%BD_%E7%BB%88%E7%AB%A0",
       "categories": [
         "Steam"
       ],
@@ -7273,7 +7455,9 @@
     },
     {
       "id": "steam-225080",
-      "title": "Brothers - A Tale of Two Sons",
+      "title": "兄弟：双子传说",
+      "originalTitle": "Brothers - A Tale of Two Sons",
+      "titleSource": "https://bgm.tv/subject/83322",
       "categories": [
         "Steam"
       ],
@@ -7287,7 +7471,9 @@
     },
     {
       "id": "steam-225160",
-      "title": "Shadow Warrior Classic Redux",
+      "title": "影武者：经典回归版",
+      "originalTitle": "Shadow Warrior Classic Redux",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E5%BD%B1%E6%AD%A6%E8%80%85_(1997%E5%B9%B4%E9%81%8A%E6%88%B2)",
       "categories": [
         "Steam"
       ],
@@ -7301,7 +7487,9 @@
     },
     {
       "id": "steam-225540",
-      "title": "Just Cause™ 3",
+      "title": "正当防卫3",
+      "originalTitle": "Just Cause™ 3",
+      "titleSource": "https://bgm.tv/subject/134056",
       "categories": [
         "Steam"
       ],
@@ -7329,7 +7517,9 @@
     },
     {
       "id": "steam-2285240",
-      "title": "Wo Long: Fallen Dynasty Complete Edition Demo",
+      "title": "卧龙：苍天陨落 完全版（试玩版）",
+      "originalTitle": "Wo Long: Fallen Dynasty Complete Edition Demo",
+      "titleSource": "https://store.steampowered.com/app/1448440/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7357,7 +7547,9 @@
     },
     {
       "id": "steam-233860",
-      "title": "Kenshi",
+      "title": "剑士",
+      "originalTitle": "Kenshi",
+      "titleSource": "https://bgm.tv/subject/277446",
       "categories": [
         "Steam"
       ],
@@ -7399,7 +7591,9 @@
     },
     {
       "id": "steam-236870",
-      "title": "HITMAN™",
+      "title": "杀手",
+      "originalTitle": "HITMAN™",
+      "titleSource": "https://bgm.tv/subject/137461",
       "categories": [
         "Steam"
       ],
@@ -7427,7 +7621,9 @@
     },
     {
       "id": "steam-238090",
-      "title": "Sniper Elite 3",
+      "title": "狙击精英3",
+      "originalTitle": "Sniper Elite 3",
+      "titleSource": "https://store.steampowered.com/app/238090/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7441,7 +7637,9 @@
     },
     {
       "id": "steam-239140",
-      "title": "Dying Light",
+      "title": "消逝的光芒",
+      "originalTitle": "Dying Light",
+      "titleSource": "https://store.steampowered.com/app/239140/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7455,7 +7653,9 @@
     },
     {
       "id": "steam-241930",
-      "title": "Middle-earth™: Shadow of Mordor™",
+      "title": "中土世界：魔多之影",
+      "originalTitle": "Middle-earth™: Shadow of Mordor™",
+      "titleSource": "https://store.steampowered.com/app/241930/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7483,7 +7683,9 @@
     },
     {
       "id": "steam-242760",
-      "title": "The Forest",
+      "title": "森林",
+      "originalTitle": "The Forest",
+      "titleSource": "https://bgm.tv/subject/106560",
       "categories": [
         "Steam"
       ],
@@ -7497,7 +7699,9 @@
     },
     {
       "id": "steam-250400",
-      "title": "How to Survive",
+      "title": "求生指南",
+      "originalTitle": "How to Survive",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E6%B1%82%E7%94%9F%E6%8C%87%E5%8D%97_(%E9%81%8A%E6%88%B2)",
       "categories": [
         "Steam"
       ],
@@ -7525,7 +7729,9 @@
     },
     {
       "id": "steam-250900",
-      "title": "The Binding of Isaac: Rebirth",
+      "title": "以撒的结合：重生",
+      "originalTitle": "The Binding of Isaac: Rebirth",
+      "titleSource": "https://bgm.tv/subject/117092",
       "categories": [
         "Steam"
       ],
@@ -7539,7 +7745,9 @@
     },
     {
       "id": "steam-251150",
-      "title": "The Legend of Heroes: Trails in the Sky",
+      "title": "英雄传说：空之轨迹 FC",
+      "originalTitle": "The Legend of Heroes: Trails in the Sky",
+      "titleSource": "https://bgm.tv/subject/260",
       "categories": [
         "Steam"
       ],
@@ -7553,7 +7761,9 @@
     },
     {
       "id": "steam-251290",
-      "title": "The Legend of Heroes: Trails in the Sky SC",
+      "title": "英雄传说：空之轨迹 SC",
+      "originalTitle": "The Legend of Heroes: Trails in the Sky SC",
+      "titleSource": "https://bgm.tv/subject/343",
       "categories": [
         "Steam"
       ],
@@ -7581,7 +7791,9 @@
     },
     {
       "id": "steam-254700",
-      "title": "Resident Evil 4 (2005)",
+      "title": "生化危机4（2005）",
+      "originalTitle": "Resident Evil 4 (2005)",
+      "titleSource": "https://bgm.tv/subject/223",
       "categories": [
         "Steam"
       ],
@@ -7595,7 +7807,9 @@
     },
     {
       "id": "steam-2569760",
-      "title": "The Mound: Omen of Cthulhu",
+      "title": "土丘：克苏鲁凶兆",
+      "originalTitle": "The Mound: Omen of Cthulhu",
+      "titleSource": "https://www.3dmgame.com/news/202511/3932330.html",
       "categories": [
         "Steam"
       ],
@@ -7623,7 +7837,9 @@
     },
     {
       "id": "steam-261110",
-      "title": "Killer is Dead - Nightmare Edition",
+      "title": "杀手已死：噩梦版",
+      "originalTitle": "Killer is Dead - Nightmare Edition",
+      "titleSource": "https://bgm.tv/subject/61557",
       "categories": [
         "Steam"
       ],
@@ -7651,7 +7867,9 @@
     },
     {
       "id": "steam-2638890",
-      "title": "鬼武者 Way of the Sword",
+      "title": "鬼武者：剑之道",
+      "originalTitle": "鬼武者 Way of the Sword",
+      "titleSource": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
       "categories": [
         "Steam"
       ],
@@ -7679,7 +7897,9 @@
     },
     {
       "id": "steam-265300",
-      "title": "Lords Of The Fallen™ 2014",
+      "title": "堕落之王（2014）",
+      "originalTitle": "Lords Of The Fallen™ 2014",
+      "titleSource": "https://bgm.tv/subject/105886",
       "categories": [
         "Steam"
       ],
@@ -7707,7 +7927,9 @@
     },
     {
       "id": "steam-268050",
-      "title": "The Evil Within",
+      "title": "恶灵附身",
+      "originalTitle": "The Evil Within",
+      "titleSource": "https://bgm.tv/subject/72189",
       "categories": [
         "Steam"
       ],
@@ -7721,7 +7943,9 @@
     },
     {
       "id": "steam-268500",
-      "title": "XCOM® 2",
+      "title": "幽浮2",
+      "originalTitle": "XCOM® 2",
+      "titleSource": "https://bgm.tv/subject/140897",
       "categories": [
         "Steam"
       ],
@@ -7735,7 +7959,9 @@
     },
     {
       "id": "steam-268910",
-      "title": "Cuphead",
+      "title": "茶杯头",
+      "originalTitle": "Cuphead",
+      "titleSource": "https://store.steampowered.com/app/268910/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7749,7 +7975,9 @@
     },
     {
       "id": "steam-271590",
-      "title": "Grand Theft Auto V 传承版",
+      "title": "侠盗猎车手5：传承版",
+      "originalTitle": "Grand Theft Auto V 传承版",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E4%BF%A0%E7%9B%9C%E7%8D%B5%E8%BB%8A%E6%89%8BV",
       "categories": [
         "Steam"
       ],
@@ -7777,7 +8005,9 @@
     },
     {
       "id": "steam-275850",
-      "title": "No Man's Sky 无人深空",
+      "title": "无人深空",
+      "originalTitle": "No Man's Sky 无人深空",
+      "titleSource": "https://store.steampowered.com/app/275850/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7791,7 +8021,9 @@
     },
     {
       "id": "steam-280160",
-      "title": "Aragami",
+      "title": "荒神",
+      "originalTitle": "Aragami",
+      "titleSource": "https://bgm.tv/subject/296939",
       "categories": [
         "Steam"
       ],
@@ -7805,7 +8037,9 @@
     },
     {
       "id": "steam-282070",
-      "title": "This War of Mine",
+      "title": "这是我的战争",
+      "originalTitle": "This War of Mine",
+      "titleSource": "https://store.steampowered.com/app/282070/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7819,7 +8053,9 @@
     },
     {
       "id": "steam-2868840",
-      "title": "Slay the Spire 2",
+      "title": "杀戮尖塔2",
+      "originalTitle": "Slay the Spire 2",
+      "titleSource": "https://store.steampowered.com/app/2868840/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7833,7 +8069,9 @@
     },
     {
       "id": "steam-287290",
-      "title": "Resident Evil Revelations 2",
+      "title": "生化危机：启示录2",
+      "originalTitle": "Resident Evil Revelations 2",
+      "titleSource": "https://bgm.tv/subject/112321",
       "categories": [
         "Steam"
       ],
@@ -7847,7 +8085,9 @@
     },
     {
       "id": "steam-289070",
-      "title": "Sid Meier’s Civilization® VI",
+      "title": "席德·梅尔的文明6",
+      "originalTitle": "Sid Meier’s Civilization® VI",
+      "titleSource": "https://store.steampowered.com/app/289070/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7875,7 +8115,9 @@
     },
     {
       "id": "steam-2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
+      "title": "最终幻想7：重生",
+      "originalTitle": "FINAL FANTASY VII REBIRTH",
+      "titleSource": "https://bgm.tv/subject/388136",
       "categories": [
         "Steam"
       ],
@@ -7903,7 +8145,9 @@
     },
     {
       "id": "steam-292990",
-      "title": "NOBUNAGA'S AMBITION: Souzou",
+      "title": "信长之野望：创造",
+      "originalTitle": "NOBUNAGA'S AMBITION: Souzou",
+      "titleSource": "https://store.steampowered.com/app/292990/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7917,7 +8161,9 @@
     },
     {
       "id": "steam-3041230",
-      "title": "Windrose: 风启之旅",
+      "title": "风启之旅",
+      "originalTitle": "Windrose: 风启之旅",
+      "titleSource": "https://store.steampowered.com/app/3041230/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -7945,7 +8191,9 @@
     },
     {
       "id": "steam-3065170",
-      "title": "Monster Hunter Wilds Beta test",
+      "title": "怪物猎人：荒野（公开测试版）",
+      "originalTitle": "Monster Hunter Wilds Beta test",
+      "titleSource": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
       "categories": [
         "Steam"
       ],
@@ -7959,7 +8207,9 @@
     },
     {
       "id": "steam-307690",
-      "title": "Sleeping Dogs: Definitive Edition",
+      "title": "热血无赖：终极版",
+      "originalTitle": "Sleeping Dogs: Definitive Edition",
+      "titleSource": "https://bgm.tv/subject/38223",
       "categories": [
         "Steam"
       ],
@@ -7973,7 +8223,9 @@
     },
     {
       "id": "steam-311340",
-      "title": "METAL GEAR SOLID V: GROUND ZEROES",
+      "title": "合金装备5：原爆点",
+      "originalTitle": "METAL GEAR SOLID V: GROUND ZEROES",
+      "titleSource": "https://bgm.tv/subject/96750",
       "categories": [
         "Steam"
       ],
@@ -7987,7 +8239,9 @@
     },
     {
       "id": "steam-311560",
-      "title": "Assassin’s Creed® Rogue",
+      "title": "刺客信条：叛变",
+      "originalTitle": "Assassin’s Creed® Rogue",
+      "titleSource": "https://bgm.tv/subject/110696",
       "categories": [
         "Steam"
       ],
@@ -8001,7 +8255,9 @@
     },
     {
       "id": "steam-312540",
-      "title": "Ys VI: The Ark of Napishtim",
+      "title": "伊苏6：纳比斯汀的方舟",
+      "originalTitle": "Ys VI: The Ark of Napishtim",
+      "titleSource": "https://bgm.tv/subject/1059",
       "categories": [
         "Steam"
       ],
@@ -8015,7 +8271,9 @@
     },
     {
       "id": "steam-312560",
-      "title": "Xanadu Next",
+      "title": "迷城的国度 Next",
+      "originalTitle": "Xanadu Next",
+      "titleSource": "https://bgm.tv/subject/1919",
       "categories": [
         "Steam"
       ],
@@ -8043,7 +8301,9 @@
     },
     {
       "id": "steam-319630",
-      "title": "Life is Strange - Episode 1",
+      "title": "奇异人生（第1章）",
+      "originalTitle": "Life is Strange - Episode 1",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E5%A5%87%E5%BC%82%E4%BA%BA%E7%94%9F",
       "categories": [
         "Steam"
       ],
@@ -8141,7 +8401,9 @@
     },
     {
       "id": "steam-329430",
-      "title": "State of Decay: YOSE",
+      "title": "腐烂国度：周年求生版",
+      "originalTitle": "State of Decay: YOSE",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E8%85%90%E6%9C%BD%E4%B9%8B%E9%83%BD",
       "categories": [
         "Steam"
       ],
@@ -8155,7 +8417,9 @@
     },
     {
       "id": "steam-331600",
-      "title": "One Piece Pirate Warriors 3",
+      "title": "海贼无双3",
+      "originalTitle": "One Piece Pirate Warriors 3",
+      "titleSource": "https://bgm.tv/subject/112155",
       "categories": [
         "Steam"
       ],
@@ -8169,7 +8433,9 @@
     },
     {
       "id": "steam-333980",
-      "title": "AKIBA'S TRIP: Undead ＆ Undressed",
+      "title": "秋叶脱物语2",
+      "originalTitle": "AKIBA'S TRIP: Undead ＆ Undressed",
+      "titleSource": "https://bgm.tv/subject/82369",
       "categories": [
         "Steam"
       ],
@@ -8183,7 +8449,9 @@
     },
     {
       "id": "steam-3351700",
-      "title": "The First Berserker: Khazan Demo",
+      "title": "第一狂战士：卡赞（试玩版）",
+      "originalTitle": "The First Berserker: Khazan Demo",
+      "titleSource": "https://bgm.tv/subject/301795",
       "categories": [
         "Steam"
       ],
@@ -8197,7 +8465,9 @@
     },
     {
       "id": "steam-339400",
-      "title": "Runestone Keeper",
+      "title": "符石守护者",
+      "originalTitle": "Runestone Keeper",
+      "titleSource": "https://bgm.tv/subject/129577",
       "categories": [
         "Steam"
       ],
@@ -8211,7 +8481,9 @@
     },
     {
       "id": "steam-3449820",
-      "title": "Ratatan Demo",
+      "title": "啦嗒铛（试玩版）",
+      "originalTitle": "Ratatan Demo",
+      "titleSource": "https://steamcommunity.com/app/2949320/announcements/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8225,7 +8497,9 @@
     },
     {
       "id": "steam-35000",
-      "title": "Mini Ninjas",
+      "title": "迷你忍者",
+      "originalTitle": "Mini Ninjas",
+      "titleSource": "https://bgm.tv/subject/19460",
       "categories": [
         "Steam"
       ],
@@ -8267,7 +8541,9 @@
     },
     {
       "id": "steam-35700",
-      "title": "Trine Enchanted Edition",
+      "title": "三位一体：魔法版",
+      "originalTitle": "Trine Enchanted Edition",
+      "titleSource": "https://bgm.tv/subject/2452",
       "categories": [
         "Steam"
       ],
@@ -8295,7 +8571,9 @@
     },
     {
       "id": "steam-361420",
-      "title": "ASTRONEER",
+      "title": "异星探险家",
+      "originalTitle": "ASTRONEER",
+      "titleSource": "https://bgm.tv/subject/193685",
       "categories": [
         "Steam"
       ],
@@ -8309,7 +8587,9 @@
     },
     {
       "id": "steam-365590",
-      "title": "Tom Clancy’s The Division™",
+      "title": "汤姆·克兰西：全境封锁",
+      "originalTitle": "Tom Clancy’s The Division™",
+      "titleSource": "https://store.steampowered.com/app/365590/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8323,7 +8603,9 @@
     },
     {
       "id": "steam-367500",
-      "title": "Dragon's Dogma: Dark Arisen",
+      "title": "龙之信条：黑暗崛起",
+      "originalTitle": "Dragon's Dogma: Dark Arisen",
+      "titleSource": "https://bgm.tv/subject/61556",
       "categories": [
         "Steam"
       ],
@@ -8337,7 +8619,9 @@
     },
     {
       "id": "steam-367520",
-      "title": "Hollow Knight",
+      "title": "空洞骑士",
+      "originalTitle": "Hollow Knight",
+      "titleSource": "https://store.steampowered.com/app/367520/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8365,7 +8649,9 @@
     },
     {
       "id": "steam-3700",
-      "title": "Sniper Elite",
+      "title": "狙击精英",
+      "originalTitle": "Sniper Elite",
+      "titleSource": "https://bgm.tv/subject/60339",
       "categories": [
         "Steam"
       ],
@@ -8379,7 +8665,9 @@
     },
     {
       "id": "steam-375480",
-      "title": "Chronicon - 英雄旧忆",
+      "title": "英雄旧忆",
+      "originalTitle": "Chronicon - 英雄旧忆",
+      "titleSource": "https://store.steampowered.com/app/375480/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8393,7 +8681,9 @@
     },
     {
       "id": "steam-378540",
-      "title": "The Surge",
+      "title": "迸发",
+      "originalTitle": "The Surge",
+      "titleSource": "https://bgm.tv/subject/211675",
       "categories": [
         "Steam"
       ],
@@ -8407,7 +8697,9 @@
     },
     {
       "id": "steam-379720",
-      "title": "DOOM",
+      "title": "毁灭战士（2016）",
+      "originalTitle": "DOOM",
+      "titleSource": "https://bgm.tv/subject/168389",
       "categories": [
         "Steam"
       ],
@@ -8421,7 +8713,9 @@
     },
     {
       "id": "steam-383150",
-      "title": "Dead Island Definitive Edition",
+      "title": "死亡岛：终极版",
+      "originalTitle": "Dead Island Definitive Edition",
+      "titleSource": "https://bgm.tv/subject/21696",
       "categories": [
         "Steam"
       ],
@@ -8435,7 +8729,9 @@
     },
     {
       "id": "steam-383270",
-      "title": "Hue",
+      "title": "色调",
+      "originalTitle": "Hue",
+      "titleSource": "https://bgm.tv/subject/198506",
       "categories": [
         "Steam"
       ],
@@ -8463,7 +8759,9 @@
     },
     {
       "id": "steam-39140",
-      "title": "FINAL FANTASY VII",
+      "title": "最终幻想7",
+      "originalTitle": "FINAL FANTASY VII",
+      "titleSource": "https://bgm.tv/subject/1259",
       "categories": [
         "Steam"
       ],
@@ -8505,7 +8803,9 @@
     },
     {
       "id": "steam-398850",
-      "title": "Epistory - Typing Chronicles",
+      "title": "纸境奇缘",
+      "originalTitle": "Epistory - Typing Chronicles",
+      "titleSource": "https://store.steampowered.com/app/398850/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8519,7 +8819,9 @@
     },
     {
       "id": "steam-400",
-      "title": "Portal",
+      "title": "传送门",
+      "originalTitle": "Portal",
+      "titleSource": "https://bgm.tv/subject/10038",
       "categories": [
         "Steam"
       ],
@@ -8533,7 +8835,9 @@
     },
     {
       "id": "steam-4003800",
-      "title": "PRAGMATA SKETCHBOOK - DEMO",
+      "title": "识质存在：素描簿（试玩版）",
+      "originalTitle": "PRAGMATA SKETCHBOOK - DEMO",
+      "titleSource": "https://captown.capcom.com/sc/theaters/pragmata/50",
       "categories": [
         "Steam"
       ],
@@ -8561,7 +8865,9 @@
     },
     {
       "id": "steam-413150",
-      "title": "Stardew Valley",
+      "title": "星露谷物语",
+      "originalTitle": "Stardew Valley",
+      "titleSource": "https://bgm.tv/subject/172808",
       "categories": [
         "Steam"
       ],
@@ -8575,7 +8881,9 @@
     },
     {
       "id": "steam-414700",
-      "title": "Outlast 2",
+      "title": "逃生2",
+      "originalTitle": "Outlast 2",
+      "titleSource": "https://bgm.tv/subject/170323",
       "categories": [
         "Steam"
       ],
@@ -8603,7 +8911,9 @@
     },
     {
       "id": "steam-41500",
-      "title": "Torchlight",
+      "title": "火炬之光",
+      "originalTitle": "Torchlight",
+      "titleSource": "https://bgm.tv/subject/3189",
       "categories": [
         "Steam"
       ],
@@ -8617,7 +8927,9 @@
     },
     {
       "id": "steam-4198760",
-      "title": "Nioh 3 Demo",
+      "title": "仁王3（试玩版）",
+      "originalTitle": "Nioh 3 Demo",
+      "titleSource": "https://teamninja-studio.com/nioh3/tch/news/trial.html",
       "categories": [
         "Steam"
       ],
@@ -8659,7 +8971,9 @@
     },
     {
       "id": "steam-427510",
-      "title": "Way of the Samurai 3",
+      "title": "侍道3",
+      "originalTitle": "Way of the Samurai 3",
+      "titleSource": "https://automaton-media.com/articles/newsjp/way-of-the-samurai-20250627-346408/",
       "categories": [
         "Steam"
       ],
@@ -8673,7 +8987,9 @@
     },
     {
       "id": "steam-427520",
-      "title": "Factorio",
+      "title": "异星工厂",
+      "originalTitle": "Factorio",
+      "titleSource": "https://store.steampowered.com/app/427520/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8687,7 +9003,9 @@
     },
     {
       "id": "steam-429660",
-      "title": "Tales of Berseria™",
+      "title": "绯夜传说",
+      "originalTitle": "Tales of Berseria™",
+      "titleSource": "https://bgm.tv/subject/136316",
       "categories": [
         "Steam"
       ],
@@ -8701,7 +9019,9 @@
     },
     {
       "id": "steam-434650",
-      "title": "Lost Castle / 失落城堡",
+      "title": "失落城堡",
+      "originalTitle": "Lost Castle / 失落城堡",
+      "titleSource": "https://store.steampowered.com/app/434650/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8743,7 +9063,9 @@
     },
     {
       "id": "steam-440900",
-      "title": "Conan Exiles Enhanced",
+      "title": "流放者柯南：增强版",
+      "originalTitle": "Conan Exiles Enhanced",
+      "titleSource": "https://store.steampowered.com/app/440900/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8757,7 +9079,9 @@
     },
     {
       "id": "steam-447040",
-      "title": "Watch_Dogs® 2",
+      "title": "看门狗2",
+      "originalTitle": "Watch_Dogs® 2",
+      "titleSource": "https://bgm.tv/subject/184447",
       "categories": [
         "Steam"
       ],
@@ -8771,7 +9095,9 @@
     },
     {
       "id": "steam-4474710",
-      "title": "《FINAL FANTASY RESONANCE》第一章抢先体验版",
+      "title": "最终幻想：共鸣（第一章抢先体验版）",
+      "originalTitle": "《FINAL FANTASY RESONANCE》第一章抢先体验版",
+      "titleSource": "https://store.steampowered.com/app/4474710/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8785,7 +9111,9 @@
     },
     {
       "id": "steam-448510",
-      "title": "Overcooked",
+      "title": "胡闹厨房",
+      "originalTitle": "Overcooked",
+      "titleSource": "https://store.steampowered.com/app/448510/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8799,7 +9127,9 @@
     },
     {
       "id": "steam-449800",
-      "title": "Attack on Titan / A.O.T. Wings of Freedom",
+      "title": "进击的巨人",
+      "originalTitle": "Attack on Titan / A.O.T. Wings of Freedom",
+      "titleSource": "https://store.steampowered.com/app/449800/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8813,7 +9143,9 @@
     },
     {
       "id": "steam-460790",
-      "title": "Bayonetta",
+      "title": "猎天使魔女",
+      "originalTitle": "Bayonetta",
+      "titleSource": "https://bgm.tv/subject/3255",
       "categories": [
         "Steam"
       ],
@@ -8827,7 +9159,9 @@
     },
     {
       "id": "steam-460870",
-      "title": "GOD EATER RESURRECTION",
+      "title": "噬神者 解放重生",
+      "originalTitle": "GOD EATER RESURRECTION",
+      "titleSource": "https://bgm.tv/subject/138392",
       "categories": [
         "Steam"
       ],
@@ -8869,7 +9203,9 @@
     },
     {
       "id": "steam-474960",
-      "title": "Quantum Break",
+      "title": "量子破碎",
+      "originalTitle": "Quantum Break",
+      "titleSource": "https://bgm.tv/subject/94278",
       "categories": [
         "Steam"
       ],
@@ -8883,7 +9219,9 @@
     },
     {
       "id": "steam-475150",
-      "title": "Titan Quest Anniversary Edition",
+      "title": "泰坦之旅：十周年纪念版",
+      "originalTitle": "Titan Quest Anniversary Edition",
+      "titleSource": "https://bgm.tv/subject/253037",
       "categories": [
         "Steam"
       ],
@@ -8911,7 +9249,9 @@
     },
     {
       "id": "steam-480490",
-      "title": "Prey",
+      "title": "掠食（2017）",
+      "originalTitle": "Prey",
+      "titleSource": "https://bgm.tv/subject/185084",
       "categories": [
         "Steam"
       ],
@@ -8925,7 +9265,9 @@
     },
     {
       "id": "steam-4818230",
-      "title": "Wo Long 2: Wings of Ember（卧龙2：凤火连天） α体验版",
+      "title": "卧龙2：凤火连天（α体验版）",
+      "originalTitle": "Wo Long 2: Wings of Ember（卧龙2：凤火连天） α体验版",
+      "titleSource": "https://store.steampowered.com/app/4818230/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8939,7 +9281,9 @@
     },
     {
       "id": "steam-481870",
-      "title": "Mini Thief",
+      "title": "迷你小贼",
+      "originalTitle": "Mini Thief",
+      "titleSource": "https://www.3dmgame.com/news/202501/3913206.html",
       "categories": [
         "Steam"
       ],
@@ -8953,7 +9297,9 @@
     },
     {
       "id": "steam-48700",
-      "title": "Mount & Blade: Warband",
+      "title": "骑马与砍杀：战团",
+      "originalTitle": "Mount & Blade: Warband",
+      "titleSource": "https://store.steampowered.com/app/48700/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -8981,7 +9327,9 @@
     },
     {
       "id": "steam-49520",
-      "title": "Borderlands 2",
+      "title": "无主之地2",
+      "originalTitle": "Borderlands 2",
+      "titleSource": "https://bgm.tv/subject/35764",
       "categories": [
         "Steam"
       ],
@@ -8995,7 +9343,9 @@
     },
     {
       "id": "steam-50300",
-      "title": "Spec Ops: The Line",
+      "title": "特殊行动：一线生机",
+      "originalTitle": "Spec Ops: The Line",
+      "titleSource": "https://bgm.tv/subject/43309",
       "categories": [
         "Steam"
       ],
@@ -9009,7 +9359,9 @@
     },
     {
       "id": "steam-503300",
-      "title": "Super Star",
+      "title": "超级明星",
+      "originalTitle": "Super Star",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/SakuraGame",
       "categories": [
         "Steam"
       ],
@@ -9037,7 +9389,9 @@
     },
     {
       "id": "steam-512900",
-      "title": "Streets of Rogue",
+      "title": "地痞街区",
+      "originalTitle": "Streets of Rogue",
+      "titleSource": "https://store.steampowered.com/app/512900/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9051,7 +9405,9 @@
     },
     {
       "id": "steam-517710",
-      "title": "Redout: Enhanced Edition",
+      "title": "红视：增强版",
+      "originalTitle": "Redout: Enhanced Edition",
+      "titleSource": "https://store.steampowered.com/app/517710/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9093,7 +9449,9 @@
     },
     {
       "id": "steam-530620",
-      "title": "Resident Evil 7 Teaser: Beginning Hour",
+      "title": "生化危机7：起始时刻（试玩版）",
+      "originalTitle": "Resident Evil 7 Teaser: Beginning Hour",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E7%94%9F%E5%8C%96%E5%8D%B1%E6%9C%BA7",
       "categories": [
         "Steam"
       ],
@@ -9107,7 +9465,9 @@
     },
     {
       "id": "steam-540840",
-      "title": "Lara Croft GO",
+      "title": "劳拉 GO",
+      "originalTitle": "Lara Croft GO",
+      "titleSource": "https://bgm.tv/subject/145736",
       "categories": [
         "Steam"
       ],
@@ -9121,7 +9481,9 @@
     },
     {
       "id": "steam-546560",
-      "title": "Half-Life: Alyx",
+      "title": "半衰期：爱莉克斯",
+      "originalTitle": "Half-Life: Alyx",
+      "titleSource": "https://store.steampowered.com/app/546560/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9149,7 +9511,9 @@
     },
     {
       "id": "steam-550",
-      "title": "Left 4 Dead 2",
+      "title": "求生之路2",
+      "originalTitle": "Left 4 Dead 2",
+      "titleSource": "https://store.steampowered.com/app/550/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9163,7 +9527,9 @@
     },
     {
       "id": "steam-552500",
-      "title": "Warhammer: Vermintide 2",
+      "title": "战锤：末世鼠疫2",
+      "originalTitle": "Warhammer: Vermintide 2",
+      "titleSource": "https://bgm.tv/subject/239956",
       "categories": [
         "Steam"
       ],
@@ -9177,7 +9543,9 @@
     },
     {
       "id": "steam-553850",
-      "title": "HELLDIVERS™ 绝地潜兵2",
+      "title": "绝地潜兵2",
+      "originalTitle": "HELLDIVERS™ 绝地潜兵2",
+      "titleSource": "https://store.steampowered.com/app/553850/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9191,7 +9559,9 @@
     },
     {
       "id": "steam-570",
-      "title": "Dota 2",
+      "title": "刀塔2",
+      "originalTitle": "Dota 2",
+      "titleSource": "https://bgm.tv/subject/20810",
       "categories": [
         "Steam"
       ],
@@ -9205,7 +9575,9 @@
     },
     {
       "id": "steam-579180",
-      "title": "Ys VIII: Lacrimosa of DANA",
+      "title": "伊苏8：达娜的安魂曲",
+      "originalTitle": "Ys VIII: Lacrimosa of DANA",
+      "titleSource": "https://bgm.tv/subject/112339",
       "categories": [
         "Steam"
       ],
@@ -9219,7 +9591,9 @@
     },
     {
       "id": "steam-587100",
-      "title": "Ys SEVEN",
+      "title": "伊苏7",
+      "originalTitle": "Ys SEVEN",
+      "titleSource": "https://bgm.tv/subject/1705",
       "categories": [
         "Steam"
       ],
@@ -9233,7 +9607,9 @@
     },
     {
       "id": "steam-587110",
-      "title": "Ys: Memories of Celceta",
+      "title": "伊苏：塞尔塞塔的树海",
+      "originalTitle": "Ys: Memories of Celceta",
+      "titleSource": "https://bgm.tv/subject/23130",
       "categories": [
         "Steam"
       ],
@@ -9247,7 +9623,9 @@
     },
     {
       "id": "steam-588650",
-      "title": "Dead Cells",
+      "title": "死亡细胞",
+      "originalTitle": "Dead Cells",
+      "titleSource": "https://store.steampowered.com/app/588650/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9261,7 +9639,9 @@
     },
     {
       "id": "steam-589360",
-      "title": "Ni no Kuni™ II: Revenant Kingdom",
+      "title": "二之国2：幽灵国度",
+      "originalTitle": "Ni no Kuni™ II: Revenant Kingdom",
+      "titleSource": "https://bgm.tv/subject/200451",
       "categories": [
         "Steam"
       ],
@@ -9275,7 +9655,9 @@
     },
     {
       "id": "steam-601050",
-      "title": "Attack on Titan 2 - A.O.T.2",
+      "title": "进击的巨人2",
+      "originalTitle": "Attack on Titan 2 - A.O.T.2",
+      "titleSource": "https://store.steampowered.com/app/601050/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9289,7 +9671,9 @@
     },
     {
       "id": "steam-611670",
-      "title": "The Elder Scrolls V: Skyrim VR",
+      "title": "上古卷轴5：天际 VR",
+      "originalTitle": "The Elder Scrolls V: Skyrim VR",
+      "titleSource": "https://bgm.tv/subject/297898",
       "categories": [
         "Steam"
       ],
@@ -9331,7 +9715,9 @@
     },
     {
       "id": "steam-620",
-      "title": "Portal 2",
+      "title": "传送门2",
+      "originalTitle": "Portal 2",
+      "titleSource": "https://bgm.tv/subject/15912",
       "categories": [
         "Steam"
       ],
@@ -9345,7 +9731,9 @@
     },
     {
       "id": "steam-620980",
-      "title": "Beat Saber",
+      "title": "节奏光剑",
+      "originalTitle": "Beat Saber",
+      "titleSource": "https://bgm.tv/subject/238668",
       "categories": [
         "Steam"
       ],
@@ -9359,7 +9747,9 @@
     },
     {
       "id": "steam-626690",
-      "title": "Sword Art Online: Fatal Bullet",
+      "title": "刀剑神域：夺命凶弹",
+      "originalTitle": "Sword Art Online: Fatal Bullet",
+      "titleSource": "https://bgm.tv/subject/222871",
       "categories": [
         "Steam"
       ],
@@ -9373,7 +9763,9 @@
     },
     {
       "id": "steam-627690",
-      "title": "Idle Champions of the Forgotten Realms",
+      "title": "遗忘国度之闲置冠军",
+      "originalTitle": "Idle Champions of the Forgotten Realms",
+      "titleSource": "https://bgm.tv/subject/341357",
       "categories": [
         "Steam"
       ],
@@ -9387,7 +9779,9 @@
     },
     {
       "id": "steam-631510",
-      "title": "Devil May Cry HD Collection",
+      "title": "鬼泣高清收藏版",
+      "originalTitle": "Devil May Cry HD Collection",
+      "titleSource": "https://bgm.tv/subject/73451",
       "categories": [
         "Steam"
       ],
@@ -9415,7 +9809,9 @@
     },
     {
       "id": "steam-63380",
-      "title": "Sniper Elite V2",
+      "title": "狙击精英 V2",
+      "originalTitle": "Sniper Elite V2",
+      "titleSource": "https://bgm.tv/subject/38364",
       "categories": [
         "Steam"
       ],
@@ -9429,7 +9825,9 @@
     },
     {
       "id": "steam-635730",
-      "title": "Dragonia",
+      "title": "龙之泪",
+      "originalTitle": "Dragonia",
+      "titleSource": "https://bgm.tv/subject/216138",
       "categories": [
         "Steam"
       ],
@@ -9443,7 +9841,9 @@
     },
     {
       "id": "steam-637650",
-      "title": "FINAL FANTASY XV WINDOWS EDITION",
+      "title": "最终幻想15（Windows 版）",
+      "originalTitle": "FINAL FANTASY XV WINDOWS EDITION",
+      "titleSource": "https://store.steampowered.com/app/637650/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9457,7 +9857,9 @@
     },
     {
       "id": "steam-638650",
-      "title": "Sword Art Online Re: Hollow Fragment",
+      "title": "刀剑神域：虚空断章",
+      "originalTitle": "Sword Art Online Re: Hollow Fragment",
+      "titleSource": "https://bgm.tv/subject/84871",
       "categories": [
         "Steam"
       ],
@@ -9471,7 +9873,9 @@
     },
     {
       "id": "steam-641990",
-      "title": "The Escapists 2",
+      "title": "逃脱者2",
+      "originalTitle": "The Escapists 2",
+      "titleSource": "https://bgm.tv/subject/219668",
       "categories": [
         "Steam"
       ],
@@ -9485,7 +9889,9 @@
     },
     {
       "id": "steam-644560",
-      "title": "Mirror",
+      "title": "魔镜",
+      "originalTitle": "Mirror",
+      "titleSource": "https://bgm.tv/subject/241094",
       "categories": [
         "Steam"
       ],
@@ -9499,7 +9905,9 @@
     },
     {
       "id": "steam-644570",
-      "title": "Material Girl",
+      "title": "拜金女孩",
+      "originalTitle": "Material Girl",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E6%8B%9C%E9%87%91%E5%A5%B3%E5%AD%A9",
       "categories": [
         "Steam"
       ],
@@ -9513,7 +9921,9 @@
     },
     {
       "id": "steam-646570",
-      "title": "Slay the Spire",
+      "title": "杀戮尖塔",
+      "originalTitle": "Slay the Spire",
+      "titleSource": "https://bgm.tv/subject/234026",
       "categories": [
         "Steam"
       ],
@@ -9527,7 +9937,9 @@
     },
     {
       "id": "steam-648800",
-      "title": "Raft",
+      "title": "木筏求生",
+      "originalTitle": "Raft",
+      "titleSource": "https://bgm.tv/subject/210822",
       "categories": [
         "Steam"
       ],
@@ -9541,7 +9953,9 @@
     },
     {
       "id": "steam-671210",
-      "title": "FINAL FANTASY XV WINDOWS EDITION PLAYABLE DEMO",
+      "title": "最终幻想15（Windows 试玩版）",
+      "originalTitle": "FINAL FANTASY XV WINDOWS EDITION PLAYABLE DEMO",
+      "titleSource": "https://store.steampowered.com/app/671210/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9555,7 +9969,9 @@
     },
     {
       "id": "steam-680320",
-      "title": "The Heiress",
+      "title": "没落千金",
+      "originalTitle": "The Heiress",
+      "titleSource": "https://steamcommunity.com/app/680320?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9569,7 +9985,9 @@
     },
     {
       "id": "steam-6850",
-      "title": "Hitman 2: Silent Assassin",
+      "title": "杀手2：沉默刺客",
+      "originalTitle": "Hitman 2: Silent Assassin",
+      "titleSource": "https://bgm.tv/subject/54600",
       "categories": [
         "Steam"
       ],
@@ -9597,7 +10015,9 @@
     },
     {
       "id": "steam-70",
-      "title": "Half-Life",
+      "title": "半衰期",
+      "originalTitle": "Half-Life",
+      "titleSource": "https://bgm.tv/subject/26943",
       "categories": [
         "Steam"
       ],
@@ -9611,7 +10031,9 @@
     },
     {
       "id": "steam-726990",
-      "title": "Succubus Rem",
+      "title": "魅魔蕾姆",
+      "originalTitle": "Succubus Rem",
+      "titleSource": "https://www.vikacg.com/p/266",
       "categories": [
         "Steam"
       ],
@@ -9625,7 +10047,9 @@
     },
     {
       "id": "steam-72850",
-      "title": "The Elder Scrolls V: Skyrim",
+      "title": "上古卷轴5：天际",
+      "originalTitle": "The Elder Scrolls V: Skyrim",
+      "titleSource": "https://bgm.tv/subject/22574",
       "categories": [
         "Steam"
       ],
@@ -9639,7 +10063,9 @@
     },
     {
       "id": "steam-728880",
-      "title": "Overcooked! 2",
+      "title": "胡闹厨房2",
+      "originalTitle": "Overcooked! 2",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E8%83%A1%E9%AC%A7%E5%BB%9A%E6%88%BF2",
       "categories": [
         "Steam"
       ],
@@ -9653,7 +10079,9 @@
     },
     {
       "id": "steam-730",
-      "title": "Counter-Strike 2",
+      "title": "反恐精英2",
+      "originalTitle": "Counter-Strike 2",
+      "titleSource": "https://bgm.tv/subject/425633",
       "categories": [
         "Steam"
       ],
@@ -9681,7 +10109,9 @@
     },
     {
       "id": "steam-738540",
-      "title": "Tales of Vesperia: Definitive Edition",
+      "title": "薄暮传说：终极版",
+      "originalTitle": "Tales of Vesperia: Definitive Edition",
+      "titleSource": "https://bgm.tv/subject/146",
       "categories": [
         "Steam"
       ],
@@ -9695,7 +10125,9 @@
     },
     {
       "id": "steam-748360",
-      "title": "MY HERO ONE'S JUSTICE",
+      "title": "我的英雄学院 One’s Justice",
+      "originalTitle": "MY HERO ONE'S JUSTICE",
+      "titleSource": "https://bgm.tv/subject/231593",
       "categories": [
         "Steam"
       ],
@@ -9709,7 +10141,9 @@
     },
     {
       "id": "steam-755500",
-      "title": "ONE PIECE World Seeker",
+      "title": "航海王：世界探索者",
+      "originalTitle": "ONE PIECE World Seeker",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E8%88%AA%E6%B5%B7%E7%8E%8B_%E4%B8%96%E7%95%8C%E6%8E%A2%E7%B4%A2%E8%80%85",
       "categories": [
         "Steam"
       ],
@@ -9723,7 +10157,9 @@
     },
     {
       "id": "steam-758330",
-      "title": "Shenmue I & II",
+      "title": "莎木1&2",
+      "originalTitle": "Shenmue I & II",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E8%8E%8E%E6%9C%A8%E7%B3%BB%E5%88%97",
       "categories": [
         "Steam"
       ],
@@ -9737,7 +10173,9 @@
     },
     {
       "id": "steam-780310",
-      "title": "The Riftbreaker 银河破裂者",
+      "title": "银河破裂者",
+      "originalTitle": "The Riftbreaker 银河破裂者",
+      "titleSource": "https://store.steampowered.com/app/780310/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9751,7 +10189,9 @@
     },
     {
       "id": "steam-7940",
-      "title": "Call of Duty® 4: Modern Warfare® (2007)",
+      "title": "使命召唤4：现代战争（2007）",
+      "originalTitle": "Call of Duty® 4: Modern Warfare® (2007)",
+      "titleSource": "https://bgm.tv/subject/1900",
       "categories": [
         "Steam"
       ],
@@ -9779,7 +10219,9 @@
     },
     {
       "id": "steam-8190",
-      "title": "Just Cause 2",
+      "title": "正当防卫2",
+      "originalTitle": "Just Cause 2",
+      "titleSource": "https://bgm.tv/subject/18803",
       "categories": [
         "Steam"
       ],
@@ -9793,7 +10235,9 @@
     },
     {
       "id": "steam-825630",
-      "title": "STEINS;GATE 0",
+      "title": "命运石之门 0",
+      "originalTitle": "STEINS;GATE 0",
+      "titleSource": "https://bgm.tv/subject/129820",
       "categories": [
         "Steam"
       ],
@@ -9835,7 +10279,9 @@
     },
     {
       "id": "steam-863550",
-      "title": "HITMAN™ 2",
+      "title": "杀手2",
+      "originalTitle": "HITMAN™ 2",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E6%9D%80%E6%89%8B2_(2018%E5%B9%B4%E6%B8%B8%E6%88%8F)",
       "categories": [
         "Steam"
       ],
@@ -9863,7 +10309,9 @@
     },
     {
       "id": "steam-892970",
-      "title": "Valheim: 英灵神殿",
+      "title": "英灵神殿",
+      "originalTitle": "Valheim: 英灵神殿",
+      "titleSource": "https://store.steampowered.com/app/892970/?l=schinese",
       "categories": [
         "Steam"
       ],
@@ -9877,7 +10325,9 @@
     },
     {
       "id": "steam-8980",
-      "title": "Borderlands Game of the Year",
+      "title": "无主之地：年度版",
+      "originalTitle": "Borderlands Game of the Year",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E7%84%A1%E4%B8%BB%E4%B9%8B%E5%9C%B0_(%E9%81%8A%E6%88%B2)",
       "categories": [
         "Steam"
       ],
@@ -9919,7 +10369,9 @@
     },
     {
       "id": "steam-932850",
-      "title": "Simmiland",
+      "title": "西米岛",
+      "originalTitle": "Simmiland",
+      "titleSource": "https://bgm.tv/subject/282154",
       "categories": [
         "Steam"
       ],
@@ -9975,7 +10427,9 @@
     },
     {
       "id": "switch-01006b601380e000",
-      "title": "星のカービィ Wii デラックス",
+      "title": "星之卡比 Wii 豪华版",
+      "originalTitle": "星のカービィ Wii デラックス",
+      "titleSource": "https://www.nintendo.com/hk/switch/a2jya/index.html",
       "categories": [
         "Switch"
       ],
@@ -9988,7 +10442,9 @@
     },
     {
       "id": "switch-0100770008dd8000",
-      "title": "MONSTER HUNTER GENERATIONS ULTIMATE",
+      "title": "怪物猎人 GU",
+      "originalTitle": "MONSTER HUNTER GENERATIONS ULTIMATE",
+      "titleSource": "https://zh.wikipedia.org/zh-cn/%E9%AD%94%E7%89%A9%E7%8D%B5%E4%BA%BAXX",
       "categories": [
         "Switch"
       ],
@@ -10001,7 +10457,9 @@
     },
     {
       "id": "switch-01007ef00011e000",
-      "title": "ゼルダの伝説　ブレス オブ ザ ワイルド",
+      "title": "塞尔达传说：旷野之息",
+      "originalTitle": "ゼルダの伝説　ブレス オブ ザ ワイルド",
+      "titleSource": "https://www.nintendo.com/hk/switch/zelda_botw/index.html",
       "categories": [
         "Switch"
       ],
@@ -10014,7 +10472,9 @@
     },
     {
       "id": "switch-0100d9f01d474000",
-      "title": "リズム天国 ミラクルスターズ",
+      "title": "节奏天国：奇迹之星",
+      "originalTitle": "リズム天国 ミラクルスターズ",
+      "titleSource": "https://www.nintendo.com/hk/switch/bflta/index.html",
       "categories": [
         "Switch"
       ],
@@ -10027,7 +10487,9 @@
     },
     {
       "id": "switch-0100eca01db0c000",
-      "title": "ユニコーンオーバーロード体験版",
+      "title": "圣兽之王（试玩版）",
+      "originalTitle": "ユニコーンオーバーロード体験版",
+      "titleSource": "https://asia.sega.com/unicorn-overlord/cn/",
       "categories": [
         "Switch"
       ],
@@ -10040,7 +10502,9 @@
     },
     {
       "id": "switch-0100f43008c44000",
-      "title": "Pokémon LEGENDS Z-A Nintendo Switch 2 Edition",
+      "title": "宝可梦传说 Z-A（Switch 2 版）",
+      "originalTitle": "Pokémon LEGENDS Z-A Nintendo Switch 2 Edition",
+      "titleSource": "https://www.nintendo.com/zh-hans-hk/topics/article/3D4BWhvrk602E86M5cEZIa",
       "categories": [
         "Switch 2"
       ],
@@ -10053,7 +10517,9 @@
     },
     {
       "id": "switch-0100ff500e34a000",
-      "title": "Xenoblade Definitive Edition Nintendo Switch 2 Edition",
+      "title": "异度神剑：终极版（Switch 2 版）",
+      "originalTitle": "Xenoblade Definitive Edition Nintendo Switch 2 Edition",
+      "titleSource": "https://ec.nintendo.com/HK/zh/titles/70010000122674",
       "categories": [
         "Switch 2"
       ],
@@ -10066,7 +10532,9 @@
     },
     {
       "id": "switch-040074a01bf12000",
-      "title": "ドンキーコング バナンザ",
+      "title": "咚奇刚 蕉力全开",
+      "originalTitle": "ドンキーコング バナンザ",
+      "titleSource": "https://www.nintendo.com/zh-hans-hk/topics/article/4hfLtNH22tv5ljpgVAegnH",
       "categories": [
         "Switch 2"
       ],
@@ -10079,7 +10547,9 @@
     },
     {
       "id": "switch-0400be80238d4000",
-      "title": "The Duskbloods Network Test Ver.",
+      "title": "The Duskbloods（网络测试版）",
+      "originalTitle": "The Duskbloods Network Test Ver.",
+      "titleSource": "https://www.theduskbloods.jp/",
       "categories": [
         "Switch 2"
       ],

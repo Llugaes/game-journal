@@ -1,10 +1,170 @@
 {
+  "70": {
+    "title": "半衰期",
+    "source": "https://bgm.tv/subject/26943",
+    "kind": "community"
+  },
+  "400": {
+    "title": "传送门",
+    "source": "https://bgm.tv/subject/10038",
+    "kind": "community"
+  },
+  "550": {
+    "title": "求生之路2",
+    "source": "https://store.steampowered.com/app/550/?l=schinese",
+    "kind": "official"
+  },
+  "570": {
+    "title": "刀塔2",
+    "source": "https://bgm.tv/subject/20810",
+    "kind": "community"
+  },
+  "620": {
+    "title": "传送门2",
+    "source": "https://bgm.tv/subject/15912",
+    "kind": "community"
+  },
+  "730": {
+    "title": "反恐精英2",
+    "source": "https://bgm.tv/subject/425633",
+    "kind": "community"
+  },
+  "3700": {
+    "title": "狙击精英",
+    "source": "https://bgm.tv/subject/60339",
+    "kind": "community"
+  },
+  "6850": {
+    "title": "杀手2：沉默刺客",
+    "source": "https://bgm.tv/subject/54600",
+    "kind": "community"
+  },
+  "7940": {
+    "title": "使命召唤4：现代战争（2007）",
+    "source": "https://bgm.tv/subject/1900",
+    "kind": "community"
+  },
+  "8190": {
+    "title": "正当防卫2",
+    "source": "https://bgm.tv/subject/18803",
+    "kind": "community"
+  },
+  "8980": {
+    "title": "无主之地：年度版",
+    "source": "https://zh.wikipedia.org/zh-cn/%E7%84%A1%E4%B8%BB%E4%B9%8B%E5%9C%B0_(%E9%81%8A%E6%88%B2)",
+    "kind": "community"
+  },
+  "10150": {
+    "title": "虐杀原形",
+    "source": "https://bgm.tv/subject/1693",
+    "kind": "community"
+  },
+  "15100": {
+    "title": "刺客信条：导演剪辑版",
+    "source": "https://bgm.tv/subject/630",
+    "kind": "community"
+  },
+  "17300": {
+    "title": "孤岛危机",
+    "source": "https://bgm.tv/subject/339",
+    "kind": "community"
+  },
+  "17390": {
+    "title": "孢子",
+    "source": "https://bgm.tv/subject/2770",
+    "kind": "community"
+  },
+  "17470": {
+    "title": "死亡空间（2008）",
+    "source": "https://bgm.tv/subject/20141",
+    "kind": "community"
+  },
+  "19900": {
+    "title": "孤岛惊魂2",
+    "source": "https://bgm.tv/subject/664",
+    "kind": "community"
+  },
+  "20900": {
+    "title": "巫师：增强版（导演剪辑版）",
+    "source": "https://store.steampowered.com/app/20900/?l=schinese",
+    "kind": "official"
+  },
+  "20920": {
+    "title": "巫师2：国王刺客（增强版）",
+    "source": "https://store.steampowered.com/app/20920/?l=schinese",
+    "kind": "official"
+  },
+  "21690": {
+    "title": "生化危机5",
+    "source": "https://bgm.tv/subject/912",
+    "kind": "community"
+  },
+  "35000": {
+    "title": "迷你忍者",
+    "source": "https://bgm.tv/subject/19460",
+    "kind": "community"
+  },
+  "35700": {
+    "title": "三位一体：魔法版",
+    "source": "https://bgm.tv/subject/2452",
+    "kind": "community"
+  },
+  "39140": {
+    "title": "最终幻想7",
+    "source": "https://bgm.tv/subject/1259",
+    "kind": "community"
+  },
+  "41500": {
+    "title": "火炬之光",
+    "source": "https://bgm.tv/subject/3189",
+    "kind": "community"
+  },
+  "48700": {
+    "title": "骑马与砍杀：战团",
+    "source": "https://store.steampowered.com/app/48700/?l=schinese",
+    "kind": "official"
+  },
+  "49520": {
+    "title": "无主之地2",
+    "source": "https://bgm.tv/subject/35764",
+    "kind": "community"
+  },
+  "50300": {
+    "title": "特殊行动：一线生机",
+    "source": "https://bgm.tv/subject/43309",
+    "kind": "community"
+  },
+  "63380": {
+    "title": "狙击精英 V2",
+    "source": "https://bgm.tv/subject/38364",
+    "kind": "community"
+  },
+  "72850": {
+    "title": "上古卷轴5：天际",
+    "source": "https://bgm.tv/subject/22574",
+    "kind": "community"
+  },
   "105600": {
     "title": "泰拉瑞亚",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
     "evidence": "《泰拉瑞亚：PlayStation4 版》",
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
+  },
+  "107100": {
+    "title": "堡垒",
+    "source": "https://bgm.tv/subject/21694",
+    "kind": "community"
+  },
+  "115320": {
+    "title": "虐杀原形2",
+    "source": "https://bgm.tv/subject/40014",
+    "kind": "community"
+  },
+  "203140": {
+    "title": "杀手5：赦免",
+    "source": "https://bgm.tv/subject/38220",
+    "kind": "community"
   },
   "205100": {
     "title": "耻辱",
@@ -13,12 +173,37 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "207320": {
+    "title": "伊苏：菲尔迦纳的誓约",
+    "source": "https://bgm.tv/subject/1913",
+    "kind": "community"
+  },
+  "207350": {
+    "title": "伊苏：起源",
+    "source": "https://bgm.tv/subject/1058",
+    "kind": "community"
+  },
   "211420": {
     "title": "黑暗灵魂 Prepare To Die Edition",
     "source": "https://store.steampowered.com/app/211420/?l=schinese",
     "evidence": "黑暗灵魂",
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
+  },
+  "220240": {
+    "title": "孤岛惊魂3",
+    "source": "https://bgm.tv/subject/52059",
+    "kind": "community"
+  },
+  "220440": {
+    "title": "DmC：鬼泣",
+    "source": "https://bgm.tv/subject/56683",
+    "kind": "community"
+  },
+  "220820": {
+    "title": "僵尸司机HD",
+    "source": "https://bgm.tv/subject/84416",
+    "kind": "community"
   },
   "221040": {
     "title": "生化危机6",
@@ -34,11 +219,156 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "223810": {
+    "title": "伊苏1&2 编年史+",
+    "source": "https://bgm.tv/subject/205911",
+    "kind": "community"
+  },
+  "223870": {
+    "title": "伊苏2",
+    "source": "https://zh.wikipedia.org/zh-cn/%E4%BC%8A%E8%8B%8FII_%E5%A4%B1%E8%90%BD%E7%9A%84%E4%BC%8A%E8%8B%8F%E5%8F%A4%E5%9B%BD_%E7%BB%88%E7%AB%A0",
+    "kind": "community"
+  },
+  "225080": {
+    "title": "兄弟：双子传说",
+    "source": "https://bgm.tv/subject/83322",
+    "kind": "community"
+  },
+  "225160": {
+    "title": "影武者：经典回归版",
+    "source": "https://zh.wikipedia.org/zh-cn/%E5%BD%B1%E6%AD%A6%E8%80%85_(1997%E5%B9%B4%E9%81%8A%E6%88%B2)",
+    "kind": "community"
+  },
+  "225540": {
+    "title": "正当防卫3",
+    "source": "https://bgm.tv/subject/134056",
+    "kind": "community"
+  },
+  "233860": {
+    "title": "剑士",
+    "source": "https://bgm.tv/subject/277446",
+    "kind": "community"
+  },
+  "236870": {
+    "title": "杀手",
+    "source": "https://bgm.tv/subject/137461",
+    "kind": "community"
+  },
+  "238090": {
+    "title": "狙击精英3",
+    "source": "https://store.steampowered.com/app/238090/?l=schinese",
+    "kind": "official"
+  },
+  "239140": {
+    "title": "消逝的光芒",
+    "source": "https://store.steampowered.com/app/239140/?l=schinese",
+    "kind": "official"
+  },
+  "241930": {
+    "title": "中土世界：魔多之影",
+    "source": "https://store.steampowered.com/app/241930/?l=schinese",
+    "kind": "official"
+  },
+  "242760": {
+    "title": "森林",
+    "source": "https://bgm.tv/subject/106560",
+    "kind": "community"
+  },
+  "250400": {
+    "title": "求生指南",
+    "source": "https://zh.wikipedia.org/zh-cn/%E6%B1%82%E7%94%9F%E6%8C%87%E5%8D%97_(%E9%81%8A%E6%88%B2)",
+    "kind": "community"
+  },
+  "250900": {
+    "title": "以撒的结合：重生",
+    "source": "https://bgm.tv/subject/117092",
+    "kind": "community"
+  },
+  "251150": {
+    "title": "英雄传说：空之轨迹 FC",
+    "source": "https://bgm.tv/subject/260",
+    "kind": "community"
+  },
+  "251290": {
+    "title": "英雄传说：空之轨迹 SC",
+    "source": "https://bgm.tv/subject/343",
+    "kind": "community"
+  },
+  "254700": {
+    "title": "生化危机4（2005）",
+    "source": "https://bgm.tv/subject/223",
+    "kind": "community"
+  },
+  "261110": {
+    "title": "杀手已死：噩梦版",
+    "source": "https://bgm.tv/subject/61557",
+    "kind": "community"
+  },
   "261550": {
     "title": "骑马与砍杀2：霸主",
     "source": "https://store.steampowered.com/app/261550/?l=schinese",
     "evidence": "骑马与砍杀2：霸主",
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "265300": {
+    "title": "堕落之王（2014）",
+    "source": "https://bgm.tv/subject/105886",
+    "kind": "community"
+  },
+  "268050": {
+    "title": "恶灵附身",
+    "source": "https://bgm.tv/subject/72189",
+    "kind": "community"
+  },
+  "268500": {
+    "title": "幽浮2",
+    "source": "https://bgm.tv/subject/140897",
+    "kind": "community"
+  },
+  "268910": {
+    "title": "茶杯头",
+    "source": "https://store.steampowered.com/app/268910/?l=schinese",
+    "kind": "official"
+  },
+  "271590": {
+    "title": "侠盗猎车手5：传承版",
+    "source": "https://zh.wikipedia.org/zh-cn/%E4%BF%A0%E7%9B%9C%E7%8D%B5%E8%BB%8A%E6%89%8BV",
+    "kind": "community"
+  },
+  "275850": {
+    "title": "无人深空",
+    "source": "https://store.steampowered.com/app/275850/?l=schinese",
+    "kind": "official"
+  },
+  "280160": {
+    "title": "荒神",
+    "source": "https://bgm.tv/subject/296939",
+    "kind": "community"
+  },
+  "282070": {
+    "title": "这是我的战争",
+    "source": "https://store.steampowered.com/app/282070/?l=schinese",
+    "kind": "official"
+  },
+  "283640": {
+    "title": "盐和避难所",
+    "source": "https://bgm.tv/subject/122695",
+    "kind": "community"
+  },
+  "287290": {
+    "title": "生化危机：启示录2",
+    "source": "https://bgm.tv/subject/112321",
+    "kind": "community"
+  },
+  "289070": {
+    "title": "席德·梅尔的文明6",
+    "source": "https://store.steampowered.com/app/289070/?l=schinese",
+    "kind": "official"
+  },
+  "292990": {
+    "title": "信长之野望：创造",
+    "source": "https://store.steampowered.com/app/292990/?l=schinese",
     "kind": "official"
   },
   "304240": {
@@ -47,6 +377,56 @@
     "evidence": "《生化危机》",
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
+  },
+  "307690": {
+    "title": "热血无赖：终极版",
+    "source": "https://bgm.tv/subject/38223",
+    "kind": "community"
+  },
+  "311340": {
+    "title": "合金装备5：原爆点",
+    "source": "https://bgm.tv/subject/96750",
+    "kind": "community"
+  },
+  "311560": {
+    "title": "刺客信条：叛变",
+    "source": "https://bgm.tv/subject/110696",
+    "kind": "community"
+  },
+  "312540": {
+    "title": "伊苏6：纳比斯汀的方舟",
+    "source": "https://bgm.tv/subject/1059",
+    "kind": "community"
+  },
+  "312560": {
+    "title": "迷城的国度 Next",
+    "source": "https://bgm.tv/subject/1919",
+    "kind": "community"
+  },
+  "319630": {
+    "title": "奇异人生（第1章）",
+    "source": "https://zh.wikipedia.org/zh-cn/%E5%A5%87%E5%BC%82%E4%BA%BA%E7%94%9F",
+    "kind": "community"
+  },
+  "323320": {
+    "title": "成长家园",
+    "source": "https://bgm.tv/subject/124770",
+    "kind": "community"
+  },
+  "329430": {
+    "title": "腐烂国度：周年求生版",
+    "source": "https://zh.wikipedia.org/zh-cn/%E8%85%90%E6%9C%BD%E4%B9%8B%E9%83%BD",
+    "kind": "community"
+  },
+  "331600": {
+    "title": "海贼无双3",
+    "source": "https://bgm.tv/subject/112155",
+    "kind": "community"
+  },
+  "333980": {
+    "title": "秋叶脱物语2",
+    "source": "https://bgm.tv/subject/82369",
+    "kind": "community"
   },
   "335300": {
     "title": "黑暗之魂II：原罪学者",
@@ -61,6 +441,11 @@
     "evidence": "生化危机0",
     "kind": "official"
   },
+  "339400": {
+    "title": "符石守护者",
+    "source": "https://bgm.tv/subject/129577",
+    "kind": "community"
+  },
   "349040": {
     "title": "火影忍者疾风传：终极风暴4",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
@@ -68,10 +453,40 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "351970": {
+    "title": "情热传说",
+    "source": "https://bgm.tv/subject/90372",
+    "kind": "community"
+  },
+  "359310": {
+    "title": "进化之地2",
+    "source": "https://bgm.tv/subject/145329",
+    "kind": "community"
+  },
+  "361420": {
+    "title": "异星探险家",
+    "source": "https://bgm.tv/subject/193685",
+    "kind": "community"
+  },
   "363970": {
     "title": "点击英雄",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
     "evidence": "《点击英雄》",
+    "kind": "official"
+  },
+  "365590": {
+    "title": "汤姆·克兰西：全境封锁",
+    "source": "https://store.steampowered.com/app/365590/?l=schinese",
+    "kind": "official"
+  },
+  "367500": {
+    "title": "龙之信条：黑暗崛起",
+    "source": "https://bgm.tv/subject/61556",
+    "kind": "community"
+  },
+  "367520": {
+    "title": "空洞骑士",
+    "source": "https://store.steampowered.com/app/367520/?l=schinese",
     "kind": "official"
   },
   "374320": {
@@ -81,11 +496,46 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "375480": {
+    "title": "英雄旧忆",
+    "source": "https://store.steampowered.com/app/375480/?l=schinese",
+    "kind": "official"
+  },
   "377160": {
     "title": "辐射4",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
     "evidence": "辐射4",
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "378540": {
+    "title": "迸发",
+    "source": "https://bgm.tv/subject/211675",
+    "kind": "community"
+  },
+  "379720": {
+    "title": "毁灭战士（2016）",
+    "source": "https://bgm.tv/subject/168389",
+    "kind": "community"
+  },
+  "383150": {
+    "title": "死亡岛：终极版",
+    "source": "https://bgm.tv/subject/21696",
+    "kind": "community"
+  },
+  "383270": {
+    "title": "色调",
+    "source": "https://bgm.tv/subject/198506",
+    "kind": "community"
+  },
+  "384190": {
+    "title": "智慧之海",
+    "source": "https://bgm.tv/subject/188850",
+    "kind": "community"
+  },
+  "398850": {
+    "title": "纸境奇缘",
+    "source": "https://store.steampowered.com/app/398850/?l=schinese",
     "kind": "official"
   },
   "403640": {
@@ -95,11 +545,46 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "413150": {
+    "title": "星露谷物语",
+    "source": "https://bgm.tv/subject/172808",
+    "kind": "community"
+  },
+  "414700": {
+    "title": "逃生2",
+    "source": "https://bgm.tv/subject/170323",
+    "kind": "community"
+  },
   "418370": {
     "title": "生化危机7：恶灵古堡",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
     "evidence": "《生化危机 7：恶灵古堡》",
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
+    "kind": "official"
+  },
+  "426790": {
+    "title": "成长家园2",
+    "source": "https://www-ali.gamehub.homes/zt/growup/",
+    "kind": "community"
+  },
+  "427510": {
+    "title": "侍道3",
+    "source": "https://automaton-media.com/articles/newsjp/way-of-the-samurai-20250627-346408/",
+    "kind": "community"
+  },
+  "427520": {
+    "title": "异星工厂",
+    "source": "https://store.steampowered.com/app/427520/?l=schinese",
+    "kind": "official"
+  },
+  "429660": {
+    "title": "绯夜传说",
+    "source": "https://bgm.tv/subject/136316",
+    "kind": "community"
+  },
+  "434650": {
+    "title": "失落城堡",
+    "source": "https://store.steampowered.com/app/434650/?l=schinese",
     "kind": "official"
   },
   "436670": {
@@ -109,11 +594,81 @@
     "note": "繁体转简体。",
     "kind": "official"
   },
+  "440900": {
+    "title": "流放者柯南：增强版",
+    "source": "https://store.steampowered.com/app/440900/?l=schinese",
+    "kind": "official"
+  },
+  "447040": {
+    "title": "看门狗2",
+    "source": "https://bgm.tv/subject/184447",
+    "kind": "community"
+  },
+  "448510": {
+    "title": "胡闹厨房",
+    "source": "https://store.steampowered.com/app/448510/?l=schinese",
+    "kind": "official"
+  },
+  "449800": {
+    "title": "进击的巨人",
+    "source": "https://store.steampowered.com/app/449800/?l=schinese",
+    "kind": "official"
+  },
+  "460790": {
+    "title": "猎天使魔女",
+    "source": "https://bgm.tv/subject/3255",
+    "kind": "community"
+  },
+  "460870": {
+    "title": "噬神者 解放重生",
+    "source": "https://bgm.tv/subject/138392",
+    "kind": "community"
+  },
+  "474960": {
+    "title": "量子破碎",
+    "source": "https://bgm.tv/subject/94278",
+    "kind": "community"
+  },
+  "475150": {
+    "title": "泰坦之旅：十周年纪念版",
+    "source": "https://bgm.tv/subject/253037",
+    "kind": "community"
+  },
+  "480490": {
+    "title": "掠食（2017）",
+    "source": "https://bgm.tv/subject/185084",
+    "kind": "community"
+  },
+  "481870": {
+    "title": "迷你小贼",
+    "source": "https://www.3dmgame.com/news/202501/3913206.html",
+    "kind": "community"
+  },
+  "493200": {
+    "title": "霜雪",
+    "source": "https://bgm.tv/subject/205061",
+    "kind": "community"
+  },
   "502280": {
     "title": "烙印勇士无双",
     "source": "https://www.gamecity.com.tw/berserk-musou/top.html",
     "evidence": "烙印勇士無雙",
     "note": "繁体转简体。",
+    "kind": "official"
+  },
+  "503300": {
+    "title": "超级明星",
+    "source": "https://zh.wikipedia.org/zh-cn/SakuraGame",
+    "kind": "community"
+  },
+  "512900": {
+    "title": "地痞街区",
+    "source": "https://store.steampowered.com/app/512900/?l=schinese",
+    "kind": "official"
+  },
+  "517710": {
+    "title": "红视：增强版",
+    "source": "https://store.steampowered.com/app/517710/?l=schinese",
     "kind": "official"
   },
   "524220": {
@@ -123,12 +678,47 @@
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
   },
+  "530620": {
+    "title": "生化危机7：起始时刻（试玩版）",
+    "source": "https://zh.wikipedia.org/zh-cn/%E7%94%9F%E5%8C%96%E5%8D%B1%E6%9C%BA7",
+    "kind": "community"
+  },
+  "540840": {
+    "title": "劳拉 GO",
+    "source": "https://bgm.tv/subject/145736",
+    "kind": "community"
+  },
+  "546560": {
+    "title": "半衰期：爱莉克斯",
+    "source": "https://store.steampowered.com/app/546560/?l=schinese",
+    "kind": "official"
+  },
   "551730": {
     "title": "讨鬼传2",
     "source": "https://store.steampowered.com/app/551730/?l=schinese",
     "evidence": "讨鬼传",
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
+  },
+  "552500": {
+    "title": "战锤：末世鼠疫2",
+    "source": "https://bgm.tv/subject/239956",
+    "kind": "community"
+  },
+  "553420": {
+    "title": "丘尼卡传说",
+    "source": "https://bgm.tv/subject/216992",
+    "kind": "community"
+  },
+  "553850": {
+    "title": "绝地潜兵2",
+    "source": "https://store.steampowered.com/app/553850/?l=schinese",
+    "kind": "official"
+  },
+  "567090": {
+    "title": "8 位猎天使魔女",
+    "source": "https://zh.wikipedia.org/zh-cn/%E9%AD%94%E5%85%B5%E9%A9%9A%E5%A4%A9%E9%8C%84",
+    "kind": "community"
   },
   "570780": {
     "title": "古剑奇谭",
@@ -144,12 +734,32 @@
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
   },
+  "579180": {
+    "title": "伊苏8：达娜的安魂曲",
+    "source": "https://bgm.tv/subject/112339",
+    "kind": "community"
+  },
   "582010": {
     "title": "怪物猎人：世界",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
     "evidence": "《怪物猎人：世界》",
     "note": "统一标点、数字和空格；移除商标符号与非本平台后缀。",
     "kind": "official"
+  },
+  "582500": {
+    "title": "我们曾到此",
+    "source": "https://www.3dmgame.com/news/202610/3957438.html",
+    "kind": "community"
+  },
+  "587100": {
+    "title": "伊苏7",
+    "source": "https://bgm.tv/subject/1705",
+    "kind": "community"
+  },
+  "587110": {
+    "title": "伊苏：塞尔塞塔的树海",
+    "source": "https://bgm.tv/subject/23130",
+    "kind": "community"
   },
   "587260": {
     "title": "东亰幻都 eX+",
@@ -165,10 +775,105 @@
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
   },
+  "588650": {
+    "title": "死亡细胞",
+    "source": "https://store.steampowered.com/app/588650/?l=schinese",
+    "kind": "official"
+  },
+  "589360": {
+    "title": "二之国2：幽灵国度",
+    "source": "https://bgm.tv/subject/200451",
+    "kind": "community"
+  },
+  "601050": {
+    "title": "进击的巨人2",
+    "source": "https://store.steampowered.com/app/601050/?l=schinese",
+    "kind": "official"
+  },
   "601150": {
     "title": "鬼泣5",
     "source": "https://www.playstation.com/zh-hans-hk/editorial/20-must-play-blockbusters-on-playstation-plus-extra/",
     "evidence": "鬼泣5",
+    "kind": "official"
+  },
+  "611670": {
+    "title": "上古卷轴5：天际 VR",
+    "source": "https://bgm.tv/subject/297898",
+    "kind": "community"
+  },
+  "613830": {
+    "title": "时空之钥",
+    "source": "https://bgm.tv/subject/20188",
+    "kind": "community"
+  },
+  "614570": {
+    "title": "羞辱：界外魔之死",
+    "source": "https://bgm.tv/subject/216937",
+    "kind": "community"
+  },
+  "620980": {
+    "title": "节奏光剑",
+    "source": "https://bgm.tv/subject/238668",
+    "kind": "community"
+  },
+  "626690": {
+    "title": "刀剑神域：夺命凶弹",
+    "source": "https://bgm.tv/subject/222871",
+    "kind": "community"
+  },
+  "627690": {
+    "title": "遗忘国度之闲置冠军",
+    "source": "https://bgm.tv/subject/341357",
+    "kind": "community"
+  },
+  "631510": {
+    "title": "鬼泣高清收藏版",
+    "source": "https://bgm.tv/subject/73451",
+    "kind": "community"
+  },
+  "635730": {
+    "title": "龙之泪",
+    "source": "https://bgm.tv/subject/216138",
+    "kind": "community"
+  },
+  "637650": {
+    "title": "最终幻想15（Windows 版）",
+    "source": "https://store.steampowered.com/app/637650/?l=schinese",
+    "kind": "official"
+  },
+  "638650": {
+    "title": "刀剑神域：虚空断章",
+    "source": "https://bgm.tv/subject/84871",
+    "kind": "community"
+  },
+  "641990": {
+    "title": "逃脱者2",
+    "source": "https://bgm.tv/subject/219668",
+    "kind": "community"
+  },
+  "644560": {
+    "title": "魔镜",
+    "source": "https://bgm.tv/subject/241094",
+    "kind": "community"
+  },
+  "644570": {
+    "title": "拜金女孩",
+    "source": "https://zh.wikipedia.org/zh-cn/%E6%8B%9C%E9%87%91%E5%A5%B3%E5%AD%A9",
+    "kind": "community"
+  },
+  "646570": {
+    "title": "杀戮尖塔",
+    "source": "https://bgm.tv/subject/234026",
+    "kind": "community"
+  },
+  "648800": {
+    "title": "木筏求生",
+    "source": "https://bgm.tv/subject/210822",
+    "kind": "community"
+  },
+  "671210": {
+    "title": "最终幻想15（Windows 试玩版）",
+    "source": "https://store.steampowered.com/app/671210/?l=schinese",
     "kind": "official"
   },
   "678960": {
@@ -178,17 +883,67 @@
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
   },
+  "680320": {
+    "title": "没落千金",
+    "source": "https://steamcommunity.com/app/680320?l=schinese",
+    "kind": "community"
+  },
+  "711990": {
+    "title": "魔王伊丽丝的逆袭",
+    "source": "https://bgm.tv/subject/183739",
+    "kind": "community"
+  },
+  "720280": {
+    "title": "狐姬",
+    "source": "https://bgm.tv/subject/229737",
+    "kind": "community"
+  },
+  "726990": {
+    "title": "魅魔蕾姆",
+    "source": "https://www.vikacg.com/p/266",
+    "kind": "community"
+  },
+  "728880": {
+    "title": "胡闹厨房2",
+    "source": "https://zh.wikipedia.org/zh-cn/%E8%83%A1%E9%AC%A7%E5%BB%9A%E6%88%BF2",
+    "kind": "community"
+  },
+  "738540": {
+    "title": "薄暮传说：终极版",
+    "source": "https://bgm.tv/subject/146",
+    "kind": "community"
+  },
+  "748360": {
+    "title": "我的英雄学院 One’s Justice",
+    "source": "https://bgm.tv/subject/231593",
+    "kind": "community"
+  },
   "752590": {
     "title": "瘟疫传说：无罪",
     "source": "https://store.playstation.com/zh-hans-hk/concept/10002255",
     "evidence": "瘟疫传说：无罪",
     "kind": "official"
   },
+  "755500": {
+    "title": "航海王：世界探索者",
+    "source": "https://zh.wikipedia.org/zh-cn/%E8%88%AA%E6%B5%B7%E7%8E%8B_%E4%B8%96%E7%95%8C%E6%8E%A2%E7%B4%A2%E8%80%85",
+    "kind": "community"
+  },
+  "758330": {
+    "title": "莎木1&2",
+    "source": "https://zh.wikipedia.org/zh-cn/%E8%8E%8E%E6%9C%A8%E7%B3%BB%E5%88%97",
+    "kind": "community"
+  },
   "761600": {
     "title": "鬼武者",
     "source": "https://store.steampowered.com/app/761600/?l=schinese",
     "evidence": "鬼武者（Onimusha: Warlords）",
     "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "780310": {
+    "title": "银河破裂者",
+    "source": "https://store.steampowered.com/app/780310/?l=schinese",
     "kind": "official"
   },
   "812140": {
@@ -204,6 +959,16 @@
     "evidence": "Sekiro: Shadows Die Twice (只狼：影逝二度)",
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
     "kind": "official"
+  },
+  "825630": {
+    "title": "命运石之门 0",
+    "source": "https://bgm.tv/subject/129820",
+    "kind": "community"
+  },
+  "863550": {
+    "title": "杀手2",
+    "source": "https://zh.wikipedia.org/zh-cn/%E6%9D%80%E6%89%8B2_(2018%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+    "kind": "community"
   },
   "870780": {
     "title": "控制 - 终极合辑",
@@ -224,6 +989,16 @@
     "evidence": "生化危机2",
     "kind": "official"
   },
+  "892970": {
+    "title": "英灵神殿",
+    "source": "https://store.steampowered.com/app/892970/?l=schinese",
+    "kind": "official"
+  },
+  "932850": {
+    "title": "西米岛",
+    "source": "https://bgm.tv/subject/282154",
+    "kind": "community"
+  },
   "952060": {
     "title": "生化危机3",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
@@ -237,11 +1012,41 @@
     "evidence": "禁闭求生",
     "kind": "official"
   },
+  "1020470": {
+    "title": "进化之地：传奇版",
+    "source": "https://bgm.tv/subject/62583",
+    "kind": "community"
+  },
+  "1020790": {
+    "title": "火影忍者：终极风暴羁绊",
+    "source": "https://store.steampowered.com/app/1020790/?l=schinese",
+    "kind": "official"
+  },
   "1030300": {
     "title": "空洞骑士：丝之歌",
     "source": "https://store.steampowered.com/app/1030300/?l=schinese",
     "evidence": "空洞骑士：丝之歌",
     "note": "使用官方中文本名；沿用本商品的数字及版本后缀。",
+    "kind": "official"
+  },
+  "1113560": {
+    "title": "尼尔：人工生命 ver.1.22474487139…",
+    "source": "https://www.playstation.com/zh-hans-hk/games/nier-replicant/",
+    "kind": "official"
+  },
+  "1145360": {
+    "title": "哈迪斯",
+    "source": "https://bgm.tv/subject/268588",
+    "kind": "community"
+  },
+  "1172620": {
+    "title": "盗贼之海：2026 版",
+    "source": "https://www.xbox.com/zh-CN/games/sea-of-thieves",
+    "kind": "official"
+  },
+  "1172710": {
+    "title": "沙丘：觉醒",
+    "source": "https://store.steampowered.com/app/1172710/?l=schinese",
     "kind": "official"
   },
   "1173770": {
@@ -251,6 +1056,91 @@
     "kind": "official",
     "note": "采用官方中文系列名；本作无序号。"
   },
+  "1174180": {
+    "title": "荒野大镖客：救赎2",
+    "source": "https://bgm.tv/subject/195573",
+    "kind": "community"
+  },
+  "1203620": {
+    "title": "雾锁王国",
+    "source": "https://store.steampowered.com/app/1203620/?l=schinese",
+    "kind": "official"
+  },
+  "1222700": {
+    "title": "逃出生天",
+    "source": "https://bgm.tv/subject/216844",
+    "kind": "community"
+  },
+  "1248130": {
+    "title": "模拟农场22",
+    "source": "https://bgm.tv/subject/385188",
+    "kind": "community"
+  },
+  "1277400": {
+    "title": "怪物猎人物语2：破灭之翼",
+    "source": "https://store.steampowered.com/app/1277400/?l=schinese",
+    "kind": "official"
+  },
+  "1281160": {
+    "title": "云上堡垒 DX",
+    "source": "https://bgm.tv/subject/504994",
+    "kind": "community"
+  },
+  "1307550": {
+    "title": "创世理想乡",
+    "source": "https://store.steampowered.com/app/1307550/?l=schinese",
+    "kind": "official"
+  },
+  "1326470": {
+    "title": "森林之子",
+    "source": "https://zh.wikipedia.org/zh-cn/%E9%99%B0%E6%A3%AE%E4%B9%8B%E5%AD%90",
+    "kind": "community"
+  },
+  "1332010": {
+    "title": "迷失",
+    "source": "https://zh.wikipedia.org/zh-cn/%E8%BF%B7%E5%A4%B1_(%E6%B8%B8%E6%88%8F)",
+    "kind": "community"
+  },
+  "1347430": {
+    "title": "可爱的宝贝",
+    "source": "https://www.ali213.net/zt/cutehoney/news/",
+    "kind": "community"
+  },
+  "1351630": {
+    "title": "伊苏9：怪人之夜",
+    "source": "https://bgm.tv/subject/269617",
+    "kind": "community"
+  },
+  "1357610": {
+    "title": "桌面农场",
+    "source": "https://down.ali213.net/pcgame/deskto.html",
+    "kind": "community"
+  },
+  "1358700": {
+    "title": "乐园的异乡人：最终幻想起源",
+    "source": "https://bgm.tv/subject/338917",
+    "kind": "community"
+  },
+  "1360980": {
+    "title": "性癖探测器：第一周",
+    "source": "https://store.steampowered.com/app/1360980/?l=schinese",
+    "kind": "official"
+  },
+  "1444480": {
+    "title": "图灵完备",
+    "source": "https://bgm.tv/subject/434205",
+    "kind": "community"
+  },
+  "1446780": {
+    "title": "怪物猎人：崛起",
+    "source": "https://bgm.tv/subject/315164",
+    "kind": "community"
+  },
+  "1448440": {
+    "title": "卧龙：苍天陨落",
+    "source": "https://store.steampowered.com/app/1448440/?l=schinese",
+    "kind": "official"
+  },
   "1462040": {
     "title": "最终幻想VII REMAKE INTERGRADE",
     "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
@@ -258,17 +1148,105 @@
     "kind": "official",
     "note": "采用官方中文系列名，版本副标题沿用本商品的官方原文。"
   },
+  "1475810": {
+    "title": "幽灵线：东京",
+    "source": "https://zh.wikipedia.org/zh-cn/%E9%AC%BC%E7%B7%9A%EF%BC%9A%E6%9D%B1%E4%BA%AC",
+    "kind": "community"
+  },
+  "1483870": {
+    "title": "你画我猜",
+    "source": "https://store.steampowered.com/app/1483870/?l=schinese",
+    "kind": "official"
+  },
+  "1501750": {
+    "title": "堕落之主",
+    "source": "https://store.steampowered.com/app/1501750/?l=schinese",
+    "kind": "official"
+  },
+  "1509960": {
+    "title": "萌猫公园",
+    "source": "https://www.baiwandanji.com/2341.html",
+    "kind": "community"
+  },
+  "1580780": {
+    "title": "忍者龙剑传Σ（大师合集）",
+    "source": "https://bgm.tv/subject/56992",
+    "kind": "community"
+  },
   "1608070": {
-    "title": "CRISIS CORE –最终幻想VII– REUNION",
-    "source": "https://www.playstation.com/zh-hans-hk/support/account/games-tested-online-id-change/",
-    "evidence": "《最终幻想 7》",
-    "kind": "official",
-    "note": "采用官方中文系列名，前后副标题沿用本商品的官方原文。"
+    "title": "核心危机：最终幻想7 重聚",
+    "source": "https://store.steampowered.com/app/1608070/?l=schinese",
+    "kind": "official"
+  },
+  "1608700": {
+    "title": "落音",
+    "source": "https://bgm.tv/subject/409718",
+    "kind": "community"
+  },
+  "1623730": {
+    "title": "幻兽帕鲁",
+    "source": "https://store.steampowered.com/app/1623730/?l=schinese",
+    "kind": "official"
   },
   "1627720": {
     "title": "匹诺曹的谎言",
     "source": "https://www.liesofp.com/zh-hans/base-game",
     "evidence": "匹诺曹的谎言",
+    "kind": "official"
+  },
+  "1638720": {
+    "title": "战地2042（公开测试版）",
+    "source": "https://www.ea.com/zh-cn/games/battlefield/battlefield-2042",
+    "kind": "official"
+  },
+  "1641480": {
+    "title": "怪物猎人：崛起（试玩版）",
+    "source": "https://store.steampowered.com/app/1446780/?l=schinese",
+    "kind": "official"
+  },
+  "1649240": {
+    "title": "死亡回归",
+    "source": "https://zh.wikipedia.org/zh-cn/%E6%AD%BB%E4%BA%A1%E5%9B%9E%E6%AD%B8",
+    "kind": "community"
+  },
+  "1659040": {
+    "title": "杀手：暗杀世界",
+    "source": "https://store.steampowered.com/app/1659040/?l=schinese",
+    "kind": "official"
+  },
+  "1680880": {
+    "title": "魔咒之地",
+    "source": "https://bgm.tv/subject/308543",
+    "kind": "community"
+  },
+  "1716740": {
+    "title": "星空",
+    "source": "https://bgm.tv/subject/249311",
+    "kind": "community"
+  },
+  "1794680": {
+    "title": "吸血鬼幸存者",
+    "source": "https://store.steampowered.com/app/1794680/?l=schinese",
+    "kind": "official"
+  },
+  "1832640": {
+    "title": "魔镜2：Project X",
+    "source": "https://bgm.tv/subject/360620",
+    "kind": "community"
+  },
+  "1836450": {
+    "title": "怪物猎人：崛起 曙光（试玩版）",
+    "source": "https://www.monsterhunter.com/rise-sunbreak/zh-hans/",
+    "kind": "official"
+  },
+  "1850510": {
+    "title": "三角战略",
+    "source": "https://bgm.tv/subject/328539",
+    "kind": "community"
+  },
+  "1850570": {
+    "title": "死亡搁浅：导演剪辑版",
+    "source": "https://store.steampowered.com/app/1850570/?l=schinese",
     "kind": "official"
   },
   "1868140": {
@@ -277,6 +1255,21 @@
     "evidence": "潜水员戴夫 DAVE THE DIVER",
     "note": "省略商店标题中重复的英文名。",
     "kind": "official"
+  },
+  "1938010": {
+    "title": "狂野之心",
+    "source": "https://zh.wikipedia.org/zh-cn/%E7%8B%82%E9%87%8E%E4%B9%8B%E5%BF%83",
+    "kind": "community"
+  },
+  "1966720": {
+    "title": "致命公司",
+    "source": "https://bgm.tv/subject/461188",
+    "kind": "community"
+  },
+  "2138710": {
+    "title": "师父",
+    "source": "https://bgm.tv/subject/338781",
+    "kind": "community"
   },
   "2215430": {
     "title": "对马岛之魂 导演剪辑版",
@@ -291,12 +1284,47 @@
     "evidence": "怪物猎人：荒野",
     "kind": "official"
   },
+  "2285240": {
+    "title": "卧龙：苍天陨落 完全版（试玩版）",
+    "source": "https://store.steampowered.com/app/1448440/?l=schinese",
+    "kind": "official"
+  },
   "2407270": {
     "title": "无限机兵",
     "source": "https://store.steampowered.com/app/2407270/?l=schinese",
     "evidence": "AI LIMIT 无限机兵",
     "note": "省略商店标题中重复的英文名。",
     "kind": "official"
+  },
+  "2569760": {
+    "title": "土丘：克苏鲁凶兆",
+    "source": "https://www.3dmgame.com/news/202511/3932330.html",
+    "kind": "community"
+  },
+  "2638890": {
+    "title": "鬼武者：剑之道",
+    "source": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
+    "kind": "official"
+  },
+  "2680010": {
+    "title": "第一狂战士：卡赞",
+    "source": "https://bgm.tv/subject/301795",
+    "kind": "community"
+  },
+  "2852190": {
+    "title": "怪物猎人物语3：命运双龙",
+    "source": "https://store.steampowered.com/app/2852190/?l=schinese",
+    "kind": "official"
+  },
+  "2868840": {
+    "title": "杀戮尖塔2",
+    "source": "https://store.steampowered.com/app/2868840/?l=schinese",
+    "kind": "official"
+  },
+  "2909400": {
+    "title": "最终幻想7：重生",
+    "source": "https://bgm.tv/subject/388136",
+    "kind": "community"
   },
   "2947440": {
     "title": "寂静岭 f",
@@ -305,11 +1333,36 @@
     "kind": "official",
     "note": "采用官方中文介绍中的系列名，保留本作标记 f。"
   },
+  "3041230": {
+    "title": "风启之旅",
+    "source": "https://store.steampowered.com/app/3041230/?l=schinese",
+    "kind": "official"
+  },
   "3046600": {
     "title": "鬼武者2",
     "source": "https://store.steampowered.com/app/3046600/?l=schinese",
     "evidence": "鬼武者2 (Onimusha 2: Samurai's Destiny)",
     "note": "省略商店标题中重复的英文名。",
+    "kind": "official"
+  },
+  "3065170": {
+    "title": "怪物猎人：荒野（公开测试版）",
+    "source": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
+    "kind": "official"
+  },
+  "3351700": {
+    "title": "第一狂战士：卡赞（试玩版）",
+    "source": "https://bgm.tv/subject/301795",
+    "kind": "community"
+  },
+  "3357650": {
+    "title": "识质存在",
+    "source": "https://captown.capcom.com/sc/theaters/pragmata/50",
+    "kind": "official"
+  },
+  "3449820": {
+    "title": "啦嗒铛（试玩版）",
+    "source": "https://steamcommunity.com/app/2949320/announcements/?l=schinese",
     "kind": "official"
   },
   "3764200": {
@@ -318,5 +1371,225 @@
     "evidence": "《生化危机》",
     "kind": "official",
     "note": "采用官方中文系列名，副标题沿用本商品的官方原文。"
+  },
+  "3974650": {
+    "title": "鬼武者：剑之道（试玩版）",
+    "source": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
+    "kind": "official"
+  },
+  "4003800": {
+    "title": "识质存在：素描簿（试玩版）",
+    "source": "https://captown.capcom.com/sc/theaters/pragmata/50",
+    "kind": "official"
+  },
+  "4198760": {
+    "title": "仁王3（试玩版）",
+    "source": "https://teamninja-studio.com/nioh3/tch/news/trial.html",
+    "kind": "official"
+  },
+  "4474710": {
+    "title": "最终幻想：共鸣（第一章抢先体验版）",
+    "source": "https://store.steampowered.com/app/4474710/?l=schinese",
+    "kind": "official"
+  },
+  "4818230": {
+    "title": "卧龙2：凤火连天（α体验版）",
+    "source": "https://store.steampowered.com/app/4818230/?l=schinese",
+    "kind": "official"
+  },
+  "psn-cusa01363-00": {
+    "title": "血源诅咒",
+    "source": "https://bgm.tv/subject/105699",
+    "kind": "community"
+  },
+  "psn-cusa03023-00": {
+    "title": "血源诅咒",
+    "source": "https://bgm.tv/subject/105699",
+    "kind": "community"
+  },
+  "psn-cusa10209-00": {
+    "title": "龙之皇冠 Pro",
+    "source": "https://zh.wikipedia.org/zh-cn/%E9%BE%99%E4%B9%8B%E7%9A%87%E5%86%A0",
+    "kind": "community"
+  },
+  "psn-cusa13910-00": {
+    "title": "只狼：影逝二度",
+    "source": "https://www.playstation.com/zh-hans-hk/games/sekiro-shadows-die-twice/",
+    "kind": "official"
+  },
+  "psn-cusa27055-00": {
+    "title": "破晓传说",
+    "source": "https://www.bandainamcoent.asia/zh-cn/games/tales-of-arise",
+    "kind": "official"
+  },
+  "psn-cusa31066-00": {
+    "title": "艾尔登法环",
+    "source": "https://www.playstation.com/zh-hans-hk/games/elden-ring/",
+    "kind": "official"
+  },
+  "psn-cusa31285-00": {
+    "title": "龙珠Z：卡卡罗特",
+    "source": "https://www.bandainamcoent.asia/zh-cn/games/dragon-ball-z-kakarot",
+    "kind": "official"
+  },
+  "psn-ppsa01340-00": {
+    "title": "恶魔之魂",
+    "source": "https://bgm.tv/subject/2247",
+    "kind": "community"
+  },
+  "psn-ppsa02463-00": {
+    "title": "仁王2",
+    "source": "https://www.playstation.com/zh-hans-hk/games/nioh-2/",
+    "kind": "official"
+  },
+  "psn-ppsa04558-00": {
+    "title": "浪人崛起",
+    "source": "https://www.playstation.com/zh-hans-hk/games/rise-of-the-ronin/",
+    "kind": "official"
+  },
+  "psn-ppsa05702-00": {
+    "title": "魔咒之地",
+    "source": "https://bgm.tv/subject/308543",
+    "kind": "community"
+  },
+  "psn-ppsa08340-00": {
+    "title": "漫威蜘蛛侠2",
+    "source": "https://www.playstation.com/zh-hans-hk/games/marvels-spider-man-2/",
+    "kind": "official"
+  },
+  "psn-ppsa09894-00": {
+    "title": "圣兽之王",
+    "source": "https://asia.sega.com/unicorn-overlord/cn/",
+    "kind": "official"
+  },
+  "psn-ppsa10666-00": {
+    "title": "最终幻想16",
+    "source": "https://www.playstation.com/zh-hans-hk/games/final-fantasy-xvi/",
+    "kind": "official"
+  },
+  "psn-ppsa13198-00": {
+    "title": "剑星",
+    "source": "https://www.playstation.com/zh-hans-hk/games/stellar-blade/",
+    "kind": "official"
+  },
+  "psn-ppsa13414-00": {
+    "title": "伊苏10：北境历险",
+    "source": "https://www.cloudedleopardent.com/game/ysx/",
+    "kind": "official"
+  },
+  "psn-ppsa13804-00": {
+    "title": "最终幻想16",
+    "source": "https://www.playstation.com/zh-hans-hk/games/final-fantasy-xvi/",
+    "kind": "official"
+  },
+  "psn-ppsa15890-00": {
+    "title": "匹诺曹的谎言",
+    "source": "https://www.playstation.com/zh-hans-hk/games/lies-of-p/",
+    "kind": "official"
+  },
+  "psn-ppsa18489-00": {
+    "title": "剑星",
+    "source": "https://www.playstation.com/zh-hans-hk/games/stellar-blade/",
+    "kind": "official"
+  },
+  "psn-ppsa19248-00": {
+    "title": "浪人崛起",
+    "source": "https://www.playstation.com/zh-hans-hk/games/rise-of-the-ronin/",
+    "kind": "official"
+  },
+  "psn-ppsa20180-00": {
+    "title": "对马岛之魂",
+    "source": "https://www.playstation.com/zh-hans-hk/games/ghost-of-tsushima/",
+    "kind": "official"
+  },
+  "psn-ppsa20599-00": {
+    "title": "绝区零",
+    "source": "https://www.playstation.com/zh-hans-hk/games/zenless-zone-zero/",
+    "kind": "official"
+  },
+  "psn-ppsa23226-00": {
+    "title": "黑神话：悟空",
+    "source": "https://www.playstation.com/zh-hans-hk/games/black-myth-wukong/",
+    "kind": "official"
+  },
+  "psn-ppsa23643-00": {
+    "title": "英雄传说：界之轨迹",
+    "source": "https://www.cloudedleopardent.com/game/kai/",
+    "kind": "official"
+  },
+  "psn-ppsa24190-00": {
+    "title": "怪物猎人：荒野",
+    "source": "https://www.playstation.com/zh-hans-hk/support/games/monster-hunter-wilds-support/",
+    "kind": "official"
+  },
+  "psn-ppsa25968-00": {
+    "title": "艾尔登法环：黑夜君临",
+    "source": "https://www.playstation.com/zh-hans-hk/games/elden-ring-nightreign/",
+    "kind": "official"
+  },
+  "psn-ppsa26344-00": {
+    "title": "羊蹄山之魂",
+    "source": "https://www.playstation.com/zh-hans-hk/games/ghost-of-yotei/",
+    "kind": "official"
+  },
+  "psn-ppsa27836-00": {
+    "title": "鬼武者：剑之道",
+    "source": "https://www.amd.com/zh-cn/gaming/featured-games/onimusha-way-of-the-sword.html",
+    "kind": "official"
+  },
+  "psn-ppsa29602-00": {
+    "title": "仁王3",
+    "source": "https://www.playstation.com/zh-hans-hk/games/nioh-3/",
+    "kind": "official"
+  },
+  "psn-ppsa30556-00": {
+    "title": "死亡搁浅2：冥滩",
+    "source": "https://www.playstation.com/zh-hans-hk/games/death-stranding-2-on-the-beach/",
+    "kind": "official"
+  },
+  "switch-0100d9f01d474000": {
+    "title": "节奏天国：奇迹之星",
+    "source": "https://www.nintendo.com/hk/switch/bflta/index.html",
+    "kind": "official"
+  },
+  "switch-0100eca01db0c000": {
+    "title": "圣兽之王（试玩版）",
+    "source": "https://asia.sega.com/unicorn-overlord/cn/",
+    "kind": "official"
+  },
+  "switch-0100f43008c44000": {
+    "title": "宝可梦传说 Z-A（Switch 2 版）",
+    "source": "https://www.nintendo.com/zh-hans-hk/topics/article/3D4BWhvrk602E86M5cEZIa",
+    "kind": "official"
+  },
+  "switch-0100ff500e34a000": {
+    "title": "异度神剑：终极版（Switch 2 版）",
+    "source": "https://ec.nintendo.com/HK/zh/titles/70010000122674",
+    "kind": "official"
+  },
+  "switch-0400be80238d4000": {
+    "title": "The Duskbloods（网络测试版）",
+    "source": "https://www.theduskbloods.jp/",
+    "kind": "official"
+  },
+  "switch-01006b601380e000": {
+    "title": "星之卡比 Wii 豪华版",
+    "source": "https://www.nintendo.com/hk/switch/a2jya/index.html",
+    "kind": "official"
+  },
+  "switch-01007ef00011e000": {
+    "title": "塞尔达传说：旷野之息",
+    "source": "https://www.nintendo.com/hk/switch/zelda_botw/index.html",
+    "kind": "official"
+  },
+  "switch-040074a01bf12000": {
+    "title": "咚奇刚 蕉力全开",
+    "source": "https://www.nintendo.com/zh-hans-hk/topics/article/4hfLtNH22tv5ljpgVAegnH",
+    "kind": "official"
+  },
+  "switch-0100770008dd8000": {
+    "title": "怪物猎人 GU",
+    "source": "https://zh.wikipedia.org/zh-cn/%E9%AD%94%E7%89%A9%E7%8D%B5%E4%BA%BAXX",
+    "kind": "community"
   }
 }

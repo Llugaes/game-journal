@@ -2,6 +2,7 @@ import type { MouseEvent } from 'react'
 import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
+import { useCaseArtwork } from '../lib/useCaseArtwork'
 import { PlatformBrand } from './PlatformBrand'
 import { caseOverallScore, ShelfScore } from './ScorePanel'
 
@@ -27,8 +28,7 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const scores = scoresOf(game)
   const score = caseOverallScore(scores)
   const scoreLabel = score ? `${score.label} ${score.value}${score.scale ? `/${score.scale}` : ' 分'}${score.qualifier || ''}` : scores.length ? '有分项评分' : ''
-  const cover = game.cover ? assetUrl(game.cover) : undefined
-  const printedArt = (platform === 'steam' || platform === 'pc') && (finish === 1 || finish === 3)
+  const { src: cover, onError } = useCaseArtwork(game)
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
     event.preventDefault()
@@ -41,15 +41,13 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
       <span className="spine-shell">
         <PlatformBrand platform={platform} className="spine-cap" />
         <span className="spine-face">
-          {printedArt && cover && <img src={cover} alt="" loading="lazy" decoding="async" />}
+          {cover && <img key={cover} src={cover} alt="" loading="lazy" decoding="async" onError={onError} />}
           <span className="spine-title">{game.title}</span>
         </span>
-        <span className="spine-footer">
-          <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
-            ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
-            : <span>{studio.name}</span>)}</span>
-          {scores.length > 0 && <ShelfScore score={score} />}
-        </span>
+        {scores.length > 0 && <ShelfScore score={score} />}
+        <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
+          ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
+          : <span>{studio.name}</span>)}</span>
       </span>
     </a>
   </li>

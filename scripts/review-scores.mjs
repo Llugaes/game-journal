@@ -41,16 +41,22 @@ export function extractScores(content) {
   return scores
 }
 
+export function localizeGameTitle(game, titles) {
+  const name = titles[game.id] ?? titles[game.steamAppId]
+  return name ? {
+    ...game,
+    title: name.title,
+    originalTitle: game.originalTitle ?? game.title,
+    titleSource: name.source,
+  } : game
+}
+
 export function enrichJournal(journal, titles = {}, overrides = {}) {
-  return { games: journal.games.map(game => {
-    const official = titles[game.steamAppId]
-    return {
-      ...game,
-      ...(official ? { title: official.title, originalTitle: game.title, titleSource: official.source } : {}),
-      review: game.review ? enrichReview(game.review, overrides) : undefined,
-      reviews: (game.reviews || []).map(review => enrichReview(review, overrides)),
-    }
-  }) }
+  return { games: journal.games.map(game => ({
+    ...localizeGameTitle(game, titles),
+    review: game.review ? enrichReview(game.review, overrides) : undefined,
+    reviews: (game.reviews || []).map(review => enrichReview(review, overrides)),
+  })) }
 }
 
 function enrichReview(review, overrides) {
