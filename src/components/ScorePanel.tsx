@@ -1,14 +1,16 @@
 import { renderBadge } from 'dbgn-score-badge'
-import { badgeValue, barDisplay } from '../../scripts/dbgn-display.mjs'
+import { badgeValue, barDisplay, renderShelfBadge } from '../../scripts/dbgn-display.mjs'
 import type { JournalScore } from '../types'
 
 const isOverall = (score: JournalScore) => /(?:^| · )(?:总评|个人总分|个人评分)$/.test(score.label)
 const description = (score: JournalScore) => `${score.label}：${score.value}${score.scale ? ` / ${score.scale}` : ' 分'}${score.qualifier || ''}`
 
 // DBGN徽章只支持明确的十分制单值；区间和其他量表保留原样，用进度条表达。
-function badgeSvg(score: JournalScore) {
+function badgeSvg(score: JournalScore, onSpine = false) {
   const value = badgeValue(score)
-  return value === null ? null : `data:image/svg+xml;charset=utf-8,${encodeURIComponent(renderBadge(value))}`
+  if (value === null) return null
+  const svg = onSpine ? renderShelfBadge(value) : renderBadge(value)
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`
 }
 
 function ScoreBar({ score }: { score: JournalScore }) {
@@ -27,9 +29,9 @@ export function caseOverallScore(scores: JournalScore[]) {
 }
 
 export function ShelfScore({ score }: { score?: JournalScore }) {
-  const image = score && badgeSvg(score)
+  const image = score && badgeSvg(score, true)
   return <span className="spine-score" aria-hidden="true">
-    {image ? <img src={image} alt="" /> : <span>{score ? score.value + (score.scale ? `/${score.scale}` : '') : '评'}</span>}
+    {image ? <img src={image} alt="" /> : <span>{score ? score.value + (score.scale && score.scale !== 10 ? `/${score.scale}` : '') : '评'}</span>}
   </span>
 }
 

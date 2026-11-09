@@ -2,7 +2,8 @@ import type { MouseEvent } from 'react'
 import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
-import { useCaseArtwork } from '../lib/useCaseArtwork'
+import { spineTitle } from '../lib/spine-title'
+import spineFinishes from '../../data/spine-finishes.json'
 import { PlatformBrand } from './PlatformBrand'
 import { caseOverallScore, ShelfScore } from './ScorePanel'
 
@@ -20,15 +21,26 @@ type ShelfProps = {
   onPlatformChange: (platform: Platform | 'all') => void
 }
 
+const finishes = ['slate', 'moss', 'bone', 'wine', 'carbon', 'sky', 'olive', 'brick']
+const arrangedFinishes: Readonly<Record<string, string>> = spineFinishes
+const studioShortNames = new Map([
+  ['S-GAME Studio', 'S-GAME'], ['Wube Software LTD.', 'Wube'], ['Insomniac Games', 'Insomniac'],
+  ['Sucker Punch Productions', 'Sucker Punch'], ['Blizzard Entertainment, Inc.', 'Blizzard'],
+])
+
 function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: JournalGame }) {
   const platform = platformOf(game)
   const date = recordedDate(game)
-  const finish = [...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5
+  const finish = arrangedFinishes[game.id] ?? finishes[[...game.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % finishes.length]
   const studio = studioOf(game)
+  const studioName = studio && (studioShortNames.get(studio.name) ?? studio.name)
   const scores = scoresOf(game)
   const score = caseOverallScore(scores)
   const scoreLabel = score ? `${score.label} ${score.value}${score.scale ? `/${score.scale}` : ' 分'}${score.qualifier || ''}` : scores.length ? '有分项评分' : ''
-  const { src: cover, onError } = useCaseArtwork(game)
+  const { name, version, qualifier, edition } = spineTitle(game.title)
+  const ordinal = /\s+the (?:1st|2nd|3rd)$/i.exec(name)
+  const titleLength = [...name].reduce((length, char) => length + (char.charCodeAt(0) < 128 ? .6 : 1), 0)
+  const titleFit = titleLength > 10 ? 'columns' : titleLength > 8 ? 'condensed' : undefined
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
     event.preventDefault()
@@ -40,14 +52,24 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
       aria-label={scoreLabel ? `${game.title}，${scoreLabel}` : game.title} onClick={open}>
       <span className="spine-shell">
         <PlatformBrand platform={platform} className="spine-cap" spine />
-        <span className="spine-face">
-          {cover && platform !== 'switch' && <img key={cover} src={cover} alt="" loading="lazy" decoding="async" onError={onError} />}
-          <span className="spine-title">{game.title}</span>
+        <span className="spine-label">
+          <span className="spine-face">
+            <span className="spine-title" data-fit={titleFit}>
+              {ordinal ? <>{name.slice(0, ordinal.index)} <small>{ordinal[0].trimStart()}</small></> : name}
+            </span>
+          </span>
+          <span className="spine-edition" aria-hidden="true">
+            {version ? <span className="spine-edition-tag">
+              {qualifier && <small>{qualifier}</small>}
+              <span>{version}</span>
+            </span> : edition && <span className="spine-edition-note">{edition}</span>}
+          </span>
+          <span className="spine-studio" aria-hidden="true">{studio?.logo
+            ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
+            : studioName && <span data-compact={/\S{8}/.test(studioName) || undefined}>{studioName}</span>}
+          </span>
+          <span className="spine-rating" aria-hidden="true">{scores.length > 0 && <ShelfScore score={score} />}</span>
         </span>
-        <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
-          ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
-          : <span>{studio.name}</span>)}</span>
-        {scores.length > 0 && <ShelfScore score={score} />}
       </span>
     </a>
   </li>
