@@ -6,7 +6,7 @@ export function useCaseArtwork(game: JournalGame, surface: 'case' | 'spine' = 'c
   const [index, setIndex] = useState(0)
   const candidates = surface === 'spine'
     ? [game.boxCover, game.cover, game.caseCover]
-    : [game.caseCover, game.cover]
+    : [game.caseCover, game.cover, game.boxCover]
   const images = [...new Set(candidates)].filter((value): value is string => !!value)
   return {
     src: images[index] ? assetUrl(images[index]) : undefined,

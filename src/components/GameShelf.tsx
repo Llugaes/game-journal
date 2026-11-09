@@ -2,7 +2,7 @@ import { useLayoutEffect, useRef, type MouseEvent } from 'react'
 import type { JournalGame } from '../types'
 import { assetUrl, gameHref, platformOf, platforms, recordedDate, scoresOf, type Platform } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
-import { spineTitle } from '../lib/spine-title'
+import { spineTitle, spineTitleParts } from '../lib/spine-title'
 import { useCaseArtwork } from '../lib/useCaseArtwork'
 import spineFinishes from '../../data/spine-finishes.json'
 import { PlatformBrand } from './PlatformBrand'
@@ -27,9 +27,21 @@ const arrangedFinishes: Readonly<Record<string, string>> = spineFinishes
 const studioShortNames = new Map([
   ['S-GAME Studio', 'S-GAME'], ['Wube Software LTD.', 'Wube'], ['Insomniac Games', 'Insomniac'],
   ['Sucker Punch Productions', 'Sucker Punch'], ['Blizzard Entertainment, Inc.', 'Blizzard'],
+  ['Obsidian Entertainment', 'Obsidian'], ['Ghost Ship Games', 'Ghost Ship'],
+  ['CampFire Studio', 'CampFire'], ['SHIFT UP Corporation', 'SHIFT UP'],
+  ['NeoBards Entertainment Ltd.', 'NeoBards'], ['Arrowhead Game Studios', 'Arrowhead'],
+  ['BlueTwelve Studio', 'BlueTwelve'],
 ])
 
-function fitSpineTitles(shelf: HTMLElement) {
+function titleText(text: string) {
+  return spineTitleParts(text).map((part, index) => {
+    if (part.kind === 'text') return part.text
+    if (part.kind === 'colon') return <span className="spine-colon" key={index}>{part.text}</span>
+    return <span className="spine-number" data-stacked={part.kind === 'stacked' || undefined} key={index}>{part.text}</span>
+  })
+}
+
+function fitSpineText(shelf: HTMLElement) {
   let remaining = Array.from(shelf.querySelectorAll<HTMLElement>('.spine-title'))
   const range = document.createRange()
   for (const title of remaining) title.removeAttribute('data-wrap')
@@ -47,6 +59,14 @@ function fitSpineTitles(shelf: HTMLElement) {
       return text.left < face.left || text.right > face.right || text.bottom > face.bottom - 2
     })
   }
+
+  let studios = Array.from(shelf.querySelectorAll<HTMLElement>('.spine-studio > span'))
+  for (const studio of studios) studio.removeAttribute('data-ellipsis')
+  for (let size = 7; size >= 6 && studios.length; size -= .5) {
+    for (const studio of studios) studio.style.fontSize = `${size}px`
+    studios = studios.filter(studio => studio.scrollWidth > studio.clientWidth)
+  }
+  for (const studio of studios) studio.dataset.ellipsis = ''
 }
 
 function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: JournalGame }) {
@@ -60,7 +80,6 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   const scoreLabel = score ? `${score.label} ${score.value}${score.scale ? `/${score.scale}` : ' 分'}${score.qualifier || ''}` : scores.length ? '有分项评分' : ''
   const { name, version, qualifier, edition } = spineTitle(game.title, platform)
   const ordinal = /\s+the (?:1st|2nd|3rd)$/i.exec(name)
-  const titleParts = (ordinal ? name.slice(0, ordinal.index) : name).split(/([:：])/)
   const artwork = useCaseArtwork(game, 'spine')
   function open(event: MouseEvent<HTMLAnchorElement>) {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.button !== 0) return
@@ -77,8 +96,8 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
           <span className="spine-face">
             {artwork.src && <img className="spine-artwork" key={artwork.src} src={artwork.src} alt="" loading="lazy" decoding="async" onError={artwork.onError} />}
             <span className="spine-title">
-              {titleParts.map((part, index) => index % 2 ? <span className="spine-colon" key={index}>:</span> : part)}
-              {ordinal && <> <small>{ordinal[0].trimStart()}</small></>}
+              {titleText(ordinal ? name.slice(0, ordinal.index) : name)}
+              {ordinal && <> <small>{titleText(ordinal[0].trimStart())}</small></>}
             </span>
           </span>
           <span className="spine-edition" aria-hidden="true">
@@ -89,7 +108,7 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
           </span>
           <span className="spine-studio" aria-hidden="true">{studio?.logo
             ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
-            : studioName && <span data-compact={/\S{8}/.test(studioName) || undefined}>{studioName}</span>}
+            : studioName && <span>{studioName}</span>}
           </span>
           <span className="spine-rating" aria-hidden="true">{scores.length > 0 && <ShelfScore score={score} />}</span>
         </span>
@@ -103,10 +122,10 @@ export function GameShelf({ games, categories, activeCategory, onCategoryChange,
   useLayoutEffect(() => {
     const shelf = cabinet.current
     if (!shelf) return
-    fitSpineTitles(shelf)
+    fitSpineText(shelf)
     if (document.fonts.status === 'loading') {
       let active = true
-      void document.fonts.ready.then(() => { if (active) fitSpineTitles(shelf) })
+      void document.fonts.ready.then(() => { if (active) fitSpineText(shelf) })
       return () => { active = false }
     }
   }, [games])

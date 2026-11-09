@@ -10,6 +10,15 @@ const caseEditions: Readonly<Record<string, { name: string; edition: string }>> 
   '异度神剑：终极版（Switch 2 版）': { name: '异度神剑', edition: '终极版' },
 }
 
+export function spineTitleParts(title: string) {
+  return title.split(/([:：]|[0-9０-９]+(?:(?:st|nd|rd|th)\b)?)/gi).map((part, index) => {
+    if (index % 2 === 0) return { text: part, kind: 'text' as const }
+    if (part === ':' || part === '：') return { text: ':', kind: 'colon' as const }
+    const text = part.normalize('NFKC')
+    return { text, kind: /^\d{3,}$/.test(text) ? 'stacked' as const : 'number' as const }
+  }).filter(part => part.text)
+}
+
 export function spineTitle(title: string, platform?: Platform): { name: string; version?: string; qualifier?: string; edition?: string } {
   if (Object.hasOwn(caseEditions, title)) return caseEditions[title]
   const unquoted = title.replace(/[《》〈〉]/g, '').trim()

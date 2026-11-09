@@ -27,8 +27,15 @@ export function GameCase({ game }: { game: JournalGame }) {
         </div>}
       </div>
     </div>
-    <div className="case-tray" aria-hidden="true">
-      <div className={`case-media case-media--${media}`}>{stock.src && <img key={stock.src} src={stock.src} alt="" onError={stock.onError} />}</div>
+    <div className={`case-tray case-tray--${media}`} aria-hidden="true">
+      {media === 'card' && <span className="case-clips" />}
+      <div className="case-recess">
+        <div className={`case-media case-media--${media}`}>
+          {media === 'card' && <PlatformBrand platform={platform} className="case-card-mark" />}
+          {stock.src && <img className="case-media-art" key={stock.src} src={stock.src} alt="" onError={stock.onError} />}
+        </div>
+        {media === 'disc' && <span className="case-hub" />}
+      </div>
     </div>
   </div>
 }

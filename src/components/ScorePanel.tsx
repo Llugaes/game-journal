@@ -31,7 +31,10 @@ export function caseOverallScore(scores: JournalScore[]) {
 export function ShelfScore({ score }: { score?: JournalScore }) {
   const image = score && badgeSvg(score, true)
   return <span className="spine-score" aria-hidden="true">
-    {image ? <img src={image} alt="" /> : <span>{score ? score.value + (score.scale && score.scale !== 10 ? `/${score.scale}` : '') : '评'}</span>}
+    {image ? <img src={image} alt="" /> : <span>
+      {score ? score.value + (score.scale && score.scale !== 10 ? `/${score.scale}` : '') : '评'}
+      {score?.qualifier && <small>{score.qualifier}</small>}
+    </span>}
   </span>
 }
 
