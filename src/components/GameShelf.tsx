@@ -32,12 +32,7 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
   }
   return <li className="cabinet-slot">
     <a className="game-spine" href={gameHref(game.id)} data-case={platform} data-finish={finish}
-      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}
-      onPointerEnter={({ currentTarget, pointerType }) => {
-        if (pointerType === 'touch') return
-        const spaceOnRight = document.documentElement.clientWidth - currentTarget.getBoundingClientRect().right
-        currentTarget.toggleAttribute('data-pull-left', spaceOnRight < 144)
-      }}>
+      title={[game.title, platforms[platform], studio?.name, date].filter(Boolean).join(' / ')} aria-label={game.title} onClick={open}>
       <span className="spine-shell">
         <PlatformBrand platform={platform} className="spine-cap" />
         <span className="spine-face">
@@ -47,11 +42,6 @@ function GameSpine({ game, onOpen }: Pick<ShelfProps, 'onOpen'> & { game: Journa
         <span className="spine-studio" aria-hidden="true">{studio && (studio.logo
           ? <img src={assetUrl(`media/marks/${studio.logo}`)} alt="" loading="lazy" />
           : <span>{studio.name}</span>)}</span>
-        <span className="spine-preview" aria-hidden="true">
-          <PlatformBrand platform={platform} className="spine-preview-band" />
-          <span className="spine-preview-art">{cover && <img src={cover} alt="" loading="lazy" decoding="async" />}</span>
-          <span className="spine-preview-title">{game.title}</span>
-        </span>
       </span>
     </a>
   </li>
