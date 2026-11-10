@@ -40,7 +40,13 @@ test('盒脊数字朝向不受全角半角影响，并保留英文序数和长�
     { text: '伊苏', kind: 'text' }, { text: '10', kind: 'number' },
     { text: ':', kind: 'colon' }, { text: '北境历险', kind: 'text' },
   ]);
-  assert.deepEqual(spineTitleParts('the 2nd'), [{ text: 'the ', kind: 'text' }, { text: '2nd', kind: 'number' }]);
   assert.deepEqual(spineTitleParts('赛博朋克2077').at(-1), { text: '2077', kind: 'stacked' });
   assert.equal(spineTitleParts('尼尔：人工生命 ver.1.22474487139…').map(part => part.text).join(''), '尼尔:人工生命 ver.1.22474487139…');
+});
+
+test('英文序数和相邻英文保留在同一个文字片段', () => {
+  for (const ordinal of ['1st', '2nd', '3rd', '12th']) {
+    assert.deepEqual(spineTitleParts(`空之轨迹 the ${ordinal}`), [{ text: `空之轨迹 the ${ordinal}`, kind: 'text' }]);
+  }
+  assert.deepEqual(spineTitleParts('the ２nd'), [{ text: 'the 2nd', kind: 'text' }]);
 });

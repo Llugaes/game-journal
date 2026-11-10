@@ -312,9 +312,10 @@ main:has(> .shelf-page) { width: 100%; }
   white-space: nowrap;
   font: 800 16px/1.05 var(--spine-display);
 }
-.spine-colon, .spine-number { text-combine-upright: all; }
+.spine-colon { display: inline-block; width: 1em; height: .75em; vertical-align: middle; }
+.spine-number { text-combine-upright: all; }
 .spine-number[data-stacked] { text-combine-upright: none; text-orientation: upright; white-space: nowrap; }
-.spine-title small { font: inherit; font-size: .82em; }
+.spine-title small { font: inherit; font-size: .82em; white-space: nowrap; }
 .spine-title[data-wrap] {
   overflow-wrap: anywhere;
   white-space: normal;
@@ -531,6 +532,15 @@ main:has(> .shelf-page) { width: 100%; }
   color: var(--ps5-disc-ink-light);
   mask-image: radial-gradient(circle closest-side, transparent 21%, var(--cabinet-white) 21.5%);
 }
+.case-disc-scan { position: absolute; max-width: none; }
+.case-disc-print:is([data-disc-print="light"], [data-disc-print="wukong"]) {
+  background: linear-gradient(155deg, var(--cabinet-case-paper), #c7c1b3);
+  color: #292924;
+}
+.case-disc-print[data-disc-print="zenless"] {
+  background: linear-gradient(155deg, #f5e46c, #e4c842);
+  color: #292924;
+}
 .case-disc-print .case-media-art {
   inset: 31% 0 auto;
   width: 100%;
@@ -541,6 +551,61 @@ main:has(> .shelf-page) { width: 100%; }
   filter: saturate(.62);
   mask-image: linear-gradient(transparent, var(--cabinet-white) 30% 62%, transparent);
 }
+.case-disc-print[data-disc-print="zenless"] .case-media-art { opacity: .65; filter: none; }
+.case-disc-title-logo {
+  position: absolute;
+  inset: 11% 18% auto;
+  width: 64%;
+  height: 25%;
+  object-fit: contain;
+  object-position: center;
+}
+.case-disc-print[data-disc-print="nightreign"] {
+  background: linear-gradient(150deg, #212a38, #0d121f 55%, #1b2029);
+}
+.case-disc-print[data-disc-print="nightreign"] .case-media-art {
+  inset: 34% 0 auto;
+  height: 55%;
+  opacity: .64;
+  object-position: 50% 78%;
+}
+.case-disc-print[data-disc-print="nightreign"] .case-disc-title-logo {
+  inset: 15% 17% auto;
+  width: 66%;
+  height: 19%;
+}
+.case-disc-print[data-disc-print="wukong"] .case-media-art {
+  inset: 0 0 auto;
+  height: 83%;
+  filter: sepia(.9);
+  mask-image: linear-gradient(var(--cabinet-white) 64%, transparent);
+}
+.case-disc-print[data-disc-print="wukong"] .case-disc-title-logo {
+  inset: 40% auto auto 8%;
+  width: 30%;
+  height: 15%;
+  filter: brightness(.33) sepia(.9);
+}
+.case-disc-print[data-disc-print="wilds"] {
+  background: linear-gradient(108deg, #193b48 0 50%, #602b31 50%);
+}
+.case-disc-print[data-disc-print="wilds"] .case-media-art {
+  inset: 0 0 auto auto;
+  width: 58%;
+  height: 80%;
+  mask-image: linear-gradient(90deg, transparent, var(--cabinet-white));
+}
+.case-disc-print[data-disc-print="wilds"] .case-disc-title-logo {
+  inset: 23% auto auto 10%;
+  width: 46%;
+  height: 20%;
+}
+.case-disc-print[data-disc-print="forspoken"] {
+  background: repeating-linear-gradient(155deg, #a38b51 0 .3%, transparent .5% 2%) top left / 54% 21% no-repeat,
+    repeating-linear-gradient(155deg, #a38b51 0 .3%, transparent .5% 2%) bottom right / 54% 32% no-repeat,
+    var(--ps5-disc-ink);
+}
+.case-disc-print[data-disc-print="forspoken"] .case-media-art { display: none; }
 .case-disc-title, .case-disc-studio {
   position: absolute;
   inset-inline: 14%;

@@ -11,7 +11,8 @@ const caseEditions: Readonly<Record<string, { name: string; edition: string }>> 
 }
 
 export function spineTitleParts(title: string) {
-  return title.split(/([:：]|[0-9０-９]+(?:(?:st|nd|rd|th)\b)?)/gi).map((part, index) => {
+  const textWithOrdinals = title.replace(/[０-９]+(?=(?:st|nd|rd|th)\b)/gi, digits => digits.normalize('NFKC'))
+  return textWithOrdinals.split(/([:：]|[0-9０-９]+(?![0-9０-９]|(?:st|nd|rd|th)\b))/gi).map((part, index) => {
     if (index % 2 === 0) return { text: part, kind: 'text' as const }
     if (part === ':' || part === '：') return { text: ':', kind: 'colon' as const }
     const text = part.normalize('NFKC')

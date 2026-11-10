@@ -1,0 +1,194 @@
+{
+  "psn-ppsa01340-00": {
+    "name": "demons",
+    "logoSource": "https://gmedia.playstation.com/is/image/SIEPDC/demons-soul-dark-logo-01-en-16jul21?fmt=png-alpha&wid=800",
+    "tone": "light",
+    "scan": {
+      "bounds": [
+        0.9,
+        0.7,
+        97.8,
+        98.5
+      ],
+      "source": "https://www.mobygames.com/game/153477/demons-souls/cover/group-289580/cover-722488/",
+      "edition": "PS5 欧美实体版"
+    }
+  },
+  "psn-ppsa02463-00": {
+    "name": "nioh-2",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1325200/logo.png",
+    "reference": "https://retromtl.com/en/products/nioh-collection-playstation-5-ps5"
+  },
+  "psn-ppsa04558-00": {
+    "name": "rise-of-the-ronin",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1340990/8e5bca32d3a4755ad73e18953c060fe07c0f61e5/logo_2x.png",
+    "scan": {
+      "bounds": [
+        0.9,
+        1.2,
+        98.1,
+        97.6
+      ],
+      "source": "https://retrospillkongen.no/products/rise-of-the-ronin-ps5-spill",
+      "edition": "PS5 欧洲实体版"
+    }
+  },
+  "psn-ppsa19248-00": {
+    "name": "rise-of-the-ronin",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1340990/8e5bca32d3a4755ad73e18953c060fe07c0f61e5/logo_2x.png"
+  },
+  "psn-ppsa05702-00": {
+    "name": "forspoken",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1680880/logo_2x.png",
+    "tone": "forspoken",
+    "reference": "https://www.pricecharting.com/game/pal-playstation-5/forspoken"
+  },
+  "psn-ppsa08340-00": {
+    "name": "spider-man-2",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2651280/5e0c4a9a1bbbb06977b4260097671a63f400836e/logo_2x.png",
+    "scan": {
+      "bounds": [
+        1.55,
+        0.55,
+        97.1,
+        98.25
+      ],
+      "source": "https://www.mobygames.com/game/210733/marvel-spider-man-2/cover/group-374918/cover-899713/",
+      "edition": "PS5 欧洲实体版"
+    }
+  },
+  "psn-ppsa09894-00": {
+    "name": "unicorn",
+    "logoSource": "https://unicornoverlord.atlus.com/media/img/logo.png"
+  },
+  "psn-ppsa10666-00": {
+    "name": "ff16",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2515020/logo_2x.png",
+    "reference": "https://mall.iopenmall.tw/025742/index.php?action=product_detail&prod_no=P2574204286513",
+    "scan": {
+      "bounds": [
+        0.7,
+        1,
+        98.8,
+        98.7
+      ],
+      "source": "https://www.pricecharting.com/game/playstation-5/final-fantasy-xvi-deluxe-edition",
+      "edition": "PS5 北美实体版"
+    }
+  },
+  "psn-ppsa13804-00": {
+    "name": "ff16",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2515020/logo_2x.png"
+  },
+  "psn-ppsa13198-00": {
+    "name": "stellar-blade",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3489700/291969d6747b765f62141bd170b42c7d9c4c238d/logo_2x.png",
+    "scan": {
+      "bounds": [
+        0.15,
+        0,
+        99.7,
+        99.7
+      ],
+      "source": "https://gamesdb.launchbox-app.com/games/images/400613-stellar-blade",
+      "edition": "PS5 欧洲实体版"
+    }
+  },
+  "psn-ppsa18489-00": {
+    "name": "stellar-blade",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3489700/291969d6747b765f62141bd170b42c7d9c4c238d/logo_2x.png"
+  },
+  "psn-ppsa13414-00": {
+    "name": "ys-x",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2731870/logo_2x.png",
+    "tone": "light",
+    "scan": {
+      "bounds": [
+        54.05,
+        40.05,
+        41.9,
+        42.25
+      ],
+      "source": "https://retromtl.com/en/products/ys-x-nordics-deluxe-edition-playstation-5-ps5",
+      "edition": "PS5 北美豪华实体版"
+    }
+  },
+  "psn-ppsa15890-00": {
+    "name": "lies-of-p",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/logo_2x.png",
+    "reference": "https://retromtl.com/en/products/lies-of-p-playstation-5-ps5-1"
+  },
+  "psn-ppsa20180-00": {
+    "name": "ghost-of-tsushima",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/logo_2x.png",
+    "tone": "light",
+    "scan": {
+      "bounds": [
+        0.35,
+        0.2,
+        99.3,
+        99.2
+      ],
+      "source": "https://www.mobygames.com/game/169624/ghost-of-tsushima-directors-cut/cover/group-412096/cover-984043/",
+      "edition": "PS5 欧洲导演剪辑实体版"
+    }
+  },
+  "psn-ppsa20599-00": {
+    "name": "zenless",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/3c36d08a02d5f822dba9f2da44b06e0e98a3fa4d/logo_2x.png",
+    "tone": "zenless",
+    "inkSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4162040/c1b97d591e5c5ccc4e6dccba52bd2119db0d21ac/library_hero_2x.jpg"
+  },
+  "psn-ppsa23226-00": {
+    "name": "black-myth",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/logo_2x.png",
+    "tone": "wukong",
+    "reference": "https://www.ebay.com/itm/316070184980"
+  },
+  "psn-ppsa23643-00": {
+    "name": "kai",
+    "logoSource": "https://www.falcom.co.jp/kai/assets/common/logo/kai_dark.webp"
+  },
+  "psn-ppsa24190-00": {
+    "name": "wilds",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/577990fc7d9a330f65bec22bd48da8e2361d8b6b/logo_2x.png",
+    "tone": "wilds",
+    "reference": "https://ec.treasure-f.com/item/1063005548846134"
+  },
+  "psn-ppsa25968-00": {
+    "name": "nightreign",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/246e9d7880d5f95a0721e01a3b8db1960893e8d7/logo_2x.png",
+    "tone": "nightreign",
+    "reference": "https://ec.treasure-f.com/item/1059004751837461",
+    "inkSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/d3fec2085d29f131be9ff47b5aea72d360d4e453/library_hero_2x.jpg"
+  },
+  "psn-ppsa26344-00": {
+    "name": "yotei",
+    "logoSource": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-logo-dark-01-en-17oct24?fmt=png-alpha&wid=800",
+    "tone": "light",
+    "scan": {
+      "bounds": [
+        53.3,
+        2.75,
+        43.55,
+        43.9
+      ],
+      "source": "https://auctions.yahoo.co.jp/jp/auction/g1223169927",
+      "edition": "PS5 日本实体版"
+    }
+  },
+  "psn-ppsa27836-00": {
+    "name": "onimusha",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2638890/b67dd8218970ed7fc90ae774bbfe47c237ceaccc/logo_2x.png"
+  },
+  "psn-ppsa29602-00": {
+    "name": "nioh-3",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3681010/4c03c515e0c887359a22ccacf0037f3c25e7b787/logo_2x.png"
+  },
+  "psn-ppsa30556-00": {
+    "name": "death-stranding-2",
+    "logoSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3280350/950fa3491c3888408595568c1cfaf31568223c38/logo_2x.png",
+    "tone": "light",
+    "inkSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3280350/972e2623410ee0701001fb07373fef4ea94f7b31/library_hero_2x.jpg"
+  }
+}

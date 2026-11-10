@@ -4,6 +4,7 @@ import { assetUrl, platformOf } from '../lib/journal'
 import { studioOf } from '../lib/box-branding'
 import { useCaseArtwork } from '../lib/useCaseArtwork'
 import { PlatformBrand } from './PlatformBrand'
+import { Ps5DiscPrint } from './Ps5DiscPrint'
 
 export function GameCase({ game }: { game: JournalGame }) {
   const platform = platformOf(game)
@@ -33,12 +34,7 @@ export function GameCase({ game }: { game: JournalGame }) {
       <div className="case-recess">
         <div className={`case-media case-media--${media}`}>
           {media === 'card' && <PlatformBrand platform={platform} className="case-card-mark" />}
-          {platform === 'ps5' ? <div className="case-disc-print">
-            {mediaArtwork}
-            <span className="case-disc-title">{game.originalTitle || game.title}</span>
-            {studio && <span className="case-disc-studio">{studio.name}</span>}
-            <PlatformBrand platform={platform} className="case-disc-brand" />
-          </div> : mediaArtwork}
+          {platform === 'ps5' ? <Ps5DiscPrint game={game} artwork={mediaArtwork} studio={studio?.name} /> : mediaArtwork}
         </div>
         {media === 'disc' && <span className="case-hub" />}
       </div>

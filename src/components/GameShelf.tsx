@@ -36,7 +36,9 @@ const studioShortNames = new Map([
 function titleText(text: string) {
   return spineTitleParts(text).map((part, index) => {
     if (part.kind === 'text') return part.text
-    if (part.kind === 'colon') return <span className="spine-colon" key={index}>{part.text}</span>
+    if (part.kind === 'colon') return <svg className="spine-colon" key={index} viewBox="0 0 16 12" fill="currentColor" aria-hidden="true">
+      <circle cx="5" cy="6" r="1.4" /><circle cx="11" cy="6" r="1.4" />
+    </svg>
     return <span className="spine-number" data-stacked={part.kind === 'stacked' || undefined} key={index}>{part.text}</span>
   })
 }
